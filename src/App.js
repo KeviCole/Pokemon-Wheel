@@ -1,10 +1,4 @@
-import React from 'react';
 import Layout from './Components/layout';
 
-function App() {
-  return (
-    <Layout/>
-  );
-}
-
+export const App = () => <Layout/>
 export default App;

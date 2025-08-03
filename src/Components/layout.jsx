@@ -1,16 +1,19 @@
-import React from 'react'
+import { Grid, Typography, Stack } from '@mui/material';
 import Wheel from './wheel';
 
-const Layout = ({ children }) => {
-  return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
-      <h1>🎡 React Spinner Game</h1>
-      <div style={{ margin: '2rem auto', maxWidth: '400px' }}>
-        <Wheel />
-      </div>
-      {children}
-    </div>
-  );
-};
+export const Layout = ({ children }) => <Grid p={4} textAlign='center'>
+  <Typography variant='h3'>🎡 React Spinner Game</Typography>
+  <Stack
+    pt={2}
+    display='flex'
+    flexDirection='column-reverse'
+    margin='auto'
+    maxWidth='400px'
+    alignItems='center'
+  >
+    <Wheel/>
+  </Stack>
+  {children}
+</Grid>
 
 export default Layout;
