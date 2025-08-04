@@ -7,37 +7,26 @@ const colors = ['crimson', 'cyan', 'white']
 const Wheel = () => {
   const canvasRef = useRef(null)
   const [selected, setSelected] = useState(null)
+  const [value, setValue] = useState(7)
 
   const spin = () => {
     const index = Math.floor(Math.random() * items.length)
     setSelected(items[index])
   }
 
-  const slices = (ctx, curr, next, index) => {
-    ctx.beginPath()
-    ctx.moveTo(150, 150)
-    ctx.arc(150, 150, 100, curr, next)
-    ctx.closePath()
-    ctx.fillStyle = colors[index]
-    ctx.fill()
-    ctx.strokeStyle = 'black'
-    ctx.lineWidth = 2
-    ctx.stroke()
-  }
-
   const outline = (ctx) => {
     ctx.beginPath()
-    ctx.arc(150,150,100, 0, 2 * Math.PI)
+    ctx.arc(300,300,290, 0, 2 * Math.PI)
     ctx.stroke()
     ctx.closePath()
   }
 
   const arrow = (ctx) => {
     ctx.beginPath()
-    ctx.moveTo(150, 60)
-    ctx.lineTo(140, 30)
-    ctx.lineTo(160, 30)
-    ctx.lineTo(150,60)
+    ctx.moveTo(300, 40)
+    ctx.lineTo(280, 0)
+    ctx.lineTo(320, 0)
+    ctx.lineTo(300, 40)
     ctx.fillStyle = 'black'
     ctx.fill()
     ctx.closePath()
@@ -46,31 +35,44 @@ const Wheel = () => {
   useEffect(() => {
     const canvas = canvasRef.current
     const ctx = canvas.getContext('2d')
-    let loop = 6
+    let loop = value
     let index = 0
     const sliceAngle = 2 * Math.PI / loop
     let curr = 0
     let next = sliceAngle
 
     while (curr < 2 * Math.PI) {
-        slices(ctx, curr, next, index)
+        ctx.beginPath()
+        ctx.moveTo(300, 300)
+        ctx.arc(300, 300, 290, curr, next)
+        ctx.closePath()
+        ctx.fillStyle = colors[index]
+        ctx.fill()
+        ctx.strokeStyle = 'black'
+        ctx.lineWidth = 2
+        ctx.stroke()
         curr = next
         next += sliceAngle
         index === colors.length-1 ? index = 0 : index++
     }
     outline(ctx)
     arrow(ctx)
-  }, [])
+  }, [value])
 
   return <>
   <Stack pt={2} spacing={2}>
-    <TextField label='Slice Count' type='number' defaultValue={1}/>
+    <TextField
+        label='Enter Slice Count'
+        type='number'
+        value={value}
+        onChange={(e) => setValue(parseFloat(e.target.value))}
+    />
     <Button sx={{ border: 1 }} onClick={spin}>
       Spin the Wheel
     </Button>
     {selected && <p style={{ pt: 3 }}>🎉 You got: {selected}</p>}
   </Stack>
-  <canvas ref={canvasRef} width={300} height={300}>
+  <canvas ref={canvasRef} width={600} height={600}>
     Tree
   </canvas>
   </>
