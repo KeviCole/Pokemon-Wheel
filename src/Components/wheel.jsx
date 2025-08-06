@@ -1,46 +1,40 @@
 import { Button, Stack, TextField } from '@mui/material'
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
-const items = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry', 'Fig']
 const colors = ['crimson', 'cyan', 'white']
 
 const Wheel = () => {
   const canvasRef = useRef(null)
-  const [selected, setSelected] = useState(null)
-  const [value, setValue] = useState(6)
+  const angleRef = useRef(0)
+  const requestRef = useRef(null)
+  const spinningRef = useRef(false)
+  const [sliceCount, setSliceCount] = useState(6)
 
-  const spin = () => {
-    const index = Math.floor(Math.random() * items.length)
-    setSelected(items[index])
-  }
-
-  useEffect(() => {
+  const drawWheel = useCallback((angle) => {
     const canvas = canvasRef.current
     const ctx = canvas.getContext('2d', { willReadFrequently: true })
     ctx.imageSmoothingEnabled = false
     const twoPI = 2 * Math.PI
-    const sliceAngle = twoPI / value
+    const sliceAngle = twoPI / sliceCount
     const halfCW = canvas.width / 2 // Half of canvas width
     const halfCH = canvas.height / 2 // Half of canvas height
     const outerR = halfCW - 10
+    let curr = 0
+    let next = sliceAngle
+    let index = 0
 
-    const drawWheel = (angle) => {
-      let curr = 0
-      let next = sliceAngle
-      let index = 0
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    // Prevents stack up of translations and rotations
+    ctx.save()
+    // Moves to center of diagram (0, 0) -> (300, 300)
+    ctx.translate(halfCW, halfCH)
+    // Rotates around the new origin (the center)
+    ctx.rotate(angle)
+    // Moves back to top left of diagram (300, 300) -> (0, 0)
+    ctx.translate(-halfCW, -halfCH)
 
-      ctx.clearRect(0, 0, canvas.width, canvas.height)
-      // Prevents stack up of translations and rotations
-      ctx.save()
-      // Moves to center of diagram (0, 0) -> (300, 300)
-      ctx.translate(halfCW, halfCH)
-      // Rotates around the new origin (the center)
-      ctx.rotate(angle)
-      // Moves back to top left of diagram (300, 300) -> (0, 0)
-      ctx.translate(-halfCW, -halfCH)
-
-      // Slices
-      while (curr < twoPI) {
+    // Slices
+    while (curr < twoPI) {
         ctx.beginPath()
         ctx.moveTo(halfCW, halfCH)
         ctx.arc(halfCW, halfCH, outerR, curr, next)
@@ -48,7 +42,7 @@ const Wheel = () => {
         ctx.fillStyle = colors[index % colors.length]
         ctx.fill()
         // Fixes black image blurring
-        if (value <= 100) {
+        if (sliceCount <= 100) {
             ctx.strokeStyle = 'black'
             ctx.lineWidth = 1
             ctx.stroke()
@@ -56,90 +50,136 @@ const Wheel = () => {
         curr = next
         next += sliceAngle
         index++
-      }
-      ctx.restore()
-
-      // Outer Circle Outline
-      ctx.beginPath()
-      ctx.arc(halfCW, halfCH, outerR, 0, twoPI)
-      ctx.lineWidth = 6
-      ctx.stroke()
-      ctx.closePath()
-
-      // Inner Circle Outline
-      const innerR = 50 // Inner Radius
-      ctx.beginPath()
-      ctx.arc(halfCW, halfCH, innerR, 0, twoPI)
-      ctx.fillStyle = 'white'
-      ctx.fill()
-      ctx.stroke()
-      ctx.closePath()
-
-      // Black Wedge To Left
-      const leftStartAngle = 11 * Math.PI / 12
-      const leftEndAngle = 13 * Math.PI / 12
-      const leftHeightTop = halfCH + innerR * Math.sin(leftEndAngle)
-      const leftHeightBot = halfCH + innerR * Math.sin(leftStartAngle)
-      const leftEndC = 11
-
-      ctx.beginPath()
-      ctx.arc(halfCW, halfCH, innerR, leftStartAngle, leftEndAngle)
-      ctx.lineTo(leftEndC, leftHeightTop)
-      ctx.lineTo(leftEndC, leftHeightBot)
-      ctx.closePath()
-      ctx.fillStyle = 'black'
-      ctx.fill()
-
-      // Black Wedge To Right
-      const rightStartAngle = Math.PI / 12
-      const rightEndAngle = 23 * Math.PI / 12
-      const rightHeightTop = halfCH + innerR * Math.sin(rightEndAngle)
-      const rightHeightBot = halfCH + innerR * Math.sin(rightStartAngle)
-      const rightEndC = 589
-
-      ctx.beginPath()
-      ctx.arc(halfCW, halfCH, innerR, rightStartAngle, rightEndAngle, true)
-      ctx.lineTo(rightEndC, rightHeightTop)
-      ctx.lineTo(rightEndC, rightHeightBot)
-      ctx.closePath()
-      ctx.fill()
-
-      // Arrow
-      const pointer = 40
-      const endCornersOffset = 20
-      ctx.beginPath()
-      ctx.moveTo(halfCW, pointer)
-      ctx.lineTo(halfCW - endCornersOffset, 0)
-      ctx.lineTo(halfCW + endCornersOffset, 0)
-      ctx.lineTo(halfCW, pointer)
-      ctx.fillStyle = 'black'
-      ctx.fill()
-      ctx.closePath()
     }
+    ctx.restore()
 
-    let angle = 0
+    // Outer Circle Outline
+    ctx.beginPath()
+    ctx.arc(halfCW, halfCH, outerR, 0, twoPI)
+    ctx.lineWidth = 6
+    ctx.stroke()
+    ctx.closePath()
+
+    // Inner Circle Outline
+    const innerR = 50 // Inner Radius
+    ctx.beginPath()
+    ctx.arc(halfCW, halfCH, innerR, 0, twoPI)
+    ctx.fillStyle = 'white'
+    ctx.fill()
+    ctx.stroke()
+    ctx.closePath()
+
+    // Black Wedge To Left
+    const leftStartAngle = 11 * Math.PI / 12
+    const leftEndAngle = 13 * Math.PI / 12
+    const leftHeightTop = halfCH + innerR * Math.sin(leftEndAngle)
+    const leftHeightBot = halfCH + innerR * Math.sin(leftStartAngle)
+    const leftEndC = 11
+
+    ctx.beginPath()
+    ctx.arc(halfCW, halfCH, innerR, leftStartAngle, leftEndAngle)
+    ctx.lineTo(leftEndC, leftHeightTop)
+    ctx.lineTo(leftEndC, leftHeightBot)
+    ctx.closePath()
+    ctx.fillStyle = 'black'
+    ctx.fill()
+
+    // Black Wedge To Right
+    const rightStartAngle = Math.PI / 12
+    const rightEndAngle = 23 * Math.PI / 12
+    const rightHeightTop = halfCH + innerR * Math.sin(rightEndAngle)
+    const rightHeightBot = halfCH + innerR * Math.sin(rightStartAngle)
+    const rightEndC = 589
+
+    ctx.beginPath()
+    ctx.arc(halfCW, halfCH, innerR, rightStartAngle, rightEndAngle, true)
+    ctx.lineTo(rightEndC, rightHeightTop)
+    ctx.lineTo(rightEndC, rightHeightBot)
+    ctx.closePath()
+    ctx.fill()
+
+    // Arrow
+    const pointer = 40
+    const endCornersOffset = 20
+    ctx.beginPath()
+    ctx.moveTo(halfCW, pointer)
+    ctx.lineTo(halfCW - endCornersOffset, 0)
+    ctx.lineTo(halfCW + endCornersOffset, 0)
+    ctx.lineTo(halfCW, pointer)
+    ctx.fillStyle = 'black'
+    ctx.fill()
+    ctx.closePath()
+  }, [sliceCount])
+
+  useEffect(() => {
     // Animation loop
     const animate = () => {
-      angle += 0.001
-      drawWheel(angle)
+      if (!spinningRef.current) angleRef.current += 0.001
+      drawWheel(angleRef.current)
       // Tell Browser to draw a new frame
-      requestAnimationFrame(animate)
+      requestRef.current = requestAnimationFrame(animate)
     }
     animate()
-  }, [value])
+    return () => cancelAnimationFrame(requestRef.current)
+  }, [sliceCount, drawWheel])
+
+  const spin = () => {
+    // Checks if already spinning
+    if (spinningRef.current) return
+    spinningRef.current = true
+
+    // Slice Width
+    const sliceAngle = 2 * Math.PI / sliceCount
+
+    // Random Slice Selection
+    const targetIndex = Math.floor(Math.random() * sliceCount)
+    // Calculates angle needed to land on
+    const offset = Math.random() * sliceAngle
+    const targetAngle = (sliceCount - targetIndex) * sliceAngle + offset
+
+    // Multiple rotations
+    const fullRotations = 6
+    const totalRotation = fullRotations * 2 * Math.PI + targetAngle
+
+    // Duration, startTime and start angle
+    const duration = 4000
+    const start = performance.now()
+    const startAngle = angleRef.current
+    
+    const animateSpin = (now) => {
+        // Calculate where wheel is in spin
+        const elapsed = now - start
+        const progress = Math.min(elapsed / duration, 1)
+
+        // Slow Down Effect
+        const easedProgress = 1 - Math.pow(1 - progress, 5)
+        // Update new angle
+        angleRef.current = startAngle + totalRotation * easedProgress
+
+        drawWheel(angleRef.current)
+        // Spinning or stop
+        progress < 1 ? requestRef.current = requestAnimationFrame(animateSpin) : spinningRef.current = false
+    }
+
+    cancelAnimationFrame(requestRef.current) // cancel slow spin
+    requestRef.current = requestAnimationFrame(animateSpin)
+    }
+
 
   return <>
   <Stack pt={2} spacing={2}>
     <TextField
         label='Enter Slice Count'
         type='number'
-        value={isNaN(value) ? '' : value}
-        onChange={(e) => setValue(e.target.value === '' ? '' : parseFloat(e.target.value))}
+        value={isNaN(sliceCount) ? '' : sliceCount}
+        onChange={(e) => setSliceCount(e.target.value === '' ? '' : parseFloat(e.target.value))}
     />
-    <Button sx={{ border: 1 }} onClick={spin}>
+    <Button
+      sx={{ border: 1 }}
+      onClick={() => spin()}
+    >
       Spin the Wheel
     </Button>
-    {selected && <p style={{ pt: 3 }}>🎉 You got: {selected}</p>}
   </Stack>
   <canvas ref={canvasRef} width={600} height={600}>
     Tree
