@@ -1,4 +1,4 @@
-import { Button, Stack, TextField } from '@mui/material'
+import { Button, Grid, TextField } from '@mui/material'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 const colors = ['crimson', 'cyan', 'white']
@@ -19,6 +19,7 @@ const Wheel = () => {
     const halfCW = canvas.width / 2 // Half of canvas width
     const halfCH = canvas.height / 2 // Half of canvas height
     const outerR = halfCW - 10
+    const innerR = 50 // Inner Radius
     let curr = 0
     let next = sliceAngle
     let index = 0
@@ -35,18 +36,42 @@ const Wheel = () => {
 
     // Slices
     while (curr < twoPI) {
+        const midAngle = (curr + next) / 2
+        // Where the text origin aligns on the plane
+        const textRadius = innerR + (outerR - innerR) * 0.5
+        // Exact position on the slice
+        const textX = halfCW + textRadius * Math.cos(midAngle)
+        const textY = halfCH + textRadius * Math.sin(midAngle)
         ctx.beginPath()
         ctx.moveTo(halfCW, halfCH)
         ctx.arc(halfCW, halfCH, outerR, curr, next)
         ctx.closePath()
         ctx.fillStyle = colors[index % colors.length]
         ctx.fill()
+
         // Fixes black image blurring
         if (sliceCount <= 100) {
             ctx.strokeStyle = 'black'
             ctx.lineWidth = 1
             ctx.stroke()
         }
+
+        // Draw at origin (0,0)
+        ctx.save()
+        // Move origin to text position
+        ctx.translate(textX, textY)
+        let rotation = midAngle
+        // Flips to right side not text oriented
+        if (rotation > curr) rotation += Math.PI
+        ctx.rotate(rotation)
+        // Text On Slices
+        ctx.font = '40px Arial'
+        ctx.fillStyle = 'black'
+        ctx.textAlign = 'center'
+        ctx.textBaseline = 'middle'
+        ctx.fillText(`#${index} Pikachu`, 0, 0)
+        ctx.restore()
+
         curr = next
         next += sliceAngle
         index++
@@ -61,7 +86,6 @@ const Wheel = () => {
     ctx.closePath()
 
     // Inner Circle Outline
-    const innerR = 50 // Inner Radius
     ctx.beginPath()
     ctx.arc(halfCW, halfCH, innerR, 0, twoPI)
     ctx.fillStyle = 'white'
@@ -145,7 +169,7 @@ const Wheel = () => {
     const duration = 4000
     const start = performance.now()
     const startAngle = angleRef.current
-    
+
     const animateSpin = (now) => {
         // Calculate where wheel is in spin
         const elapsed = now - start
@@ -167,7 +191,7 @@ const Wheel = () => {
 
 
   return <>
-  <Stack pt={2} spacing={2}>
+  <Grid container pt={2} spacing={2} display='flex' flexDirection='column'>
     <TextField
         label='Enter Slice Count'
         type='number'
@@ -180,7 +204,7 @@ const Wheel = () => {
     >
       Spin the Wheel
     </Button>
-  </Stack>
+  </Grid>
   <canvas ref={canvasRef} width={600} height={600}>
     Tree
   </canvas>
