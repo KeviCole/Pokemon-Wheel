@@ -13,8 +13,10 @@ const Wheel = () => {
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
   const [sliceCount, setSliceCount] = useState(6)
+  const [isHovering, setIsHovering] = useState(false)
+  const innerR = 50 // Inner Radius
 
-  const drawWheel = useCallback((angle) => {
+  const drawWheel = useCallback((angle, isHovering) => {
     const canvas = canvasRef.current
     const ctx = canvas.getContext('2d', { willReadFrequently: true })
     ctx.imageSmoothingEnabled = false
@@ -23,7 +25,6 @@ const Wheel = () => {
     const halfCW = canvas.width / 2 // Half of canvas width
     const halfCH = canvas.height / 2 // Half of canvas height
     const outerR = halfCW - 10
-    const innerR = 50 // Inner Radius
     let curr = 0
     let next = sliceAngle
     let index = 0
@@ -75,7 +76,6 @@ const Wheel = () => {
 
         // Fixes black image blurring
         if (sliceCount <= 100) {
-            ctx.strokeStyle = 'black'
             ctx.lineWidth = 1
             ctx.stroke()
         }
@@ -109,7 +109,7 @@ const Wheel = () => {
     // Inner Circle Outline
     ctx.beginPath()
     ctx.arc(halfCW, halfCH, innerR, 0, twoPI)
-    ctx.fillStyle = 'white'
+    ctx.fillStyle = isHovering ? 'gold' : 'white'
     ctx.fill()
     ctx.stroke()
     ctx.closePath()
@@ -157,16 +157,40 @@ const Wheel = () => {
   }, [sliceCount])
 
   useEffect(() => {
+    const canvas = canvasRef.current
+
+    const handleMouseMove = (e) => {
+      // Gets canvas position and size relative to viewport
+      const rect = canvas.getBoundingClientRect()
+      // Global coordinates to canvas coordinates
+      const mouseX = e.clientX - rect.left
+      const mouseY = e.clientY - rect.top
+      // Distance Formula (how far mouse is from inner circle)
+      const distX = Math.pow(mouseX - canvas.width / 2, 2)
+      const distY = Math.pow(mouseY - canvas.height / 2, 2)
+      const distFromCenter = Math.sqrt(distX + distY)
+      // If distFromCenter is smaller than innerR, then within the radius
+      setIsHovering(distFromCenter <= innerR)
+    }
+    // Browser runs this on every mouse movement
+    canvas.addEventListener('mousemove', handleMouseMove)
+    // Cleans up event listener
+    return () => {
+      canvas.removeEventListener('mousemove', handleMouseMove)
+    }
+  }, [])
+
+  useEffect(() => {
     // Animation loop
     const animate = () => {
       if (!spinningRef.current) angleRef.current += 0.001
-      drawWheel(angleRef.current)
+      drawWheel(angleRef.current, isHovering)
       // Tell Browser to draw a new frame
       requestRef.current = requestAnimationFrame(animate)
     }
     animate()
     return () => cancelAnimationFrame(requestRef.current)
-  }, [sliceCount, drawWheel])
+  }, [sliceCount, drawWheel, isHovering])
 
   const spin = () => {
     // Checks if already spinning
