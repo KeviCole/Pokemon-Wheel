@@ -1,25 +1,13 @@
 {
     "cSpell.words": [
-        "Pikachu"
-    ],
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#37177d",
-        "activityBar.background": "#37177d",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#a2471e",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#37177d",
-        "statusBar.background": "#240f52",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#37177d",
-        "statusBarItem.remoteBackground": "#240f52",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#240f52",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#240f5299",
-        "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "peacock.color": "#240f52"
+        "Bulbasaur",
+        "Charmander",
+        "Crabominable",
+        "Eevee",
+        "Gengar",
+        "Pikachu",
+        "Snorlax",
+        "Squirtle",
+        "Xatu"
+    ]
 }

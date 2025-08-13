@@ -2,6 +2,10 @@ import { Button, Grid, TextField } from '@mui/material'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 const colors = ['crimson', 'cyan', 'white']
+const pokemonNames = [ "Pikachu", "Xatu", "Bulbasaur", "Charmander", "Squirtle",
+        "Crabominable", "Gengar", "Eevee", "Snorlax", "Mewtwo"]
+const canvasText = 'This is a random wheel built using canvas in order to randomly select pokemon for your play-through. ' +
+'In order to change values within the slice, see the tab of delimiting choices to the right in order to remove pokemon.'
 
 const Wheel = () => {
   const canvasRef = useRef(null)
@@ -23,6 +27,9 @@ const Wheel = () => {
     let curr = 0
     let next = sliceAngle
     let index = 0
+    // Dynamic Font Sizing From 20px to 10px
+    let fontSize = 20
+    if (sliceCount > 30) fontSize = Math.max(10, 600 / sliceCount)
 
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     // Prevents stack up of translations and rotations
@@ -37,11 +44,28 @@ const Wheel = () => {
     // Slices
     while (curr < twoPI) {
         const midAngle = (curr + next) / 2
-        // Where the text origin aligns on the plane
-        const textRadius = innerR + (outerR - innerR) * 0.5
-        // Exact position on the slice
+
+        const name = pokemonNames[index % pokemonNames.length]
+        const label = `#${index + 1} ${name}`
+
+        ctx.font = `${fontSize}px Arial`
+        // Measures how wide the font will be
+        const textWidth = ctx.measureText(label).width
+
+        // Set a baseline target width (tuned for Pikachu’s length)
+        const targetWidth = ctx.measureText(`#0 Pikachu`).width
+        // If longer than pikachu, text moves inward, otherwise outward (along the slice)
+        const extraPadding = (textWidth - targetWidth)
+
+        // Buffer from edge of wheel
+        const basePadding = fontSize * 6
+        // Where the text origin aligns on the slice
+        const textRadius = outerR - (basePadding + extraPadding)
+        // Y and X position on Slice
         const textX = halfCW + textRadius * Math.cos(midAngle)
         const textY = halfCH + textRadius * Math.sin(midAngle)
+
+        // Draw slice
         ctx.beginPath()
         ctx.moveTo(halfCW, halfCH)
         ctx.arc(halfCW, halfCH, outerR, curr, next)
@@ -56,20 +80,17 @@ const Wheel = () => {
             ctx.stroke()
         }
 
-        // Draw at origin (0,0)
+        // Draw text
         ctx.save()
-        // Move origin to text position
         ctx.translate(textX, textY)
+        // Ensures left side of wheel is readable
         let rotation = midAngle
-        // Flips to right side not text oriented
         if (rotation > curr) rotation += Math.PI
         ctx.rotate(rotation)
-        // Text On Slices
-        ctx.font = '40px Arial'
         ctx.fillStyle = 'black'
-        ctx.textAlign = 'center'
+        ctx.textAlign = 'right'
         ctx.textBaseline = 'middle'
-        ctx.fillText(`#${index} Pikachu`, 0, 0)
+        ctx.fillText(label, 0, 0)
         ctx.restore()
 
         curr = next
@@ -191,23 +212,23 @@ const Wheel = () => {
 
 
   return <>
-  <Grid container pt={2} spacing={2} display='flex' flexDirection='column'>
-    <TextField
-        label='Enter Slice Count'
-        type='number'
-        value={isNaN(sliceCount) ? '' : sliceCount}
-        onChange={(e) => setSliceCount(e.target.value === '' ? '' : parseFloat(e.target.value))}
-    />
-    <Button
-      sx={{ border: 1 }}
-      onClick={() => spin()}
-    >
-      Spin the Wheel
-    </Button>
-  </Grid>
-  <canvas ref={canvasRef} width={600} height={600}>
-    Tree
-  </canvas>
+    <Grid container pt={2} spacing={2} display='flex' flexDirection='column'>
+        <TextField
+            label='Enter Slice Count'
+            type='number'
+            value={isNaN(sliceCount) ? '' : sliceCount}
+            onChange={(e) => setSliceCount(e.target.value === '' ? '' : parseFloat(e.target.value))}
+        />
+        <Button
+        sx={{ border: 1 }}
+        onClick={() => spin()}
+        >
+        Spin the Wheel
+        </Button>
+    </Grid>
+    <canvas ref={canvasRef} width={600} height={600}>
+        {canvasText}
+    </canvas>
   </>
 }
 
