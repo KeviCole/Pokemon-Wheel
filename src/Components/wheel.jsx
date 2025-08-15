@@ -111,6 +111,10 @@ const Wheel = () => {
     ctx.arc(halfCW, halfCH, innerR, 0, twoPI)
     ctx.fillStyle = isHoveringRef.current ? 'gold' : 'white'
     ctx.fill()
+    ctx.fillStyle = 'black'
+    ctx.textAlign = 'center'
+    ctx.font = `35px Arial`
+    ctx.fillText('SPIN', halfCW, halfCH)
     ctx.stroke()
     ctx.closePath()
 
@@ -126,7 +130,6 @@ const Wheel = () => {
     ctx.lineTo(leftEndC, leftHeightTop)
     ctx.lineTo(leftEndC, leftHeightBot)
     ctx.closePath()
-    ctx.fillStyle = 'black'
     ctx.fill()
 
     // Black Wedge To Right
@@ -134,7 +137,7 @@ const Wheel = () => {
     const rightEndAngle = 23 * Math.PI / 12
     const rightHeightTop = halfCH + innerR * Math.sin(rightEndAngle)
     const rightHeightBot = halfCH + innerR * Math.sin(rightStartAngle)
-    const rightEndC = canvas.width - 11
+    const rightEndC = canvas.width - leftEndC
 
     ctx.beginPath()
     ctx.arc(halfCW, halfCH, innerR, rightStartAngle, rightEndAngle, true)
