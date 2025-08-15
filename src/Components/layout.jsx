@@ -1,7 +1,7 @@
 import { Grid, Typography } from '@mui/material'
-import Wheel from './wheel'
-import InfoBox from './infoBox'
 import image from '../Images/pikachubby.gif'
+import InfoBox from './infoBox'
+import Wheel from './wheel'
 
 export const Layout = ({ children }) => <Grid p={4} textAlign='center'>
     <Typography variant='h3'>
@@ -40,4 +40,4 @@ export const Layout = ({ children }) => <Grid p={4} textAlign='center'>
   {children}
 </Grid>
 
-export default Layout;
+export default Layout
