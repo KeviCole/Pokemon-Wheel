@@ -1,9 +1,9 @@
-import { Button, Grid, TextField } from '@mui/material'
+import { Grid, TextField } from '@mui/material'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 const colors = ['crimson', 'cyan', 'white']
-const pokemonNames = [ "Pikachu", "Xatu", "Bulbasaur", "Charmander", "Squirtle",
-        "Crabominable", "Gengar", "Eevee", "Snorlax", "Mewtwo"]
+const pokemonNames = ['Pikachu', 'Xatu', 'Bulbasaur', 'Charmander', 'Squirtle',
+        'Crabominable', 'Gengar', 'Eevee', 'Snorlax', 'Mewtwo']
 const canvasText = 'This is a random wheel built using canvas in order to randomly select pokemon for your play-through. ' +
 'In order to change values within the slice, see the tab of delimiting choices to the right in order to remove pokemon.'
 
@@ -12,15 +12,15 @@ const Wheel = () => {
   const angleRef = useRef(0)
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
+  const isHoveringRef = useRef(false)
   const [sliceCount, setSliceCount] = useState(6)
-  const [isHovering, setIsHovering] = useState(false)
   const innerR = 50 // Inner Radius
+  const twoPI = 2 * Math.PI
 
-  const drawWheel = useCallback((angle, isHovering) => {
+  const drawWheel = useCallback((angle) => {
     const canvas = canvasRef.current
     const ctx = canvas.getContext('2d', { willReadFrequently: true })
     ctx.imageSmoothingEnabled = false
-    const twoPI = 2 * Math.PI
     const sliceAngle = twoPI / sliceCount
     const halfCW = canvas.width / 2 // Half of canvas width
     const halfCH = canvas.height / 2 // Half of canvas height
@@ -109,7 +109,7 @@ const Wheel = () => {
     // Inner Circle Outline
     ctx.beginPath()
     ctx.arc(halfCW, halfCH, innerR, 0, twoPI)
-    ctx.fillStyle = isHovering ? 'gold' : 'white'
+    ctx.fillStyle = isHoveringRef.current ? 'gold' : 'white'
     ctx.fill()
     ctx.stroke()
     ctx.closePath()
@@ -134,7 +134,7 @@ const Wheel = () => {
     const rightEndAngle = 23 * Math.PI / 12
     const rightHeightTop = halfCH + innerR * Math.sin(rightEndAngle)
     const rightHeightBot = halfCH + innerR * Math.sin(rightStartAngle)
-    const rightEndC = 589
+    const rightEndC = canvas.width - 11
 
     ctx.beginPath()
     ctx.arc(halfCW, halfCH, innerR, rightStartAngle, rightEndAngle, true)
@@ -151,54 +151,17 @@ const Wheel = () => {
     ctx.lineTo(halfCW - endCornersOffset, 0)
     ctx.lineTo(halfCW + endCornersOffset, 0)
     ctx.lineTo(halfCW, pointer)
-    ctx.fillStyle = 'black'
     ctx.fill()
     ctx.closePath()
-  }, [sliceCount])
+  }, [sliceCount, twoPI])
 
-  useEffect(() => {
-    const canvas = canvasRef.current
-
-    const handleMouseMove = (e) => {
-      // Gets canvas position and size relative to viewport
-      const rect = canvas.getBoundingClientRect()
-      // Global coordinates to canvas coordinates
-      const mouseX = e.clientX - rect.left
-      const mouseY = e.clientY - rect.top
-      // Distance Formula (how far mouse is from inner circle)
-      const distX = Math.pow(mouseX - canvas.width / 2, 2)
-      const distY = Math.pow(mouseY - canvas.height / 2, 2)
-      const distFromCenter = Math.sqrt(distX + distY)
-      // If distFromCenter is smaller than innerR, then within the radius
-      setIsHovering(distFromCenter <= innerR)
-    }
-    // Browser runs this on every mouse movement
-    canvas.addEventListener('mousemove', handleMouseMove)
-    // Cleans up event listener
-    return () => {
-      canvas.removeEventListener('mousemove', handleMouseMove)
-    }
-  }, [])
-
-  useEffect(() => {
-    // Animation loop
-    const animate = () => {
-      if (!spinningRef.current) angleRef.current += 0.001
-      drawWheel(angleRef.current, isHovering)
-      // Tell Browser to draw a new frame
-      requestRef.current = requestAnimationFrame(animate)
-    }
-    animate()
-    return () => cancelAnimationFrame(requestRef.current)
-  }, [sliceCount, drawWheel, isHovering])
-
-  const spin = () => {
+  const spin = useCallback(() => {
     // Checks if already spinning
     if (spinningRef.current) return
     spinningRef.current = true
 
     // Slice Width
-    const sliceAngle = 2 * Math.PI / sliceCount
+    const sliceAngle = twoPI / sliceCount
 
     // Random Slice Selection
     const targetIndex = Math.floor(Math.random() * sliceCount)
@@ -208,7 +171,7 @@ const Wheel = () => {
 
     // Multiple rotations
     const fullRotations = 6
-    const totalRotation = fullRotations * 2 * Math.PI + targetAngle
+    const totalRotation = fullRotations * twoPI + targetAngle
 
     // Duration, startTime and start angle
     const duration = 4000
@@ -232,8 +195,77 @@ const Wheel = () => {
 
     cancelAnimationFrame(requestRef.current) // cancel slow spin
     requestRef.current = requestAnimationFrame(animateSpin)
+  }, [drawWheel, sliceCount, twoPI])
+
+  useEffect(() => {
+    const canvas = canvasRef.current
+    const halfCW = canvas.width / 2 // Half of canvas width
+    const halfCH = canvas.height / 2 // Half of canvas height
+
+    // Sets hovering and cursor style if within inner circle
+    const handleMouseMove = (e) => {
+      // Gets canvas position and size relative to viewport
+      const rect = canvas.getBoundingClientRect()
+      // Global coordinates to canvas coordinates
+      const mouseX = e.clientX - rect.left
+      const mouseY = e.clientY - rect.top
+      // Distance Formula (how far mouse is from inner circle)
+      const distX = Math.pow(mouseX - halfCW, 2)
+      const distY = Math.pow(mouseY - halfCH, 2)
+      const distFromCenter = Math.sqrt(distX + distY)
+      // If distFromCenter is smaller than innerR, then within the radius
+      const hovering = distFromCenter <= innerR
+      isHoveringRef.current = hovering
+
+      canvas.style.cursor = hovering ? 'pointer' : 'default'
+      // Forces a redraw so that color doesn't get stuck and hovering is synced immediately
+      drawWheel(angleRef.current)
     }
 
+    // Spins wheel is click && within circle
+    const handleClick = (e) => {
+      const rect = canvas.getBoundingClientRect()
+      // Global coordinates to canvas coordinates
+      const mouseX = e.clientX - rect.left
+      const mouseY = e.clientY - rect.top
+      // Distance Formula (how far mouse is from inner circle)
+      const distX = Math.pow(mouseX - halfCW, 2)
+      const distY = Math.pow(mouseY - halfCH, 2)
+      const distFromCenter = Math.sqrt(distX + distY)
+
+      if (distFromCenter <= innerR) spin()
+    }
+
+    // Resets cursor and hovering reference
+    const handleMouseLeave = () => {
+        isHoveringRef.current = false
+        canvas.style.cursor = 'default'
+    }
+
+    // Browser runs this on every mouse movement
+    canvas.addEventListener('mousemove', handleMouseMove)
+    canvas.addEventListener('click', handleClick)
+    canvas.addEventListener('mouseleave', handleMouseLeave)
+
+    // Cleans up event listener
+    return () => {
+      canvas.removeEventListener('mousemove', handleMouseMove)
+      canvas.removeEventListener('click', handleClick)
+      canvas.removeEventListener('mouseleave', handleMouseLeave)
+    }
+  }, [spin, drawWheel])
+
+  useEffect(() => {
+    // Animation loop
+    const animate = () => {
+      if (!spinningRef.current) angleRef.current += 0.001
+      drawWheel(angleRef.current)
+      // Tell Browser to draw a new frame
+      requestRef.current = requestAnimationFrame(animate)
+    }
+    animate()
+    return () => cancelAnimationFrame(requestRef.current)
+  }, [sliceCount, drawWheel])
 
   return <>
     <Grid container pt={2} spacing={2} display='flex' flexDirection='column'>
@@ -243,12 +275,6 @@ const Wheel = () => {
             value={isNaN(sliceCount) ? '' : sliceCount}
             onChange={(e) => setSliceCount(e.target.value === '' ? '' : parseFloat(e.target.value))}
         />
-        <Button
-        sx={{ border: 1 }}
-        onClick={() => spin()}
-        >
-        Spin the Wheel
-        </Button>
     </Grid>
     <canvas ref={canvasRef} width={600} height={600}>
         {canvasText}
