@@ -1,4 +1,3 @@
-import { Grid, TextField } from '@mui/material'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 const colors = ['crimson', 'cyan', 'white']
@@ -13,7 +12,7 @@ const Wheel = () => {
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
   const isHoveringRef = useRef(false)
-  const [sliceCount, setSliceCount] = useState(6)
+  const [sliceCount] = useState(6)
   const innerR = 50 // Inner Radius
   const twoPI = 2 * Math.PI
 
@@ -44,58 +43,58 @@ const Wheel = () => {
 
     // Slices
     while (curr < twoPI) {
-        const midAngle = (curr + next) / 2
+      const midAngle = (curr + next) / 2
 
-        const name = pokemonNames[index % pokemonNames.length]
-        const label = `#${index + 1} ${name}`
+      const name = pokemonNames[index % pokemonNames.length]
+      const label = `#${index + 1} ${name}`
 
-        ctx.font = `${fontSize}px Arial`
-        // Measures how wide the font will be
-        const textWidth = ctx.measureText(label).width
+      ctx.font = `${fontSize}px Arial`
+      // Measures how wide the font will be
+      const textWidth = ctx.measureText(label).width
 
-        // Set a baseline target width (tuned for Pikachu’s length)
-        const targetWidth = ctx.measureText(`#0 Pikachu`).width
-        // If longer than pikachu, text moves inward, otherwise outward (along the slice)
-        const extraPadding = (textWidth - targetWidth)
+      // Set a baseline target width (tuned for Pikachu’s length)
+      const targetWidth = ctx.measureText(`#0 Pikachu`).width
+      // If longer than pikachu, text moves inward, otherwise outward (along the slice)
+      const extraPadding = (textWidth - targetWidth)
 
-        // Buffer from edge of wheel
-        const basePadding = fontSize * 6
-        // Where the text origin aligns on the slice
-        const textRadius = outerR - (basePadding + extraPadding)
-        // Y and X position on Slice
-        const textX = halfCW + textRadius * Math.cos(midAngle)
-        const textY = halfCH + textRadius * Math.sin(midAngle)
+      // Buffer from edge of wheel
+      const basePadding = fontSize * 6
+      // Where the text origin aligns on the slice
+      const textRadius = outerR - (basePadding + extraPadding)
+      // Y and X position on Slice
+      const textX = halfCW + textRadius * Math.cos(midAngle)
+      const textY = halfCH + textRadius * Math.sin(midAngle)
 
-        // Draw slice
-        ctx.beginPath()
-        ctx.moveTo(halfCW, halfCH)
-        ctx.arc(halfCW, halfCH, outerR, curr, next)
-        ctx.closePath()
-        ctx.fillStyle = colors[index % colors.length]
-        ctx.fill()
+      // Draw slice
+      ctx.beginPath()
+      ctx.moveTo(halfCW, halfCH)
+      ctx.arc(halfCW, halfCH, outerR, curr, next)
+      ctx.closePath()
+      ctx.fillStyle = colors[index % colors.length]
+      ctx.fill()
 
-        // Fixes black image blurring
-        if (sliceCount <= 100) {
-            ctx.lineWidth = 1
-            ctx.stroke()
-        }
+      // Fixes black image blurring
+      if (sliceCount <= 100) {
+        ctx.lineWidth = 1
+        ctx.stroke()
+      }
 
-        // Draw text
-        ctx.save()
-        ctx.translate(textX, textY)
-        // Ensures left side of wheel is readable
-        let rotation = midAngle
-        if (rotation > curr) rotation += Math.PI
-        ctx.rotate(rotation)
-        ctx.fillStyle = 'black'
-        ctx.textAlign = 'right'
-        ctx.textBaseline = 'middle'
-        ctx.fillText(label, 0, 0)
-        ctx.restore()
+      // Draw text
+      ctx.save()
+      ctx.translate(textX, textY)
+      // Ensures left side of wheel is readable
+      let rotation = midAngle
+      if (rotation > curr) rotation += Math.PI
+      ctx.rotate(rotation)
+      ctx.fillStyle = 'black'
+      ctx.textAlign = 'right'
+      ctx.textBaseline = 'middle'
+      ctx.fillText(label, 0, 0)
+      ctx.restore()
 
-        curr = next
-        next += sliceAngle
-        index++
+      curr = next
+      next += sliceAngle
+      index++
     }
     ctx.restore()
 
@@ -113,6 +112,7 @@ const Wheel = () => {
     ctx.fill()
     ctx.fillStyle = 'black'
     ctx.textAlign = 'center'
+    ctx.textBaseline = 'middle'
     ctx.font = `35px Arial`
     ctx.fillText('SPIN', halfCW, halfCH)
     ctx.stroke()
@@ -182,18 +182,18 @@ const Wheel = () => {
     const startAngle = angleRef.current
 
     const animateSpin = (now) => {
-        // Calculate where wheel is in spin
-        const elapsed = now - start
-        const progress = Math.min(elapsed / duration, 1)
+      // Calculate where wheel is in spin
+      const elapsed = now - start
+      const progress = Math.min(elapsed / duration, 1)
 
-        // Slow Down Effect
-        const easedProgress = 1 - Math.pow(1 - progress, 5)
-        // Update new angle
-        angleRef.current = startAngle + totalRotation * easedProgress
+      // Slow Down Effect
+      const easedProgress = 1 - Math.pow(1 - progress, 5)
+      // Update new angle
+      angleRef.current = startAngle + totalRotation * easedProgress
 
-        drawWheel(angleRef.current)
-        // Spinning or stop
-        progress < 1 ? requestRef.current = requestAnimationFrame(animateSpin) : spinningRef.current = false
+      drawWheel(angleRef.current)
+      // Spinning or stop
+      progress < 1 ? requestRef.current = requestAnimationFrame(animateSpin) : spinningRef.current = false
     }
 
     cancelAnimationFrame(requestRef.current) // cancel slow spin
@@ -241,8 +241,8 @@ const Wheel = () => {
 
     // Resets cursor and hovering reference
     const handleMouseLeave = () => {
-        isHoveringRef.current = false
-        canvas.style.cursor = 'default'
+      isHoveringRef.current = false
+      canvas.style.cursor = 'default'
     }
 
     // Browser runs this on every mouse movement
@@ -270,19 +270,9 @@ const Wheel = () => {
     return () => cancelAnimationFrame(requestRef.current)
   }, [sliceCount, drawWheel])
 
-  return <>
-    <Grid container pt={2} spacing={2} display='flex' flexDirection='column'>
-        <TextField
-            label='Enter Slice Count'
-            type='number'
-            value={isNaN(sliceCount) ? '' : sliceCount}
-            onChange={(e) => setSliceCount(e.target.value === '' ? '' : parseFloat(e.target.value))}
-        />
-    </Grid>
-    <canvas ref={canvasRef} width={600} height={600}>
-        {canvasText}
-    </canvas>
-  </>
+  return <canvas ref={canvasRef} width={600} height={600}>
+    {canvasText}
+  </canvas>
 }
 
 export default Wheel
