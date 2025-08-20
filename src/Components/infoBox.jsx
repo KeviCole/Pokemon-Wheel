@@ -1,5 +1,5 @@
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
-import { Box, Grid, Typography } from '@mui/material'
+import { Box, Grid, Typography, useMediaQuery } from '@mui/material'
 import React, { useEffect, useRef } from 'react'
 import pikaPng from '../Images/pikachu.png'
 import pikaGif from '../Images/pikachubby.gif'
@@ -15,6 +15,12 @@ const InfoBox = () => {
     { name: 'Raichu', image: pikaPng },
   ]
   const stats_max = [250, 134, 180, 154, 125, 140]
+  const betweenMdAnd1100 = useMediaQuery('(min-width:900px) and (max-width:1100px)')
+  const below500 = useMediaQuery('(max-width:500px)')
+  const below400 = useMediaQuery('(max-width:400px')
+  const matches = below500 || betweenMdAnd1100
+  const amountOfTypes = 2
+  const twoTypes = amountOfTypes > 1
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -106,25 +112,47 @@ const InfoBox = () => {
         <Grid container size={12} display='flex' flexDirection='column' spacing={1}>
           <Grid size={12} p={1} sx={{ border: '1px solid', borderColor: 'divider', borderRadius: 2 }}>
             <Grid container alignItems='center' size={12}>
-              <Grid size={4}>
-                <Typography variant='h6'>
+              <Grid size={twoTypes && matches ? 2 : 4}>
+                <Typography variant={below400 ? 'h7' : 'h6'}>
                   <Box sx={{ fontWeight: 'bold' }}>#1</Box>
                 </Typography>
               </Grid>
 
-              <Grid container size={6} justifyContent='space-between' alignItems='center'>
-                <Grid container size={5} justifyContent='center'>
-                  <Typography variant='h6'>
+              <Grid
+                container
+                size={6}
+                justifyContent={twoTypes && matches ? 'center' : 'space-between'}
+                alignItems='center'
+              >
+                {twoTypes && !matches ? <>
+                    <Grid container size={5} justifyContent='center'>
+                      <Typography variant='h6'>
+                        <Box sx={{ fontWeight: 'bold' }}>Crabominable</Box>
+                      </Typography>
+                    </Grid>
+                    <Grid container size={1} justifyContent='flex-end' pr={1}>
+                      {twoTypes && <img src={electricType} alt='Electric Type' style={{ width: 50, height: 20 }}/>}
+                    </Grid>
+                  </>
+                  :
+                  <Typography variant={below400 ? 'h7' : 'h6'}>
                     <Box sx={{ fontWeight: 'bold' }}>Crabominable</Box>
                   </Typography>
-                </Grid>
-                <Grid container size={1} justifyContent='flex-end' pr={1}>
-                  <img src={electricType} alt='Electric Type' style={{ width: 50, height: 20 }}/>
-                </Grid>
+                }
               </Grid>
 
-              <Grid size={2} container display='flex' justifyContent='flex-start' spacing={1} pr={1}>
+              <Grid
+                container
+                size={twoTypes && matches ? 4 : 2}
+                display='flex'
+                justifyContent={twoTypes && matches ? 'flex-end' : 'flex-start'}
+                spacing={1}
+                pr={1}
+              >
                 <img src={bugType} alt='Bug Type' style={{ width: 50, height: 20 }}/>
+                {twoTypes && matches &&
+                  <img src={electricType} alt='Electric Type' style={{ width: 50, height: 20 }}/>
+                }
               </Grid>
             </Grid>
           </Grid>
@@ -134,12 +162,11 @@ const InfoBox = () => {
           </Grid>
 
           <Grid size={12}>
-            <Grid container alignItems='center' justifyContent='center' spacing={2}>
+            <Grid container alignItems='center' justifyContent='center' spacing={matches ? 1 : 2}>
               {evolutionLine.map((stage, i) => (
                 <React.Fragment key={i}>
                   <Grid>
                     <img src={stage.image} alt={stage.name} width={40} height={40}/>
-                    <div style={{ textAlign: 'center' }}>{stage.name}</div>
                   </Grid>
                   {i < evolutionLine.length - 1 && (
                     <Grid>
@@ -151,12 +178,18 @@ const InfoBox = () => {
             </Grid>
           </Grid>
           <Grid container size={12}>
-            <Grid container size={6} justifyContent='end'>
+            <Grid container size={6} justifyContent='flex-end'>
               <Typography variant='h6'>
                 <Box sx={{ fontWeight: 'bold'}}>Stats</Box>
               </Typography>
             </Grid>
-            <Grid container size={12} justifyContent='space-evenly' display='flex' flexDirection='row'>
+            <Grid
+              container
+              size={12}
+              justifyContent='space-evenly'
+              display='flex'
+              flexDirection={matches ? 'column' : 'row'}
+            >
               <Grid container direction='column' spacing={1} size={4}>
                 <Grid size={12}>
                   <Typography variant='body2'>
