@@ -1,0 +1,72 @@
+{
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2021,
+    "requireConfigFile": false,
+    "sourceType": "module",
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+
+    "arrow-body-style": ["error","as-needed"],
+
+    "arrow-spacing": ["error"],
+
+    "camelcase": "warn",
+
+    "curly": ["error", "all"],
+
+    "indent": ["error", 2, {"SwitchCase": 1}],
+
+    "import/extensions": [2, "never", {"stories": "always", "mdx": "always", "svg": "always"}],
+
+    "keyword-spacing": ["error"],
+
+    "jsx-quotes": ["error", "prefer-single"],
+
+    "quotes": ["error", "single"],
+
+    "semi": ["error", "never"],
+
+    "space-before-blocks": ["error", "always"],
+
+    "max-len": ["warn", {"code": 120}],
+
+    "no-console": ["warn"],
+
+    "no-multi-spaces": "warn",
+
+    "no-shadow": "error",
+
+    "no-trailing-spaces": "error",
+
+    "no-var": ["error"],
+
+    "no-warning-comments": ["warn"],
+
+    "object-curly-spacing": ["error", "always"],
+
+    "react/destructuring-assignment": [2, "always"],
+
+    "react-hooks/rules-of-hooks": "error",
+
+    "react-hooks/exhaustive-deps": "error"
+  },
+  "extends": [
+    "react-app",
+    "eslint-config-react-app"
+  ]
+}

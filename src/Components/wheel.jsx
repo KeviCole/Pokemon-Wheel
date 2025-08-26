@@ -2,9 +2,10 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 
 const colors = ['crimson', 'cyan', 'white']
 const pokemonNames = ['Pikachu', 'Xatu', 'Bulbasaur', 'Charmander', 'Squirtle',
-        'Crabominable', 'Gengar', 'Eevee', 'Snorlax', 'Mewtwo']
-const canvasText = 'This is a random wheel built using canvas in order to randomly select pokemon for your play-through. ' +
-'In order to change values within the slice, see the tab of delimiting choices to the right in order to remove pokemon.'
+  'Crabominable', 'Gengar', 'Eevee', 'Snorlax', 'Mewtwo']
+const canvasText = 'This is a random wheel built using canvas in order to randomly select pokemon for your ' +
+'play-through. In order to change values within the slice, see ' +
+'the tab of delimiting choices to the right in order to remove pokemon.'
 
 const Wheel = () => {
   const canvasRef = useRef(null)
@@ -29,7 +30,7 @@ const Wheel = () => {
     let index = 0
     // Dynamic Font Sizing From 20px to 10px
     let fontSize = 20
-    if (sliceCount > 30) fontSize = Math.max(10, 600 / sliceCount)
+    if (sliceCount > 30) { fontSize = Math.max(10, 600 / sliceCount) }
 
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     // Prevents stack up of translations and rotations
@@ -53,7 +54,7 @@ const Wheel = () => {
       const textWidth = ctx.measureText(label).width
 
       // Set a baseline target width (tuned for Pikachu’s length)
-      const targetWidth = ctx.measureText(`#0 Pikachu`).width
+      const targetWidth = ctx.measureText('#0 Pikachu').width
       // If longer than pikachu, text moves inward, otherwise outward (along the slice)
       const extraPadding = (textWidth - targetWidth)
 
@@ -84,7 +85,7 @@ const Wheel = () => {
       ctx.translate(textX, textY)
       // Ensures left side of wheel is readable
       let rotation = midAngle
-      if (rotation > curr) rotation += Math.PI
+      if (rotation > curr) { rotation += Math.PI }
       ctx.rotate(rotation)
       ctx.fillStyle = 'black'
       ctx.textAlign = 'right'
@@ -113,7 +114,7 @@ const Wheel = () => {
     ctx.fillStyle = 'black'
     ctx.textAlign = 'center'
     ctx.textBaseline = 'middle'
-    ctx.font = `35px Arial`
+    ctx.font = '35px Arial'
     ctx.fillText('SPIN', halfCW, halfCH)
     ctx.stroke()
     ctx.closePath()
@@ -160,7 +161,7 @@ const Wheel = () => {
 
   const spin = useCallback(() => {
     // Checks if already spinning
-    if (spinningRef.current) return
+    if (spinningRef.current) { return }
     spinningRef.current = true
 
     // Slice Width
@@ -236,7 +237,7 @@ const Wheel = () => {
       const distY = Math.pow(mouseY - halfCH, 2)
       const distFromCenter = Math.sqrt(distX + distY)
 
-      if (distFromCenter <= innerR) spin()
+      if (distFromCenter <= innerR) { spin() }
     }
 
     // Resets cursor and hovering reference
@@ -261,7 +262,7 @@ const Wheel = () => {
   useEffect(() => {
     // Animation loop
     const animate = () => {
-      if (!spinningRef.current) angleRef.current += 0.001
+      if (!spinningRef.current) { angleRef.current += 0.001 }
       drawWheel(angleRef.current)
       // Tell Browser to draw a new frame
       requestRef.current = requestAnimationFrame(animate)
