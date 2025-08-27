@@ -1,19 +1,19 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
+import { gen1 } from '../Constants/generations'
 
 const colors = ['crimson', 'cyan', 'white']
-const pokemonNames = ['Pikachu', 'Xatu', 'Bulbasaur', 'Charmander', 'Squirtle',
-  'Crabominable', 'Gengar', 'Eevee', 'Snorlax', 'Mewtwo']
+
 const canvasText = 'This is a random wheel built using canvas in order to randomly select pokemon for your ' +
 'play-through. In order to change values within the slice, see ' +
 'the tab of delimiting choices to the right in order to remove pokemon.'
 
-const Wheel = () => {
+const Wheel = ({ setWheelResult }) => {
   const canvasRef = useRef(null)
   const angleRef = useRef(0)
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
   const isHoveringRef = useRef(false)
-  const [sliceCount] = useState(6)
+  const sliceCount = gen1.length
   const innerR = 50 // Inner Radius
   const twoPI = 2 * Math.PI
 
@@ -46,7 +46,7 @@ const Wheel = () => {
     while (curr < twoPI) {
       const midAngle = (curr + next) / 2
 
-      const name = pokemonNames[index % pokemonNames.length]
+      const name = gen1[index % gen1.length]
       const label = `#${index + 1} ${name}`
 
       ctx.font = `${fontSize}px Arial`
@@ -194,12 +194,25 @@ const Wheel = () => {
 
       drawWheel(angleRef.current)
       // Spinning or stop
-      progress < 1 ? requestRef.current = requestAnimationFrame(animateSpin) : spinningRef.current = false
+      if (progress >= 1) {
+        spinningRef.current = false
+
+        // Normalize angle so it's between 0 and 2π
+        const normalized = angleRef.current % twoPI
+        // Normalize to 0 → 2π
+        const shifted = (normalized + Math.PI / 2) % twoPI
+
+        const index = Math.floor((sliceCount - (shifted / sliceAngle)) % sliceCount)
+
+        setWheelResult(gen1[index])
+      } else {
+        requestRef.current = requestAnimationFrame(animateSpin)
+      }
     }
 
     cancelAnimationFrame(requestRef.current) // cancel slow spin
     requestRef.current = requestAnimationFrame(animateSpin)
-  }, [drawWheel, sliceCount, twoPI])
+  }, [drawWheel, setWheelResult, sliceCount, twoPI])
 
   useEffect(() => {
     const canvas = canvasRef.current

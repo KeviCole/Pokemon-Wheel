@@ -8,13 +8,14 @@ import {
   useMediaQuery
 } from '@mui/material'
 import React, { useEffect, useMemo, useRef } from 'react'
+import { getPokemonImage } from '../Constants/pokemonImage'
 import pikaPng from '../Images/pikachu.png'
 import pikaGif from '../Images/pikachubby.gif'
 import bugType from '../Images/types_small/Bug.png'
 import electricType from '../Images/types_small/Electric.png'
 
 
-const InfoBox = () => {
+const InfoBox = ({ wheelResult }) => {
   const evolutionLine = [
     { name: 'Pichu', image: pikaPng },
     { name: 'Pikachu', image: pikaPng },
@@ -27,7 +28,8 @@ const InfoBox = () => {
   const matches = below500 || betweenMdAnd1100
   const amountOfTypes = 2
   const twoTypes = amountOfTypes > 1
-  const images = useMemo(() => [pikaGif, pikaPng, pikaGif, pikaPng, pikaGif, pikaPng], [])
+  const images = useMemo(() => [
+    getPokemonImage(wheelResult), pikaPng, pikaGif, pikaPng, pikaGif, pikaPng], [wheelResult])
 
   const StatBar = ({ statId, statNum, color }) => {
     const canvasRef = useRef(null)
@@ -86,7 +88,7 @@ const InfoBox = () => {
       }}
     >
       <ImageList cols={1} gap={matches ? 70 : 30}>
-        {images.map((tree, i) =>
+        {images.map((pokeImg, i) =>
           <ImageListItem
             key={i}
             sx={{
@@ -97,7 +99,7 @@ const InfoBox = () => {
             }}
           >
             <img
-              src={tree}
+              src={pokeImg}
               alt='Pokemon'
               loading='lazy'
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
