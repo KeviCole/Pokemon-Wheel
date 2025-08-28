@@ -9,6 +9,7 @@ import {
 } from '@mui/material'
 import React, { useEffect, useMemo, useRef } from 'react'
 import { getPokemonImage } from '../Constants/pokemonImage'
+import { getDexNumber } from '../Constants/dexNum'
 import pikaPng from '../Images/pikachu.png'
 import pikaGif from '../Images/pikachubby.gif'
 import bugType from '../Images/types_small/Bug.png'
@@ -28,8 +29,10 @@ const InfoBox = ({ wheelResult }) => {
   const matches = below500 || betweenMdAnd1100
   const amountOfTypes = 2
   const twoTypes = amountOfTypes > 1
+  const pokePNG = getPokemonImage(wheelResult)
   const images = useMemo(() => [
-    getPokemonImage(wheelResult), pikaPng, pikaGif, pikaPng, pikaGif, pikaPng], [wheelResult])
+    pokePNG, pikaPng, pikaGif, pikaPng, pikaGif, pikaPng], [pokePNG])
+  const pokeDexNum = getDexNumber(getPokemonImage(wheelResult))
 
   const StatBar = ({ statId, statNum, color }) => {
     const canvasRef = useRef(null)
@@ -114,7 +117,7 @@ const InfoBox = ({ wheelResult }) => {
           <Grid container alignItems='center' size={12}>
             <Grid size={twoTypes && matches ? 2 : 4}>
               <Typography variant={below400 ? 'h7' : 'h6'}>
-                <Box sx={{ fontWeight: 'bold' }}>#1</Box>
+                <Box sx={{ fontWeight: 'bold' }}>#{pokeDexNum ?? 1}</Box>
               </Typography>
             </Grid>
 
@@ -127,7 +130,7 @@ const InfoBox = ({ wheelResult }) => {
               {twoTypes && !matches ? <>
                 <Grid container size={5} justifyContent='center'>
                   <Typography variant='h6'>
-                    <Box sx={{ fontWeight: 'bold' }}>Crabominable</Box>
+                    <Box sx={{ fontWeight: 'bold' }}>{wheelResult}</Box>
                   </Typography>
                 </Grid>
                 <Grid container size={1} justifyContent='flex-end' pr={1}>
@@ -136,7 +139,7 @@ const InfoBox = ({ wheelResult }) => {
               </>
                 :
                 <Typography variant={below400 ? 'h7' : 'h6'}>
-                  <Box sx={{ fontWeight: 'bold' }}>Crabominable</Box>
+                  <Box sx={{ fontWeight: 'bold' }}>{wheelResult}</Box>
                 </Typography>
               }
             </Grid>
@@ -158,7 +161,7 @@ const InfoBox = ({ wheelResult }) => {
         </Grid>
 
         <Grid container size={12} justifyContent='center'>
-          <img src={pikaPng} alt='Pikachu' style={{ height: 150, width: 150 }} />
+          <img src={pokePNG} alt='Pikachu' style={{ height: 150, width: 150 }} />
         </Grid>
 
         <Grid size={12}>
