@@ -19,7 +19,8 @@ const InfoBox = ({ wheelResult }) => {
     { name: 'Pikachu', image: pikaPng },
     { name: 'Raichu', image: pikaPng },
   ]
-  const statsMax = [250, 134, 180, 154, 125, 140]
+  const statsMax = [255, 190, 230, 180, 230, 200]
+  const statsBase = [108, 130, 95, 80, 85, 102]
   const betweenMdAnd1100 = useMediaQuery('(min-width:900px) and (max-width:1100px)')
   const below500 = useMediaQuery('(max-width:500px)')
   const below400 = useMediaQuery('(max-width:400px')
@@ -69,7 +70,11 @@ const InfoBox = ({ wheelResult }) => {
       const finalLen = length * decimal
 
       ctx.fillStyle = color
-      ctx.fillRect(0, 0, finalLen, 10)
+      ctx.fillRect(0, 0, finalLen, 20)
+      ctx.fillStyle = 'black'
+      ctx.textAlign = 'right'
+      ctx.font = '12px Arial'
+      ctx.fillText(statNum, finalLen+20, 10)
     }, [statId, statNum, color])
 
     return <canvas ref={canvasRef} width={200} height={12}></canvas>
@@ -194,48 +199,48 @@ const InfoBox = ({ wheelResult }) => {
           <Grid
             container
             size={12}
-            justifyContent='space-evenly'
+            justifyContent='space-between'
             display='flex'
             flexDirection={matches ? 'column' : 'row'}
           >
-            <Grid container direction='column' spacing={1} size={4}>
+            <Grid container direction='column' spacing={1} size={5}>
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>HP</Box>
                 </Typography>
-                <StatBar statId='hp' statNum={120} color='#04d400'/>
+                <StatBar statId='hp' statNum={statsBase[0]} color='#04d400'/>
               </Grid>
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>Attack</Box>
                 </Typography>
-                <StatBar statId='attack' statNum={95} color='#f70000'/>
+                <StatBar statId='attack' statNum={statsBase[1]} color='#f70000'/>
               </Grid>
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>Defense</Box>
                 </Typography>
-                <StatBar statId='defense' statNum={70} color='#0012db'/>
+                <StatBar statId='defense' statNum={statsBase[2]} color='#0012db'/>
               </Grid>
             </Grid>
-            <Grid container direction='column' spacing={1} size={4}>
+            <Grid container direction='column' spacing={1} size={5}>
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>Sp. Atk</Box>
                 </Typography>
-                <StatBar statId='sp_atk' statNum={85} color='#ea4fff'/>
+                <StatBar statId='sp_atk' statNum={statsBase[3]} color='#ea4fff'/>
               </Grid>
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>Sp. Def</Box>
                 </Typography>
-                <StatBar statId='sp_def' statNum={80} color='#fc7723'/>
+                <StatBar statId='sp_def' statNum={statsBase[4]} color='#fc7723'/>
               </Grid>
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>Speed</Box>
                 </Typography>
-                <StatBar statId='speed' statNum={110} color='#33daff'/>
+                <StatBar statId='speed' statNum={statsBase[5]} color='#33daff'/>
               </Grid>
             </Grid>
           </Grid>
