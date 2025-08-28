@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^6.6.4",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "node-fetch": "^3.3.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
@@ -39,5 +40,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "allPokemon.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeviCole/Pokemon-Wheel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeviCole/Pokemon-Wheel/issues"
+  },
+  "homepage": "https://github.com/KeviCole/Pokemon-Wheel#readme"
 }

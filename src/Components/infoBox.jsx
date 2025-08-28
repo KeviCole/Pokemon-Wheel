@@ -8,12 +8,9 @@ import {
   useMediaQuery
 } from '@mui/material'
 import React, { useEffect, useMemo, useRef } from 'react'
-import { getPokemonImage } from '../Constants/pokemonImage'
-import { getDexNumber } from '../Constants/dexNum'
+import { getPokemonImage, getTypeImage } from '../Constants/pokemonImage'
 import pikaPng from '../Images/pikachu.png'
 import pikaGif from '../Images/pikachubby.gif'
-import bugType from '../Images/types_small/Bug.png'
-import electricType from '../Images/types_small/Electric.png'
 
 
 const InfoBox = ({ wheelResult }) => {
@@ -27,12 +24,11 @@ const InfoBox = ({ wheelResult }) => {
   const below500 = useMediaQuery('(max-width:500px)')
   const below400 = useMediaQuery('(max-width:400px')
   const matches = below500 || betweenMdAnd1100
-  const amountOfTypes = 2
-  const twoTypes = amountOfTypes > 1
-  const pokePNG = getPokemonImage(wheelResult)
+  const twoTypes = (wheelResult?.type2 ? 2 : 1) > 1
+  const pokePNG = getPokemonImage(wheelResult?.name)
   const images = useMemo(() => [
     pokePNG, pikaPng, pikaGif, pikaPng, pikaGif, pikaPng], [pokePNG])
-  const pokeDexNum = getDexNumber(getPokemonImage(wheelResult))
+  const pokeDexNum = wheelResult?.dexNum
 
   const StatBar = ({ statId, statNum, color }) => {
     const canvasRef = useRef(null)
@@ -130,16 +126,18 @@ const InfoBox = ({ wheelResult }) => {
               {twoTypes && !matches ? <>
                 <Grid container size={5} justifyContent='center'>
                   <Typography variant='h6'>
-                    <Box sx={{ fontWeight: 'bold' }}>{wheelResult}</Box>
+                    <Box sx={{ fontWeight: 'bold' }}>{wheelResult?.name}</Box>
                   </Typography>
                 </Grid>
                 <Grid container size={1} justifyContent='flex-end' pr={1}>
-                  {twoTypes && <img src={electricType} alt='Electric Type' style={{ width: 50, height: 20 }}/>}
+                  {twoTypes &&
+                    <img src={getTypeImage(wheelResult?.type1)} alt='Electric Type' style={{ width: 50, height: 20 }}/>
+                  }
                 </Grid>
               </>
                 :
                 <Typography variant={below400 ? 'h7' : 'h6'}>
-                  <Box sx={{ fontWeight: 'bold' }}>{wheelResult}</Box>
+                  <Box sx={{ fontWeight: 'bold' }}>{wheelResult?.name}</Box>
                 </Typography>
               }
             </Grid>
@@ -152,9 +150,16 @@ const InfoBox = ({ wheelResult }) => {
               spacing={1}
               pr={1}
             >
-              <img src={bugType} alt='Bug Type' style={{ width: 50, height: 20 }}/>
+              <img
+                src={twoTypes && !matches ? getTypeImage(wheelResult?.type2) : getTypeImage(wheelResult?.type1)}
+                alt={(twoTypes && !matches
+                  ? getTypeImage(wheelResult?.type2)
+                  : getTypeImage(wheelResult?.type1))}
+
+                style={{ width: 50, height: 20 }}
+              />
               {twoTypes && matches &&
-                <img src={electricType} alt='Electric Type' style={{ width: 50, height: 20 }}/>
+                <img src={getTypeImage(wheelResult?.type2)} alt='Electric Type' style={{ width: 50, height: 20 }}/>
               }
             </Grid>
           </Grid>
