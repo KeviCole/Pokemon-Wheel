@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef } from 'react'
-import { gen1 } from '../Constants/generations'
+import { allPokemon } from '../Constants/pokemonData'
 
 const colors = ['crimson', 'cyan', 'white']
 
@@ -13,6 +13,7 @@ const Wheel = ({ setWheelResult }) => {
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
   const isHoveringRef = useRef(false)
+  const gen1 = allPokemon.filter(pokemon => pokemon.generation === 1)
   const sliceCount = gen1.length
   const innerR = 50 // Inner Radius
   const twoPI = 2 * Math.PI
@@ -46,8 +47,8 @@ const Wheel = ({ setWheelResult }) => {
     while (curr < twoPI) {
       const midAngle = (curr + next) / 2
 
-      const name = gen1[index % gen1.length]
-      const label = `#${index + 1} ${name}`
+      const name = gen1[index % gen1.length].name
+      const label = `#${gen1[index % gen1.length].dexNum} ${name}`
 
       ctx.font = `${fontSize}px Arial`
       // Measures how wide the font will be
@@ -157,7 +158,7 @@ const Wheel = ({ setWheelResult }) => {
     ctx.lineTo(halfCW, pointer)
     ctx.fill()
     ctx.closePath()
-  }, [sliceCount, twoPI])
+  }, [sliceCount, twoPI, gen1])
 
   const spin = useCallback(() => {
     // Checks if already spinning
@@ -212,7 +213,7 @@ const Wheel = ({ setWheelResult }) => {
 
     cancelAnimationFrame(requestRef.current) // cancel slow spin
     requestRef.current = requestAnimationFrame(animateSpin)
-  }, [drawWheel, setWheelResult, sliceCount, twoPI])
+  }, [drawWheel, setWheelResult, sliceCount, twoPI, gen1])
 
   useEffect(() => {
     const canvas = canvasRef.current
