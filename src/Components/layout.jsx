@@ -9,7 +9,7 @@ export const Layout = ({ children }) => {
 
   return <Grid p={4} textAlign='center'>
     <Typography variant='h3'>
-      <img src={image} alt='Pikachu' style={{ height: 45 }} />
+      <img src={image} alt='Pikachu' style={{ height: 45 }}/>
         &nbsp;Pokemon Wheel
     </Typography>
 
