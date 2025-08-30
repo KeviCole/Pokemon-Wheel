@@ -14,22 +14,30 @@ import pikaGif from '../Images/pikachubby.gif'
 
 
 const InfoBox = ({ wheelResult }) => {
+  const {
+    name: pokeName,
+    dexNum: pokeDexNum,
+    type1: pokeType1,
+    type2: pokeType2,
+    pokePNG = getPokemonImage(pokeName)
+  } = wheelResult ?? {}
+
   const evolutionLine = [
-    { name: 'Pichu', image: pikaPng },
-    { name: 'Pikachu', image: pikaPng },
-    { name: 'Raichu', image: pikaPng },
+    { name: 'Pichu', image: pokePNG ?? pikaPng },
+    { name: 'Pikachu', image: pokePNG ?? pikaPng },
+    { name: 'Raichu', image: pokePNG ?? pikaPng },
   ]
   const statsMax = [255, 190, 230, 180, 230, 200]
   const statsBase = [108, 130, 95, 80, 85, 102]
+  const totalBase = statsBase.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
   const betweenMdAnd1100 = useMediaQuery('(min-width:900px) and (max-width:1100px)')
   const below500 = useMediaQuery('(max-width:500px)')
   const below400 = useMediaQuery('(max-width:400px')
   const matches = below500 || betweenMdAnd1100
-  const twoTypes = (wheelResult?.type2 ? 2 : 1) > 1
-  const pokePNG = getPokemonImage(wheelResult?.name)
   const images = useMemo(() => [
     pokePNG, pikaPng, pikaGif, pikaPng, pikaGif, pikaPng], [pokePNG])
-  const pokeDexNum = wheelResult?.dexNum
+  const checkSteelType1 = pokeType1 === 'Steel'
+  const checkSteelType2 = pokeType2 === 'Steel'
 
   const StatBar = ({ statId, statNum, color }) => {
     const canvasRef = useRef(null)
@@ -112,66 +120,67 @@ const InfoBox = ({ wheelResult }) => {
         )}
       </ImageList>
     </Grid>
+
     <Grid size={10}>
       <Grid container size={12} display='flex' flexDirection='column' spacing={1}>
         <Grid size={12} p={1} sx={{ border: '1px solid', borderColor: 'divider', borderRadius: 2 }}>
           <Grid container alignItems='center' size={12}>
-            <Grid size={twoTypes && matches ? 2 : 4}>
+
+            <Grid size={4}>
               <Typography variant={below400 ? 'h7' : 'h6'}>
-                <Box sx={{ fontWeight: 'bold' }}>#{pokeDexNum ?? 1}</Box>
+                {pokeDexNum && <Box sx={{ fontWeight: 'bold' }}>#{pokeDexNum}</Box>}
               </Typography>
             </Grid>
 
             <Grid
               container
-              size={6}
-              justifyContent={twoTypes && matches ? 'center' : 'space-between'}
+              size={4}
+              justifyContent='center'
               alignItems='center'
             >
-              {twoTypes && !matches ? <>
-                <Grid container size={5} justifyContent='center'>
-                  <Typography variant='h6'>
-                    <Box sx={{ fontWeight: 'bold' }}>{wheelResult?.name}</Box>
-                  </Typography>
-                </Grid>
-                <Grid container size={1} justifyContent='flex-end' pr={1}>
-                  {twoTypes &&
-                    <img src={getTypeImage(wheelResult?.type1)} alt='Electric Type' style={{ width: 50, height: 20 }}/>
-                  }
-                </Grid>
-              </>
-                :
+              <Grid container justifyContent='center'>
                 <Typography variant={below400 ? 'h7' : 'h6'}>
-                  <Box sx={{ fontWeight: 'bold' }}>{wheelResult?.name}</Box>
+                  <Box sx={{ fontWeight: 'bold' }}>{pokeName}</Box>
                 </Typography>
-              }
+              </Grid>
             </Grid>
 
             <Grid
               container
-              size={twoTypes && matches ? 4 : 2}
+              size={4}
               display='flex'
-              justifyContent={twoTypes && matches ? 'flex-end' : 'flex-start'}
+              justifyContent='flex-end'
               spacing={1}
               pr={1}
             >
-              <img
-                src={twoTypes && !matches ? getTypeImage(wheelResult?.type2) : getTypeImage(wheelResult?.type1)}
-                alt={(twoTypes && !matches
-                  ? getTypeImage(wheelResult?.type2)
-                  : getTypeImage(wheelResult?.type1))}
-
-                style={{ width: 50, height: 20 }}
-              />
-              {twoTypes && matches &&
-                <img src={getTypeImage(wheelResult?.type2)} alt='Electric Type' style={{ width: 50, height: 20 }}/>
+              {pokeType1 &&
+                <img
+                  src={getTypeImage(pokeType1)}
+                  alt='Type1'
+                  style={
+                    matches ?
+                      { width: 40, height: checkSteelType1 ? 13 : 15 } :
+                      { width: 50, height: checkSteelType1 ? 18 : 20, marginTop: checkSteelType1 ? 1 : 0 }
+                  }
+                />
+              }
+              {pokeType2 &&
+                <img
+                  src={getTypeImage(pokeType2)}
+                  alt='Type2'
+                  style={
+                    matches ?
+                      { width: 40, height: checkSteelType2 ? 13 : 15 } :
+                      { width: 50, height: checkSteelType2 ? 18 : 20, marginTop: checkSteelType2 ? 1 : 0 }
+                  }
+                />
               }
             </Grid>
           </Grid>
         </Grid>
 
         <Grid container size={12} justifyContent='center'>
-          <img src={pokePNG} alt='Pikachu' style={{ height: 150, width: 150 }} />
+          {pokePNG && <img src={pokePNG} alt='Pikachu' style={{ height: 150, width: 150 }}/>}
         </Grid>
 
         <Grid size={12}>
@@ -181,17 +190,14 @@ const InfoBox = ({ wheelResult }) => {
                 <Grid>
                   <img src={stage.image} alt={stage.name} width={below400 ? 30 : 40} height={below400 ? 30 : 40}/>
                 </Grid>
-                {i < evolutionLine.length - 1 && (
-                  <Grid>
-                    <ArrowRightAltIcon fontSize='large' />
-                  </Grid>
-                )}
+                {i < evolutionLine.length - 1 && <ArrowRightAltIcon fontSize='large'/>}
               </React.Fragment>
             ))}
           </Grid>
         </Grid>
+
         <Grid container size={12}>
-          <Grid container size={6} justifyContent='flex-end'>
+          <Grid container size={12} justifyContent='center'>
             <Typography variant='h6'>
               <Box sx={{ fontWeight: 'bold' }}>Stats</Box>
             </Typography>
@@ -199,11 +205,12 @@ const InfoBox = ({ wheelResult }) => {
           <Grid
             container
             size={12}
-            justifyContent='space-between'
+            justifyContent='space-evenly'
             display='flex'
             flexDirection={matches ? 'column' : 'row'}
           >
-            <Grid container direction='column' spacing={1} size={5}>
+            <Grid container direction='column' spacing={1} size={4}>
+
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>HP</Box>
@@ -222,8 +229,15 @@ const InfoBox = ({ wheelResult }) => {
                 </Typography>
                 <StatBar statId='defense' statNum={statsBase[2]} color='#0012db'/>
               </Grid>
+              {!matches && <Grid size={12}>
+                <Typography variant='h7'>
+                  <Box sx={{ fontWeight: 'bold' }}>Total: {totalBase}</Box>
+                </Typography>
+              </Grid>
+              }
             </Grid>
-            <Grid container direction='column' spacing={1} size={5}>
+
+            <Grid container direction='column' spacing={1} size={4}>
               <Grid size={12}>
                 <Typography variant='body2'>
                   <Box sx={{ fontWeight: 'bold' }}>Sp. Atk</Box>
@@ -242,6 +256,12 @@ const InfoBox = ({ wheelResult }) => {
                 </Typography>
                 <StatBar statId='speed' statNum={statsBase[5]} color='#33daff'/>
               </Grid>
+              {matches && <Grid size={12}>
+                <Typography variant='h7'>
+                  <Box sx={{ fontWeight: 'bold' }}>Total: {totalBase}</Box>
+                </Typography>
+              </Grid>
+              }
             </Grid>
           </Grid>
         </Grid>

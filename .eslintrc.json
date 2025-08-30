@@ -63,7 +63,18 @@
 
     "react-hooks/rules-of-hooks": "error",
 
-    "react-hooks/exhaustive-deps": "error"
+    "react-hooks/exhaustive-deps": "error",
+
+    "react/jsx-tag-spacing": [
+      "error",
+      {
+        "closingSlash": "never",
+        "beforeSelfClosing": "never",
+        "afterOpening": "never",
+        "beforeClosing": "never"
+      }
+    ],
+    "react/jsx-curly-brace-presence": ["error", { "props": "never", "children": "never" }]
   },
   "extends": [
     "react-app",
