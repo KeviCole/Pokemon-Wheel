@@ -4,6 +4,7 @@ import {
   Grid,
   ImageList,
   ImageListItem,
+  keyframes,
   Typography,
   useMediaQuery
 } from '@mui/material'
@@ -21,6 +22,15 @@ const InfoBox = ({ wheelResult }) => {
     type2: pokeType2,
     pokePNG = getPokemonImage(pokeName)
   } = wheelResult ?? {}
+
+  const flash = keyframes`
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color: #d3d3d3;
+    }
+  `
 
   const evolutionLine = [
     { name: 'Pichu', image: pokePNG ?? pikaPng },
@@ -108,6 +118,7 @@ const InfoBox = ({ wheelResult }) => {
               borderRadius: 0,
               width: matches ? 30 : 45,
               height: matches ? 30 : 45,
+              animation: `${flash} 1s infinite alternate`
             }}
           >
             <img
