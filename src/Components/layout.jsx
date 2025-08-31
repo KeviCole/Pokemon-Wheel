@@ -1,7 +1,7 @@
 import { Grid, Typography } from '@mui/material'
 import { useState } from 'react'
 import image from '../Images/pikachubby.gif'
-import InfoBox from './infoBox'
+import InfoBox from './infoBox/infoBox'
 import Wheel from './wheel'
 
 export const Layout = ({ children }) => {
