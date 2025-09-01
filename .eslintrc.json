@@ -74,7 +74,9 @@
         "beforeClosing": "never"
       }
     ],
-    "react/jsx-curly-brace-presence": ["error", { "props": "never", "children": "never" }]
+    "react/jsx-curly-brace-presence": ["error", { "props": "never", "children": "never" }],
+    "no-sparse-arrays": "error",
+    "comma-dangle": ["error", "never"]
   },
   "extends": [
     "react-app",

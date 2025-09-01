@@ -1,25 +1,59 @@
 import { Grid, useMediaQuery } from '@mui/material'
-import { useMemo } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { getPokemonImage, getTypeImage } from '../../Constants/pokemonImage'
 import pikaPng from '../../Images/pikachu.png'
 import pikaGif from '../../Images/pikachubby.gif'
-import { PokemonSelection, TitleBar, EvolutionLine, PokemonStats } from '../infoBox'
+import { EvolutionLine, PokemonSelection, PokemonStats, TitleBar } from '../infoBox'
 
 export const InfoBox = ({ wheelResult }) => {
+  const [listPokemon, setListPokemon] = useState([
+    { id: 0 },
+    { id: 1 },
+    { id: 2 },
+    { id: 3 },
+    { id: 4 },
+    { id: 5 }
+  ])
+
+  const [currentPokemon, setCurrentPokemon] = useState(0)
+  const currentPokemonRef = useRef(currentPokemon)
+  useEffect(() => {currentPokemonRef.current = currentPokemon}, [currentPokemon])
+
+  useEffect(() => {
+    if (wheelResult) {
+      setListPokemon(prev =>
+        prev.map(item =>
+          item.id === currentPokemonRef.current ? {
+            ...item,
+            ...wheelResult,
+            pokePNG: getPokemonImage(wheelResult.name),
+            pokeType1Image: wheelResult.type1 ? getTypeImage(wheelResult.type1) : null,
+            pokeType2Image: wheelResult.type2 ? getTypeImage(wheelResult.type2) : null } : item
+        )
+      )
+      setImages(prev =>
+        prev.map(item =>
+          item.id === currentPokemonRef.current ? { ...item, image: getPokemonImage(wheelResult.name) } : item
+        )
+      )
+    }
+  }, [wheelResult])
   const {
     name: pokeName,
     dexNum: pokeDexNum,
-    type1: pokeType1,
-    type2: pokeType2,
-    pokePNG = getPokemonImage(pokeName),
-    pokeType1Image = pokeType1 ? getTypeImage(pokeType1) : null,
-    pokeType2Image = pokeType2 ? getTypeImage(pokeType2) : null
-  } = wheelResult ?? {}
+    type1,
+    type2,
+    pokePNG,
+    pokeType1Image,
+    pokeType2Image,
+    checkSteelType1 = type1 === 'Steel',
+    checkSteelType2 = type2 === 'Steel'
+  } = listPokemon[currentPokemon] ?? {}
 
   const evolutionLine = [
-    { name: 'Pichu', image: pokePNG ?? pikaPng },
-    { name: 'Pikachu', image: pokePNG ?? pikaPng },
-    { name: 'Raichu', image: pokePNG ?? pikaPng },
+    { name: pokeName, image: pokePNG ?? pikaPng },
+    { name: pokeName, image: pokePNG ?? pikaPng },
+    { name: pokeName, image: pokePNG ?? pikaPng }
   ]
   const statsMax = [255, 190, 230, 180, 230, 200]
   const statsBase = [108, 130, 95, 80, 85, 102]
@@ -27,10 +61,14 @@ export const InfoBox = ({ wheelResult }) => {
   const below500 = useMediaQuery('(max-width:500px)')
   const below400 = useMediaQuery('(max-width:400px')
   const matches = below500 || betweenMdAnd1100
-  const images = useMemo(() => [
-    pokePNG, pikaPng, pikaGif, pikaPng, pikaGif, pikaPng], [pokePNG])
-  const checkSteelType1 = pokeType1 === 'Steel'
-  const checkSteelType2 = pokeType2 === 'Steel'
+  const [images, setImages] = useState([
+    { id: 0, image: pokePNG },
+    { id: 1, image: pikaPng },
+    { id: 2, image: pikaGif },
+    { id: 3, image: pikaPng },
+    { id: 4, image: pikaGif },
+    { id: 5, image: pikaPng }
+  ])
 
   return <>
     <Grid
@@ -43,7 +81,12 @@ export const InfoBox = ({ wheelResult }) => {
         justifyContent: 'center'
       }}
     >
-      <PokemonSelection images={images} matches={matches}/>
+      <PokemonSelection
+        images={images.map(poke => poke.image)}
+        matches={matches}
+        currentPokemon={currentPokemon}
+        setCurrentPokemon={setCurrentPokemon}
+      />
     </Grid>
     <Grid size={10}>
       <Grid container size={12} display='flex' flexDirection='column' spacing={1}>
