@@ -11,6 +11,7 @@ export const StatBar = ({ statId, statsMax, statNum, color }) => {
     const length = 180
     ctx.clearRect(0, 0, 190, 10)
 
+    // Stat Type Selection
     let maxStat = 0
     switch (statId) {
       case 'hp':
@@ -34,10 +35,11 @@ export const StatBar = ({ statId, statsMax, statNum, color }) => {
       default:
         maxStat = 100
     }
-
+    // Bar length
     const decimal = statNum / maxStat
     const finalLen = length * decimal
 
+    // Bar and Text
     ctx.fillStyle = color
     ctx.fillRect(0, 0, finalLen, 20)
     ctx.fillStyle = 'black'

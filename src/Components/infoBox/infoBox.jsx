@@ -6,6 +6,7 @@ import pikaGif from '../../Images/pikachubby.gif'
 import { EvolutionLine, PokemonSelection, PokemonStats, TitleBar } from '../infoBox'
 
 export const InfoBox = ({ wheelResult }) => {
+  // Stored Chosen Pokemon
   const [listPokemon, setListPokemon] = useState([
     { id: 0 },
     { id: 1 },
@@ -15,12 +16,14 @@ export const InfoBox = ({ wheelResult }) => {
     { id: 5 }
   ])
 
+  // Tracks Current Slot
   const [currentPokemon, setCurrentPokemon] = useState(0)
   const currentPokemonRef = useRef(currentPokemon)
   useEffect(() => {currentPokemonRef.current = currentPokemon}, [currentPokemon])
 
   useEffect(() => {
     if (wheelResult) {
+      // Sets New Pokemon Info
       setListPokemon(prev =>
         prev.map(item =>
           item.id === currentPokemonRef.current ? {
@@ -31,6 +34,7 @@ export const InfoBox = ({ wheelResult }) => {
             pokeType2Image: wheelResult.type2 ? getTypeImage(wheelResult.type2) : null } : item
         )
       )
+      // Sets New Image in Current Slot
       setImages(prev =>
         prev.map(item =>
           item.id === currentPokemonRef.current ? { ...item, image: getPokemonImage(wheelResult.name) } : item
@@ -38,6 +42,7 @@ export const InfoBox = ({ wheelResult }) => {
       )
     }
   }, [wheelResult])
+  // Pulls pokemon data
   const {
     name: pokeName,
     dexNum: pokeDexNum,
@@ -50,17 +55,22 @@ export const InfoBox = ({ wheelResult }) => {
     checkSteelType2 = type2 === 'Steel'
   } = listPokemon[currentPokemon] ?? {}
 
-  const evolutionLine = [
-    { name: pokeName, image: pokePNG ?? pikaPng },
-    { name: pokeName, image: pokePNG ?? pikaPng },
-    { name: pokeName, image: pokePNG ?? pikaPng }
-  ]
+  // Stats and Responsive Checks
   const statsMax = [255, 190, 230, 180, 230, 200]
   const statsBase = [108, 130, 95, 80, 85, 102]
   const betweenMdAnd1100 = useMediaQuery('(min-width:900px) and (max-width:1100px)')
   const below500 = useMediaQuery('(max-width:500px)')
   const below400 = useMediaQuery('(max-width:400px')
   const matches = below500 || betweenMdAnd1100
+
+  // Current Pokemon's Evolutions
+  const evolutionLine = [
+    { name: pokeName, image: pokePNG ?? pikaPng },
+    { name: pokeName, image: pokePNG ?? pikaPng },
+    { name: pokeName, image: pokePNG ?? pikaPng }
+  ]
+
+  // List of Images in the Slots
   const [images, setImages] = useState([
     { id: 0, image: pokePNG },
     { id: 1, image: pikaPng },

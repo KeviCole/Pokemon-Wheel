@@ -33,7 +33,7 @@ export const Layout = ({ children }) => {
           borderColor: 'divider',
           borderRadius: 2,
           p: 2,
-          textAlign: 'left',
+          textAlign: 'left'
         }}
         container
         spacing={1}
