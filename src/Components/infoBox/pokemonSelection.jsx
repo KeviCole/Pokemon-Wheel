@@ -1,6 +1,7 @@
 import { ImageList, ImageListItem, keyframes } from '@mui/material'
 
 export const PokemonSelection = ({ images, matches, currentPokemon, setCurrentPokemon }) => {
+  // Animation for Clickable Readability
   const flash = keyframes`
     0% {
         background-color: white;
@@ -18,8 +19,8 @@ export const PokemonSelection = ({ images, matches, currentPokemon, setCurrentPo
           borderRadius: 0,
           width: matches ? 30 : 45,
           height: matches ? 30 : 45,
-          animation: currentPokemon !== i ? `${flash} 1s infinite alternate` : 'none',
-          backgroundColor: currentPokemon === i ? 'gold' : 'inherit',
+          animation: `${flash} 1s infinite alternate`,
+          backgroundColor: currentPokemon === i ? 'gold !important' : 'inherit',
           cursor: 'pointer'
         }}
         onClick={() => setCurrentPokemon(i)}
