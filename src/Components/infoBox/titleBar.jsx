@@ -5,11 +5,38 @@ export const TitleBar = ({
   checkSteelType1,
   checkSteelType2,
   matches,
+  noiseAnimate,
   pokeDexNum,
   pokeName,
   pokeType1Image,
-  pokeType2Image
-}) => <Grid size={12} p={1} sx={{ border: '1px solid', borderColor: 'divider', borderRadius: 2 }}>
+  pokeType2Image,
+  whiteNoise
+}) => <Grid
+  size={12}
+  p={1}
+  sx={{
+    border: '2px solid',
+    borderColor: 'black',
+    borderRadius: 2,
+    backgroundColor: 'silver',
+    position: 'relative',
+    overflow: 'hidden',
+    '&::before': {
+      content: '""',
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      backgroundImage: `url(${whiteNoise})`,
+      backgroundRepeat: 'repeat',
+      opacity: '10%',
+      pointerEvents: 'none',
+      animation: `${noiseAnimate} 0.25s infinite steps(4)`,
+      zIndex: 2
+    }
+  }}
+>
   <Grid container alignItems='center' size={12}>
     <Grid size={4}>
       <Typography variant={below400 ? 'h7' : 'h6'}>

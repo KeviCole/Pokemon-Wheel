@@ -1,8 +1,8 @@
-import { Grid, useMediaQuery } from '@mui/material'
+import { Grid, keyframes, useMediaQuery } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
 import { getPokemonImage, getTypeImage } from '../../Constants/pokemonImage'
-import pikaPng from '../../Images/pikachu.png'
-import pikaGif from '../../Images/pikachubby.gif'
+import blankQuestion from '../../Images/Black_question_mark.png'
+import whiteNoise from '../../Images/White-noise.png'
 import { EvolutionLine, PokemonSelection, PokemonStats, TitleBar } from '../infoBox'
 
 export const InfoBox = ({ wheelResult }) => {
@@ -65,30 +65,56 @@ export const InfoBox = ({ wheelResult }) => {
 
   // Current Pokemon's Evolutions
   const evolutionLine = [
-    { name: pokeName, image: pokePNG ?? pikaPng },
-    { name: pokeName, image: pokePNG ?? pikaPng },
-    { name: pokeName, image: pokePNG ?? pikaPng }
+    { name: pokeName, image: pokePNG ?? blankQuestion },
+    { name: pokeName, image: pokePNG ?? blankQuestion },
+    { name: pokeName, image: pokePNG ?? blankQuestion }
   ]
 
   // List of Images in the Slots
   const [images, setImages] = useState([
-    { id: 0, image: pokePNG },
-    { id: 1, image: pikaPng },
-    { id: 2, image: pikaGif },
-    { id: 3, image: pikaPng },
-    { id: 4, image: pikaGif },
-    { id: 5, image: pikaPng }
+    { id: 0, image: blankQuestion },
+    { id: 1, image: blankQuestion },
+    { id: 2, image: blankQuestion },
+    { id: 3, image: blankQuestion },
+    { id: 4, image: blankQuestion },
+    { id: 5, image: blankQuestion }
   ])
+
+  const noiseAnimate = keyframes`
+    0% { background-position: 0 0; }
+    25% { background-position: 20px -20px; }
+    50% { background-position: -20px 10px; }
+    75% { background-position: 10px 20px; }
+    100% { background-position: 0 0; }
+  `
 
   return <>
     <Grid
       size={2}
       sx={{
-        border: '1px solid',
-        borderColor: 'divider',
+        border: '2px solid',
+        borderColor: 'black',
         borderRadius: 2,
         display: 'flex',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        backgroundColor: 'silver',
+        position: 'relative',
+        overflow: 'hidden',
+
+        '&::before': {
+          content: '""',
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundImage: `url(${whiteNoise})`,
+          backgroundRepeat: 'repeat',
+          opacity: '10%',
+          pointerEvents: 'none',
+          animation: `${noiseAnimate} 0.25s infinite steps(4)`,
+          zIndex: 2
+        }
       }}
     >
       <PokemonSelection
@@ -105,19 +131,55 @@ export const InfoBox = ({ wheelResult }) => {
           checkSteelType1={checkSteelType1}
           checkSteelType2={checkSteelType2}
           matches={matches}
-          pokeDexNum={pokeDexNum}
-          pokeName={pokeName}
+          noiseAnimate={noiseAnimate}
+          pokeDexNum={pokeDexNum ?? '?'}
+          pokeName={pokeName ?? 'Unknown'}
           pokeType1Image={pokeType1Image}
           pokeType2Image={pokeType2Image}
+          whiteNoise={whiteNoise}
         />
-        <Grid container size={12} justifyContent='center'>
-          {pokePNG && <img src={pokePNG} alt='Pikachu' style={{ height: 150, width: 150 }}/>}
-        </Grid>
-        <Grid size={12}>
-          <EvolutionLine below400={below400} matches={matches} evolutionLine={evolutionLine}/>
+        <Grid
+          container
+          size={12}
+          spacing={2}
+          sx={{
+            border: '2px solid',
+            borderColor: 'black',
+            borderRadius: 2,
+            backgroundColor: 'whiteSmoke',
+            position: 'relative',
+            overflow: 'hidden',
+            '&::before': {
+              content: '""',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              backgroundImage: `url(${whiteNoise})`,
+              backgroundRepeat: 'repeat',
+              opacity: '10%',
+              pointerEvents: 'none',
+              animation: `${noiseAnimate} 0.25s infinite steps(4)`,
+              zIndex: 2
+            }
+          }}
+        >
+          <Grid container size={12} justifyContent='center'>
+            {pokePNG && <img src={pokePNG} alt='Pikachu' style={{ height: 150, width: 150 }}/>}
+          </Grid>
+          <Grid size={12}>
+            <EvolutionLine below400={below400} matches={matches} evolutionLine={evolutionLine}/>
+          </Grid>
         </Grid>
         <Grid container size={12}>
-          <PokemonStats matches={matches} statsMax={statsMax} statsBase={statsBase}/>
+          <PokemonStats
+            matches={matches}
+            noiseAnimate={noiseAnimate}
+            statsMax={statsMax}
+            statsBase={statsBase}
+            whiteNoise={whiteNoise}
+          />
         </Grid>
       </Grid>
     </Grid>
