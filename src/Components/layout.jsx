@@ -3,11 +3,12 @@ import { useState } from 'react'
 import image from '../Images/pikachubby.gif'
 import InfoBox from './infoBox/infoBox'
 import Wheel from './wheel'
+import background from '../Images/nature2.jpg'
 
 export const Layout = ({ children }) => {
   const [wheelResult, setWheelResult] = useState(null)
 
-  return <Grid p={4} textAlign='center'>
+  return <Grid p={4} textAlign='center' sx={{ backgroundImage: `url(${background})` }}>
     <Typography variant='h3'>
       <img src={image} alt='Pikachu' style={{ height: 45 }}/>
         &nbsp;Pokemon Wheel
@@ -33,7 +34,8 @@ export const Layout = ({ children }) => {
           borderColor: 'divider',
           borderRadius: 2,
           p: 2,
-          textAlign: 'left'
+          textAlign: 'left',
+          backgroundColor: '#FF304F'
         }}
         container
         spacing={1}
