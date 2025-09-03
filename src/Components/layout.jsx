@@ -1,4 +1,4 @@
-import { Grid, Typography, useMediaQuery } from '@mui/material'
+import { Grid, Tab, Tabs, Typography, useMediaQuery } from '@mui/material'
 import { useState } from 'react'
 import background from '../Images/nature2.jpg'
 import InfoBox from './infoBox/infoBox'
@@ -6,7 +6,8 @@ import Wheel from './wheel'
 
 export const Layout = ({ children }) => {
   const [wheelResult, setWheelResult] = useState(null)
-  const below1105 = useMediaQuery('(max-width:1105px)')
+  const below1105 = useMediaQuery('(max-width:1103px)')
+  const [tabIndex, setTabIndex] = useState(0)
 
   return <Grid
     p={4}
@@ -38,17 +39,50 @@ export const Layout = ({ children }) => {
       <Grid
         size={{ xs: 12, md: 5 }}
         sx={{
-          border: '1px solid',
-          borderColor: 'divider',
+          border: '2px solid',
+          borderColor: 'black',
           borderRadius: 2,
           p: 2,
           textAlign: 'left',
-          backgroundColor: '#FF304F'
+          backgroundColor: '#FF304F',
+          position: 'relative'
         }}
         container
         spacing={1}
+        mt={below1105 ? 2 : 1}
       >
-        <InfoBox wheelResult={wheelResult}/>
+        <Tabs
+          value={tabIndex}
+          onChange={(_, newValue) => setTabIndex(newValue)}
+          textColor='inherit'
+          sx={{
+            position: 'absolute',
+            top: -30,
+            left: 8,
+            '& .MuiTab-root': {
+              backgroundColor: '#FF304F',
+              border: '2px solid',
+              borderColor: 'black',
+              borderBottom: 'none',
+              borderTopLeftRadius: 8,
+              borderTopRightRadius: 8,
+              mr: 1,
+              minHeight: 28,
+              minWidth: 'auto',
+              px: 1.5,
+              py: 0.5,
+              fontSize: '0.8rem'
+            },
+            '& .MuiTabs-indicator': {
+              display: 'none'
+            }
+          }}
+        >
+          <Tab label='Poke Info'/>
+          <Tab label='Poke Gens'/>
+          <Tab label='Poke Filters'/>
+        </Tabs>
+        {tabIndex === 0 && <InfoBox wheelResult={wheelResult}/>}
       </Grid>
     </Grid>
     {children}
