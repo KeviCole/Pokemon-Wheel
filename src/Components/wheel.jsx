@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useRef } from 'react'
+import { Grid } from '@mui/material'
 import { allPokemon } from '../Constants/pokemonData'
+import pikaGif from '../Images/pikachubby.gif'
 
 const colors = ['crimson', 'cyan', 'white']
 
@@ -285,9 +287,29 @@ const Wheel = ({ setWheelResult }) => {
     return () => cancelAnimationFrame(requestRef.current)
   }, [sliceCount, drawWheel])
 
-  return <canvas ref={canvasRef} width={600} height={600}>
-    {canvasText}
-  </canvas>
+  return <Grid
+    container
+    sx={{
+      position: 'relative',
+      display: 'inline-block'
+    }}
+  >
+    <canvas ref={canvasRef} width={600} height={600}>
+      {canvasText}
+    </canvas>
+
+    <img
+      src={pikaGif}
+      alt='pikachu'
+      style={{
+        position: 'absolute',
+        top: -45,
+        left: '50%',
+        transform: 'translateX(-50%)',
+        height: 45
+      }}
+    />
+  </Grid>
 }
 
 export default Wheel
