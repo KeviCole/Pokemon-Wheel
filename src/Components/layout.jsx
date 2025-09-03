@@ -3,11 +3,13 @@ import { useState } from 'react'
 import background from '../Images/nature2.jpg'
 import InfoBox from './infoBox/infoBox'
 import Wheel from './wheel'
+import GenerationBox from './infoBox/generation'
 
 export const Layout = ({ children }) => {
   const [wheelResult, setWheelResult] = useState(null)
-  const below1105 = useMediaQuery('(max-width:1103px)')
+  const [generation, setGeneration] = useState(1)
   const [tabIndex, setTabIndex] = useState(0)
+  const below1105 = useMediaQuery('(max-width:1103px)')
 
   return <Grid
     p={4}
@@ -32,7 +34,7 @@ export const Layout = ({ children }) => {
     >
       {/* Wheel */}
       <Grid size='auto'>
-        <Wheel setWheelResult={setWheelResult}/>
+        <Wheel generation={generation} setWheelResult={setWheelResult}/>
       </Grid>
 
       {/* Info Box */}
@@ -83,6 +85,7 @@ export const Layout = ({ children }) => {
           <Tab label='Poke Filters'/>
         </Tabs>
         {tabIndex === 0 && <InfoBox wheelResult={wheelResult}/>}
+        {tabIndex === 1 && <GenerationBox generation={generation} setGeneration={setGeneration}/>}
       </Grid>
     </Grid>
     {children}
