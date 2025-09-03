@@ -1,17 +1,24 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid, Typography, useMediaQuery } from '@mui/material'
 import { useState } from 'react'
-import image from '../Images/pikachubby.gif'
+import background from '../Images/nature2.jpg'
 import InfoBox from './infoBox/infoBox'
 import Wheel from './wheel'
-import background from '../Images/nature2.jpg'
 
 export const Layout = ({ children }) => {
   const [wheelResult, setWheelResult] = useState(null)
+  const below1105 = useMediaQuery('(max-width:1105px)')
 
-  return <Grid p={4} textAlign='center' sx={{ backgroundImage: `url(${background})` }}>
+  return <Grid
+    p={4}
+    textAlign='center'
+    sx={{
+      backgroundImage: `url(${background})`,
+      backgroundSize: '100% 100%',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center'
+    }}>
     <Typography variant='h3'>
-      <img src={image} alt='Pikachu' style={{ height: 45 }}/>
-        &nbsp;Pokemon Wheel
+      Pokemon Wheel
     </Typography>
 
     <Grid
@@ -20,6 +27,7 @@ export const Layout = ({ children }) => {
       spacing={2}
       justifyContent='center'
       alignItems='flex-start'
+      mt={below1105 ? 3 : 1}
     >
       {/* Wheel */}
       <Grid size='auto'>
