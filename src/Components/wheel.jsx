@@ -9,14 +9,14 @@ const canvasText = 'This is a random wheel built using canvas in order to random
 'play-through. In order to change values within the slice, see ' +
 'the tab of delimiting choices to the right in order to remove pokemon.'
 
-const Wheel = ({ setWheelResult }) => {
+const Wheel = ({ generation, setWheelResult }) => {
   const canvasRef = useRef(null)
   const angleRef = useRef(0)
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
   const isHoveringRef = useRef(false)
-  const gen1 = allPokemon.filter(pokemon => pokemon.generation === 1)
-  const sliceCount = gen1.length
+  const gen = allPokemon.filter(pokemon => pokemon.generation === generation)
+  const sliceCount = gen.length
   const innerR = 50 // Inner Radius
   const twoPI = 2 * Math.PI
 
@@ -49,8 +49,8 @@ const Wheel = ({ setWheelResult }) => {
     while (curr < twoPI) {
       const midAngle = (curr + next) / 2
 
-      const name = gen1[index % gen1.length].name
-      const label = `#${gen1[index % gen1.length].dexNum} ${name}`
+      const name = gen[index % gen.length].name
+      const label = `#${gen[index % gen.length].dexNum} ${name}`
 
       ctx.font = `${fontSize}px Arial`
       // Measures how wide the font will be
@@ -160,7 +160,7 @@ const Wheel = ({ setWheelResult }) => {
     ctx.lineTo(halfCW, pointer)
     ctx.fill()
     ctx.closePath()
-  }, [sliceCount, twoPI, gen1])
+  }, [sliceCount, twoPI, gen])
 
   const spin = useCallback(() => {
     // Checks if already spinning
@@ -207,7 +207,7 @@ const Wheel = ({ setWheelResult }) => {
 
         const index = Math.floor((sliceCount - (shifted / sliceAngle)) % sliceCount)
 
-        setWheelResult(gen1[index])
+        setWheelResult(gen[index])
       } else {
         requestRef.current = requestAnimationFrame(animateSpin)
       }
@@ -215,7 +215,7 @@ const Wheel = ({ setWheelResult }) => {
 
     cancelAnimationFrame(requestRef.current) // cancel slow spin
     requestRef.current = requestAnimationFrame(animateSpin)
-  }, [drawWheel, setWheelResult, sliceCount, twoPI, gen1])
+  }, [drawWheel, setWheelResult, sliceCount, twoPI, gen])
 
   useEffect(() => {
     const canvas = canvasRef.current
