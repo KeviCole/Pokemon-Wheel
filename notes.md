@@ -4,9 +4,8 @@ Bug where switching tabs mid wheel spin breaks the spin
 (Due to dependency change in wheel)
 
 To Do List
-1. Switch Out ID's to use map index
-2. Fix Evolution Line
-3. Added Pokemon Stats
-4. Implement rest of Pokemon Game PNG's
-5. Implement Pokemon Filter Via Game
-6. Fix Switching Tabs and Spin Error
+1. Fix Evolution Line
+2. Added Pokemon Stats
+3. Implement rest of Pokemon Game PNG's
+4. Implement Pokemon Filter Via Game
+5. Fix Switching Tabs and Spin Error
