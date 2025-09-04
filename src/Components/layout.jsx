@@ -1,15 +1,23 @@
-import { Grid, Tab, Tabs, Typography, useMediaQuery } from '@mui/material'
+import { Grid, keyframes, Tab, Tabs, Typography, useMediaQuery } from '@mui/material'
 import { useState } from 'react'
 import background from '../Images/nature2.jpg'
+import whiteNoise from '../Images/White-noise.png'
+import GenerationBox from './infoBox/generation'
 import InfoBox from './infoBox/infoBox'
 import Wheel from './wheel'
-import GenerationBox from './infoBox/generation'
 
 export const Layout = ({ children }) => {
   const [wheelResult, setWheelResult] = useState(null)
   const [generation, setGeneration] = useState(1)
   const [tabIndex, setTabIndex] = useState(0)
   const below1105 = useMediaQuery('(max-width:1103px)')
+  const noiseAnimate = keyframes`
+    0% { background-position: 0 0; }
+    25% { background-position: 20px -20px; }
+    50% { background-position: -20px 10px; }
+    75% { background-position: 10px 20px; }
+    100% { background-position: 0 0; }
+  `
 
   return <Grid
     p={4}
@@ -84,8 +92,17 @@ export const Layout = ({ children }) => {
           <Tab label='Poke Gens'/>
           <Tab label='Poke Filters'/>
         </Tabs>
-        {tabIndex === 0 && <InfoBox wheelResult={wheelResult}/>}
-        {tabIndex === 1 && <GenerationBox generation={generation} setGeneration={setGeneration}/>}
+        {tabIndex === 0 &&
+          <InfoBox wheelResult={wheelResult} whiteNoise={whiteNoise} noiseAnimate={noiseAnimate}/>
+        }
+        {tabIndex === 1 &&
+          <GenerationBox
+            generation={generation}
+            setGeneration={setGeneration}
+            whiteNoise={whiteNoise}
+            noiseAnimate={noiseAnimate}
+          />
+        }
       </Grid>
     </Grid>
     {children}
