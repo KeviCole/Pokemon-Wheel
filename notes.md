@@ -5,7 +5,7 @@ Bug where switching tabs mid wheel spin breaks the spin
 
 To Do List
 1. Fix Evolution Line
-2. Added Pokemon Stats
+2. Added Pokemon Stat
 3. Implement rest of Pokemon Game PNG's
 4. Implement Pokemon Filter Via Game
 5. Fix Switching Tabs and Spin Error
