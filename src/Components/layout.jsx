@@ -9,6 +9,7 @@ import Wheel from './wheel'
 export const Layout = ({ children }) => {
   const [wheelResult, setWheelResult] = useState(null)
   const [generation, setGeneration] = useState(1)
+  const [game, setGame] = useState(0)
   const [tabIndex, setTabIndex] = useState(0)
   const below1105 = useMediaQuery('(max-width:1103px)')
   const noiseAnimate = keyframes`
@@ -97,6 +98,8 @@ export const Layout = ({ children }) => {
         }
         {tabIndex === 1 &&
           <GenerationBox
+            game={game}
+            setGame={setGame}
             generation={generation}
             setGeneration={setGeneration}
             whiteNoise={whiteNoise}

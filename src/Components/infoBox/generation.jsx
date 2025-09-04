@@ -6,10 +6,14 @@ import {
   PokemonP,
   PokemonW2,
   PokemonX,
-  PokemonY
+  PokemonY,
+  PokemonHG,
+  PokemonSS,
+  PokemonB,
+  PokemonW
 } from '../../Images/games'
 
-export const GenerationBox = ({ generation, setGeneration, noiseAnimate, whiteNoise }) => {
+export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseAnimate, whiteNoise }) => {
   const generationArray = [
     'Generation 1',
     'Generation 2',
@@ -22,14 +26,18 @@ export const GenerationBox = ({ generation, setGeneration, noiseAnimate, whiteNo
     'Generation 9'
   ]
   const logos = [
-    { id: 0, images: [PokemonX, PokemonY], names: ['PokemonX', 'PokemonY'] },
-    { id: 1, images: [PokemonW2, PokemonB2], names: ['PokemonW2', 'PokemonB2'] },
-    { id: 2, images: [PokemonD, PokemonP], names: ['Pokemon Diamond', 'Pokemon Pearl'] }
+    { id: 0, images: [PokemonHG, PokemonSS], names: ['Pokemon HG', 'Pokemon SS'] },
+    { id: 1, images: [PokemonD, PokemonP], names: ['Pokemon Diamond', 'Pokemon Pearl'] },
+    { id: 2, images: [PokemonW, PokemonB], names: ['Pokemon White', 'Pokemon Black'] },
+    { id: 3, images: [PokemonW2, PokemonB2], names: ['PokemonW2', 'PokemonB2'] },
+    { id: 4, images: [PokemonX, PokemonY], names: ['PokemonX', 'PokemonY'] }
   ]
   const half = Math.ceil(logos.length / 2)
   const firstLogos = logos.slice(0, half)
   const secondLogos = logos.slice(half)
   const [isHovered, setIsHovered] = useState(null)
+  const checkGold = id => isHovered === id || game === id ? 'gold' : 'silver'
+
   return <Grid container size={12} spacing={2}>
     <Select
       label='Generation'
@@ -87,7 +95,7 @@ export const GenerationBox = ({ generation, setGeneration, noiseAnimate, whiteNo
         flexWrap: 'nowrap',
         overflowX: 'auto',
         gap: 1,
-        backgroundColor: isHovered === logo.id ? 'gold' : 'silver',
+        backgroundColor: checkGold(logo.id),
         border: '2px solid',
         borderColor: 'black',
         borderRadius: 2,
@@ -110,6 +118,7 @@ export const GenerationBox = ({ generation, setGeneration, noiseAnimate, whiteNo
       }}
       onMouseEnter={() => setIsHovered(logo.id)}
       onMouseLeave={() => setIsHovered(null)}
+      onClick={() => setGame(logo.id)}
     >
       <img src={logo.images[0]} alt='Pokemon X' style={{ height: 40 }}/>
       <img src={logo.images[1]} alt='Pokemon Y' style={{ height: 40 }}/>
@@ -127,7 +136,7 @@ export const GenerationBox = ({ generation, setGeneration, noiseAnimate, whiteNo
         flexWrap: 'nowrap',
         overflowX: 'auto',
         gap: 1,
-        backgroundColor: isHovered === logo.id ? 'gold' : 'silver',
+        backgroundColor: checkGold(logo.id),
         border: '2px solid',
         borderColor: 'black',
         borderRadius: 2,
@@ -151,6 +160,7 @@ export const GenerationBox = ({ generation, setGeneration, noiseAnimate, whiteNo
       }}
       onMouseEnter={() => setIsHovered(logo.id)}
       onMouseLeave={() => setIsHovered(null)}
+      onClick={() => setGame(logo.id)}
     >
       <img src={logo.images[0]} alt='Pokemon X' style={{ height: 40 }}/>
       <img src={logo.images[1]} alt='Pokemon Y' style={{ height: 40 }}/>
