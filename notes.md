@@ -9,3 +9,4 @@ To Do List
 3. Implement rest of Pokemon Game PNG's
 4. Implement Pokemon Filter Via Game
 5. Fix Switching Tabs and Spin Error
+6. Fix Tab Width on Phone
