@@ -10,3 +10,5 @@ To Do List
 4. Implement Pokemon Filter Via Game
 5. Fix Switching Tabs and Spin Error
 6. Fix Tab Width on Phone
+7. Fix the slight height change when types get stacked
+8. Add comments to Bash Script and allPokemon Script

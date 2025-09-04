@@ -1,6 +1,7 @@
 #!/bin/bash
 # This script needs to be in the same directory as the images
 # Define the array (copy-paste from your JS file just remove export/const)
+# cSpell:disable
 pokemonNames=(
   "Bulbasaur"
   "Ivysaur"
