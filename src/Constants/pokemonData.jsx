@@ -1,4 +1,4 @@
-// cspell: disable
+// cSpell: disable
 export const allPokemon = [
   {
     'name': 'Bulbasaur',
@@ -197,7 +197,7 @@ export const allPokemon = [
     'generation': 1
   },
   {
-    'name': 'Nidoran♀',
+    'name': 'Nidoran-f',
     'type1': 'Poison',
     'type2': null,
     'dexNum': '29',
@@ -218,7 +218,7 @@ export const allPokemon = [
     'generation': 1
   },
   {
-    'name': 'Nidoran♂',
+    'name': 'Nidoran-m',
     'type1': 'Poison',
     'type2': null,
     'dexNum': '32',
@@ -575,7 +575,7 @@ export const allPokemon = [
     'generation': 1
   },
   {
-    'name': 'Farfetch\'d',
+    'name': 'Farfetchd',
     'type1': 'Normal',
     'type2': 'Flying',
     'dexNum': '83',
