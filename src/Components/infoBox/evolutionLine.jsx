@@ -6,7 +6,7 @@ export const EvolutionLine = ({ below400, matches, evolutionLine }) =>
   <Grid container alignItems='center' justifyContent='center' spacing={matches ? 1 : 2}>
     {evolutionLine.map((stage, i) => (
       <React.Fragment key={i}>
-        <Grid>
+        <Grid mb={stage.name ? 0 : 1}>
           <img src={stage.image} alt={stage.name} width={below400 ? 30 : 40} height={below400 ? 30 : 40}/>
         </Grid>
         {i < evolutionLine.length - 1 && <ArrowRightAltIcon fontSize='large'/>}

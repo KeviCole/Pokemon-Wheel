@@ -1,0 +1,6 @@
+export { default as PokemonX } from './Pokemon_X.webp'
+export { default as PokemonY } from './Pokemon_Y.webp'
+export { default as PokemonB2 } from './Pokemon_Black_2.webp'
+export { default as PokemonW2 } from './Pokemon_White_2.webp'
+export { default as PokemonD } from './Pokemon_Diamond.webp'
+export { default as PokemonP } from './Pokemon_Pearl.webp'

@@ -1,11 +1,10 @@
-import { Grid, keyframes, useMediaQuery } from '@mui/material'
+import { Grid, useMediaQuery } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
 import { getPokemonImage, getTypeImage } from '../../Constants/pokemonImage'
 import blankQuestion from '../../Images/Black_question_mark.png'
-import whiteNoise from '../../Images/White-noise.png'
 import { EvolutionLine, PokemonSelection, PokemonStats, TitleBar } from '../infoBox'
 
-export const InfoBox = ({ wheelResult }) => {
+export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
   // Stored Chosen Pokemon
   const [listPokemon, setListPokemon] = useState([
     { id: 0 },
@@ -42,6 +41,7 @@ export const InfoBox = ({ wheelResult }) => {
       )
     }
   }, [wheelResult])
+
   // Pulls pokemon data
   const {
     name: pokeName,
@@ -79,14 +79,6 @@ export const InfoBox = ({ wheelResult }) => {
     { id: 4, image: blankQuestion },
     { id: 5, image: blankQuestion }
   ])
-
-  const noiseAnimate = keyframes`
-    0% { background-position: 0 0; }
-    25% { background-position: 20px -20px; }
-    50% { background-position: -20px 10px; }
-    75% { background-position: 10px 20px; }
-    100% { background-position: 0 0; }
-  `
 
   return <>
     <Grid
