@@ -12,3 +12,4 @@ To Do List
 6. Fix Tab Width on Phone
 7. Fix the slight height change when types get stacked
 8. Add comments to Bash Script and allPokemon Script
+9. Fix Background Image, doesn't work on full screen
