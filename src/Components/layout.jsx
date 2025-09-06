@@ -29,7 +29,18 @@ export const Layout = ({ children }) => {
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center'
     }}>
-    <Typography variant='h3'>
+    <Typography
+      variant='h3'
+      p={1}
+      mb={2}
+      sx={{
+        backgroundColor: 'white',
+        display: 'inline-block',
+        border: '2px solid',
+        borderRadius: 4,
+        borderColor: 'black'
+      }}
+    >
       Pokemon Wheel
     </Typography>
 
