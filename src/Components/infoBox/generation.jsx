@@ -1,40 +1,11 @@
-import { Divider, Grid, MenuItem, Select } from '@mui/material'
+import { Divider, Grid, MenuItem, Select, Tooltip } from '@mui/material'
 import { useState } from 'react'
-import {
-  PokemonB2,
-  PokemonD,
-  PokemonP,
-  PokemonW2,
-  PokemonX,
-  PokemonY,
-  PokemonHG,
-  PokemonSS,
-  PokemonB,
-  PokemonW
-} from '../../Images/games'
+import { gameLogos, generationArray } from '../../Constants/pokemonGenLogos'
 
 export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseAnimate, whiteNoise }) => {
-  const generationArray = [
-    'Generation 1',
-    'Generation 2',
-    'Generation 3',
-    'Generation 4',
-    'Generation 5',
-    'Generation 6',
-    'Generation 7',
-    'Generation 8',
-    'Generation 9'
-  ]
-  const logos = [
-    { id: 0, images: [PokemonHG, PokemonSS], names: ['Pokemon HG', 'Pokemon SS'] },
-    { id: 1, images: [PokemonD, PokemonP], names: ['Pokemon Diamond', 'Pokemon Pearl'] },
-    { id: 2, images: [PokemonW, PokemonB], names: ['Pokemon White', 'Pokemon Black'] },
-    { id: 3, images: [PokemonW2, PokemonB2], names: ['PokemonW2', 'PokemonB2'] },
-    { id: 4, images: [PokemonX, PokemonY], names: ['PokemonX', 'PokemonY'] }
-  ]
-  const half = Math.ceil(logos.length / 2)
-  const firstLogos = logos.slice(0, half)
-  const secondLogos = logos.slice(half)
+  const half = Math.ceil(gameLogos.length / 2)
+  const firstGameLogos = gameLogos.slice(0, half)
+  const secondGameLogos = gameLogos.slice(half)
   const [isHovered, setIsHovered] = useState(null)
   const checkGold = id => isHovered === id || game === id ? 'gold' : 'silver'
 
@@ -49,12 +20,8 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
         border: '2px solid',
         borderColor: 'black',
         borderRadius: 2,
-        '& .MuiOutlinedInput-notchedOutline': {
-          border: 'none'
-        },
         position: 'relative',
         overflow: 'hidden',
-
         '&::before': {
           content: '""',
           position: 'absolute',
@@ -68,6 +35,9 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
           pointerEvents: 'none',
           animation: `${noiseAnimate} 0.25s infinite steps(4)`,
           zIndex: 2
+        },
+        '& .MuiOutlinedInput-notchedOutline': {
+          border: 'none'
         }
       }}
     >
@@ -83,88 +53,108 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
       }}
       />
     </Grid>
-    {firstLogos.map((logo) => <Grid
-      container
-      justifyContent='space-evenly'
-      size={6}
-      pt={1}
-      pb={1}
-      key={logo.id}
-      sx={{
-        display: 'flex',
-        flexWrap: 'nowrap',
-        overflowX: 'auto',
-        gap: 1,
-        backgroundColor: checkGold(logo.id),
-        border: '2px solid',
-        borderColor: 'black',
-        borderRadius: 2,
-        position: 'relative',
-        cursor: 'pointer',
-        '&::before': {
-          content: '""',
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundImage: `url(${whiteNoise})`,
-          backgroundRepeat: 'repeat',
-          opacity: '10%',
-          pointerEvents: 'none',
-          animation: `${noiseAnimate} 0.25s infinite steps(4)`,
-          zIndex: 2
-        }
-      }}
-      onMouseEnter={() => setIsHovered(logo.id)}
-      onMouseLeave={() => setIsHovered(null)}
-      onClick={() => setGame(logo.id)}
-    >
-      <img src={logo.images[0]} alt='Pokemon X' style={{ height: 40 }}/>
-      <img src={logo.images[1]} alt='Pokemon Y' style={{ height: 40 }}/>
-    </Grid>
+    {firstGameLogos.map((logo) =>
+      <Tooltip
+        title={`${logo.names[0]} ${logo.names.length > 1 ? `& ${logo.names[1].split('Pokemon ')[1]}` : ''}`}
+        slotProps={{ popper: { modifiers: [{ name: 'offset', options: { offset: [0, -16] } }] } }}
+        arrow
+        disableInteractive
+      >
+        <Grid
+          container
+          justifyContent='space-evenly'
+          size={6}
+          pt={1}
+          pb={1}
+          key={logo.id}
+          sx={{
+            display: 'flex',
+            flexWrap: 'nowrap',
+            overflowX: 'auto',
+            gap: 1,
+            backgroundColor: checkGold(logo.id),
+            border: '2px solid',
+            borderColor: 'black',
+            borderRadius: 2,
+            position: 'relative',
+            cursor: 'pointer',
+            '&::before': {
+              content: '""',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              backgroundImage: `url(${whiteNoise})`,
+              backgroundRepeat: 'repeat',
+              opacity: '10%',
+              pointerEvents: 'none',
+              animation: `${noiseAnimate} 0.25s infinite steps(4)`,
+              zIndex: 2
+            }
+          }}
+          onMouseEnter={() => setIsHovered(logo.id)}
+          onMouseLeave={() => setIsHovered(null)}
+          onClick={() => setGame(logo.id)}
+        >
+          <img src={logo.images[0]} alt={logo.names[0]} style={{ height: 40 }}/>
+          {logo.images.length > 1 &&
+            <img src={logo.images[1]} alt={logo.names[1]} style={{ height: 40 }}/>
+          }
+        </Grid>
+      </Tooltip>
     )}
-    {secondLogos.map((logo) => <Grid
-      container
-      justifyContent='space-evenly'
-      size={6}
-      pt={1}
-      pb={1}
-      key={logo.id}
-      sx={{
-        display: 'flex',
-        flexWrap: 'nowrap',
-        overflowX: 'auto',
-        gap: 1,
-        backgroundColor: checkGold(logo.id),
-        border: '2px solid',
-        borderColor: 'black',
-        borderRadius: 2,
-        position: 'relative',
-        overflow: 'hidden',
-        cursor: 'pointer',
-        '&::before': {
-          content: '""',
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundImage: `url(${whiteNoise})`,
-          backgroundRepeat: 'repeat',
-          opacity: '10%',
-          pointerEvents: 'none',
-          animation: `${noiseAnimate} 0.25s infinite steps(4)`,
-          zIndex: 2
-        }
-      }}
-      onMouseEnter={() => setIsHovered(logo.id)}
-      onMouseLeave={() => setIsHovered(null)}
-      onClick={() => setGame(logo.id)}
-    >
-      <img src={logo.images[0]} alt='Pokemon X' style={{ height: 40 }}/>
-      <img src={logo.images[1]} alt='Pokemon Y' style={{ height: 40 }}/>
-    </Grid>
+    {secondGameLogos.map((logo) =>
+      <Tooltip
+        title={`${logo.names[0]} ${logo.names.length > 1 ? `& ${logo.names[1].split('Pokemon ')[1]}` : ''}`}
+        slotProps={{ popper: { modifiers: [{ name: 'offset', options: { offset: [0, -16] } }] } }}
+        arrow
+        disableInteractive
+      >
+        <Grid
+          container
+          justifyContent='space-evenly'
+          size={6}
+          pt={1}
+          pb={1}
+          key={logo.id}
+          sx={{
+            display: 'flex',
+            flexWrap: 'nowrap',
+            overflowX: 'auto',
+            gap: 1,
+            backgroundColor: checkGold(logo.id),
+            border: '2px solid',
+            borderColor: 'black',
+            borderRadius: 2,
+            position: 'relative',
+            overflow: 'hidden',
+            cursor: 'pointer',
+            '&::before': {
+              content: '""',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              backgroundImage: `url(${whiteNoise})`,
+              backgroundRepeat: 'repeat',
+              opacity: '10%',
+              pointerEvents: 'none',
+              animation: `${noiseAnimate} 0.25s infinite steps(4)`,
+              zIndex: 2
+            }
+          }}
+          onMouseEnter={() => setIsHovered(logo.id)}
+          onMouseLeave={() => setIsHovered(null)}
+          onClick={() => setGame(logo.id)}
+        >
+          <img src={logo.images[0]} alt={logo.names[0]} style={{ height: 40 }}/>
+          {logo.images.length > 1 &&
+            <img src={logo.images[1]} alt={logo.names[1]} style={{ height: 40 }}/>
+          }
+        </Grid>
+      </Tooltip>
     )}
   </Grid>
 }
