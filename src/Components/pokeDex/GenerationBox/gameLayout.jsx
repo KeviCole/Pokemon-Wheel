@@ -20,6 +20,7 @@ export const GameLayout = ({
     pt={1}
     pb={1}
     key={id}
+    height='fit-content'
     sx={{
       display: 'flex',
       flexWrap: 'nowrap',
