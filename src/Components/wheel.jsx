@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef } from 'react'
 import { Grid } from '@mui/material'
 import { allPokemon } from '../Constants/pokemonData'
-import pikaGif from '../Images/pikachubby.gif'
+import { PikaChubby } from '../Images/misc'
 
 const colors = ['crimson', 'cyan', 'white']
 
@@ -299,8 +299,8 @@ const Wheel = ({ generation, setWheelResult }) => {
     </canvas>
 
     <img
-      src={pikaGif}
-      alt='pikachu'
+      src={PikaChubby}
+      alt='Pikachu Run'
       style={{
         position: 'absolute',
         top: -45,

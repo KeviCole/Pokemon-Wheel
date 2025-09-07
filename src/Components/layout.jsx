@@ -1,9 +1,7 @@
 import { Grid, keyframes, Tab, Tabs, Typography, useMediaQuery } from '@mui/material'
 import { useState } from 'react'
-import background from '../Images/nature2.jpg'
-import whiteNoise from '../Images/White-noise.png'
-import GenerationBox from './infoBox/generation'
-import InfoBox from './infoBox/infoBox'
+import { Background, WhiteNoise } from '../Images/misc'
+import { GenerationBox, InfoBox } from './pokeDex'
 import Wheel from './wheel'
 
 export const Layout = ({ children }) => {
@@ -24,7 +22,7 @@ export const Layout = ({ children }) => {
     p={4}
     textAlign='center'
     sx={{
-      backgroundImage: `url(${background})`,
+      backgroundImage: `url(${Background})`,
       backgroundSize: '100% 100%',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center'
@@ -105,7 +103,7 @@ export const Layout = ({ children }) => {
           <Tab label='Poke Filters'/>
         </Tabs>
         {tabIndex === 0 &&
-          <InfoBox wheelResult={wheelResult} whiteNoise={whiteNoise} noiseAnimate={noiseAnimate}/>
+          <InfoBox wheelResult={wheelResult} whiteNoise={WhiteNoise} noiseAnimate={noiseAnimate}/>
         }
         {tabIndex === 1 &&
           <GenerationBox
@@ -113,7 +111,7 @@ export const Layout = ({ children }) => {
             setGame={setGame}
             generation={generation}
             setGeneration={setGeneration}
-            whiteNoise={whiteNoise}
+            whiteNoise={WhiteNoise}
             noiseAnimate={noiseAnimate}
           />
         }

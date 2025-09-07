@@ -1,5 +1,5 @@
 import { Box, Grid, Typography } from '@mui/material'
-import { StatBar } from '../../infoBox'
+import { StatBar } from '../..'
 
 export const PokemonStats = ({ matches, noiseAnimate, statsBase, statsMax, whiteNoise }) => {
   const totalBase = statsBase.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
