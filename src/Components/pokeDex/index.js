@@ -1,0 +1,8 @@
+export { default as GameLayout } from './GenerationBox/gameLayout'
+export { default as GenerationBox } from './GenerationBox/generation'
+export { default as EvolutionLine } from './InfoBox/evolutionLine'
+export { default as InfoBox } from './InfoBox/infoBox'
+export { default as PokemonSelection } from './InfoBox/pokemonSelection'
+export { default as PokemonStats } from './InfoBox/Stats/pokemonStats'
+export { default as StatBar } from './InfoBox/Stats/pokeStatBar'
+export { default as TitleBar } from './InfoBox/titleBar'

@@ -1,8 +1,8 @@
 import { Grid, useMediaQuery } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
-import { getPokemonImage, getTypeImage } from '../../Constants/pokemonImage'
-import blankQuestion from '../../Images/Black_question_mark.png'
-import { EvolutionLine, PokemonSelection, PokemonStats, TitleBar } from '../infoBox'
+import { getPokemonImage, getTypeImage } from '../../../Constants/pokemonImage'
+import { QuestionMark } from '../../../Images/misc'
+import { EvolutionLine, PokemonSelection, PokemonStats, TitleBar } from '..'
 
 export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
   // Stored Chosen Pokemon
@@ -65,19 +65,19 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
 
   // Current Pokemon's Evolutions
   const evolutionLine = [
-    { name: pokeName, image: pokePNG ?? blankQuestion },
-    { name: pokeName, image: pokePNG ?? blankQuestion },
-    { name: pokeName, image: pokePNG ?? blankQuestion }
+    { name: pokeName, image: pokePNG ?? QuestionMark },
+    { name: pokeName, image: pokePNG ?? QuestionMark },
+    { name: pokeName, image: pokePNG ?? QuestionMark }
   ]
 
   // List of Images in the Slots
   const [images, setImages] = useState([
-    { id: 0, image: blankQuestion },
-    { id: 1, image: blankQuestion },
-    { id: 2, image: blankQuestion },
-    { id: 3, image: blankQuestion },
-    { id: 4, image: blankQuestion },
-    { id: 5, image: blankQuestion }
+    { id: 0, image: QuestionMark },
+    { id: 1, image: QuestionMark },
+    { id: 2, image: QuestionMark },
+    { id: 3, image: QuestionMark },
+    { id: 4, image: QuestionMark },
+    { id: 5, image: QuestionMark }
   ])
 
   return <>
