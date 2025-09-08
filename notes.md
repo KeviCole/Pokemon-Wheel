@@ -9,8 +9,10 @@ To Do List
 3. Implement Pokemon Filter Via Game
 4. Fix Switching Tabs and Spin Error
 5. Fix Tab Width on Phone
-6. Fix the slight height change when types get stacked
-7. Add comments to Bash Script and allPokemon Script
-8. Fix Background Image, doesn't work on full screen
-9. Page After 10 Games (i.e flip between pages for games)
-10. Fix BD and SP Game PNG's (remove white background or new logos)
+6. Add comments to Bash Script and allPokemon Script
+7. Fix Background Image, doesn't work on full screen
+8. Page After 10 Games (i.e flip between pages for games)
+9. Fix BD and SP Game PNG's (remove white background or new logos)
+10. Add Move Selection Page on InfoBox
+11. Add Question Mark as main Pokemon Image PNG
+12. Add Arrow Key Up and Down when switching between pokemon selection
