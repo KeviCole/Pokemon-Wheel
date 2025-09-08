@@ -55,8 +55,7 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
       }
     </Select>
     <Grid size={12}>
-      <Divider sx={{ border: '1px solid', borderColor: 'black', borderRadius: 1 }}
-      />
+      <Divider sx={{ border: '1px solid', borderColor: 'black', borderRadius: 1 }}/>
     </Grid>
     <Grid container size={12} sx={{ minHeight: '375px' }}>
       {gameLogoPages[page].map((logo) => (

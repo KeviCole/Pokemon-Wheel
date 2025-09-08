@@ -12,8 +12,10 @@ export const TitleBar = ({
   pokeType2Image,
   whiteNoise
 }) => <Grid
+  container
   size={12}
   p={1}
+  alignItems='center'
   sx={{
     border: '2px solid',
     borderColor: 'black',
@@ -21,6 +23,7 @@ export const TitleBar = ({
     backgroundColor: 'silver',
     position: 'relative',
     overflow: 'hidden',
+    minHeight: '68px',
     '&::before': {
       content: '""',
       position: 'absolute',
