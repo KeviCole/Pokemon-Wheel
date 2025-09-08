@@ -17,7 +17,7 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
     3: thirdGameLogos
   }
 
-  return <Grid container size={12} spacing={2} justifyContent='flex-start' sx={{ minHeight: '70dvh' }}>
+  return <Grid container size={12} spacing={2} justifyContent='flex-start' sx={{ minHeight: '500px' }}>
     <Select
       label='Generation'
       value={generation}
@@ -58,7 +58,7 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
       <Divider sx={{ border: '1px solid', borderColor: 'black', borderRadius: 1 }}
       />
     </Grid>
-    <Grid container size={12} sx={{ minHeight: '50vh' }}>
+    <Grid container size={12} sx={{ minHeight: '375px' }}>
       {gameLogoPages[page].map((logo) => (
         <GameLayout
           key={logo.id}
