@@ -14,5 +14,3 @@ To Do List
 8. Page After 10 Games (i.e flip between pages for games)
 9. Fix BD and SP Game PNG's (remove white background or new logos)
 10. Add Move Selection Page on InfoBox
-11. Add Question Mark as main Pokemon Image PNG
-12. Add Arrow Key Up and Down when switching between pokemon selection
