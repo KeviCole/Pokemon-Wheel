@@ -289,10 +289,7 @@ const Wheel = ({ generation, setWheelResult }) => {
 
   return <Grid
     container
-    sx={{
-      position: 'relative',
-      display: 'inline-block'
-    }}
+    sx={{ position: 'relative', display: 'inline-block' }}
   >
     <canvas ref={canvasRef} width={600} height={600}>
       {canvasText}

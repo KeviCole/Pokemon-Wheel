@@ -1,5 +1,5 @@
 import { Grid, keyframes, Tab, Tabs, Typography, useMediaQuery } from '@mui/material'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Background, WhiteNoise } from '../Images/misc'
 import { GenerationBox, InfoBox } from './pokeDex'
 import Wheel from './wheel'
@@ -17,6 +17,24 @@ export const Layout = ({ children }) => {
     75% { background-position: 10px 20px; }
     100% { background-position: 0 0; }
   `
+  useEffect(() => {
+    const handleKeyPress = (event) => {
+      event.preventDefault()
+      const { key } = event
+      setTabIndex(prev => {
+        if (key === 'ArrowLeft' && prev !== 0) {
+          return prev - 1
+        }
+        if (key === 'ArrowRight' && prev !== 2) {
+          return prev + 1
+        }
+        return prev
+      })
+    }
+
+    window.addEventListener('keydown', handleKeyPress)
+    return () => window.removeEventListener('keydown', handleKeyPress)
+  }, [setTabIndex])
 
   return <Grid
     p={4}
