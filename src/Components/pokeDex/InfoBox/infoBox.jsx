@@ -158,7 +158,9 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
           }}
         >
           <Grid container size={12} justifyContent='center'>
-            {pokePNG && <img src={pokePNG} alt='Pikachu' style={{ height: 150, width: 150 }}/>}
+            {pokePNG ? <img src={pokePNG} alt={pokeName} style={{ height: 150, width: 150 }}/> :
+              <img src={QuestionMark} alt='QuestionMark' style={{ height: 142, width: 142 }}/>
+            }
           </Grid>
           <Grid size={12}>
             <EvolutionLine below400={below400} matches={matches} evolutionLine={evolutionLine}/>
