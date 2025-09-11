@@ -1,6 +1,5 @@
 #!/bin/bash
 # This script needs to be in the same directory as the images
-# Define the array (copy-paste from your JS file just remove export/const)
 # cSpell:disable
 pokemonNames=(
   "Bulbasaur"
@@ -1034,21 +1033,24 @@ pokemonNames=(
 i=1
 
 for name in "${pokemonNames[@]}"; do
-  # Format the number as 3 digits with leading zeros
+  # padStart equivalent
   num=$(printf "%03d" $i)
 
-  # Find the current file that starts with this number (e.g. 001-*.png)
+  # Finds file that starts with # and ends in .png, otherwise 2>/dev/null hides error
   file=$(ls "${num}-"*.png 2>/dev/null)
 
   if [[ -n "$file" ]]; then
-    # Extract current name part
+    # Strips # from filename
     currentName=${file#${num}-}
+    # Strips .png from filename
     currentName=${currentName%.png}
 
-    # Only rename if different
+    # Checks if fileNames are different
     if [[ "$currentName" != "$name" ]]; then
+      # Renames File
       newFile="${num}-${name}.png"
       echo "Renaming: $file → $newFile"
+      # Overwrites File Name (asks if its different)
       mv -i "$file" "$newFile"
     fi
   fi
