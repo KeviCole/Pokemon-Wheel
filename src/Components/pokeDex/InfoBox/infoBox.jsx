@@ -51,8 +51,7 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
     pokePNG,
     pokeType1Image,
     pokeType2Image,
-    checkSteelType1 = type1 === 'Steel',
-    checkSteelType2 = type2 === 'Steel'
+    evolutionLine
   } = listPokemon[currentPokemon] ?? {}
 
   // Stats and Responsive Checks
@@ -64,11 +63,21 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
   const matches = below500 || betweenMdAnd1100
 
   // Current Pokemon's Evolutions
-  const evolutionLine = [
-    { name: pokeName, image: pokePNG ?? QuestionMark },
-    { name: pokeName, image: pokePNG ?? QuestionMark },
-    { name: pokeName, image: pokePNG ?? QuestionMark }
+  const buildEvolutionLine = (evoLine) => evoLine.flatMap(evo =>
+    Array.isArray(evo)
+      ? buildEvolutionLine(evo)
+      : {
+        name: evo.name,
+        image: getPokemonImage(evo.name)
+      }
+  )
+
+  const backUpEvolutionLine = [
+    { name: '', image: QuestionMark },
+    { name: '', image: QuestionMark },
+    { name: '', image: QuestionMark }
   ]
+  const newEvolutionLine = evolutionLine ? buildEvolutionLine(evolutionLine) : backUpEvolutionLine
 
   // List of Images in the Slots
   const [images, setImages] = useState([
@@ -120,14 +129,14 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
       <Grid container size={12} display='flex' flexDirection='column' spacing={1}>
         <TitleBar
           below400={below400}
-          checkSteelType1={checkSteelType1}
-          checkSteelType2={checkSteelType2}
           matches={matches}
           noiseAnimate={noiseAnimate}
           pokeDexNum={pokeDexNum ?? '?'}
           pokeName={pokeName ?? 'Unknown'}
           pokeType1Image={pokeType1Image}
           pokeType2Image={pokeType2Image}
+          type1={type1}
+          type2={type2}
           whiteNoise={whiteNoise}
         />
         <Grid
@@ -163,7 +172,7 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
             }
           </Grid>
           <Grid size={12}>
-            <EvolutionLine below400={below400} matches={matches} evolutionLine={evolutionLine}/>
+            <EvolutionLine below400={below400} matches={matches} evolutionLine={newEvolutionLine ?? []}/>
           </Grid>
         </Grid>
         <Grid container size={12}>
