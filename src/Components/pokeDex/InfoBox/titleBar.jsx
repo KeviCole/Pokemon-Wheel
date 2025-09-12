@@ -1,15 +1,17 @@
-import { Box, Grid, Typography } from '@mui/material'
+import { Box, Grid, Tooltip, Typography } from '@mui/material'
 
 export const TitleBar = ({
   below400,
-  checkSteelType1,
-  checkSteelType2,
   matches,
   noiseAnimate,
   pokeDexNum,
   pokeName,
   pokeType1Image,
   pokeType2Image,
+  type1,
+  type2,
+  checkSteelType1 = type1 === 'Steel',
+  checkSteelType2 = type2 === 'Steel',
   whiteNoise
 }) => <Grid
   container
@@ -67,26 +69,40 @@ export const TitleBar = ({
       pr={1}
     >
       {pokeType1Image &&
-        <img
-          src={pokeType1Image}
-          alt='Type1'
-          style={
-            matches ?
-              { width: 40, height: checkSteelType1 ? 13 : 15 } :
-              { width: 50, height: checkSteelType1 ? 18 : 20, marginTop: checkSteelType1 ? 1 : 0 }
-          }
-        />
+        <Tooltip
+          title={`${type1} Type`}
+          slotProps={{ popper: { modifiers: [{ name: 'offset', options: { offset: [0, -10] } }] } }}
+          arrow
+          disableInteractive
+        >
+          <img
+            src={pokeType1Image}
+            alt='Type1'
+            style={
+              matches ?
+                { width: 40, height: checkSteelType1 ? 13 : 15 } :
+                { width: 50, height: checkSteelType1 ? 18 : 20, marginTop: checkSteelType1 ? 1 : 0 }
+            }
+          />
+        </Tooltip>
       }
       {pokeType2Image &&
-        <img
-          src={pokeType2Image}
-          alt='Type2'
-          style={
-            matches ?
-              { width: 40, height: checkSteelType2 ? 13 : 15 } :
-              { width: 50, height: checkSteelType2 ? 18 : 20, marginTop: checkSteelType2 ? 1 : 0 }
-          }
-        />
+        <Tooltip
+          title={`${type2} Type`}
+          slotProps={{ popper: { modifiers: [{ name: 'offset', options: { offset: [0, -10] } }] } }}
+          arrow
+          disableInteractive
+        >
+          <img
+            src={pokeType2Image}
+            alt='Type2'
+            style={
+              matches ?
+                { width: 40, height: checkSteelType2 ? 13 : 15 } :
+                { width: 50, height: checkSteelType2 ? 18 : 20, marginTop: checkSteelType2 ? 1 : 0 }
+            }
+          />
+        </Tooltip>
       }
     </Grid>
   </Grid>

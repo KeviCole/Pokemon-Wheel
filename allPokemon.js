@@ -32,7 +32,6 @@ async function getPokemon(id) {
       console.error(`❌ Failed to fetch Pokémon #${id} (${res.status})`)
       return null
     }
-    // Receives the Pokemon's data JSON
     const data = await res.json()
 
     // Requests HTTP request from url in received data
@@ -43,18 +42,46 @@ async function getPokemon(id) {
     }
     const species = await speciesRes.json()
 
+    // Evolution chain fetch
+    let evolutionLine = []
+    if (species.evolution_chain?.url) {
+      try {
+        const evoRes = await fetch(species.evolution_chain.url)
+        const evoData = await evoRes.json()
+
+        // Recursively parse chain into nested arrays
+        function parseChain(chain) {
+          const current = { name: capitalize(chain.species.name) }
+          if (chain.evolves_to.length === 0) {
+            return current
+          }
+          if (chain.evolves_to.length === 1) {
+            return [current, parseChain(chain.evolves_to[0])]
+          }
+          // branching case
+          return [current, chain.evolves_to.map(parseChain)]
+        }
+
+        evolutionLine = parseChain(evoData.chain)
+      } catch (err) {
+        console.error(`❌ Failed to fetch evolution chain for #${id}:`, err.message)
+      }
+    }
+
     return {
       name: capitalize(data.name),
       type1: capitalize(data.types[0]?.type.name || ''),
       type2: data.types[1] ? capitalize(data.types[1].type.name) : null,
       dexNum: id.toString(),
-      generation: genMap[species.generation.name]
+      generation: genMap[species.generation.name],
+      evolutionLine
     }
   } catch (err) {
     console.error(`❌ Error fetching Pokémon #${id}:`, err.message)
     return null
   }
 }
+
 
 async function getAllPokemon() {
   // Array of id's up to max dex
