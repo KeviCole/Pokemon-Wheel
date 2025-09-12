@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Grid } from '@mui/material'
 import { allPokemon } from '../Constants/pokemonData'
 import { PikaChubby } from '../Images/misc'
@@ -15,7 +15,12 @@ const Wheel = ({ generation, setWheelResult }) => {
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
   const isHoveringRef = useRef(false)
-  const gen = allPokemon.filter(pokemon => pokemon.generation === generation)
+  const [gen, setGen] = useState(allPokemon.filter(pokemon => pokemon.generation === generation))
+
+  useEffect(() => {
+    setGen(allPokemon.filter(pokemon => pokemon.generation === generation))
+  }, [generation])
+
   const sliceCount = gen.length
   const innerR = 50 // Inner Radius
   const twoPI = 2 * Math.PI
@@ -212,8 +217,6 @@ const Wheel = ({ generation, setWheelResult }) => {
         requestRef.current = requestAnimationFrame(animateSpin)
       }
     }
-
-    cancelAnimationFrame(requestRef.current) // cancel slow spin
     requestRef.current = requestAnimationFrame(animateSpin)
   }, [drawWheel, setWheelResult, sliceCount, twoPI, gen])
 
