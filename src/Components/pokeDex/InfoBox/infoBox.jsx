@@ -63,14 +63,14 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
   const matches = below500 || betweenMdAnd1100
 
   // Current Pokemon's Evolutions
-  const buildEvolutionLine = (evoLine) => evoLine.flatMap(evo =>
+  const buildEvolutionLine = (evoLine) => Array.isArray(evoLine) ? evoLine.flatMap(evo =>
     Array.isArray(evo)
       ? buildEvolutionLine(evo)
       : {
         name: evo.name,
         image: getPokemonImage(evo.name)
       }
-  )
+  ) : [{ name: evoLine.name, image: getPokemonImage(evoLine.name) }]
 
   const backUpEvolutionLine = [
     { name: '', image: QuestionMark },
