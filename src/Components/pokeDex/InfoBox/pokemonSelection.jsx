@@ -4,12 +4,8 @@ import { useEffect } from 'react'
 export const PokemonSelection = ({ images, matches, currentPokemon, setCurrentPokemon }) => {
   // Animation for Clickable Readability
   const flash = keyframes`
-    0% {
-        background-color: white;
-    }
-    100% {
-        background-color: #d3d3d3;
-    }
+    0% { background-color: var(--bg-0, white); }
+    100% { background-color: var(--bg-1, #d3d3d3); }
   `
   useEffect(() => {
     const handleKeyPress = (event) => {
@@ -35,12 +31,13 @@ export const PokemonSelection = ({ images, matches, currentPokemon, setCurrentPo
       <ImageListItem
         key={i}
         sx={{
+          '--bg-0': currentPokemon === i ? 'gold' : 'white',
+          '--bg-1': currentPokemon === i ? '#ffd700' : '#d3d3d3',
           border: '2px solid black',
-          borderRadius: 0,
+          borderRadius: 2,
           width: matches ? 30 : 45,
           height: matches ? 30 : 45,
           animation: `${flash} 1s infinite alternate`,
-          backgroundColor: currentPokemon === i ? 'gold !important' : 'inherit',
           cursor: 'pointer'
         }}
         onClick={() => setCurrentPokemon(i)}
