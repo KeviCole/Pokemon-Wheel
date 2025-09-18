@@ -4,7 +4,7 @@ Bug where switching tabs mid wheel spin breaks the spin
 (Due to dependency change in wheel)
 
 To Do List
-1. Get Evolution Line to work for edge cases (Eevee done)
+1. Upgrade Component Layout in Evolution Line
 2. Add Pokemon Stat Data
 3. Implement Pokemon Filter Via Game
 4. Fix Tab Width on Phone
