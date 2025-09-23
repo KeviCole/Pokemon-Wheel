@@ -1,0 +1,37 @@
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
+import { Grid, Tooltip } from '@mui/material'
+
+export const RaltsEvoLine = ({ below400, evolutionLine, image, index, name }) => <>
+  <Grid size={1.5}>
+    <Tooltip
+      title={name}
+      slotProps={{ popper: { modifiers: [{ name: 'offset', options: { offset: [0, -10] } }] } }}
+      arrow
+      disableInteractive
+    >
+      <img src={image} alt={name} width={below400 ? 30 : 40} height={below400 ? 30 : 40}/>
+    </Tooltip>
+  </Grid>
+  <Grid size={1.5}>
+    <ArrowRightAltIcon fontSize='large'/>
+  </Grid>
+  {index === 1 && <>
+    {evolutionLine.slice(2, evolutionLine.length).map(evo => <Grid size={1.5}>
+      <Tooltip
+        title={evo.name}
+        slotProps={{ popper: { modifiers: [{ name: 'offset', options: { offset: [0, -10] } }] } }}
+        arrow
+        disableInteractive
+      >
+        <img
+          src={evo.image}
+          alt={evo.name}
+          width={below400 ? 30 : 40}
+          height={below400 ? 30 : 40}
+        />
+      </Tooltip>
+    </Grid>)}
+  </>}
+</>
+
+export default RaltsEvoLine
