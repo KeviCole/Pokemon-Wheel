@@ -3,22 +3,17 @@ import React from 'react'
 import { ApplinEvoLine, DefaultEvoLine, EeveeEvoLine, RaltsEvoLine, WurmpleEvoLine } from '../..'
 import { weirdEvoCheck } from '../../../../Constants/evolutionName'
 
-export const EvolutionLine = ({ below400, matches, evolutionLine }) => {
+export const EvolutionLine = ({ below400, evolutionLine, gen, matches, setWheelResult }) => {
   const uniqueEvo = weirdEvoCheck[evolutionLine[0].name] ?? 0
 
   const evoArraySize = () => {
-    switch (uniqueEvo) {
-      case 1:
-        return 2
-      case 2:
-      case 3:
-      case 4:
-      case 5:
-      case 6:
-        return 1
-      default:
-        return evolutionLine.length
+    if (uniqueEvo === 1) {
+      return 1
     }
+    if (uniqueEvo >= 2 && uniqueEvo <= 6) {
+      return 1
+    }
+    return evolutionLine.length
   }
 
   const EvolutionLayout = ({ name, image, index }) => {
@@ -27,9 +22,11 @@ export const EvolutionLine = ({ below400, matches, evolutionLine }) => {
         return <RaltsEvoLine
           below400={below400}
           evolutionLine={evolutionLine}
+          gen={gen}
           image={image}
           index={index}
           name={name}
+          setWheelResult={setWheelResult}
         />
       case 2:
       case 3:
@@ -37,31 +34,39 @@ export const EvolutionLine = ({ below400, matches, evolutionLine }) => {
         return <EeveeEvoLine
           below400={below400}
           evolutionLine={evolutionLine}
+          gen={gen}
           image={image}
           name={name}
+          setWheelResult={setWheelResult}
           uniqueEvo={uniqueEvo}
         />
       case 5:
         return <WurmpleEvoLine
           below400={below400}
           evolutionLine={evolutionLine}
+          gen={gen}
           image={image}
           name={name}
+          setWheelResult={setWheelResult}
         />
       case 6:
         return <ApplinEvoLine
           below400={below400}
           evolutionLine={evolutionLine}
+          gen={gen}
           image={image}
           name={name}
+          setWheelResult={setWheelResult}
         />
       default:
         return <DefaultEvoLine
           below400={below400}
           evolutionLine={evolutionLine}
+          gen={gen}
           image={image}
           index={index}
           name={name}
+          setWheelResult={setWheelResult}
         />
     }
   }

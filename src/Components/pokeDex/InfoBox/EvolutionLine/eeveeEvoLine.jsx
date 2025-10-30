@@ -1,7 +1,7 @@
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import { Grid, Tooltip } from '@mui/material'
 
-export const EeveeEvoLine = ({ below400, evolutionLine, image, name, uniqueEvo }) => <Grid
+export const EeveeEvoLine = ({ below400, evolutionLine, gen, image, name, setWheelResult, uniqueEvo }) => <Grid
   container
   size={12}
   justifyContent='center'
@@ -25,6 +25,8 @@ export const EeveeEvoLine = ({ below400, evolutionLine, image, name, uniqueEvo }
         alt={name}
         width={below400 ? 30 : 40}
         height={below400 ? 30 : 40}
+        onClick={() => setWheelResult(gen.find(poke => poke.name === name))}
+        style={{ cursor: 'pointer' }}
       />
     </Tooltip>
   </Grid>
@@ -43,6 +45,8 @@ export const EeveeEvoLine = ({ below400, evolutionLine, image, name, uniqueEvo }
         alt={evo.name}
         width={below400 ? 30 : 40}
         height={below400 ? 30 : 40}
+        onClick={() => setWheelResult(gen.find(poke => poke.name === evo.name))}
+        style={{ cursor: 'pointer' }}
       />
     </Tooltip>
   </Grid>
