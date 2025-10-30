@@ -121,7 +121,13 @@ export const Layout = ({ children }) => {
           <Tab label='Poke Filters'/>
         </Tabs>
         {tabIndex === 0 &&
-          <InfoBox wheelResult={wheelResult} whiteNoise={WhiteNoise} noiseAnimate={noiseAnimate}/>
+          <InfoBox
+            generation={generation}
+            noiseAnimate={noiseAnimate}
+            setWheelResult={setWheelResult}
+            wheelResult={wheelResult}
+            whiteNoise={WhiteNoise}
+          />
         }
         {tabIndex === 1 &&
           <GenerationBox

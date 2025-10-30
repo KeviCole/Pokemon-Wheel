@@ -3,8 +3,9 @@ import { useEffect, useRef, useState } from 'react'
 import { getPokemonImage, getTypeImage } from '../../../Constants/pokemonImage'
 import { QuestionMark } from '../../../Images/misc'
 import { EvolutionLine, PokemonSelection, PokemonStats, TitleBar } from '..'
+import { allPokemon } from '../../../Constants/pokemonData'
 
-export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
+export const InfoBox = ({ generation, noiseAnimate, setWheelResult, wheelResult, whiteNoise }) => {
   // Stored Chosen Pokemon
   const [listPokemon, setListPokemon] = useState([
     { id: 0 },
@@ -19,6 +20,7 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
   const [currentPokemon, setCurrentPokemon] = useState(0)
   const currentPokemonRef = useRef(currentPokemon)
   useEffect(() => {currentPokemonRef.current = currentPokemon}, [currentPokemon])
+  const gen = allPokemon.filter(pokemon => pokemon.generation === generation)
 
   useEffect(() => {
     if (wheelResult) {
@@ -172,7 +174,13 @@ export const InfoBox = ({ wheelResult, whiteNoise, noiseAnimate }) => {
             }
           </Grid>
           <Grid size={12}>
-            <EvolutionLine below400={below400} matches={matches} evolutionLine={newEvolutionLine ?? []}/>
+            <EvolutionLine
+              below400={below400}
+              evolutionLine={newEvolutionLine ?? []}
+              gen={gen}
+              matches={matches}
+              setWheelResult={setWheelResult}
+            />
           </Grid>
         </Grid>
         <Grid container size={12}>

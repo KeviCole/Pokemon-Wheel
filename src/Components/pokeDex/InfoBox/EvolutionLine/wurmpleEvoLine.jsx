@@ -1,7 +1,7 @@
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import { Grid, Tooltip } from '@mui/material'
 
-export const WurmpleEvoLine = ({ below400, evolutionLine, image, name }) => <Grid
+export const WurmpleEvoLine = ({ below400, evolutionLine, gen, image, name, setWheelResult }) => <Grid
   container
   justifyContent='center'
   alignItems='center'
@@ -19,7 +19,14 @@ export const WurmpleEvoLine = ({ below400, evolutionLine, image, name }) => <Gri
       arrow
       disableInteractive
     >
-      <img src={image} alt={name} width={below400 ? 30 : 40} height={below400 ? 30 : 40}/>
+      <img
+        src={image}
+        alt={name}
+        width={below400 ? 30 : 40}
+        height={below400 ? 30 : 40}
+        onClick={() => setWheelResult(gen.find(poke => poke.name === name))}
+        style={{ cursor: 'pointer' }}
+      />
     </Tooltip>
   </Grid>
   <Grid>
@@ -38,6 +45,8 @@ export const WurmpleEvoLine = ({ below400, evolutionLine, image, name }) => <Gri
           alt={evo.name}
           width={below400 ? 30 : 40}
           height={below400 ? 30 : 40}
+          onClick={() => setWheelResult(gen.find(poke => poke.name === evo.name))}
+          style={{ cursor: 'pointer' }}
         />
       </Tooltip>
     </Grid>
@@ -54,6 +63,8 @@ export const WurmpleEvoLine = ({ below400, evolutionLine, image, name }) => <Gri
             alt={name}
             width={below400 ? 30 : 40}
             height={below400 ? 30 : 40}
+            onClick={() => setWheelResult(gen.find(poke => poke.name === name))}
+            style={{ cursor: 'pointer' }}
           />
         </Tooltip>
       </Grid>
