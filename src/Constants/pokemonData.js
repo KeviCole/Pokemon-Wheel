@@ -17,6 +17,32 @@ export const allPokemon = [
           'name': 'Venusaur'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 49
+      },
+      {
+        'name': 'defense',
+        'value': 49
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -37,6 +63,32 @@ export const allPokemon = [
           'name': 'Venusaur'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 62
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -57,6 +109,32 @@ export const allPokemon = [
           'name': 'Venusaur'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 83
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -77,6 +155,32 @@ export const allPokemon = [
           'name': 'Charizard'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 39
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 43
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -97,6 +201,32 @@ export const allPokemon = [
           'name': 'Charizard'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -117,6 +247,32 @@ export const allPokemon = [
           'name': 'Charizard'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 84
+      },
+      {
+        'name': 'defense',
+        'value': 78
+      },
+      {
+        'name': 'special-attack',
+        'value': 109
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -137,6 +293,32 @@ export const allPokemon = [
           'name': 'Blastoise'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 44
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 64
+      },
+      {
+        'name': 'speed',
+        'value': 43
+      }
     ]
   },
   {
@@ -157,6 +339,32 @@ export const allPokemon = [
           'name': 'Blastoise'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 59
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 58
+      }
     ]
   },
   {
@@ -177,6 +385,32 @@ export const allPokemon = [
           'name': 'Blastoise'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 79
+      },
+      {
+        'name': 'attack',
+        'value': 83
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 78
+      }
     ]
   },
   {
@@ -197,6 +431,32 @@ export const allPokemon = [
           'name': 'Butterfree'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 20
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -217,6 +477,32 @@ export const allPokemon = [
           'name': 'Butterfree'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -237,6 +523,32 @@ export const allPokemon = [
           'name': 'Butterfree'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -257,6 +569,32 @@ export const allPokemon = [
           'name': 'Beedrill'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 20
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -277,6 +615,32 @@ export const allPokemon = [
           'name': 'Beedrill'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -297,6 +661,32 @@ export const allPokemon = [
           'name': 'Beedrill'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -317,6 +707,32 @@ export const allPokemon = [
           'name': 'Pidgeot'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 56
+      }
     ]
   },
   {
@@ -337,6 +753,32 @@ export const allPokemon = [
           'name': 'Pidgeot'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 63
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 71
+      }
     ]
   },
   {
@@ -357,6 +799,32 @@ export const allPokemon = [
           'name': 'Pidgeot'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 83
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 101
+      }
     ]
   },
   {
@@ -371,6 +839,32 @@ export const allPokemon = [
       },
       {
         'name': 'Raticate'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 56
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 72
       }
     ]
   },
@@ -387,6 +881,32 @@ export const allPokemon = [
       {
         'name': 'Raticate'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 81
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
     ]
   },
   {
@@ -401,6 +921,32 @@ export const allPokemon = [
       },
       {
         'name': 'Fearow'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 31
+      },
+      {
+        'name': 'special-defense',
+        'value': 31
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -417,6 +963,32 @@ export const allPokemon = [
       {
         'name': 'Fearow'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 61
+      },
+      {
+        'name': 'special-defense',
+        'value': 61
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -432,6 +1004,32 @@ export const allPokemon = [
       {
         'name': 'Arbok'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 44
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 54
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -446,6 +1044,32 @@ export const allPokemon = [
       },
       {
         'name': 'Arbok'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 69
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 79
+      },
+      {
+        'name': 'speed',
+        'value': 80
       }
     ]
   },
@@ -467,6 +1091,32 @@ export const allPokemon = [
           'name': 'Raichu'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -487,6 +1137,32 @@ export const allPokemon = [
           'name': 'Raichu'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
     ]
   },
   {
@@ -502,6 +1178,32 @@ export const allPokemon = [
       {
         'name': 'Sandslash'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -516,6 +1218,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sandslash'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -537,6 +1265,32 @@ export const allPokemon = [
           'name': 'Nidoqueen'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 47
+      },
+      {
+        'name': 'defense',
+        'value': 52
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 41
+      }
     ]
   },
   {
@@ -557,6 +1311,32 @@ export const allPokemon = [
           'name': 'Nidoqueen'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 62
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 56
+      }
     ]
   },
   {
@@ -577,6 +1357,32 @@ export const allPokemon = [
           'name': 'Nidoqueen'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 92
+      },
+      {
+        'name': 'defense',
+        'value': 87
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 76
+      }
     ]
   },
   {
@@ -597,6 +1403,32 @@ export const allPokemon = [
           'name': 'Nidoking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 46
+      },
+      {
+        'name': 'attack',
+        'value': 57
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -617,6 +1449,32 @@ export const allPokemon = [
           'name': 'Nidoking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 72
+      },
+      {
+        'name': 'defense',
+        'value': 57
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -637,6 +1495,32 @@ export const allPokemon = [
           'name': 'Nidoking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 81
+      },
+      {
+        'name': 'attack',
+        'value': 102
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -657,6 +1541,32 @@ export const allPokemon = [
           'name': 'Clefable'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -677,6 +1587,32 @@ export const allPokemon = [
           'name': 'Clefable'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 73
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -692,6 +1628,32 @@ export const allPokemon = [
       {
         'name': 'Ninetales'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 41
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -706,6 +1668,32 @@ export const allPokemon = [
       },
       {
         'name': 'Ninetales'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 73
+      },
+      {
+        'name': 'attack',
+        'value': 76
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 81
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 100
       }
     ]
   },
@@ -727,6 +1715,32 @@ export const allPokemon = [
           'name': 'Wigglytuff'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 115
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 20
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -747,6 +1761,32 @@ export const allPokemon = [
           'name': 'Wigglytuff'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 140
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -767,6 +1807,32 @@ export const allPokemon = [
           'name': 'Crobat'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -787,6 +1853,32 @@ export const allPokemon = [
           'name': 'Crobat'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -812,6 +1904,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -837,6 +1955,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -862,6 +2006,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -876,6 +2046,32 @@ export const allPokemon = [
       },
       {
         'name': 'Parasect'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 25
       }
     ]
   },
@@ -892,6 +2088,32 @@ export const allPokemon = [
       {
         'name': 'Parasect'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -906,6 +2128,32 @@ export const allPokemon = [
       },
       {
         'name': 'Venomoth'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -922,6 +2170,32 @@ export const allPokemon = [
       {
         'name': 'Venomoth'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -937,6 +2211,32 @@ export const allPokemon = [
       {
         'name': 'Dugtrio'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 10
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 25
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -951,6 +2251,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dugtrio'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 120
       }
     ]
   },
@@ -972,6 +2298,32 @@ export const allPokemon = [
           'name': 'Perrserker'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -984,8 +2336,39 @@ export const allPokemon = [
       {
         'name': 'Meowth'
       },
+      [
+        {
+          'name': 'Persian'
+        },
+        {
+          'name': 'Perrserker'
+        }
+      ]
+    ],
+    'stats': [
       {
-        'name': 'Persian'
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 115
       }
     ]
   },
@@ -1002,6 +2385,32 @@ export const allPokemon = [
       {
         'name': 'Golduck'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -1016,6 +2425,32 @@ export const allPokemon = [
       },
       {
         'name': 'Golduck'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 78
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 85
       }
     ]
   },
@@ -1037,6 +2472,32 @@ export const allPokemon = [
           'name': 'Annihilape'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -1057,6 +2518,32 @@ export const allPokemon = [
           'name': 'Annihilape'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -1072,6 +2559,32 @@ export const allPokemon = [
       {
         'name': 'Arcanine'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -1086,6 +2599,32 @@ export const allPokemon = [
       },
       {
         'name': 'Arcanine'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -1112,6 +2651,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -1137,6 +2702,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -1162,6 +2753,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -1182,6 +2799,32 @@ export const allPokemon = [
           'name': 'Alakazam'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 25
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 15
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -1202,6 +2845,32 @@ export const allPokemon = [
           'name': 'Alakazam'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -1222,6 +2891,32 @@ export const allPokemon = [
           'name': 'Alakazam'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 120
+      }
     ]
   },
   {
@@ -1242,6 +2937,32 @@ export const allPokemon = [
           'name': 'Machamp'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -1262,6 +2983,32 @@ export const allPokemon = [
           'name': 'Machamp'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -1282,6 +3029,32 @@ export const allPokemon = [
           'name': 'Machamp'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -1302,6 +3075,32 @@ export const allPokemon = [
           'name': 'Victreebel'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -1322,6 +3121,32 @@ export const allPokemon = [
           'name': 'Victreebel'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -1342,6 +3167,32 @@ export const allPokemon = [
           'name': 'Victreebel'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -1357,6 +3208,32 @@ export const allPokemon = [
       {
         'name': 'Tentacruel'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -1371,6 +3248,32 @@ export const allPokemon = [
       },
       {
         'name': 'Tentacruel'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 100
       }
     ]
   },
@@ -1392,6 +3295,32 @@ export const allPokemon = [
           'name': 'Golem'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -1412,6 +3341,32 @@ export const allPokemon = [
           'name': 'Golem'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -1432,6 +3387,32 @@ export const allPokemon = [
           'name': 'Golem'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -1447,6 +3428,32 @@ export const allPokemon = [
       {
         'name': 'Rapidash'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -1461,6 +3468,32 @@ export const allPokemon = [
       },
       {
         'name': 'Rapidash'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 105
       }
     ]
   },
@@ -1482,6 +3515,32 @@ export const allPokemon = [
           'name': 'Slowking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
     ]
   },
   {
@@ -1502,6 +3561,32 @@ export const allPokemon = [
           'name': 'Slowking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -1522,6 +3607,32 @@ export const allPokemon = [
           'name': 'Magnezone'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 25
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -1542,6 +3653,32 @@ export const allPokemon = [
           'name': 'Magnezone'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -1556,6 +3693,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sirfetchd'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 52
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 58
+      },
+      {
+        'name': 'special-defense',
+        'value': 62
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -1572,6 +3735,32 @@ export const allPokemon = [
       {
         'name': 'Dodrio'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -1586,6 +3775,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dodrio'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 110
       }
     ]
   },
@@ -1602,6 +3817,32 @@ export const allPokemon = [
       {
         'name': 'Dewgong'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -1616,6 +3857,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dewgong'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -1632,6 +3899,32 @@ export const allPokemon = [
       {
         'name': 'Muk'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -1646,6 +3939,32 @@ export const allPokemon = [
       },
       {
         'name': 'Muk'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -1662,6 +3981,32 @@ export const allPokemon = [
       {
         'name': 'Cloyster'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -1676,6 +4021,32 @@ export const allPokemon = [
       },
       {
         'name': 'Cloyster'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 180
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -1697,6 +4068,32 @@ export const allPokemon = [
           'name': 'Gengar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -1717,6 +4114,32 @@ export const allPokemon = [
           'name': 'Gengar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -1737,6 +4160,32 @@ export const allPokemon = [
           'name': 'Gengar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
     ]
   },
   {
@@ -1751,6 +4200,32 @@ export const allPokemon = [
       },
       {
         'name': 'Steelix'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 160
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -1767,6 +4242,32 @@ export const allPokemon = [
       {
         'name': 'Hypno'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 43
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -1781,6 +4282,32 @@ export const allPokemon = [
       },
       {
         'name': 'Hypno'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 73
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 67
       }
     ]
   },
@@ -1797,6 +4324,32 @@ export const allPokemon = [
       {
         'name': 'Kingler'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -1811,6 +4364,32 @@ export const allPokemon = [
       },
       {
         'name': 'Kingler'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 75
       }
     ]
   },
@@ -1827,6 +4406,32 @@ export const allPokemon = [
       {
         'name': 'Electrode'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -1841,6 +4446,32 @@ export const allPokemon = [
       },
       {
         'name': 'Electrode'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 150
       }
     ]
   },
@@ -1857,6 +4488,32 @@ export const allPokemon = [
       {
         'name': 'Exeggutor'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -1871,6 +4528,32 @@ export const allPokemon = [
       },
       {
         'name': 'Exeggutor'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -1887,6 +4570,32 @@ export const allPokemon = [
       {
         'name': 'Marowak'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -1901,6 +4610,32 @@ export const allPokemon = [
       },
       {
         'name': 'Marowak'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -1925,6 +4660,32 @@ export const allPokemon = [
           'name': 'Hitmontop'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 53
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 87
+      }
     ]
   },
   {
@@ -1948,6 +4709,32 @@ export const allPokemon = [
           'name': 'Hitmontop'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 79
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 76
+      }
     ]
   },
   {
@@ -1962,6 +4749,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lickilicky'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -1978,6 +4791,32 @@ export const allPokemon = [
       {
         'name': 'Weezing'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -1992,6 +4831,32 @@ export const allPokemon = [
       },
       {
         'name': 'Weezing'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -2013,6 +4878,32 @@ export const allPokemon = [
           'name': 'Rhyperior'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -2033,6 +4924,32 @@ export const allPokemon = [
           'name': 'Rhyperior'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -2053,6 +4970,32 @@ export const allPokemon = [
           'name': 'Blissey'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 250
+      },
+      {
+        'name': 'attack',
+        'value': 5
+      },
+      {
+        'name': 'defense',
+        'value': 5
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -2068,6 +5011,32 @@ export const allPokemon = [
       {
         'name': 'Tangrowth'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -2078,7 +5047,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Kangaskhan'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Horsea',
@@ -2098,6 +5093,32 @@ export const allPokemon = [
           'name': 'Kingdra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -2118,6 +5139,32 @@ export const allPokemon = [
           'name': 'Kingdra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -2132,6 +5179,32 @@ export const allPokemon = [
       },
       {
         'name': 'Seaking'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 67
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 63
       }
     ]
   },
@@ -2148,6 +5221,32 @@ export const allPokemon = [
       {
         'name': 'Seaking'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 92
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 68
+      }
     ]
   },
   {
@@ -2163,6 +5262,32 @@ export const allPokemon = [
       {
         'name': 'Starmie'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -2177,6 +5302,32 @@ export const allPokemon = [
       },
       {
         'name': 'Starmie'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 115
       }
     ]
   },
@@ -2198,6 +5349,32 @@ export const allPokemon = [
           'name': 'Mr-rime'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -2218,6 +5395,32 @@ export const allPokemon = [
           'name': 'Kleavor'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -2232,6 +5435,32 @@ export const allPokemon = [
       },
       {
         'name': 'Jynx'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -2253,6 +5482,32 @@ export const allPokemon = [
           'name': 'Electivire'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 83
+      },
+      {
+        'name': 'defense',
+        'value': 57
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -2273,6 +5528,32 @@ export const allPokemon = [
           'name': 'Magmortar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 57
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 93
+      }
     ]
   },
   {
@@ -2283,7 +5564,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Pinsir'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Tauros',
@@ -2293,7 +5600,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Tauros'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
+    ]
   },
   {
     'name': 'Magikarp',
@@ -2307,6 +5640,32 @@ export const allPokemon = [
       },
       {
         'name': 'Gyarados'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 20
+      },
+      {
+        'name': 'attack',
+        'value': 10
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 15
+      },
+      {
+        'name': 'special-defense',
+        'value': 20
+      },
+      {
+        'name': 'speed',
+        'value': 80
       }
     ]
   },
@@ -2323,6 +5682,32 @@ export const allPokemon = [
       {
         'name': 'Gyarados'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 79
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 81
+      }
     ]
   },
   {
@@ -2333,7 +5718,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Lapras'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 130
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
+    ]
   },
   {
     'name': 'Ditto',
@@ -2343,7 +5754,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Ditto'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 48
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 48
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 48
+      }
+    ]
   },
   {
     'name': 'Eevee',
@@ -2381,6 +5818,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -2419,6 +5882,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 130
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -2457,6 +5946,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 130
+      }
     ]
   },
   {
@@ -2495,6 +6010,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -2515,6 +6056,32 @@ export const allPokemon = [
           'name': 'Porygon-z'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -2529,6 +6096,32 @@ export const allPokemon = [
       },
       {
         'name': 'Omastar'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -2545,6 +6138,32 @@ export const allPokemon = [
       {
         'name': 'Omastar'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 125
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -2559,6 +6178,32 @@ export const allPokemon = [
       },
       {
         'name': 'Kabutops'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -2575,6 +6220,32 @@ export const allPokemon = [
       {
         'name': 'Kabutops'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -2585,7 +6256,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Aerodactyl'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 130
+      }
+    ]
   },
   {
     'name': 'Snorlax',
@@ -2600,6 +6297,32 @@ export const allPokemon = [
       {
         'name': 'Snorlax'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 160
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -2610,7 +6333,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Articuno'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 125
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Zapdos',
@@ -2620,7 +6369,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Zapdos'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Moltres',
@@ -2630,7 +6405,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Moltres'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Dratini',
@@ -2650,6 +6451,32 @@ export const allPokemon = [
           'name': 'Dragonite'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 41
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -2670,6 +6497,32 @@ export const allPokemon = [
           'name': 'Dragonite'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 84
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -2690,6 +6543,32 @@ export const allPokemon = [
           'name': 'Dragonite'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 91
+      },
+      {
+        'name': 'attack',
+        'value': 134
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -2700,7 +6579,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Mewtwo'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 106
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 154
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 130
+      }
+    ]
   },
   {
     'name': 'Mew',
@@ -2710,7 +6615,33 @@ export const allPokemon = [
     'generation': 1,
     'evolutionLine': {
       'name': 'Mew'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Chikorita',
@@ -2730,6 +6661,32 @@ export const allPokemon = [
           'name': 'Meganium'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 49
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 49
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -2750,6 +6707,32 @@ export const allPokemon = [
           'name': 'Meganium'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 62
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 63
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -2770,6 +6753,32 @@ export const allPokemon = [
           'name': 'Meganium'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 83
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -2790,6 +6799,32 @@ export const allPokemon = [
           'name': 'Typhlosion'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 39
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 43
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -2810,6 +6845,32 @@ export const allPokemon = [
           'name': 'Typhlosion'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -2830,6 +6891,32 @@ export const allPokemon = [
           'name': 'Typhlosion'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 84
+      },
+      {
+        'name': 'defense',
+        'value': 78
+      },
+      {
+        'name': 'special-attack',
+        'value': 109
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -2850,6 +6937,32 @@ export const allPokemon = [
           'name': 'Feraligatr'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 64
+      },
+      {
+        'name': 'special-attack',
+        'value': 44
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 43
+      }
     ]
   },
   {
@@ -2870,6 +6983,32 @@ export const allPokemon = [
           'name': 'Feraligatr'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 59
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 58
+      }
     ]
   },
   {
@@ -2890,6 +7029,32 @@ export const allPokemon = [
           'name': 'Feraligatr'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 79
+      },
+      {
+        'name': 'special-defense',
+        'value': 83
+      },
+      {
+        'name': 'speed',
+        'value': 78
+      }
     ]
   },
   {
@@ -2904,6 +7069,32 @@ export const allPokemon = [
       },
       {
         'name': 'Furret'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 46
+      },
+      {
+        'name': 'defense',
+        'value': 34
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 20
       }
     ]
   },
@@ -2920,6 +7111,32 @@ export const allPokemon = [
       {
         'name': 'Furret'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 76
+      },
+      {
+        'name': 'defense',
+        'value': 64
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -2934,6 +7151,32 @@ export const allPokemon = [
       },
       {
         'name': 'Noctowl'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 36
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -2950,6 +7193,32 @@ export const allPokemon = [
       {
         'name': 'Noctowl'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 86
+      },
+      {
+        'name': 'special-defense',
+        'value': 96
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -2964,6 +7233,32 @@ export const allPokemon = [
       },
       {
         'name': 'Ledian'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -2980,6 +7275,32 @@ export const allPokemon = [
       {
         'name': 'Ledian'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -2995,6 +7316,32 @@ export const allPokemon = [
       {
         'name': 'Ariados'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -3009,6 +7356,32 @@ export const allPokemon = [
       },
       {
         'name': 'Ariados'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -3030,6 +7403,32 @@ export const allPokemon = [
           'name': 'Crobat'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 130
+      }
     ]
   },
   {
@@ -3045,6 +7444,32 @@ export const allPokemon = [
       {
         'name': 'Lanturn'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 38
+      },
+      {
+        'name': 'defense',
+        'value': 38
+      },
+      {
+        'name': 'special-attack',
+        'value': 56
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 67
+      }
     ]
   },
   {
@@ -3059,6 +7484,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lanturn'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 125
+      },
+      {
+        'name': 'attack',
+        'value': 58
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 76
+      },
+      {
+        'name': 'special-defense',
+        'value': 76
+      },
+      {
+        'name': 'speed',
+        'value': 67
       }
     ]
   },
@@ -3080,6 +7531,32 @@ export const allPokemon = [
           'name': 'Raichu'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 20
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 15
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -3100,6 +7577,32 @@ export const allPokemon = [
           'name': 'Clefable'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 28
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
     ]
   },
   {
@@ -3120,6 +7623,32 @@ export const allPokemon = [
           'name': 'Wigglytuff'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 15
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 20
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
     ]
   },
   {
@@ -3140,6 +7669,32 @@ export const allPokemon = [
           'name': 'Togekiss'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -3160,6 +7715,32 @@ export const allPokemon = [
           'name': 'Togekiss'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -3175,6 +7756,32 @@ export const allPokemon = [
       {
         'name': 'Xatu'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -3189,6 +7796,32 @@ export const allPokemon = [
       },
       {
         'name': 'Xatu'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -3210,6 +7843,32 @@ export const allPokemon = [
           'name': 'Ampharos'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -3230,6 +7889,32 @@ export const allPokemon = [
           'name': 'Ampharos'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -3250,6 +7935,32 @@ export const allPokemon = [
           'name': 'Ampharos'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -3275,6 +7986,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -3295,6 +8032,32 @@ export const allPokemon = [
           'name': 'Azumarill'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -3315,6 +8078,32 @@ export const allPokemon = [
           'name': 'Azumarill'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -3329,6 +8118,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sudowoodo'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -3355,6 +8170,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -3375,6 +8216,32 @@ export const allPokemon = [
           'name': 'Jumpluff'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -3395,6 +8262,32 @@ export const allPokemon = [
           'name': 'Jumpluff'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -3415,6 +8308,32 @@ export const allPokemon = [
           'name': 'Jumpluff'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
     ]
   },
   {
@@ -3429,6 +8348,32 @@ export const allPokemon = [
       },
       {
         'name': 'Ambipom'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 85
       }
     ]
   },
@@ -3445,6 +8390,32 @@ export const allPokemon = [
       {
         'name': 'Sunflora'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -3460,6 +8431,32 @@ export const allPokemon = [
       {
         'name': 'Sunflora'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -3474,6 +8471,32 @@ export const allPokemon = [
       },
       {
         'name': 'Yanmega'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -3495,6 +8518,32 @@ export const allPokemon = [
           'name': 'Clodsire'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
     ]
   },
   {
@@ -3515,6 +8564,32 @@ export const allPokemon = [
           'name': 'Clodsire'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -3553,6 +8628,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
     ]
   },
   {
@@ -3591,6 +8692,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -3605,6 +8732,32 @@ export const allPokemon = [
       },
       {
         'name': 'Honchkrow'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 42
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 42
+      },
+      {
+        'name': 'speed',
+        'value': 91
       }
     ]
   },
@@ -3626,6 +8779,32 @@ export const allPokemon = [
           'name': 'Slowking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -3641,6 +8820,32 @@ export const allPokemon = [
       {
         'name': 'Mismagius'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -3651,7 +8856,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Unown'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 48
+      },
+      {
+        'name': 'attack',
+        'value': 72
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 72
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 48
+      }
+    ]
   },
   {
     'name': 'Wobbuffet',
@@ -3665,6 +8896,32 @@ export const allPokemon = [
       },
       {
         'name': 'Wobbuffet'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 190
+      },
+      {
+        'name': 'attack',
+        'value': 33
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 33
+      },
+      {
+        'name': 'special-defense',
+        'value': 58
+      },
+      {
+        'name': 'speed',
+        'value': 33
       }
     ]
   },
@@ -3681,6 +8938,32 @@ export const allPokemon = [
       {
         'name': 'Farigiraf'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -3695,6 +8978,32 @@ export const allPokemon = [
       },
       {
         'name': 'Forretress'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 15
       }
     ]
   },
@@ -3711,6 +9020,32 @@ export const allPokemon = [
       {
         'name': 'Forretress'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 140
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -3725,6 +9060,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dudunsparce'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -3741,6 +9102,32 @@ export const allPokemon = [
       {
         'name': 'Gliscor'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -3755,6 +9142,32 @@ export const allPokemon = [
       },
       {
         'name': 'Steelix'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 200
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -3771,6 +9184,32 @@ export const allPokemon = [
       {
         'name': 'Granbull'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -3786,6 +9225,32 @@ export const allPokemon = [
       {
         'name': 'Granbull'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -3800,6 +9265,32 @@ export const allPokemon = [
       },
       {
         'name': 'Overqwil'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 85
       }
     ]
   },
@@ -3821,6 +9312,32 @@ export const allPokemon = [
           'name': 'Kleavor'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -3831,7 +9348,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Shuckle'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 20
+      },
+      {
+        'name': 'attack',
+        'value': 10
+      },
+      {
+        'name': 'defense',
+        'value': 230
+      },
+      {
+        'name': 'special-attack',
+        'value': 10
+      },
+      {
+        'name': 'special-defense',
+        'value': 230
+      },
+      {
+        'name': 'speed',
+        'value': 5
+      }
+    ]
   },
   {
     'name': 'Heracross',
@@ -3841,7 +9384,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Heracross'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Sneasel',
@@ -3861,6 +9430,32 @@ export const allPokemon = [
           'name': 'Sneasler'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 115
+      }
     ]
   },
   {
@@ -3881,6 +9476,32 @@ export const allPokemon = [
           'name': 'Ursaluna'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -3901,6 +9522,32 @@ export const allPokemon = [
           'name': 'Ursaluna'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -3916,6 +9563,32 @@ export const allPokemon = [
       {
         'name': 'Magcargo'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -3930,6 +9603,32 @@ export const allPokemon = [
       },
       {
         'name': 'Magcargo'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -3951,6 +9650,32 @@ export const allPokemon = [
           'name': 'Mamoswine'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -3971,6 +9696,32 @@ export const allPokemon = [
           'name': 'Mamoswine'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -3985,6 +9736,32 @@ export const allPokemon = [
       },
       {
         'name': 'Cursola'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -4001,6 +9778,32 @@ export const allPokemon = [
       {
         'name': 'Octillery'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -4016,6 +9819,32 @@ export const allPokemon = [
       {
         'name': 'Octillery'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -4026,7 +9855,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Delibird'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Mantine',
@@ -4041,6 +9896,32 @@ export const allPokemon = [
       {
         'name': 'Mantine'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 140
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -4051,7 +9932,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Skarmory'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 140
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Houndour',
@@ -4065,6 +9972,32 @@ export const allPokemon = [
       },
       {
         'name': 'Houndoom'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -4080,6 +10013,32 @@ export const allPokemon = [
       },
       {
         'name': 'Houndoom'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -4101,6 +10060,32 @@ export const allPokemon = [
           'name': 'Kingdra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -4116,6 +10101,32 @@ export const allPokemon = [
       {
         'name': 'Donphan'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -4130,6 +10141,32 @@ export const allPokemon = [
       },
       {
         'name': 'Donphan'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -4151,6 +10188,32 @@ export const allPokemon = [
           'name': 'Porygon-z'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -4166,6 +10229,32 @@ export const allPokemon = [
       {
         'name': 'Wyrdeer'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 73
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -4176,7 +10265,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Smeargle'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Tyrogue',
@@ -4199,6 +10314,32 @@ export const allPokemon = [
           'name': 'Hitmontop'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -4222,6 +10363,32 @@ export const allPokemon = [
           'name': 'Hitmontop'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -4236,6 +10403,32 @@ export const allPokemon = [
       },
       {
         'name': 'Jynx'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 15
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -4257,6 +10450,32 @@ export const allPokemon = [
           'name': 'Electivire'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 37
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -4277,6 +10496,32 @@ export const allPokemon = [
           'name': 'Magmortar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 37
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 83
+      }
     ]
   },
   {
@@ -4287,7 +10532,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Miltank'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Blissey',
@@ -4307,6 +10578,32 @@ export const allPokemon = [
           'name': 'Blissey'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 255
+      },
+      {
+        'name': 'attack',
+        'value': 10
+      },
+      {
+        'name': 'defense',
+        'value': 10
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 135
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -4317,7 +10614,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Raikou'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 115
+      }
+    ]
   },
   {
     'name': 'Entei',
@@ -4327,7 +10650,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Entei'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 115
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Suicune',
@@ -4337,7 +10686,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Suicune'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Larvitar',
@@ -4357,6 +10732,32 @@ export const allPokemon = [
           'name': 'Tyranitar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 41
+      }
     ]
   },
   {
@@ -4377,6 +10778,32 @@ export const allPokemon = [
           'name': 'Tyranitar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 84
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 51
+      }
     ]
   },
   {
@@ -4397,6 +10824,32 @@ export const allPokemon = [
           'name': 'Tyranitar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 134
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 61
+      }
     ]
   },
   {
@@ -4407,7 +10860,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Lugia'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 106
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 154
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
+    ]
   },
   {
     'name': 'Ho-oh',
@@ -4417,7 +10896,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Ho-oh'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 106
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 154
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Celebi',
@@ -4427,7 +10932,33 @@ export const allPokemon = [
     'generation': 2,
     'evolutionLine': {
       'name': 'Celebi'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Treecko',
@@ -4447,6 +10978,32 @@ export const allPokemon = [
           'name': 'Sceptile'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -4467,6 +11024,32 @@ export const allPokemon = [
           'name': 'Sceptile'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -4487,6 +11070,32 @@ export const allPokemon = [
           'name': 'Sceptile'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 120
+      }
     ]
   },
   {
@@ -4507,6 +11116,32 @@ export const allPokemon = [
           'name': 'Blaziken'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -4527,6 +11162,32 @@ export const allPokemon = [
           'name': 'Blaziken'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -4547,6 +11208,32 @@ export const allPokemon = [
           'name': 'Blaziken'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -4567,6 +11254,32 @@ export const allPokemon = [
           'name': 'Swampert'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -4587,6 +11300,32 @@ export const allPokemon = [
           'name': 'Swampert'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -4607,6 +11346,32 @@ export const allPokemon = [
           'name': 'Swampert'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -4622,6 +11387,32 @@ export const allPokemon = [
       {
         'name': 'Mightyena'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -4636,6 +11427,32 @@ export const allPokemon = [
       },
       {
         'name': 'Mightyena'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -4657,6 +11474,32 @@ export const allPokemon = [
           'name': 'Obstagoon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 41
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 41
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -4677,6 +11520,32 @@ export const allPokemon = [
           'name': 'Obstagoon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 61
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 61
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -4707,6 +11576,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -4737,6 +11632,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
     ]
   },
   {
@@ -4767,6 +11688,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -4797,6 +11744,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
     ]
   },
   {
@@ -4827,6 +11800,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -4847,6 +11846,32 @@ export const allPokemon = [
           'name': 'Ludicolo'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -4867,6 +11892,32 @@ export const allPokemon = [
           'name': 'Ludicolo'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -4887,6 +11938,32 @@ export const allPokemon = [
           'name': 'Ludicolo'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -4907,6 +11984,32 @@ export const allPokemon = [
           'name': 'Shiftry'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -4927,6 +12030,32 @@ export const allPokemon = [
           'name': 'Shiftry'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -4947,6 +12076,32 @@ export const allPokemon = [
           'name': 'Shiftry'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -4961,6 +12116,32 @@ export const allPokemon = [
       },
       {
         'name': 'Swellow'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 85
       }
     ]
   },
@@ -4977,6 +12158,32 @@ export const allPokemon = [
       {
         'name': 'Swellow'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 125
+      }
     ]
   },
   {
@@ -4992,6 +12199,32 @@ export const allPokemon = [
       {
         'name': 'Pelipper'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -5006,6 +12239,32 @@ export const allPokemon = [
       },
       {
         'name': 'Pelipper'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -5032,6 +12291,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 28
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 25
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -5057,6 +12342,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -5082,6 +12393,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -5096,6 +12433,32 @@ export const allPokemon = [
       },
       {
         'name': 'Masquerain'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 32
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 52
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -5112,6 +12475,32 @@ export const allPokemon = [
       {
         'name': 'Masquerain'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 82
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -5127,6 +12516,32 @@ export const allPokemon = [
       {
         'name': 'Breloom'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -5141,6 +12556,32 @@ export const allPokemon = [
       },
       {
         'name': 'Breloom'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -5162,6 +12603,32 @@ export const allPokemon = [
           'name': 'Slaking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -5182,6 +12649,32 @@ export const allPokemon = [
           'name': 'Slaking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -5202,6 +12695,32 @@ export const allPokemon = [
           'name': 'Slaking'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 150
+      },
+      {
+        'name': 'attack',
+        'value': 160
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -5222,6 +12741,32 @@ export const allPokemon = [
           'name': 'Shedinja'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 31
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -5242,6 +12787,32 @@ export const allPokemon = [
           'name': 'Shedinja'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 160
+      }
     ]
   },
   {
@@ -5262,6 +12833,32 @@ export const allPokemon = [
           'name': 'Shedinja'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 1
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -5282,6 +12879,32 @@ export const allPokemon = [
           'name': 'Exploud'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 64
+      },
+      {
+        'name': 'attack',
+        'value': 51
+      },
+      {
+        'name': 'defense',
+        'value': 23
+      },
+      {
+        'name': 'special-attack',
+        'value': 51
+      },
+      {
+        'name': 'special-defense',
+        'value': 23
+      },
+      {
+        'name': 'speed',
+        'value': 28
+      }
     ]
   },
   {
@@ -5302,6 +12925,32 @@ export const allPokemon = [
           'name': 'Exploud'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 84
+      },
+      {
+        'name': 'attack',
+        'value': 71
+      },
+      {
+        'name': 'defense',
+        'value': 43
+      },
+      {
+        'name': 'special-attack',
+        'value': 71
+      },
+      {
+        'name': 'special-defense',
+        'value': 43
+      },
+      {
+        'name': 'speed',
+        'value': 48
+      }
     ]
   },
   {
@@ -5322,6 +12971,32 @@ export const allPokemon = [
           'name': 'Exploud'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 104
+      },
+      {
+        'name': 'attack',
+        'value': 91
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 91
+      },
+      {
+        'name': 'special-defense',
+        'value': 73
+      },
+      {
+        'name': 'speed',
+        'value': 68
+      }
     ]
   },
   {
@@ -5337,6 +13012,32 @@ export const allPokemon = [
       {
         'name': 'Hariyama'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -5351,6 +13052,32 @@ export const allPokemon = [
       },
       {
         'name': 'Hariyama'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 144
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -5372,6 +13099,32 @@ export const allPokemon = [
           'name': 'Azumarill'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -5386,6 +13139,32 @@ export const allPokemon = [
       },
       {
         'name': 'Probopass'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 135
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -5402,6 +13181,32 @@ export const allPokemon = [
       {
         'name': 'Delcatty'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -5417,6 +13222,32 @@ export const allPokemon = [
       {
         'name': 'Delcatty'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -5427,7 +13258,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Sableye'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Mawile',
@@ -5437,7 +13294,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Mawile'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Aron',
@@ -5457,6 +13340,32 @@ export const allPokemon = [
           'name': 'Aggron'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -5477,6 +13386,32 @@ export const allPokemon = [
           'name': 'Aggron'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 140
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -5497,6 +13432,32 @@ export const allPokemon = [
           'name': 'Aggron'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 180
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -5511,6 +13472,32 @@ export const allPokemon = [
       },
       {
         'name': 'Medicham'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -5527,6 +13514,32 @@ export const allPokemon = [
       {
         'name': 'Medicham'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -5541,6 +13554,32 @@ export const allPokemon = [
       },
       {
         'name': 'Manectric'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -5557,6 +13596,32 @@ export const allPokemon = [
       {
         'name': 'Manectric'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -5567,7 +13632,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Plusle'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Minun',
@@ -5577,7 +13668,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Minun'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Volbeat',
@@ -5587,7 +13704,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Volbeat'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 47
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Illumise',
@@ -5597,7 +13740,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Illumise'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 47
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 73
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Roselia',
@@ -5617,6 +13786,32 @@ export const allPokemon = [
           'name': 'Roserade'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -5631,6 +13826,32 @@ export const allPokemon = [
       },
       {
         'name': 'Swalot'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 43
+      },
+      {
+        'name': 'defense',
+        'value': 53
+      },
+      {
+        'name': 'special-attack',
+        'value': 43
+      },
+      {
+        'name': 'special-defense',
+        'value': 53
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -5647,6 +13868,32 @@ export const allPokemon = [
       {
         'name': 'Swalot'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 83
+      },
+      {
+        'name': 'special-attack',
+        'value': 73
+      },
+      {
+        'name': 'special-defense',
+        'value': 83
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -5661,6 +13908,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sharpedo'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 20
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 20
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -5677,6 +13950,32 @@ export const allPokemon = [
       {
         'name': 'Sharpedo'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -5691,6 +13990,32 @@ export const allPokemon = [
       },
       {
         'name': 'Wailord'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 130
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -5707,6 +14032,32 @@ export const allPokemon = [
       {
         'name': 'Wailord'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 170
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -5721,6 +14072,32 @@ export const allPokemon = [
       },
       {
         'name': 'Camerupt'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -5737,6 +14114,32 @@ export const allPokemon = [
       {
         'name': 'Camerupt'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -5747,7 +14150,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Torkoal'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 140
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
+    ]
   },
   {
     'name': 'Spoink',
@@ -5761,6 +14190,32 @@ export const allPokemon = [
       },
       {
         'name': 'Grumpig'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -5777,6 +14232,32 @@ export const allPokemon = [
       {
         'name': 'Grumpig'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -5787,7 +14268,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Spinda'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
+    ]
   },
   {
     'name': 'Trapinch',
@@ -5807,6 +14314,32 @@ export const allPokemon = [
           'name': 'Flygon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 10
+      }
     ]
   },
   {
@@ -5827,6 +14360,32 @@ export const allPokemon = [
           'name': 'Flygon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -5847,6 +14406,32 @@ export const allPokemon = [
           'name': 'Flygon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -5861,6 +14446,32 @@ export const allPokemon = [
       },
       {
         'name': 'Cacturne'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -5877,6 +14488,32 @@ export const allPokemon = [
       {
         'name': 'Cacturne'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -5891,6 +14528,32 @@ export const allPokemon = [
       },
       {
         'name': 'Altaria'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -5907,6 +14570,32 @@ export const allPokemon = [
       {
         'name': 'Altaria'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -5917,7 +14606,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Zangoose'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 73
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Seviper',
@@ -5927,7 +14642,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Seviper'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 73
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
+    ]
   },
   {
     'name': 'Lunatone',
@@ -5937,7 +14678,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Lunatone'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Solrock',
@@ -5947,7 +14714,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Solrock'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Barboach',
@@ -5961,6 +14754,32 @@ export const allPokemon = [
       },
       {
         'name': 'Whiscash'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 43
+      },
+      {
+        'name': 'special-attack',
+        'value': 46
+      },
+      {
+        'name': 'special-defense',
+        'value': 41
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -5977,6 +14796,32 @@ export const allPokemon = [
       {
         'name': 'Whiscash'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 78
+      },
+      {
+        'name': 'defense',
+        'value': 73
+      },
+      {
+        'name': 'special-attack',
+        'value': 76
+      },
+      {
+        'name': 'special-defense',
+        'value': 71
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -5991,6 +14836,32 @@ export const allPokemon = [
       },
       {
         'name': 'Crawdaunt'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 43
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -6007,6 +14878,32 @@ export const allPokemon = [
       {
         'name': 'Crawdaunt'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 63
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -6021,6 +14918,32 @@ export const allPokemon = [
       },
       {
         'name': 'Claydol'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -6037,6 +14960,32 @@ export const allPokemon = [
       {
         'name': 'Claydol'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -6051,6 +15000,32 @@ export const allPokemon = [
       },
       {
         'name': 'Cradily'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 66
+      },
+      {
+        'name': 'attack',
+        'value': 41
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 61
+      },
+      {
+        'name': 'special-defense',
+        'value': 87
+      },
+      {
+        'name': 'speed',
+        'value': 23
       }
     ]
   },
@@ -6067,6 +15042,32 @@ export const allPokemon = [
       {
         'name': 'Cradily'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 86
+      },
+      {
+        'name': 'attack',
+        'value': 81
+      },
+      {
+        'name': 'defense',
+        'value': 97
+      },
+      {
+        'name': 'special-attack',
+        'value': 81
+      },
+      {
+        'name': 'special-defense',
+        'value': 107
+      },
+      {
+        'name': 'speed',
+        'value': 43
+      }
     ]
   },
   {
@@ -6081,6 +15082,32 @@ export const allPokemon = [
       },
       {
         'name': 'Armaldo'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 75
       }
     ]
   },
@@ -6097,6 +15124,32 @@ export const allPokemon = [
       {
         'name': 'Armaldo'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -6111,6 +15164,32 @@ export const allPokemon = [
       },
       {
         'name': 'Milotic'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 20
+      },
+      {
+        'name': 'attack',
+        'value': 15
+      },
+      {
+        'name': 'defense',
+        'value': 20
+      },
+      {
+        'name': 'special-attack',
+        'value': 10
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 80
       }
     ]
   },
@@ -6127,6 +15206,32 @@ export const allPokemon = [
       {
         'name': 'Milotic'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 79
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 125
+      },
+      {
+        'name': 'speed',
+        'value': 81
+      }
     ]
   },
   {
@@ -6137,7 +15242,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Castform'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Kecleon',
@@ -6147,7 +15278,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Kecleon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
+    ]
   },
   {
     'name': 'Shuppet',
@@ -6161,6 +15318,32 @@ export const allPokemon = [
       },
       {
         'name': 'Banette'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 44
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 63
+      },
+      {
+        'name': 'special-defense',
+        'value': 33
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -6176,6 +15359,32 @@ export const allPokemon = [
       },
       {
         'name': 'Banette'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 64
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 83
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -6197,6 +15406,32 @@ export const allPokemon = [
           'name': 'Dusknoir'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 20
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -6217,6 +15452,32 @@ export const allPokemon = [
           'name': 'Dusknoir'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -6227,7 +15488,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Tropius'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 99
+      },
+      {
+        'name': 'attack',
+        'value': 68
+      },
+      {
+        'name': 'defense',
+        'value': 83
+      },
+      {
+        'name': 'special-attack',
+        'value': 72
+      },
+      {
+        'name': 'special-defense',
+        'value': 87
+      },
+      {
+        'name': 'speed',
+        'value': 51
+      }
+    ]
   },
   {
     'name': 'Chimecho',
@@ -6242,6 +15529,32 @@ export const allPokemon = [
       {
         'name': 'Chimecho'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -6252,7 +15565,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Absol'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Wynaut',
@@ -6266,6 +15605,32 @@ export const allPokemon = [
       },
       {
         'name': 'Wobbuffet'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 23
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 23
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 23
       }
     ]
   },
@@ -6287,6 +15652,32 @@ export const allPokemon = [
           'name': 'Froslass'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -6307,6 +15698,32 @@ export const allPokemon = [
           'name': 'Froslass'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -6327,6 +15744,32 @@ export const allPokemon = [
           'name': 'Walrein'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -6347,6 +15790,32 @@ export const allPokemon = [
           'name': 'Walrein'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -6367,6 +15836,32 @@ export const allPokemon = [
           'name': 'Walrein'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -6387,6 +15882,32 @@ export const allPokemon = [
           'name': 'Gorebyss'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 74
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 32
+      }
     ]
   },
   {
@@ -6407,6 +15928,32 @@ export const allPokemon = [
           'name': 'Gorebyss'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 104
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 94
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 52
+      }
     ]
   },
   {
@@ -6427,6 +15974,32 @@ export const allPokemon = [
           'name': 'Gorebyss'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 84
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 114
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 52
+      }
     ]
   },
   {
@@ -6437,7 +16010,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Relicanth'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
+    ]
   },
   {
     'name': 'Luvdisc',
@@ -6447,7 +16046,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Luvdisc'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 43
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
+    ]
   },
   {
     'name': 'Bagon',
@@ -6467,6 +16092,32 @@ export const allPokemon = [
           'name': 'Salamence'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -6487,6 +16138,32 @@ export const allPokemon = [
           'name': 'Salamence'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -6507,6 +16184,32 @@ export const allPokemon = [
           'name': 'Salamence'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -6527,6 +16230,32 @@ export const allPokemon = [
           'name': 'Metagross'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -6547,6 +16276,32 @@ export const allPokemon = [
           'name': 'Metagross'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -6567,6 +16322,32 @@ export const allPokemon = [
           'name': 'Metagross'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -6577,7 +16358,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Regirock'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 200
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Regice',
@@ -6587,7 +16394,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Regice'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 200
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Registeel',
@@ -6597,7 +16430,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Registeel'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 150
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 150
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Latias',
@@ -6607,7 +16466,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Latias'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
+    ]
   },
   {
     'name': 'Latios',
@@ -6617,7 +16502,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Latios'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
+    ]
   },
   {
     'name': 'Kyogre',
@@ -6627,7 +16538,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Kyogre'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 150
+      },
+      {
+        'name': 'special-defense',
+        'value': 140
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Groudon',
@@ -6637,7 +16574,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Groudon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 150
+      },
+      {
+        'name': 'defense',
+        'value': 140
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Rayquaza',
@@ -6647,7 +16610,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Rayquaza'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 150
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 150
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Jirachi',
@@ -6657,7 +16646,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Jirachi'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Deoxys-normal',
@@ -6667,7 +16682,33 @@ export const allPokemon = [
     'generation': 3,
     'evolutionLine': {
       'name': 'Deoxys'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 150
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 150
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 150
+      }
+    ]
   },
   {
     'name': 'Turtwig',
@@ -6687,6 +16728,32 @@ export const allPokemon = [
           'name': 'Torterra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 68
+      },
+      {
+        'name': 'defense',
+        'value': 64
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 31
+      }
     ]
   },
   {
@@ -6707,6 +16774,32 @@ export const allPokemon = [
           'name': 'Torterra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 89
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 36
+      }
     ]
   },
   {
@@ -6727,6 +16820,32 @@ export const allPokemon = [
           'name': 'Torterra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 109
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 56
+      }
     ]
   },
   {
@@ -6747,6 +16866,32 @@ export const allPokemon = [
           'name': 'Infernape'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 44
+      },
+      {
+        'name': 'attack',
+        'value': 58
+      },
+      {
+        'name': 'defense',
+        'value': 44
+      },
+      {
+        'name': 'special-attack',
+        'value': 58
+      },
+      {
+        'name': 'special-defense',
+        'value': 44
+      },
+      {
+        'name': 'speed',
+        'value': 61
+      }
     ]
   },
   {
@@ -6767,6 +16912,32 @@ export const allPokemon = [
           'name': 'Infernape'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 64
+      },
+      {
+        'name': 'attack',
+        'value': 78
+      },
+      {
+        'name': 'defense',
+        'value': 52
+      },
+      {
+        'name': 'special-attack',
+        'value': 78
+      },
+      {
+        'name': 'special-defense',
+        'value': 52
+      },
+      {
+        'name': 'speed',
+        'value': 81
+      }
     ]
   },
   {
@@ -6787,6 +16958,32 @@ export const allPokemon = [
           'name': 'Infernape'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 76
+      },
+      {
+        'name': 'attack',
+        'value': 104
+      },
+      {
+        'name': 'defense',
+        'value': 71
+      },
+      {
+        'name': 'special-attack',
+        'value': 104
+      },
+      {
+        'name': 'special-defense',
+        'value': 71
+      },
+      {
+        'name': 'speed',
+        'value': 108
+      }
     ]
   },
   {
@@ -6807,6 +17004,32 @@ export const allPokemon = [
           'name': 'Empoleon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 53
+      },
+      {
+        'name': 'attack',
+        'value': 51
+      },
+      {
+        'name': 'defense',
+        'value': 53
+      },
+      {
+        'name': 'special-attack',
+        'value': 61
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -6827,6 +17050,32 @@ export const allPokemon = [
           'name': 'Empoleon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 64
+      },
+      {
+        'name': 'attack',
+        'value': 66
+      },
+      {
+        'name': 'defense',
+        'value': 68
+      },
+      {
+        'name': 'special-attack',
+        'value': 81
+      },
+      {
+        'name': 'special-defense',
+        'value': 76
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -6847,6 +17096,32 @@ export const allPokemon = [
           'name': 'Empoleon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 84
+      },
+      {
+        'name': 'attack',
+        'value': 86
+      },
+      {
+        'name': 'defense',
+        'value': 88
+      },
+      {
+        'name': 'special-attack',
+        'value': 111
+      },
+      {
+        'name': 'special-defense',
+        'value': 101
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -6867,6 +17142,32 @@ export const allPokemon = [
           'name': 'Staraptor'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -6887,6 +17188,32 @@ export const allPokemon = [
           'name': 'Staraptor'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -6907,6 +17234,32 @@ export const allPokemon = [
           'name': 'Staraptor'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -6921,6 +17274,32 @@ export const allPokemon = [
       },
       {
         'name': 'Bibarel'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 59
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 31
       }
     ]
   },
@@ -6937,6 +17316,32 @@ export const allPokemon = [
       {
         'name': 'Bibarel'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 79
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 71
+      }
     ]
   },
   {
@@ -6952,6 +17357,32 @@ export const allPokemon = [
       {
         'name': 'Kricketune'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 37
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 41
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 41
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -6966,6 +17397,32 @@ export const allPokemon = [
       },
       {
         'name': 'Kricketune'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 77
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 51
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 51
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -6987,6 +17444,32 @@ export const allPokemon = [
           'name': 'Luxray'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 34
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 34
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -7007,6 +17490,32 @@ export const allPokemon = [
           'name': 'Luxray'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 49
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 49
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -7027,6 +17536,32 @@ export const allPokemon = [
           'name': 'Luxray'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 79
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 79
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -7047,6 +17582,32 @@ export const allPokemon = [
           'name': 'Roserade'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -7067,6 +17628,32 @@ export const allPokemon = [
           'name': 'Roserade'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -7081,6 +17668,32 @@ export const allPokemon = [
       },
       {
         'name': 'Rampardos'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 67
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 58
       }
     ]
   },
@@ -7097,6 +17710,32 @@ export const allPokemon = [
       {
         'name': 'Rampardos'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 97
+      },
+      {
+        'name': 'attack',
+        'value': 165
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 58
+      }
     ]
   },
   {
@@ -7112,6 +17751,32 @@ export const allPokemon = [
       {
         'name': 'Bastiodon'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 42
+      },
+      {
+        'name': 'defense',
+        'value': 118
+      },
+      {
+        'name': 'special-attack',
+        'value': 42
+      },
+      {
+        'name': 'special-defense',
+        'value': 88
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -7126,6 +17791,32 @@ export const allPokemon = [
       },
       {
         'name': 'Bastiodon'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 168
+      },
+      {
+        'name': 'special-attack',
+        'value': 47
+      },
+      {
+        'name': 'special-defense',
+        'value': 138
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -7147,6 +17838,32 @@ export const allPokemon = [
           'name': 'Mothim'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 29
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 29
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 36
+      }
     ]
   },
   {
@@ -7167,6 +17884,32 @@ export const allPokemon = [
           'name': 'Mothim'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 59
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 79
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 36
+      }
     ]
   },
   {
@@ -7187,6 +17930,32 @@ export const allPokemon = [
           'name': 'Mothim'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 94
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 94
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 66
+      }
     ]
   },
   {
@@ -7201,6 +17970,32 @@ export const allPokemon = [
       },
       {
         'name': 'Vespiquen'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 42
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 42
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -7217,6 +18012,32 @@ export const allPokemon = [
       {
         'name': 'Vespiquen'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 102
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 102
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -7227,7 +18048,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Pachirisu'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Buizel',
@@ -7241,6 +18088,32 @@ export const allPokemon = [
       },
       {
         'name': 'Floatzel'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 85
       }
     ]
   },
@@ -7257,6 +18130,32 @@ export const allPokemon = [
       {
         'name': 'Floatzel'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 115
+      }
     ]
   },
   {
@@ -7271,6 +18170,32 @@ export const allPokemon = [
       },
       {
         'name': 'Cherrim'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 62
+      },
+      {
+        'name': 'special-defense',
+        'value': 53
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -7287,6 +18212,32 @@ export const allPokemon = [
       {
         'name': 'Cherrim'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 87
+      },
+      {
+        'name': 'special-defense',
+        'value': 78
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -7301,6 +18252,32 @@ export const allPokemon = [
       },
       {
         'name': 'Gastrodon'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 76
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 57
+      },
+      {
+        'name': 'special-defense',
+        'value': 62
+      },
+      {
+        'name': 'speed',
+        'value': 34
       }
     ]
   },
@@ -7317,6 +18294,32 @@ export const allPokemon = [
       {
         'name': 'Gastrodon'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 111
+      },
+      {
+        'name': 'attack',
+        'value': 83
+      },
+      {
+        'name': 'defense',
+        'value': 68
+      },
+      {
+        'name': 'special-attack',
+        'value': 92
+      },
+      {
+        'name': 'special-defense',
+        'value': 82
+      },
+      {
+        'name': 'speed',
+        'value': 39
+      }
     ]
   },
   {
@@ -7331,6 +18334,32 @@ export const allPokemon = [
       },
       {
         'name': 'Ambipom'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 66
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 66
+      },
+      {
+        'name': 'speed',
+        'value': 115
       }
     ]
   },
@@ -7347,6 +18376,32 @@ export const allPokemon = [
       {
         'name': 'Drifblim'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 34
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 44
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -7361,6 +18416,32 @@ export const allPokemon = [
       },
       {
         'name': 'Drifblim'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 150
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 44
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 54
+      },
+      {
+        'name': 'speed',
+        'value': 80
       }
     ]
   },
@@ -7377,6 +18458,32 @@ export const allPokemon = [
       {
         'name': 'Lopunny'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 66
+      },
+      {
+        'name': 'defense',
+        'value': 44
+      },
+      {
+        'name': 'special-attack',
+        'value': 44
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -7391,6 +18498,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lopunny'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 76
+      },
+      {
+        'name': 'defense',
+        'value': 84
+      },
+      {
+        'name': 'special-attack',
+        'value': 54
+      },
+      {
+        'name': 'special-defense',
+        'value': 96
+      },
+      {
+        'name': 'speed',
+        'value': 105
       }
     ]
   },
@@ -7407,6 +18540,32 @@ export const allPokemon = [
       {
         'name': 'Mismagius'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -7421,6 +18580,32 @@ export const allPokemon = [
       },
       {
         'name': 'Honchkrow'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 52
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 52
+      },
+      {
+        'name': 'speed',
+        'value': 71
       }
     ]
   },
@@ -7437,6 +18622,32 @@ export const allPokemon = [
       {
         'name': 'Purugly'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 49
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 42
+      },
+      {
+        'name': 'special-attack',
+        'value': 42
+      },
+      {
+        'name': 'special-defense',
+        'value': 37
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -7451,6 +18662,32 @@ export const allPokemon = [
       },
       {
         'name': 'Purugly'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 71
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 64
+      },
+      {
+        'name': 'special-attack',
+        'value': 64
+      },
+      {
+        'name': 'special-defense',
+        'value': 59
+      },
+      {
+        'name': 'speed',
+        'value': 112
       }
     ]
   },
@@ -7467,6 +18704,32 @@ export const allPokemon = [
       {
         'name': 'Chimecho'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -7481,6 +18744,32 @@ export const allPokemon = [
       },
       {
         'name': 'Skuntank'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 63
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 47
+      },
+      {
+        'name': 'special-attack',
+        'value': 41
+      },
+      {
+        'name': 'special-defense',
+        'value': 41
+      },
+      {
+        'name': 'speed',
+        'value': 74
       }
     ]
   },
@@ -7497,6 +18786,32 @@ export const allPokemon = [
       {
         'name': 'Skuntank'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 103
+      },
+      {
+        'name': 'attack',
+        'value': 93
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 71
+      },
+      {
+        'name': 'special-defense',
+        'value': 61
+      },
+      {
+        'name': 'speed',
+        'value': 84
+      }
     ]
   },
   {
@@ -7511,6 +18826,32 @@ export const allPokemon = [
       },
       {
         'name': 'Bronzong'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 57
+      },
+      {
+        'name': 'attack',
+        'value': 24
+      },
+      {
+        'name': 'defense',
+        'value': 86
+      },
+      {
+        'name': 'special-attack',
+        'value': 24
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 23
       }
     ]
   },
@@ -7527,6 +18868,32 @@ export const allPokemon = [
       {
         'name': 'Bronzong'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 67
+      },
+      {
+        'name': 'attack',
+        'value': 89
+      },
+      {
+        'name': 'defense',
+        'value': 116
+      },
+      {
+        'name': 'special-attack',
+        'value': 79
+      },
+      {
+        'name': 'special-defense',
+        'value': 116
+      },
+      {
+        'name': 'speed',
+        'value': 33
+      }
     ]
   },
   {
@@ -7541,6 +18908,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sudowoodo'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 10
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 10
       }
     ]
   },
@@ -7562,6 +18955,32 @@ export const allPokemon = [
           'name': 'Mr-rime'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 20
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -7582,6 +19001,32 @@ export const allPokemon = [
           'name': 'Blissey'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 5
+      },
+      {
+        'name': 'defense',
+        'value': 5
+      },
+      {
+        'name': 'special-attack',
+        'value': 15
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -7592,7 +19037,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Chatot'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 76
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 92
+      },
+      {
+        'name': 'special-defense',
+        'value': 42
+      },
+      {
+        'name': 'speed',
+        'value': 91
+      }
+    ]
   },
   {
     'name': 'Spiritomb',
@@ -7602,7 +19073,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Spiritomb'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 92
+      },
+      {
+        'name': 'defense',
+        'value': 108
+      },
+      {
+        'name': 'special-attack',
+        'value': 92
+      },
+      {
+        'name': 'special-defense',
+        'value': 108
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
+    ]
   },
   {
     'name': 'Gible',
@@ -7622,6 +19119,32 @@ export const allPokemon = [
           'name': 'Garchomp'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -7642,6 +19165,32 @@ export const allPokemon = [
           'name': 'Garchomp'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 82
+      }
     ]
   },
   {
@@ -7662,6 +19211,32 @@ export const allPokemon = [
           'name': 'Garchomp'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 108
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 102
+      }
     ]
   },
   {
@@ -7676,6 +19251,32 @@ export const allPokemon = [
       },
       {
         'name': 'Snorlax'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 135
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 5
       }
     ]
   },
@@ -7692,6 +19293,32 @@ export const allPokemon = [
       {
         'name': 'Lucario'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -7706,6 +19333,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lucario'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 90
       }
     ]
   },
@@ -7722,6 +19375,32 @@ export const allPokemon = [
       {
         'name': 'Hippowdon'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 72
+      },
+      {
+        'name': 'defense',
+        'value': 78
+      },
+      {
+        'name': 'special-attack',
+        'value': 38
+      },
+      {
+        'name': 'special-defense',
+        'value': 42
+      },
+      {
+        'name': 'speed',
+        'value': 32
+      }
     ]
   },
   {
@@ -7736,6 +19415,32 @@ export const allPokemon = [
       },
       {
         'name': 'Hippowdon'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 108
+      },
+      {
+        'name': 'attack',
+        'value': 112
+      },
+      {
+        'name': 'defense',
+        'value': 118
+      },
+      {
+        'name': 'special-attack',
+        'value': 68
+      },
+      {
+        'name': 'special-defense',
+        'value': 72
+      },
+      {
+        'name': 'speed',
+        'value': 47
       }
     ]
   },
@@ -7752,6 +19457,32 @@ export const allPokemon = [
       {
         'name': 'Drapion'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -7766,6 +19497,32 @@ export const allPokemon = [
       },
       {
         'name': 'Drapion'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -7782,6 +19539,32 @@ export const allPokemon = [
       {
         'name': 'Toxicroak'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 48
+      },
+      {
+        'name': 'attack',
+        'value': 61
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 61
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -7797,6 +19580,32 @@ export const allPokemon = [
       {
         'name': 'Toxicroak'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 83
+      },
+      {
+        'name': 'attack',
+        'value': 106
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 86
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -7807,7 +19616,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Carnivine'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 74
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 72
+      },
+      {
+        'name': 'speed',
+        'value': 46
+      }
+    ]
   },
   {
     'name': 'Finneon',
@@ -7821,6 +19656,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lumineon'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 49
+      },
+      {
+        'name': 'attack',
+        'value': 49
+      },
+      {
+        'name': 'defense',
+        'value': 56
+      },
+      {
+        'name': 'special-attack',
+        'value': 49
+      },
+      {
+        'name': 'special-defense',
+        'value': 61
+      },
+      {
+        'name': 'speed',
+        'value': 66
       }
     ]
   },
@@ -7837,6 +19698,32 @@ export const allPokemon = [
       {
         'name': 'Lumineon'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 69
+      },
+      {
+        'name': 'attack',
+        'value': 69
+      },
+      {
+        'name': 'defense',
+        'value': 76
+      },
+      {
+        'name': 'special-attack',
+        'value': 69
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 91
+      }
     ]
   },
   {
@@ -7851,6 +19738,32 @@ export const allPokemon = [
       },
       {
         'name': 'Mantine'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -7867,6 +19780,32 @@ export const allPokemon = [
       {
         'name': 'Abomasnow'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 62
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 62
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -7881,6 +19820,32 @@ export const allPokemon = [
       },
       {
         'name': 'Abomasnow'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 92
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 92
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -7902,6 +19867,32 @@ export const allPokemon = [
           'name': 'Sneasler'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 125
+      }
     ]
   },
   {
@@ -7922,6 +19913,32 @@ export const allPokemon = [
           'name': 'Magnezone'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -7936,6 +19953,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lickilicky'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -7957,6 +20000,32 @@ export const allPokemon = [
           'name': 'Rhyperior'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 115
+      },
+      {
+        'name': 'attack',
+        'value': 140
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -7971,6 +20040,32 @@ export const allPokemon = [
       },
       {
         'name': 'Tangrowth'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 125
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -7992,6 +20087,32 @@ export const allPokemon = [
           'name': 'Electivire'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 123
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -8012,6 +20133,32 @@ export const allPokemon = [
           'name': 'Magmortar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 83
+      }
     ]
   },
   {
@@ -8032,6 +20179,32 @@ export const allPokemon = [
           'name': 'Togekiss'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -8046,6 +20219,32 @@ export const allPokemon = [
       },
       {
         'name': 'Yanmega'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 86
+      },
+      {
+        'name': 'attack',
+        'value': 76
+      },
+      {
+        'name': 'defense',
+        'value': 86
+      },
+      {
+        'name': 'special-attack',
+        'value': 116
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -8085,6 +20284,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -8123,6 +20348,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -8137,6 +20388,32 @@ export const allPokemon = [
       },
       {
         'name': 'Gliscor'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 125
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -8158,6 +20435,32 @@ export const allPokemon = [
           'name': 'Mamoswine'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -8178,6 +20481,32 @@ export const allPokemon = [
           'name': 'Porygon-z'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -8203,6 +20532,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -8217,6 +20572,32 @@ export const allPokemon = [
       },
       {
         'name': 'Probopass'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 145
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 150
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -8238,6 +20619,32 @@ export const allPokemon = [
           'name': 'Dusknoir'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 135
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 135
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -8258,6 +20665,32 @@ export const allPokemon = [
           'name': 'Froslass'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
     ]
   },
   {
@@ -8268,7 +20701,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Rotom'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 77
+      },
+      {
+        'name': 'speed',
+        'value': 91
+      }
+    ]
   },
   {
     'name': 'Uxie',
@@ -8278,7 +20737,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Uxie'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Mesprit',
@@ -8288,7 +20773,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Mesprit'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
+    ]
   },
   {
     'name': 'Azelf',
@@ -8298,7 +20809,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Azelf'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 115
+      }
+    ]
   },
   {
     'name': 'Dialga',
@@ -8308,7 +20845,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Dialga'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 150
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Palkia',
@@ -8318,7 +20881,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Palkia'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 150
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Heatran',
@@ -8328,7 +20917,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Heatran'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 91
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 106
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 106
+      },
+      {
+        'name': 'speed',
+        'value': 77
+      }
+    ]
   },
   {
     'name': 'Regigigas',
@@ -8338,7 +20953,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Regigigas'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 160
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Giratina-altered',
@@ -8348,7 +20989,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Giratina'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 150
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Cresselia',
@@ -8358,7 +21025,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Cresselia'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 120
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Phione',
@@ -8372,6 +21065,32 @@ export const allPokemon = [
       },
       {
         'name': 'Manaphy'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 80
       }
     ]
   },
@@ -8388,6 +21107,32 @@ export const allPokemon = [
       {
         'name': 'Manaphy'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -8398,7 +21143,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Darkrai'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 125
+      }
+    ]
   },
   {
     'name': 'Shaymin-land',
@@ -8408,7 +21179,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Shaymin'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Arceus',
@@ -8418,7 +21215,33 @@ export const allPokemon = [
     'generation': 4,
     'evolutionLine': {
       'name': 'Arceus'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 120
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 120
+      }
+    ]
   },
   {
     'name': 'Victini',
@@ -8428,7 +21251,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Victini'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Snivy',
@@ -8448,6 +21297,32 @@ export const allPokemon = [
           'name': 'Serperior'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 63
+      }
     ]
   },
   {
@@ -8468,6 +21343,32 @@ export const allPokemon = [
           'name': 'Serperior'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 83
+      }
     ]
   },
   {
@@ -8488,6 +21389,32 @@ export const allPokemon = [
           'name': 'Serperior'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 113
+      }
     ]
   },
   {
@@ -8508,6 +21435,32 @@ export const allPokemon = [
           'name': 'Emboar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -8528,6 +21481,32 @@ export const allPokemon = [
           'name': 'Emboar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 93
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -8548,6 +21527,32 @@ export const allPokemon = [
           'name': 'Emboar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 123
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -8568,6 +21573,32 @@ export const allPokemon = [
           'name': 'Samurott'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 63
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -8588,6 +21619,32 @@ export const allPokemon = [
           'name': 'Samurott'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 83
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -8608,6 +21665,32 @@ export const allPokemon = [
           'name': 'Samurott'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 108
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -8623,6 +21706,32 @@ export const allPokemon = [
       {
         'name': 'Watchog'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 39
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 39
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -8637,6 +21746,32 @@ export const allPokemon = [
       },
       {
         'name': 'Watchog'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 69
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 69
+      },
+      {
+        'name': 'speed',
+        'value': 77
       }
     ]
   },
@@ -8658,6 +21793,32 @@ export const allPokemon = [
           'name': 'Stoutland'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -8678,6 +21839,32 @@ export const allPokemon = [
           'name': 'Stoutland'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -8698,6 +21885,32 @@ export const allPokemon = [
           'name': 'Stoutland'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -8712,6 +21925,32 @@ export const allPokemon = [
       },
       {
         'name': 'Liepard'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 41
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 37
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 37
+      },
+      {
+        'name': 'speed',
+        'value': 66
       }
     ]
   },
@@ -8728,6 +21967,32 @@ export const allPokemon = [
       {
         'name': 'Liepard'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 64
+      },
+      {
+        'name': 'attack',
+        'value': 88
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 88
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 106
+      }
     ]
   },
   {
@@ -8742,6 +22007,32 @@ export const allPokemon = [
       },
       {
         'name': 'Simisage'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 64
       }
     ]
   },
@@ -8758,6 +22049,32 @@ export const allPokemon = [
       {
         'name': 'Simisage'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 98
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 98
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 101
+      }
     ]
   },
   {
@@ -8772,6 +22089,32 @@ export const allPokemon = [
       },
       {
         'name': 'Simisear'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 64
       }
     ]
   },
@@ -8788,6 +22131,32 @@ export const allPokemon = [
       {
         'name': 'Simisear'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 98
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 98
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 101
+      }
     ]
   },
   {
@@ -8802,6 +22171,32 @@ export const allPokemon = [
       },
       {
         'name': 'Simipour'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 64
       }
     ]
   },
@@ -8818,6 +22213,32 @@ export const allPokemon = [
       {
         'name': 'Simipour'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 98
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 98
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 101
+      }
     ]
   },
   {
@@ -8833,6 +22254,32 @@ export const allPokemon = [
       {
         'name': 'Musharna'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 76
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 67
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 24
+      }
     ]
   },
   {
@@ -8847,6 +22294,32 @@ export const allPokemon = [
       },
       {
         'name': 'Musharna'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 116
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 107
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 29
       }
     ]
   },
@@ -8868,6 +22341,32 @@ export const allPokemon = [
           'name': 'Unfezant'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 36
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 43
+      }
     ]
   },
   {
@@ -8888,6 +22387,32 @@ export const allPokemon = [
           'name': 'Unfezant'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 77
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 42
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -8908,6 +22433,32 @@ export const allPokemon = [
           'name': 'Unfezant'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 93
+      }
     ]
   },
   {
@@ -8923,6 +22474,32 @@ export const allPokemon = [
       {
         'name': 'Zebstrika'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 32
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 32
+      },
+      {
+        'name': 'speed',
+        'value': 76
+      }
     ]
   },
   {
@@ -8937,6 +22514,32 @@ export const allPokemon = [
       },
       {
         'name': 'Zebstrika'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 116
       }
     ]
   },
@@ -8958,6 +22561,32 @@ export const allPokemon = [
           'name': 'Gigalith'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
     ]
   },
   {
@@ -8978,6 +22607,32 @@ export const allPokemon = [
           'name': 'Gigalith'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -8998,6 +22653,32 @@ export const allPokemon = [
           'name': 'Gigalith'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -9012,6 +22693,32 @@ export const allPokemon = [
       },
       {
         'name': 'Swoobat'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 43
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 43
+      },
+      {
+        'name': 'speed',
+        'value': 72
       }
     ]
   },
@@ -9028,6 +22735,32 @@ export const allPokemon = [
       {
         'name': 'Swoobat'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 67
+      },
+      {
+        'name': 'attack',
+        'value': 57
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 77
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 114
+      }
     ]
   },
   {
@@ -9042,6 +22775,32 @@ export const allPokemon = [
       },
       {
         'name': 'Excadrill'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 68
       }
     ]
   },
@@ -9058,6 +22817,32 @@ export const allPokemon = [
       {
         'name': 'Excadrill'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 88
+      }
     ]
   },
   {
@@ -9068,7 +22853,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Audino'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 103
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 86
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Timburr',
@@ -9088,6 +22899,32 @@ export const allPokemon = [
           'name': 'Conkeldurr'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -9108,6 +22945,32 @@ export const allPokemon = [
           'name': 'Conkeldurr'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -9128,6 +22991,32 @@ export const allPokemon = [
           'name': 'Conkeldurr'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 140
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -9148,6 +23037,32 @@ export const allPokemon = [
           'name': 'Seismitoad'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 64
+      }
     ]
   },
   {
@@ -9168,6 +23083,32 @@ export const allPokemon = [
           'name': 'Seismitoad'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 69
+      }
     ]
   },
   {
@@ -9188,6 +23129,32 @@ export const allPokemon = [
           'name': 'Seismitoad'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 74
+      }
     ]
   },
   {
@@ -9198,7 +23165,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Throh'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 120
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
+    ]
   },
   {
     'name': 'Sawk',
@@ -9208,7 +23201,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Sawk'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Sewaddle',
@@ -9228,6 +23247,32 @@ export const allPokemon = [
           'name': 'Leavanny'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -9248,6 +23293,32 @@ export const allPokemon = [
           'name': 'Leavanny'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -9268,6 +23339,32 @@ export const allPokemon = [
           'name': 'Leavanny'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 103
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 92
+      }
     ]
   },
   {
@@ -9288,6 +23385,32 @@ export const allPokemon = [
           'name': 'Scolipede'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 59
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 39
+      },
+      {
+        'name': 'speed',
+        'value': 57
+      }
     ]
   },
   {
@@ -9308,6 +23431,32 @@ export const allPokemon = [
           'name': 'Scolipede'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 99
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 79
+      },
+      {
+        'name': 'speed',
+        'value': 47
+      }
     ]
   },
   {
@@ -9328,6 +23477,32 @@ export const allPokemon = [
           'name': 'Scolipede'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 89
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 69
+      },
+      {
+        'name': 'speed',
+        'value': 112
+      }
     ]
   },
   {
@@ -9342,6 +23517,32 @@ export const allPokemon = [
       },
       {
         'name': 'Whimsicott'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 27
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 37
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 66
       }
     ]
   },
@@ -9358,6 +23559,32 @@ export const allPokemon = [
       {
         'name': 'Whimsicott'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 67
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 77
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 116
+      }
     ]
   },
   {
@@ -9372,6 +23599,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lilligant'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -9388,6 +23641,32 @@ export const allPokemon = [
       {
         'name': 'Lilligant'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -9402,6 +23681,32 @@ export const allPokemon = [
       },
       {
         'name': 'Basculegion'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 92
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 98
       }
     ]
   },
@@ -9423,6 +23728,32 @@ export const allPokemon = [
           'name': 'Krookodile'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 72
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -9443,6 +23774,32 @@ export const allPokemon = [
           'name': 'Krookodile'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 74
+      }
     ]
   },
   {
@@ -9463,6 +23820,32 @@ export const allPokemon = [
           'name': 'Krookodile'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 117
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 92
+      }
     ]
   },
   {
@@ -9477,6 +23860,32 @@ export const allPokemon = [
       },
       {
         'name': 'Darmanitan'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 15
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -9493,6 +23902,32 @@ export const allPokemon = [
       {
         'name': 'Darmanitan'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 140
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -9503,7 +23938,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Maractus'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 86
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 106
+      },
+      {
+        'name': 'special-defense',
+        'value': 67
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
+    ]
   },
   {
     'name': 'Dwebble',
@@ -9517,6 +23978,32 @@ export const allPokemon = [
       },
       {
         'name': 'Crustle'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -9533,6 +24020,32 @@ export const allPokemon = [
       {
         'name': 'Crustle'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 125
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -9547,6 +24060,32 @@ export const allPokemon = [
       },
       {
         'name': 'Scrafty'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 48
       }
     ]
   },
@@ -9563,6 +24102,32 @@ export const allPokemon = [
       {
         'name': 'Scrafty'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 58
+      }
     ]
   },
   {
@@ -9573,7 +24138,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Sigilyph'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 58
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 103
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
+    ]
   },
   {
     'name': 'Yamask',
@@ -9593,6 +24184,32 @@ export const allPokemon = [
           'name': 'Runerigus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -9613,6 +24230,32 @@ export const allPokemon = [
           'name': 'Runerigus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 145
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -9627,6 +24270,32 @@ export const allPokemon = [
       },
       {
         'name': 'Carracosta'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 54
+      },
+      {
+        'name': 'attack',
+        'value': 78
+      },
+      {
+        'name': 'defense',
+        'value': 103
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 22
       }
     ]
   },
@@ -9643,6 +24312,32 @@ export const allPokemon = [
       {
         'name': 'Carracosta'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 74
+      },
+      {
+        'name': 'attack',
+        'value': 108
+      },
+      {
+        'name': 'defense',
+        'value': 133
+      },
+      {
+        'name': 'special-attack',
+        'value': 83
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 32
+      }
     ]
   },
   {
@@ -9657,6 +24352,32 @@ export const allPokemon = [
       },
       {
         'name': 'Archeops'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 112
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 74
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -9673,6 +24394,32 @@ export const allPokemon = [
       {
         'name': 'Archeops'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 140
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 112
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
     ]
   },
   {
@@ -9687,6 +24434,32 @@ export const allPokemon = [
       },
       {
         'name': 'Garbodor'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 62
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -9703,6 +24476,32 @@ export const allPokemon = [
       {
         'name': 'Garbodor'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 82
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 82
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -9717,6 +24516,32 @@ export const allPokemon = [
       },
       {
         'name': 'Zoroark'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -9733,6 +24558,32 @@ export const allPokemon = [
       {
         'name': 'Zoroark'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -9748,6 +24599,32 @@ export const allPokemon = [
       {
         'name': 'Cinccino'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -9762,6 +24639,32 @@ export const allPokemon = [
       },
       {
         'name': 'Cinccino'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 115
       }
     ]
   },
@@ -9783,6 +24686,32 @@ export const allPokemon = [
           'name': 'Gothitelle'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -9803,6 +24732,32 @@ export const allPokemon = [
           'name': 'Gothitelle'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -9823,6 +24778,32 @@ export const allPokemon = [
           'name': 'Gothitelle'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -9843,6 +24824,32 @@ export const allPokemon = [
           'name': 'Reuniclus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -9863,6 +24870,32 @@ export const allPokemon = [
           'name': 'Reuniclus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -9883,6 +24916,32 @@ export const allPokemon = [
           'name': 'Reuniclus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -9898,6 +24957,32 @@ export const allPokemon = [
       {
         'name': 'Swanna'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 44
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 44
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -9912,6 +24997,32 @@ export const allPokemon = [
       },
       {
         'name': 'Swanna'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 87
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 87
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 98
       }
     ]
   },
@@ -9933,6 +25044,32 @@ export const allPokemon = [
           'name': 'Vanilluxe'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 36
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 44
+      }
     ]
   },
   {
@@ -9953,6 +25090,32 @@ export const allPokemon = [
           'name': 'Vanilluxe'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 51
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 59
+      }
     ]
   },
   {
@@ -9973,6 +25136,32 @@ export const allPokemon = [
           'name': 'Vanilluxe'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 71
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 79
+      }
     ]
   },
   {
@@ -9987,6 +25176,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sawsbuck'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 75
       }
     ]
   },
@@ -10003,6 +25218,32 @@ export const allPokemon = [
       {
         'name': 'Sawsbuck'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -10013,7 +25254,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Emolga'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 103
+      }
+    ]
   },
   {
     'name': 'Karrablast',
@@ -10027,6 +25294,32 @@ export const allPokemon = [
       },
       {
         'name': 'Escavalier'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -10043,6 +25336,32 @@ export const allPokemon = [
       {
         'name': 'Escavalier'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -10057,6 +25376,32 @@ export const allPokemon = [
       },
       {
         'name': 'Amoonguss'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 69
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 15
       }
     ]
   },
@@ -10073,6 +25418,32 @@ export const allPokemon = [
       {
         'name': 'Amoonguss'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 114
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -10087,6 +25458,32 @@ export const allPokemon = [
       },
       {
         'name': 'Jellicent'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -10103,6 +25500,32 @@ export const allPokemon = [
       {
         'name': 'Jellicent'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -10113,7 +25536,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Alomomola'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 165
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
+    ]
   },
   {
     'name': 'Joltik',
@@ -10127,6 +25576,32 @@ export const allPokemon = [
       },
       {
         'name': 'Galvantula'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 47
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 57
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -10143,6 +25618,32 @@ export const allPokemon = [
       {
         'name': 'Galvantula'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 77
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 97
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 108
+      }
     ]
   },
   {
@@ -10158,6 +25659,32 @@ export const allPokemon = [
       {
         'name': 'Ferrothorn'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 44
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 91
+      },
+      {
+        'name': 'special-attack',
+        'value': 24
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 10
+      }
     ]
   },
   {
@@ -10172,6 +25699,32 @@ export const allPokemon = [
       },
       {
         'name': 'Ferrothorn'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 74
+      },
+      {
+        'name': 'attack',
+        'value': 94
+      },
+      {
+        'name': 'defense',
+        'value': 131
+      },
+      {
+        'name': 'special-attack',
+        'value': 54
+      },
+      {
+        'name': 'special-defense',
+        'value': 116
+      },
+      {
+        'name': 'speed',
+        'value': 20
       }
     ]
   },
@@ -10193,6 +25746,32 @@ export const allPokemon = [
           'name': 'Klinklang'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -10213,6 +25792,32 @@ export const allPokemon = [
           'name': 'Klinklang'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -10233,6 +25838,32 @@ export const allPokemon = [
           'name': 'Klinklang'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -10253,6 +25884,32 @@ export const allPokemon = [
           'name': 'Eelektross'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -10273,6 +25930,32 @@ export const allPokemon = [
           'name': 'Eelektross'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -10293,6 +25976,32 @@ export const allPokemon = [
           'name': 'Eelektross'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -10308,6 +26017,32 @@ export const allPokemon = [
       {
         'name': 'Beheeyem'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -10322,6 +26057,32 @@ export const allPokemon = [
       },
       {
         'name': 'Beheeyem'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -10343,6 +26104,32 @@ export const allPokemon = [
           'name': 'Chandelure'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -10363,6 +26150,32 @@ export const allPokemon = [
           'name': 'Chandelure'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -10383,6 +26196,32 @@ export const allPokemon = [
           'name': 'Chandelure'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 145
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -10403,6 +26242,32 @@ export const allPokemon = [
           'name': 'Haxorus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 46
+      },
+      {
+        'name': 'attack',
+        'value': 87
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 57
+      }
     ]
   },
   {
@@ -10423,6 +26288,32 @@ export const allPokemon = [
           'name': 'Haxorus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 66
+      },
+      {
+        'name': 'attack',
+        'value': 117
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 67
+      }
     ]
   },
   {
@@ -10443,6 +26334,32 @@ export const allPokemon = [
           'name': 'Haxorus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 76
+      },
+      {
+        'name': 'attack',
+        'value': 147
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
     ]
   },
   {
@@ -10457,6 +26374,32 @@ export const allPokemon = [
       },
       {
         'name': 'Beartic'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -10473,6 +26416,32 @@ export const allPokemon = [
       {
         'name': 'Beartic'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -10483,7 +26452,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Cryogonal'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 135
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
+    ]
   },
   {
     'name': 'Shelmet',
@@ -10497,6 +26492,32 @@ export const allPokemon = [
       },
       {
         'name': 'Accelgor'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 25
       }
     ]
   },
@@ -10513,6 +26534,32 @@ export const allPokemon = [
       {
         'name': 'Accelgor'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 145
+      }
     ]
   },
   {
@@ -10523,7 +26570,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Stunfisk'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 109
+      },
+      {
+        'name': 'attack',
+        'value': 66
+      },
+      {
+        'name': 'defense',
+        'value': 84
+      },
+      {
+        'name': 'special-attack',
+        'value': 81
+      },
+      {
+        'name': 'special-defense',
+        'value': 99
+      },
+      {
+        'name': 'speed',
+        'value': 32
+      }
+    ]
   },
   {
     'name': 'Mienfoo',
@@ -10537,6 +26610,32 @@ export const allPokemon = [
       },
       {
         'name': 'Mienshao'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -10553,6 +26652,32 @@ export const allPokemon = [
       {
         'name': 'Mienshao'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -10563,7 +26688,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Druddigon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 77
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 48
+      }
+    ]
   },
   {
     'name': 'Golett',
@@ -10577,6 +26728,32 @@ export const allPokemon = [
       },
       {
         'name': 'Golurk'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 59
+      },
+      {
+        'name': 'attack',
+        'value': 74
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -10592,6 +26769,32 @@ export const allPokemon = [
       },
       {
         'name': 'Golurk'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 89
+      },
+      {
+        'name': 'attack',
+        'value': 124
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -10613,6 +26816,32 @@ export const allPokemon = [
           'name': 'Kingambit'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -10633,6 +26862,32 @@ export const allPokemon = [
           'name': 'Kingambit'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -10643,7 +26898,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Bouffalant'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
+    ]
   },
   {
     'name': 'Rufflet',
@@ -10657,6 +26938,32 @@ export const allPokemon = [
       },
       {
         'name': 'Braviary'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 83
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 37
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -10673,6 +26980,32 @@ export const allPokemon = [
       {
         'name': 'Braviary'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 123
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 57
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -10687,6 +27020,32 @@ export const allPokemon = [
       },
       {
         'name': 'Mandibuzz'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -10703,6 +27062,32 @@ export const allPokemon = [
       {
         'name': 'Mandibuzz'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -10713,7 +27098,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Heatmor'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 97
+      },
+      {
+        'name': 'defense',
+        'value': 66
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 66
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
+    ]
   },
   {
     'name': 'Durant',
@@ -10723,7 +27134,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Durant'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 109
+      },
+      {
+        'name': 'defense',
+        'value': 112
+      },
+      {
+        'name': 'special-attack',
+        'value': 48
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 109
+      }
+    ]
   },
   {
     'name': 'Deino',
@@ -10743,6 +27180,32 @@ export const allPokemon = [
           'name': 'Hydreigon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 52
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 38
+      }
     ]
   },
   {
@@ -10763,6 +27226,32 @@ export const allPokemon = [
           'name': 'Hydreigon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 58
+      }
     ]
   },
   {
@@ -10783,6 +27272,32 @@ export const allPokemon = [
           'name': 'Hydreigon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 92
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 98
+      }
     ]
   },
   {
@@ -10797,6 +27312,32 @@ export const allPokemon = [
       },
       {
         'name': 'Volcarona'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -10813,6 +27354,32 @@ export const allPokemon = [
       {
         'name': 'Volcarona'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -10823,7 +27390,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Cobalion'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 91
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 129
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 72
+      },
+      {
+        'name': 'speed',
+        'value': 108
+      }
+    ]
   },
   {
     'name': 'Terrakion',
@@ -10833,7 +27426,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Terrakion'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 91
+      },
+      {
+        'name': 'attack',
+        'value': 129
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 72
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 108
+      }
+    ]
   },
   {
     'name': 'Virizion',
@@ -10843,7 +27462,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Virizion'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 91
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 129
+      },
+      {
+        'name': 'speed',
+        'value': 108
+      }
+    ]
   },
   {
     'name': 'Tornadus-incarnate',
@@ -10853,7 +27498,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Tornadus'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 79
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 111
+      }
+    ]
   },
   {
     'name': 'Thundurus-incarnate',
@@ -10863,7 +27534,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Thundurus'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 79
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 111
+      }
+    ]
   },
   {
     'name': 'Reshiram',
@@ -10873,7 +27570,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Reshiram'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 150
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Zekrom',
@@ -10883,7 +27606,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Zekrom'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 150
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Landorus-incarnate',
@@ -10893,7 +27642,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Landorus'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 89
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 101
+      }
+    ]
   },
   {
     'name': 'Kyurem',
@@ -10903,7 +27678,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Kyurem'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 125
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Keldeo-ordinary',
@@ -10913,7 +27714,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Keldeo'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 91
+      },
+      {
+        'name': 'attack',
+        'value': 72
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 129
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 108
+      }
+    ]
   },
   {
     'name': 'Meloetta-aria',
@@ -10923,7 +27750,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Meloetta'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 77
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 128
+      },
+      {
+        'name': 'special-defense',
+        'value': 128
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Genesect',
@@ -10933,7 +27786,33 @@ export const allPokemon = [
     'generation': 5,
     'evolutionLine': {
       'name': 'Genesect'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 71
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 99
+      }
+    ]
   },
   {
     'name': 'Chespin',
@@ -10953,6 +27832,32 @@ export const allPokemon = [
           'name': 'Chesnaught'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 56
+      },
+      {
+        'name': 'attack',
+        'value': 61
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 48
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 38
+      }
     ]
   },
   {
@@ -10973,6 +27878,32 @@ export const allPokemon = [
           'name': 'Chesnaught'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 78
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 56
+      },
+      {
+        'name': 'special-defense',
+        'value': 58
+      },
+      {
+        'name': 'speed',
+        'value': 57
+      }
     ]
   },
   {
@@ -10993,6 +27924,32 @@ export const allPokemon = [
           'name': 'Chesnaught'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 107
+      },
+      {
+        'name': 'defense',
+        'value': 122
+      },
+      {
+        'name': 'special-attack',
+        'value': 74
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 64
+      }
     ]
   },
   {
@@ -11013,6 +27970,32 @@ export const allPokemon = [
           'name': 'Delphox'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 62
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -11033,6 +28016,32 @@ export const allPokemon = [
           'name': 'Delphox'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 59
+      },
+      {
+        'name': 'attack',
+        'value': 59
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 73
+      }
     ]
   },
   {
@@ -11053,6 +28062,32 @@ export const allPokemon = [
           'name': 'Delphox'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 69
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 114
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 104
+      }
     ]
   },
   {
@@ -11073,6 +28108,32 @@ export const allPokemon = [
           'name': 'Greninja'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 41
+      },
+      {
+        'name': 'attack',
+        'value': 56
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 62
+      },
+      {
+        'name': 'special-defense',
+        'value': 44
+      },
+      {
+        'name': 'speed',
+        'value': 71
+      }
     ]
   },
   {
@@ -11093,6 +28154,32 @@ export const allPokemon = [
           'name': 'Greninja'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 54
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 52
+      },
+      {
+        'name': 'special-attack',
+        'value': 83
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
     ]
   },
   {
@@ -11113,6 +28200,32 @@ export const allPokemon = [
           'name': 'Greninja'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 103
+      },
+      {
+        'name': 'special-defense',
+        'value': 71
+      },
+      {
+        'name': 'speed',
+        'value': 122
+      }
     ]
   },
   {
@@ -11128,6 +28241,32 @@ export const allPokemon = [
       {
         'name': 'Diggersby'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 36
+      },
+      {
+        'name': 'defense',
+        'value': 38
+      },
+      {
+        'name': 'special-attack',
+        'value': 32
+      },
+      {
+        'name': 'special-defense',
+        'value': 36
+      },
+      {
+        'name': 'speed',
+        'value': 57
+      }
     ]
   },
   {
@@ -11142,6 +28281,32 @@ export const allPokemon = [
       },
       {
         'name': 'Diggersby'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 56
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 77
+      },
+      {
+        'name': 'speed',
+        'value': 78
       }
     ]
   },
@@ -11163,6 +28328,32 @@ export const allPokemon = [
           'name': 'Talonflame'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 43
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 38
+      },
+      {
+        'name': 'speed',
+        'value': 62
+      }
     ]
   },
   {
@@ -11183,6 +28374,32 @@ export const allPokemon = [
           'name': 'Talonflame'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 56
+      },
+      {
+        'name': 'special-defense',
+        'value': 52
+      },
+      {
+        'name': 'speed',
+        'value': 84
+      }
     ]
   },
   {
@@ -11203,6 +28420,32 @@ export const allPokemon = [
           'name': 'Talonflame'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 81
+      },
+      {
+        'name': 'defense',
+        'value': 71
+      },
+      {
+        'name': 'special-attack',
+        'value': 74
+      },
+      {
+        'name': 'special-defense',
+        'value': 69
+      },
+      {
+        'name': 'speed',
+        'value': 126
+      }
     ]
   },
   {
@@ -11223,6 +28466,32 @@ export const allPokemon = [
           'name': 'Vivillon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 27
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -11243,6 +28512,32 @@ export const allPokemon = [
           'name': 'Vivillon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 22
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 27
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 29
+      }
     ]
   },
   {
@@ -11263,6 +28558,32 @@ export const allPokemon = [
           'name': 'Vivillon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 89
+      }
     ]
   },
   {
@@ -11278,6 +28599,32 @@ export const allPokemon = [
       {
         'name': 'Pyroar'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 73
+      },
+      {
+        'name': 'special-defense',
+        'value': 54
+      },
+      {
+        'name': 'speed',
+        'value': 72
+      }
     ]
   },
   {
@@ -11292,6 +28639,32 @@ export const allPokemon = [
       },
       {
         'name': 'Pyroar'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 86
+      },
+      {
+        'name': 'attack',
+        'value': 68
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 109
+      },
+      {
+        'name': 'special-defense',
+        'value': 66
+      },
+      {
+        'name': 'speed',
+        'value': 106
       }
     ]
   },
@@ -11313,6 +28686,32 @@ export const allPokemon = [
           'name': 'Florges'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 44
+      },
+      {
+        'name': 'attack',
+        'value': 38
+      },
+      {
+        'name': 'defense',
+        'value': 39
+      },
+      {
+        'name': 'special-attack',
+        'value': 61
+      },
+      {
+        'name': 'special-defense',
+        'value': 79
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -11333,6 +28732,32 @@ export const allPokemon = [
           'name': 'Florges'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 54
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 47
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 98
+      },
+      {
+        'name': 'speed',
+        'value': 52
+      }
     ]
   },
   {
@@ -11353,6 +28778,32 @@ export const allPokemon = [
           'name': 'Florges'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 68
+      },
+      {
+        'name': 'special-attack',
+        'value': 112
+      },
+      {
+        'name': 'special-defense',
+        'value': 154
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -11367,6 +28818,32 @@ export const allPokemon = [
       },
       {
         'name': 'Gogoat'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 66
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 62
+      },
+      {
+        'name': 'special-defense',
+        'value': 57
+      },
+      {
+        'name': 'speed',
+        'value': 52
       }
     ]
   },
@@ -11383,6 +28860,32 @@ export const allPokemon = [
       {
         'name': 'Gogoat'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 123
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 97
+      },
+      {
+        'name': 'special-defense',
+        'value': 81
+      },
+      {
+        'name': 'speed',
+        'value': 68
+      }
     ]
   },
   {
@@ -11397,6 +28900,32 @@ export const allPokemon = [
       },
       {
         'name': 'Pangoro'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 67
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 46
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 43
       }
     ]
   },
@@ -11413,6 +28942,32 @@ export const allPokemon = [
       {
         'name': 'Pangoro'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 124
+      },
+      {
+        'name': 'defense',
+        'value': 78
+      },
+      {
+        'name': 'special-attack',
+        'value': 69
+      },
+      {
+        'name': 'special-defense',
+        'value': 71
+      },
+      {
+        'name': 'speed',
+        'value': 58
+      }
     ]
   },
   {
@@ -11423,7 +28978,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Furfrou'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 102
+      }
+    ]
   },
   {
     'name': 'Espurr',
@@ -11437,6 +29018,32 @@ export const allPokemon = [
       },
       {
         'name': 'Meowstic'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 54
+      },
+      {
+        'name': 'special-attack',
+        'value': 63
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 68
       }
     ]
   },
@@ -11452,6 +29059,32 @@ export const allPokemon = [
       },
       {
         'name': 'Meowstic'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 74
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 76
+      },
+      {
+        'name': 'special-attack',
+        'value': 83
+      },
+      {
+        'name': 'special-defense',
+        'value': 81
+      },
+      {
+        'name': 'speed',
+        'value': 104
       }
     ]
   },
@@ -11473,6 +29106,32 @@ export const allPokemon = [
           'name': 'Aegislash'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 37
+      },
+      {
+        'name': 'speed',
+        'value': 28
+      }
     ]
   },
   {
@@ -11493,6 +29152,32 @@ export const allPokemon = [
           'name': 'Aegislash'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 59
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 150
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 49
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -11513,6 +29198,32 @@ export const allPokemon = [
           'name': 'Aegislash'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 140
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 140
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -11527,6 +29238,32 @@ export const allPokemon = [
       },
       {
         'name': 'Aromatisse'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 63
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 23
       }
     ]
   },
@@ -11543,6 +29280,32 @@ export const allPokemon = [
       {
         'name': 'Aromatisse'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 101
+      },
+      {
+        'name': 'attack',
+        'value': 72
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 99
+      },
+      {
+        'name': 'special-defense',
+        'value': 89
+      },
+      {
+        'name': 'speed',
+        'value': 29
+      }
     ]
   },
   {
@@ -11557,6 +29320,32 @@ export const allPokemon = [
       },
       {
         'name': 'Slurpuff'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 48
+      },
+      {
+        'name': 'defense',
+        'value': 66
+      },
+      {
+        'name': 'special-attack',
+        'value': 59
+      },
+      {
+        'name': 'special-defense',
+        'value': 57
+      },
+      {
+        'name': 'speed',
+        'value': 49
       }
     ]
   },
@@ -11573,6 +29362,32 @@ export const allPokemon = [
       {
         'name': 'Slurpuff'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 82
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 86
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 72
+      }
     ]
   },
   {
@@ -11587,6 +29402,32 @@ export const allPokemon = [
       },
       {
         'name': 'Malamar'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 53
+      },
+      {
+        'name': 'attack',
+        'value': 54
+      },
+      {
+        'name': 'defense',
+        'value': 53
+      },
+      {
+        'name': 'special-attack',
+        'value': 37
+      },
+      {
+        'name': 'special-defense',
+        'value': 46
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -11603,6 +29444,32 @@ export const allPokemon = [
       {
         'name': 'Malamar'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 86
+      },
+      {
+        'name': 'attack',
+        'value': 92
+      },
+      {
+        'name': 'defense',
+        'value': 88
+      },
+      {
+        'name': 'special-attack',
+        'value': 68
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 73
+      }
     ]
   },
   {
@@ -11617,6 +29484,32 @@ export const allPokemon = [
       },
       {
         'name': 'Barbaracle'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 42
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 39
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -11633,6 +29526,32 @@ export const allPokemon = [
       {
         'name': 'Barbaracle'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 54
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 68
+      }
     ]
   },
   {
@@ -11647,6 +29566,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dragalge'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -11663,6 +29608,32 @@ export const allPokemon = [
       {
         'name': 'Dragalge'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 97
+      },
+      {
+        'name': 'special-defense',
+        'value': 123
+      },
+      {
+        'name': 'speed',
+        'value': 44
+      }
     ]
   },
   {
@@ -11677,6 +29648,32 @@ export const allPokemon = [
       },
       {
         'name': 'Clawitzer'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 58
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 44
       }
     ]
   },
@@ -11693,6 +29690,32 @@ export const allPokemon = [
       {
         'name': 'Clawitzer'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 71
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 88
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 89
+      },
+      {
+        'name': 'speed',
+        'value': 59
+      }
     ]
   },
   {
@@ -11707,6 +29730,32 @@ export const allPokemon = [
       },
       {
         'name': 'Heliolisk'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 44
+      },
+      {
+        'name': 'attack',
+        'value': 38
+      },
+      {
+        'name': 'defense',
+        'value': 33
+      },
+      {
+        'name': 'special-attack',
+        'value': 61
+      },
+      {
+        'name': 'special-defense',
+        'value': 43
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -11723,6 +29772,32 @@ export const allPokemon = [
       {
         'name': 'Heliolisk'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 52
+      },
+      {
+        'name': 'special-attack',
+        'value': 109
+      },
+      {
+        'name': 'special-defense',
+        'value': 94
+      },
+      {
+        'name': 'speed',
+        'value': 109
+      }
     ]
   },
   {
@@ -11737,6 +29812,32 @@ export const allPokemon = [
       },
       {
         'name': 'Tyrantrum'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 89
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 48
       }
     ]
   },
@@ -11753,6 +29854,32 @@ export const allPokemon = [
       {
         'name': 'Tyrantrum'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 82
+      },
+      {
+        'name': 'attack',
+        'value': 121
+      },
+      {
+        'name': 'defense',
+        'value': 119
+      },
+      {
+        'name': 'special-attack',
+        'value': 69
+      },
+      {
+        'name': 'special-defense',
+        'value': 59
+      },
+      {
+        'name': 'speed',
+        'value': 71
+      }
     ]
   },
   {
@@ -11768,6 +29895,32 @@ export const allPokemon = [
       {
         'name': 'Aurorus'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 77
+      },
+      {
+        'name': 'attack',
+        'value': 59
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 67
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 46
+      }
     ]
   },
   {
@@ -11782,6 +29935,32 @@ export const allPokemon = [
       },
       {
         'name': 'Aurorus'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 123
+      },
+      {
+        'name': 'attack',
+        'value': 77
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 99
+      },
+      {
+        'name': 'special-defense',
+        'value': 92
+      },
+      {
+        'name': 'speed',
+        'value': 58
       }
     ]
   },
@@ -11821,6 +30000,32 @@ export const allPokemon = [
           'name': 'Sylveon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -11831,7 +30036,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Hawlucha'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 92
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 74
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 118
+      }
+    ]
   },
   {
     'name': 'Dedenne',
@@ -11841,7 +30072,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Dedenne'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 67
+      },
+      {
+        'name': 'attack',
+        'value': 58
+      },
+      {
+        'name': 'defense',
+        'value': 57
+      },
+      {
+        'name': 'special-attack',
+        'value': 81
+      },
+      {
+        'name': 'special-defense',
+        'value': 67
+      },
+      {
+        'name': 'speed',
+        'value': 101
+      }
+    ]
   },
   {
     'name': 'Carbink',
@@ -11851,7 +30108,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Carbink'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 150
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 150
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Goomy',
@@ -11871,6 +30154,32 @@ export const allPokemon = [
           'name': 'Goodra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -11891,6 +30200,32 @@ export const allPokemon = [
           'name': 'Goodra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 53
+      },
+      {
+        'name': 'special-attack',
+        'value': 83
+      },
+      {
+        'name': 'special-defense',
+        'value': 113
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -11911,6 +30246,32 @@ export const allPokemon = [
           'name': 'Goodra'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 150
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -11921,7 +30282,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Klefki'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 57
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 91
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 87
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Phantump',
@@ -11935,6 +30322,32 @@ export const allPokemon = [
       },
       {
         'name': 'Trevenant'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 43
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 38
       }
     ]
   },
@@ -11951,6 +30364,32 @@ export const allPokemon = [
       {
         'name': 'Trevenant'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 76
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 82
+      },
+      {
+        'name': 'speed',
+        'value': 56
+      }
     ]
   },
   {
@@ -11965,6 +30404,32 @@ export const allPokemon = [
       },
       {
         'name': 'Gourgeist'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 49
+      },
+      {
+        'name': 'attack',
+        'value': 66
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 44
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 51
       }
     ]
   },
@@ -11981,6 +30446,32 @@ export const allPokemon = [
       {
         'name': 'Gourgeist'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 122
+      },
+      {
+        'name': 'special-attack',
+        'value': 58
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 84
+      }
     ]
   },
   {
@@ -11995,6 +30486,32 @@ export const allPokemon = [
       },
       {
         'name': 'Avalugg'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 69
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 32
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 28
       }
     ]
   },
@@ -12011,6 +30528,32 @@ export const allPokemon = [
       {
         'name': 'Avalugg'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 117
+      },
+      {
+        'name': 'defense',
+        'value': 184
+      },
+      {
+        'name': 'special-attack',
+        'value': 44
+      },
+      {
+        'name': 'special-defense',
+        'value': 46
+      },
+      {
+        'name': 'speed',
+        'value': 28
+      }
     ]
   },
   {
@@ -12025,6 +30568,32 @@ export const allPokemon = [
       },
       {
         'name': 'Noivern'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -12041,6 +30610,32 @@ export const allPokemon = [
       {
         'name': 'Noivern'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 97
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 123
+      }
     ]
   },
   {
@@ -12051,7 +30646,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Xerneas'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 126
+      },
+      {
+        'name': 'attack',
+        'value': 131
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 131
+      },
+      {
+        'name': 'special-defense',
+        'value': 98
+      },
+      {
+        'name': 'speed',
+        'value': 99
+      }
+    ]
   },
   {
     'name': 'Yveltal',
@@ -12061,7 +30682,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Yveltal'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 126
+      },
+      {
+        'name': 'attack',
+        'value': 131
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 131
+      },
+      {
+        'name': 'special-defense',
+        'value': 98
+      },
+      {
+        'name': 'speed',
+        'value': 99
+      }
+    ]
   },
   {
     'name': 'Zygarde-50',
@@ -12071,7 +30718,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Zygarde'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 108
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 121
+      },
+      {
+        'name': 'special-attack',
+        'value': 81
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Diancie',
@@ -12081,7 +30754,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Diancie'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 150
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 150
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Hoopa',
@@ -12091,7 +30790,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Hoopa'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 150
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Volcanion',
@@ -12101,7 +30826,33 @@ export const allPokemon = [
     'generation': 6,
     'evolutionLine': {
       'name': 'Volcanion'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Rowlet',
@@ -12121,6 +30872,32 @@ export const allPokemon = [
           'name': 'Decidueye'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -12141,6 +30918,32 @@ export const allPokemon = [
           'name': 'Decidueye'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 52
+      }
     ]
   },
   {
@@ -12161,6 +30964,32 @@ export const allPokemon = [
           'name': 'Decidueye'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 107
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -12181,6 +31010,32 @@ export const allPokemon = [
           'name': 'Incineroar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -12201,6 +31056,32 @@ export const allPokemon = [
           'name': 'Incineroar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -12221,6 +31102,32 @@ export const allPokemon = [
           'name': 'Incineroar'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -12241,6 +31148,32 @@ export const allPokemon = [
           'name': 'Primarina'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 54
+      },
+      {
+        'name': 'defense',
+        'value': 54
+      },
+      {
+        'name': 'special-attack',
+        'value': 66
+      },
+      {
+        'name': 'special-defense',
+        'value': 56
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -12261,6 +31194,32 @@ export const allPokemon = [
           'name': 'Primarina'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 69
+      },
+      {
+        'name': 'defense',
+        'value': 69
+      },
+      {
+        'name': 'special-attack',
+        'value': 91
+      },
+      {
+        'name': 'special-defense',
+        'value': 81
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -12281,6 +31240,32 @@ export const allPokemon = [
           'name': 'Primarina'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 74
+      },
+      {
+        'name': 'defense',
+        'value': 74
+      },
+      {
+        'name': 'special-attack',
+        'value': 126
+      },
+      {
+        'name': 'special-defense',
+        'value': 116
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -12301,6 +31286,32 @@ export const allPokemon = [
           'name': 'Toucannon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -12321,6 +31332,32 @@ export const allPokemon = [
           'name': 'Toucannon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -12341,6 +31378,32 @@ export const allPokemon = [
           'name': 'Toucannon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -12356,6 +31419,32 @@ export const allPokemon = [
       {
         'name': 'Gumshoos'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 48
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -12370,6 +31459,32 @@ export const allPokemon = [
       },
       {
         'name': 'Gumshoos'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -12391,6 +31506,32 @@ export const allPokemon = [
           'name': 'Vikavolt'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 47
+      },
+      {
+        'name': 'attack',
+        'value': 62
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 46
+      }
     ]
   },
   {
@@ -12411,6 +31552,32 @@ export const allPokemon = [
           'name': 'Vikavolt'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 57
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 36
+      }
     ]
   },
   {
@@ -12431,6 +31598,32 @@ export const allPokemon = [
           'name': 'Vikavolt'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 77
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 145
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 43
+      }
     ]
   },
   {
@@ -12445,6 +31638,32 @@ export const allPokemon = [
       },
       {
         'name': 'Crabominable'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 47
+      },
+      {
+        'name': 'attack',
+        'value': 82
+      },
+      {
+        'name': 'defense',
+        'value': 57
+      },
+      {
+        'name': 'special-attack',
+        'value': 42
+      },
+      {
+        'name': 'special-defense',
+        'value': 47
+      },
+      {
+        'name': 'speed',
+        'value': 63
       }
     ]
   },
@@ -12461,6 +31680,32 @@ export const allPokemon = [
       {
         'name': 'Crabominable'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 97
+      },
+      {
+        'name': 'attack',
+        'value': 132
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 62
+      },
+      {
+        'name': 'special-defense',
+        'value': 67
+      },
+      {
+        'name': 'speed',
+        'value': 43
+      }
     ]
   },
   {
@@ -12471,7 +31716,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Oricorio'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 98
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 93
+      }
+    ]
   },
   {
     'name': 'Cutiefly',
@@ -12485,6 +31756,32 @@ export const allPokemon = [
       },
       {
         'name': 'Ribombee'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 84
       }
     ]
   },
@@ -12501,6 +31798,32 @@ export const allPokemon = [
       {
         'name': 'Ribombee'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 124
+      }
     ]
   },
   {
@@ -12515,6 +31838,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lycanroc'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -12531,6 +31880,32 @@ export const allPokemon = [
       {
         'name': 'Lycanroc'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 112
+      }
     ]
   },
   {
@@ -12541,7 +31916,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Wishiwashi'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 20
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
+    ]
   },
   {
     'name': 'Mareanie',
@@ -12555,6 +31956,32 @@ export const allPokemon = [
       },
       {
         'name': 'Toxapex'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 62
+      },
+      {
+        'name': 'special-attack',
+        'value': 43
+      },
+      {
+        'name': 'special-defense',
+        'value': 52
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -12571,6 +31998,32 @@ export const allPokemon = [
       {
         'name': 'Toxapex'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 152
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 142
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -12585,6 +32038,32 @@ export const allPokemon = [
       },
       {
         'name': 'Mudsdale'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -12601,6 +32080,32 @@ export const allPokemon = [
       {
         'name': 'Mudsdale'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -12615,6 +32120,32 @@ export const allPokemon = [
       },
       {
         'name': 'Araquanid'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 52
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 72
+      },
+      {
+        'name': 'speed',
+        'value': 27
       }
     ]
   },
@@ -12631,6 +32162,32 @@ export const allPokemon = [
       {
         'name': 'Araquanid'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 92
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 132
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -12645,6 +32202,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lurantis'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -12661,6 +32244,32 @@ export const allPokemon = [
       {
         'name': 'Lurantis'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -12675,6 +32284,32 @@ export const allPokemon = [
       },
       {
         'name': 'Shiinotic'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 15
       }
     ]
   },
@@ -12691,6 +32326,32 @@ export const allPokemon = [
       {
         'name': 'Shiinotic'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -12705,6 +32366,32 @@ export const allPokemon = [
       },
       {
         'name': 'Salazzle'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 48
+      },
+      {
+        'name': 'attack',
+        'value': 44
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 71
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 77
       }
     ]
   },
@@ -12721,6 +32408,32 @@ export const allPokemon = [
       {
         'name': 'Salazzle'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 111
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 117
+      }
     ]
   },
   {
@@ -12736,6 +32449,32 @@ export const allPokemon = [
       {
         'name': 'Bewear'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -12750,6 +32489,32 @@ export const allPokemon = [
       },
       {
         'name': 'Bewear'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 120
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -12771,6 +32536,32 @@ export const allPokemon = [
           'name': 'Tsareena'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 42
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 38
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 38
+      },
+      {
+        'name': 'speed',
+        'value': 32
+      }
     ]
   },
   {
@@ -12791,6 +32582,32 @@ export const allPokemon = [
           'name': 'Tsareena'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 52
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 48
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 48
+      },
+      {
+        'name': 'speed',
+        'value': 62
+      }
     ]
   },
   {
@@ -12811,6 +32628,32 @@ export const allPokemon = [
           'name': 'Tsareena'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 98
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 98
+      },
+      {
+        'name': 'speed',
+        'value': 72
+      }
     ]
   },
   {
@@ -12821,7 +32664,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Comfey'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 51
+      },
+      {
+        'name': 'attack',
+        'value': 52
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 82
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Oranguru',
@@ -12831,7 +32700,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Oranguru'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
+    ]
   },
   {
     'name': 'Passimian',
@@ -12841,7 +32736,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Passimian'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
+    ]
   },
   {
     'name': 'Wimpod',
@@ -12855,6 +32776,32 @@ export const allPokemon = [
       },
       {
         'name': 'Golisopod'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 25
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 80
       }
     ]
   },
@@ -12871,6 +32818,32 @@ export const allPokemon = [
       {
         'name': 'Golisopod'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 140
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -12885,6 +32858,32 @@ export const allPokemon = [
       },
       {
         'name': 'Palossand'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 15
       }
     ]
   },
@@ -12901,6 +32900,32 @@ export const allPokemon = [
       {
         'name': 'Palossand'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -12911,7 +32936,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Pyukumuku'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 5
+      }
+    ]
   },
   {
     'name': 'Type-null',
@@ -12925,6 +32976,32 @@ export const allPokemon = [
       },
       {
         'name': 'Silvally'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 59
       }
     ]
   },
@@ -12941,6 +33018,32 @@ export const allPokemon = [
       {
         'name': 'Silvally'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -12951,7 +33054,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Minior'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
+    ]
   },
   {
     'name': 'Komala',
@@ -12961,7 +33090,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Komala'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
+    ]
   },
   {
     'name': 'Turtonator',
@@ -12971,7 +33126,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Turtonator'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 78
+      },
+      {
+        'name': 'defense',
+        'value': 135
+      },
+      {
+        'name': 'special-attack',
+        'value': 91
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 36
+      }
+    ]
   },
   {
     'name': 'Togedemaru',
@@ -12981,7 +33162,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Togedemaru'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 98
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 73
+      },
+      {
+        'name': 'speed',
+        'value': 96
+      }
+    ]
   },
   {
     'name': 'Mimikyu-disguised',
@@ -12991,7 +33198,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Mimikyu'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 96
+      }
+    ]
   },
   {
     'name': 'Bruxish',
@@ -13001,7 +33234,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Bruxish'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 92
+      }
+    ]
   },
   {
     'name': 'Drampa',
@@ -13011,7 +33270,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Drampa'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 91
+      },
+      {
+        'name': 'speed',
+        'value': 36
+      }
+    ]
   },
   {
     'name': 'Dhelmise',
@@ -13021,7 +33306,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Dhelmise'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 131
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 86
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
+    ]
   },
   {
     'name': 'Jangmo-o',
@@ -13041,6 +33352,32 @@ export const allPokemon = [
           'name': 'Kommo-o'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -13061,6 +33398,32 @@ export const allPokemon = [
           'name': 'Kommo-o'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -13081,6 +33444,32 @@ export const allPokemon = [
           'name': 'Kommo-o'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 125
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -13091,7 +33480,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Tapu-koko'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 130
+      }
+    ]
   },
   {
     'name': 'Tapu-lele',
@@ -13101,7 +33516,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Tapu-lele'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Tapu-bulu',
@@ -13111,7 +33552,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Tapu-bulu'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Tapu-fini',
@@ -13121,7 +33588,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Tapu-fini'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Cosmog',
@@ -13146,6 +33639,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 43
+      },
+      {
+        'name': 'attack',
+        'value': 29
+      },
+      {
+        'name': 'defense',
+        'value': 31
+      },
+      {
+        'name': 'special-attack',
+        'value': 29
+      },
+      {
+        'name': 'special-defense',
+        'value': 31
+      },
+      {
+        'name': 'speed',
+        'value': 37
+      }
     ]
   },
   {
@@ -13171,6 +33690,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 43
+      },
+      {
+        'name': 'attack',
+        'value': 29
+      },
+      {
+        'name': 'defense',
+        'value': 131
+      },
+      {
+        'name': 'special-attack',
+        'value': 29
+      },
+      {
+        'name': 'special-defense',
+        'value': 131
+      },
+      {
+        'name': 'speed',
+        'value': 37
+      }
     ]
   },
   {
@@ -13196,6 +33741,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 137
+      },
+      {
+        'name': 'attack',
+        'value': 137
+      },
+      {
+        'name': 'defense',
+        'value': 107
+      },
+      {
+        'name': 'special-attack',
+        'value': 113
+      },
+      {
+        'name': 'special-defense',
+        'value': 89
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
     ]
   },
   {
@@ -13221,6 +33792,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 137
+      },
+      {
+        'name': 'attack',
+        'value': 113
+      },
+      {
+        'name': 'defense',
+        'value': 89
+      },
+      {
+        'name': 'special-attack',
+        'value': 137
+      },
+      {
+        'name': 'special-defense',
+        'value': 107
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
     ]
   },
   {
@@ -13231,7 +33828,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Nihilego'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 109
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 47
+      },
+      {
+        'name': 'special-attack',
+        'value': 127
+      },
+      {
+        'name': 'special-defense',
+        'value': 131
+      },
+      {
+        'name': 'speed',
+        'value': 103
+      }
+    ]
   },
   {
     'name': 'Buzzwole',
@@ -13241,7 +33864,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Buzzwole'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 107
+      },
+      {
+        'name': 'attack',
+        'value': 139
+      },
+      {
+        'name': 'defense',
+        'value': 139
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 53
+      },
+      {
+        'name': 'speed',
+        'value': 79
+      }
+    ]
   },
   {
     'name': 'Pheromosa',
@@ -13251,7 +33900,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Pheromosa'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 71
+      },
+      {
+        'name': 'attack',
+        'value': 137
+      },
+      {
+        'name': 'defense',
+        'value': 37
+      },
+      {
+        'name': 'special-attack',
+        'value': 137
+      },
+      {
+        'name': 'special-defense',
+        'value': 37
+      },
+      {
+        'name': 'speed',
+        'value': 151
+      }
+    ]
   },
   {
     'name': 'Xurkitree',
@@ -13261,7 +33936,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Xurkitree'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 83
+      },
+      {
+        'name': 'attack',
+        'value': 89
+      },
+      {
+        'name': 'defense',
+        'value': 71
+      },
+      {
+        'name': 'special-attack',
+        'value': 173
+      },
+      {
+        'name': 'special-defense',
+        'value': 71
+      },
+      {
+        'name': 'speed',
+        'value': 83
+      }
+    ]
   },
   {
     'name': 'Celesteela',
@@ -13271,7 +33972,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Celesteela'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 97
+      },
+      {
+        'name': 'attack',
+        'value': 101
+      },
+      {
+        'name': 'defense',
+        'value': 103
+      },
+      {
+        'name': 'special-attack',
+        'value': 107
+      },
+      {
+        'name': 'special-defense',
+        'value': 101
+      },
+      {
+        'name': 'speed',
+        'value': 61
+      }
+    ]
   },
   {
     'name': 'Kartana',
@@ -13281,7 +34008,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Kartana'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 59
+      },
+      {
+        'name': 'attack',
+        'value': 181
+      },
+      {
+        'name': 'defense',
+        'value': 131
+      },
+      {
+        'name': 'special-attack',
+        'value': 59
+      },
+      {
+        'name': 'special-defense',
+        'value': 31
+      },
+      {
+        'name': 'speed',
+        'value': 109
+      }
+    ]
   },
   {
     'name': 'Guzzlord',
@@ -13291,7 +34044,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Guzzlord'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 223
+      },
+      {
+        'name': 'attack',
+        'value': 101
+      },
+      {
+        'name': 'defense',
+        'value': 53
+      },
+      {
+        'name': 'special-attack',
+        'value': 97
+      },
+      {
+        'name': 'special-defense',
+        'value': 53
+      },
+      {
+        'name': 'speed',
+        'value': 43
+      }
+    ]
   },
   {
     'name': 'Necrozma',
@@ -13301,7 +34080,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Necrozma'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 97
+      },
+      {
+        'name': 'attack',
+        'value': 107
+      },
+      {
+        'name': 'defense',
+        'value': 101
+      },
+      {
+        'name': 'special-attack',
+        'value': 127
+      },
+      {
+        'name': 'special-defense',
+        'value': 89
+      },
+      {
+        'name': 'speed',
+        'value': 79
+      }
+    ]
   },
   {
     'name': 'Magearna',
@@ -13311,7 +34116,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Magearna'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
+    ]
   },
   {
     'name': 'Marshadow',
@@ -13321,7 +34152,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Marshadow'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 125
+      }
+    ]
   },
   {
     'name': 'Poipole',
@@ -13335,6 +34192,32 @@ export const allPokemon = [
       },
       {
         'name': 'Naganadel'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 67
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 67
+      },
+      {
+        'name': 'special-attack',
+        'value': 73
+      },
+      {
+        'name': 'special-defense',
+        'value': 67
+      },
+      {
+        'name': 'speed',
+        'value': 73
       }
     ]
   },
@@ -13351,6 +34234,32 @@ export const allPokemon = [
       {
         'name': 'Naganadel'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 73
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 73
+      },
+      {
+        'name': 'special-attack',
+        'value': 127
+      },
+      {
+        'name': 'special-defense',
+        'value': 73
+      },
+      {
+        'name': 'speed',
+        'value': 121
+      }
     ]
   },
   {
@@ -13361,7 +34270,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Stakataka'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 131
+      },
+      {
+        'name': 'defense',
+        'value': 211
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 101
+      },
+      {
+        'name': 'speed',
+        'value': 13
+      }
+    ]
   },
   {
     'name': 'Blacephalon',
@@ -13371,7 +34306,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Blacephalon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 53
+      },
+      {
+        'name': 'attack',
+        'value': 127
+      },
+      {
+        'name': 'defense',
+        'value': 53
+      },
+      {
+        'name': 'special-attack',
+        'value': 151
+      },
+      {
+        'name': 'special-defense',
+        'value': 79
+      },
+      {
+        'name': 'speed',
+        'value': 107
+      }
+    ]
   },
   {
     'name': 'Zeraora',
@@ -13381,7 +34342,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Zeraora'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 112
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 102
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 143
+      }
+    ]
   },
   {
     'name': 'Meltan',
@@ -13391,7 +34378,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Meltan'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 46
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 34
+      }
+    ]
   },
   {
     'name': 'Melmetal',
@@ -13401,7 +34414,33 @@ export const allPokemon = [
     'generation': 7,
     'evolutionLine': {
       'name': 'Melmetal'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 135
+      },
+      {
+        'name': 'attack',
+        'value': 143
+      },
+      {
+        'name': 'defense',
+        'value': 143
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 34
+      }
+    ]
   },
   {
     'name': 'Grookey',
@@ -13421,6 +34460,32 @@ export const allPokemon = [
           'name': 'Rillaboom'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -13441,6 +34506,32 @@ export const allPokemon = [
           'name': 'Rillaboom'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
     ]
   },
   {
@@ -13461,6 +34552,32 @@ export const allPokemon = [
           'name': 'Rillaboom'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -13481,6 +34598,32 @@ export const allPokemon = [
           'name': 'Cinderace'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 71
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 69
+      }
     ]
   },
   {
@@ -13501,6 +34644,32 @@ export const allPokemon = [
           'name': 'Cinderace'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 86
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 94
+      }
     ]
   },
   {
@@ -13521,6 +34690,32 @@ export const allPokemon = [
           'name': 'Cinderace'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 116
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 119
+      }
     ]
   },
   {
@@ -13541,6 +34736,32 @@ export const allPokemon = [
           'name': 'Inteleon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -13561,6 +34782,32 @@ export const allPokemon = [
           'name': 'Inteleon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -13581,6 +34828,32 @@ export const allPokemon = [
           'name': 'Inteleon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 120
+      }
     ]
   },
   {
@@ -13596,6 +34869,32 @@ export const allPokemon = [
       {
         'name': 'Greedent'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -13610,6 +34909,32 @@ export const allPokemon = [
       },
       {
         'name': 'Greedent'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 120
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 20
       }
     ]
   },
@@ -13631,6 +34956,32 @@ export const allPokemon = [
           'name': 'Corviknight'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 38
+      },
+      {
+        'name': 'attack',
+        'value': 47
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 33
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 57
+      }
     ]
   },
   {
@@ -13651,6 +35002,32 @@ export const allPokemon = [
           'name': 'Corviknight'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 67
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 43
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 77
+      }
     ]
   },
   {
@@ -13671,6 +35048,32 @@ export const allPokemon = [
           'name': 'Corviknight'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 98
+      },
+      {
+        'name': 'attack',
+        'value': 87
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 67
+      }
     ]
   },
   {
@@ -13691,6 +35094,32 @@ export const allPokemon = [
           'name': 'Orbeetle'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 25
+      },
+      {
+        'name': 'attack',
+        'value': 20
+      },
+      {
+        'name': 'defense',
+        'value': 20
+      },
+      {
+        'name': 'special-attack',
+        'value': 25
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -13711,6 +35140,32 @@ export const allPokemon = [
           'name': 'Orbeetle'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -13731,6 +35186,32 @@ export const allPokemon = [
           'name': 'Orbeetle'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -13745,6 +35226,32 @@ export const allPokemon = [
       },
       {
         'name': 'Thievul'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 28
+      },
+      {
+        'name': 'defense',
+        'value': 28
+      },
+      {
+        'name': 'special-attack',
+        'value': 47
+      },
+      {
+        'name': 'special-defense',
+        'value': 52
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -13761,6 +35268,32 @@ export const allPokemon = [
       {
         'name': 'Thievul'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 58
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 87
+      },
+      {
+        'name': 'special-defense',
+        'value': 92
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -13775,6 +35308,32 @@ export const allPokemon = [
       },
       {
         'name': 'Eldegoss'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 10
       }
     ]
   },
@@ -13791,6 +35350,32 @@ export const allPokemon = [
       {
         'name': 'Eldegoss'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -13805,6 +35390,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dubwool'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 42
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 48
       }
     ]
   },
@@ -13821,6 +35432,32 @@ export const allPokemon = [
       {
         'name': 'Dubwool'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 88
+      }
     ]
   },
   {
@@ -13835,6 +35472,32 @@ export const allPokemon = [
       },
       {
         'name': 'Drednaw'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 38
+      },
+      {
+        'name': 'special-defense',
+        'value': 38
+      },
+      {
+        'name': 'speed',
+        'value': 44
       }
     ]
   },
@@ -13851,6 +35514,32 @@ export const allPokemon = [
       {
         'name': 'Drednaw'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 48
+      },
+      {
+        'name': 'special-defense',
+        'value': 68
+      },
+      {
+        'name': 'speed',
+        'value': 74
+      }
     ]
   },
   {
@@ -13866,6 +35555,32 @@ export const allPokemon = [
       {
         'name': 'Boltund'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 59
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 26
+      }
     ]
   },
   {
@@ -13880,6 +35595,32 @@ export const allPokemon = [
       },
       {
         'name': 'Boltund'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 69
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 121
       }
     ]
   },
@@ -13901,6 +35642,32 @@ export const allPokemon = [
           'name': 'Coalossal'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -13921,6 +35688,32 @@ export const allPokemon = [
           'name': 'Coalossal'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -13941,6 +35734,32 @@ export const allPokemon = [
           'name': 'Coalossal'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -13969,6 +35788,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -13997,6 +35842,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -14025,6 +35896,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -14039,6 +35936,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sandaconda'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 52
+      },
+      {
+        'name': 'attack',
+        'value': 57
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 46
       }
     ]
   },
@@ -14055,6 +35978,32 @@ export const allPokemon = [
       {
         'name': 'Sandaconda'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 107
+      },
+      {
+        'name': 'defense',
+        'value': 125
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 71
+      }
     ]
   },
   {
@@ -14065,7 +36014,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Cramorant'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
+    ]
   },
   {
     'name': 'Arrokuda',
@@ -14079,6 +36054,32 @@ export const allPokemon = [
       },
       {
         'name': 'Barraskewda'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 41
+      },
+      {
+        'name': 'attack',
+        'value': 63
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 66
       }
     ]
   },
@@ -14095,6 +36096,32 @@ export const allPokemon = [
       {
         'name': 'Barraskewda'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 123
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 136
+      }
     ]
   },
   {
@@ -14109,6 +36136,32 @@ export const allPokemon = [
       },
       {
         'name': 'Toxtricity'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 38
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 54
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -14125,6 +36178,32 @@ export const allPokemon = [
       {
         'name': 'Toxtricity'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 98
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 114
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -14139,6 +36218,32 @@ export const allPokemon = [
       },
       {
         'name': 'Centiskorch'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -14155,6 +36260,32 @@ export const allPokemon = [
       {
         'name': 'Centiskorch'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -14169,6 +36300,32 @@ export const allPokemon = [
       },
       {
         'name': 'Grapploct'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 68
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 32
       }
     ]
   },
@@ -14185,6 +36342,32 @@ export const allPokemon = [
       {
         'name': 'Grapploct'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 118
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 42
+      }
     ]
   },
   {
@@ -14200,6 +36383,32 @@ export const allPokemon = [
       {
         'name': 'Polteageist'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 74
+      },
+      {
+        'name': 'special-defense',
+        'value': 54
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -14214,6 +36423,32 @@ export const allPokemon = [
       },
       {
         'name': 'Polteageist'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 134
+      },
+      {
+        'name': 'special-defense',
+        'value': 114
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -14235,6 +36470,32 @@ export const allPokemon = [
           'name': 'Hatterene'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 42
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 56
+      },
+      {
+        'name': 'special-defense',
+        'value': 53
+      },
+      {
+        'name': 'speed',
+        'value': 39
+      }
     ]
   },
   {
@@ -14255,6 +36516,32 @@ export const allPokemon = [
           'name': 'Hatterene'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 57
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 86
+      },
+      {
+        'name': 'special-defense',
+        'value': 73
+      },
+      {
+        'name': 'speed',
+        'value': 49
+      }
     ]
   },
   {
@@ -14275,6 +36562,32 @@ export const allPokemon = [
           'name': 'Hatterene'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 57
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 136
+      },
+      {
+        'name': 'special-defense',
+        'value': 103
+      },
+      {
+        'name': 'speed',
+        'value': 29
+      }
     ]
   },
   {
@@ -14295,6 +36608,32 @@ export const allPokemon = [
           'name': 'Grimmsnarl'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -14315,6 +36654,32 @@ export const allPokemon = [
           'name': 'Grimmsnarl'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -14335,6 +36700,32 @@ export const allPokemon = [
           'name': 'Grimmsnarl'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -14355,6 +36746,32 @@ export const allPokemon = [
           'name': 'Obstagoon'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 93
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 101
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 81
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
     ]
   },
   {
@@ -14367,8 +36784,39 @@ export const allPokemon = [
       {
         'name': 'Meowth'
       },
+      [
+        {
+          'name': 'Persian'
+        },
+        {
+          'name': 'Perrserker'
+        }
+      ]
+    ],
+    'stats': [
       {
-        'name': 'Perrserker'
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -14385,6 +36833,32 @@ export const allPokemon = [
       {
         'name': 'Cursola'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 145
+      },
+      {
+        'name': 'special-defense',
+        'value': 130
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -14399,6 +36873,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sirfetchd'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 62
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 68
+      },
+      {
+        'name': 'special-defense',
+        'value': 82
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -14420,6 +36920,32 @@ export const allPokemon = [
           'name': 'Mr-rime'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -14440,6 +36966,32 @@ export const allPokemon = [
           'name': 'Runerigus'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 145
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -14454,6 +37006,32 @@ export const allPokemon = [
       },
       {
         'name': 'Alcremie'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 61
+      },
+      {
+        'name': 'speed',
+        'value': 34
       }
     ]
   },
@@ -14470,6 +37048,32 @@ export const allPokemon = [
       {
         'name': 'Alcremie'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 121
+      },
+      {
+        'name': 'speed',
+        'value': 64
+      }
     ]
   },
   {
@@ -14480,7 +37084,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Falinks'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Pincurchin',
@@ -14490,7 +37120,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Pincurchin'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 48
+      },
+      {
+        'name': 'attack',
+        'value': 101
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 91
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 15
+      }
+    ]
   },
   {
     'name': 'Snom',
@@ -14504,6 +37160,32 @@ export const allPokemon = [
       },
       {
         'name': 'Frosmoth'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 25
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 20
       }
     ]
   },
@@ -14520,6 +37202,32 @@ export const allPokemon = [
       {
         'name': 'Frosmoth'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -14530,7 +37238,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Stonjourner'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 135
+      },
+      {
+        'name': 'special-attack',
+        'value': 20
+      },
+      {
+        'name': 'special-defense',
+        'value': 20
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Eiscue-ice',
@@ -14540,7 +37274,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Eiscue'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Indeedee-male',
@@ -14550,7 +37310,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Indeedee'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 95
+      }
+    ]
   },
   {
     'name': 'Morpeko-full-belly',
@@ -14560,7 +37346,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Morpeko'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 58
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 58
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 58
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
+    ]
   },
   {
     'name': 'Cufant',
@@ -14574,6 +37386,32 @@ export const allPokemon = [
       },
       {
         'name': 'Copperajah'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 49
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 49
+      },
+      {
+        'name': 'speed',
+        'value': 40
       }
     ]
   },
@@ -14590,6 +37428,32 @@ export const allPokemon = [
       {
         'name': 'Copperajah'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 122
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 69
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 69
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -14600,7 +37464,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Dracozolt'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Arctozolt',
@@ -14610,7 +37500,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Arctozolt'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
+    ]
   },
   {
     'name': 'Dracovish',
@@ -14620,7 +37536,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Dracovish'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Arctovish',
@@ -14630,7 +37572,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Arctovish'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
+    ]
   },
   {
     'name': 'Duraludon',
@@ -14644,6 +37612,32 @@ export const allPokemon = [
       },
       {
         'name': 'Archaludon'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 85
       }
     ]
   },
@@ -14665,6 +37659,32 @@ export const allPokemon = [
           'name': 'Dragapult'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 28
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 82
+      }
     ]
   },
   {
@@ -14685,6 +37705,32 @@ export const allPokemon = [
           'name': 'Dragapult'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 102
+      }
     ]
   },
   {
@@ -14705,6 +37751,32 @@ export const allPokemon = [
           'name': 'Dragapult'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 142
+      }
     ]
   },
   {
@@ -14715,7 +37787,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Zacian'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 92
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 138
+      }
+    ]
   },
   {
     'name': 'Zamazenta',
@@ -14725,7 +37823,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Zamazenta'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 92
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 138
+      }
+    ]
   },
   {
     'name': 'Eternatus',
@@ -14735,7 +37859,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Eternatus'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 140
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 145
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 130
+      }
+    ]
   },
   {
     'name': 'Kubfu',
@@ -14749,6 +37899,32 @@ export const allPokemon = [
       },
       {
         'name': 'Urshifu'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 72
       }
     ]
   },
@@ -14765,6 +37941,32 @@ export const allPokemon = [
       {
         'name': 'Urshifu'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 63
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 97
+      }
     ]
   },
   {
@@ -14775,7 +37977,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Zarude'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
+    ]
   },
   {
     'name': 'Regieleki',
@@ -14785,7 +38013,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Regieleki'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 200
+      }
+    ]
   },
   {
     'name': 'Regidrago',
@@ -14795,7 +38049,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Regidrago'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 200
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 100
+      },
+      {
+        'name': 'special-defense',
+        'value': 50
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
+    ]
   },
   {
     'name': 'Glastrier',
@@ -14805,7 +38085,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Glastrier'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 145
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
+    ]
   },
   {
     'name': 'Spectrier',
@@ -14815,7 +38121,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Spectrier'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 145
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 130
+      }
+    ]
   },
   {
     'name': 'Calyrex',
@@ -14825,7 +38157,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Calyrex'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
+    ]
   },
   {
     'name': 'Wyrdeer',
@@ -14839,6 +38197,32 @@ export const allPokemon = [
       },
       {
         'name': 'Wyrdeer'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 103
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 65
       }
     ]
   },
@@ -14860,6 +38244,32 @@ export const allPokemon = [
           'name': 'Kleavor'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -14880,6 +38290,32 @@ export const allPokemon = [
           'name': 'Ursaluna'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 130
+      },
+      {
+        'name': 'attack',
+        'value': 140
+      },
+      {
+        'name': 'defense',
+        'value': 105
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -14894,6 +38330,32 @@ export const allPokemon = [
       },
       {
         'name': 'Basculegion'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 120
+      },
+      {
+        'name': 'attack',
+        'value': 112
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 78
       }
     ]
   },
@@ -14915,6 +38377,32 @@ export const allPokemon = [
           'name': 'Sneasler'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 120
+      }
     ]
   },
   {
@@ -14930,6 +38418,32 @@ export const allPokemon = [
       {
         'name': 'Overqwil'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -14940,7 +38454,33 @@ export const allPokemon = [
     'generation': 8,
     'evolutionLine': {
       'name': 'Enamorus'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 74
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 106
+      }
+    ]
   },
   {
     'name': 'Sprigatito',
@@ -14960,6 +38500,32 @@ export const allPokemon = [
           'name': 'Meowscarada'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 61
+      },
+      {
+        'name': 'defense',
+        'value': 54
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -14980,6 +38546,32 @@ export const allPokemon = [
           'name': 'Meowscarada'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 63
+      },
+      {
+        'name': 'speed',
+        'value': 83
+      }
     ]
   },
   {
@@ -15000,6 +38592,32 @@ export const allPokemon = [
           'name': 'Meowscarada'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 76
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 81
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 123
+      }
     ]
   },
   {
@@ -15020,6 +38638,32 @@ export const allPokemon = [
           'name': 'Skeledirge'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 67
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 59
+      },
+      {
+        'name': 'special-attack',
+        'value': 63
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 36
+      }
     ]
   },
   {
@@ -15040,6 +38684,32 @@ export const allPokemon = [
           'name': 'Skeledirge'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 81
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 78
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 58
+      },
+      {
+        'name': 'speed',
+        'value': 49
+      }
     ]
   },
   {
@@ -15060,6 +38730,32 @@ export const allPokemon = [
           'name': 'Skeledirge'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 104
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 66
+      }
     ]
   },
   {
@@ -15080,6 +38776,32 @@ export const allPokemon = [
           'name': 'Quaquaval'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -15100,6 +38822,32 @@ export const allPokemon = [
           'name': 'Quaquaval'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -15120,6 +38868,32 @@ export const allPokemon = [
           'name': 'Quaquaval'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -15134,6 +38908,32 @@ export const allPokemon = [
       },
       {
         'name': 'Oinkologne'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 54
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 35
       }
     ]
   },
@@ -15150,6 +38950,32 @@ export const allPokemon = [
       {
         'name': 'Oinkologne'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 59
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -15164,6 +38990,32 @@ export const allPokemon = [
       },
       {
         'name': 'Spidops'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 41
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 29
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 20
       }
     ]
   },
@@ -15180,6 +39032,32 @@ export const allPokemon = [
       {
         'name': 'Spidops'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 79
+      },
+      {
+        'name': 'defense',
+        'value': 92
+      },
+      {
+        'name': 'special-attack',
+        'value': 52
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -15195,6 +39073,32 @@ export const allPokemon = [
       {
         'name': 'Lokix'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 33
+      },
+      {
+        'name': 'attack',
+        'value': 46
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 21
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -15209,6 +39113,32 @@ export const allPokemon = [
       },
       {
         'name': 'Lokix'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 71
+      },
+      {
+        'name': 'attack',
+        'value': 102
+      },
+      {
+        'name': 'defense',
+        'value': 78
+      },
+      {
+        'name': 'special-attack',
+        'value': 52
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 92
       }
     ]
   },
@@ -15230,6 +39160,32 @@ export const allPokemon = [
           'name': 'Pawmot'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 20
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -15250,6 +39206,32 @@ export const allPokemon = [
           'name': 'Pawmot'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -15270,6 +39252,32 @@ export const allPokemon = [
           'name': 'Pawmot'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 105
+      }
     ]
   },
   {
@@ -15284,6 +39292,32 @@ export const allPokemon = [
       },
       {
         'name': 'Maushold'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 75
       }
     ]
   },
@@ -15300,6 +39334,32 @@ export const allPokemon = [
       {
         'name': 'Maushold'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 74
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 111
+      }
     ]
   },
   {
@@ -15315,6 +39375,32 @@ export const allPokemon = [
       {
         'name': 'Dachsbun'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 37
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
     ]
   },
   {
@@ -15329,6 +39415,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dachsbun'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 57
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -15350,6 +39462,32 @@ export const allPokemon = [
           'name': 'Arboliva'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 41
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 58
+      },
+      {
+        'name': 'special-defense',
+        'value': 51
+      },
+      {
+        'name': 'speed',
+        'value': 30
+      }
     ]
   },
   {
@@ -15370,6 +39508,32 @@ export const allPokemon = [
           'name': 'Arboliva'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 52
+      },
+      {
+        'name': 'attack',
+        'value': 53
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 78
+      },
+      {
+        'name': 'special-defense',
+        'value': 78
+      },
+      {
+        'name': 'speed',
+        'value': 33
+      }
     ]
   },
   {
@@ -15390,6 +39554,32 @@ export const allPokemon = [
           'name': 'Arboliva'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 78
+      },
+      {
+        'name': 'attack',
+        'value': 69
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 109
+      },
+      {
+        'name': 'speed',
+        'value': 39
+      }
     ]
   },
   {
@@ -15400,7 +39590,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Squawkabilly'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 82
+      },
+      {
+        'name': 'attack',
+        'value': 96
+      },
+      {
+        'name': 'defense',
+        'value': 51
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 51
+      },
+      {
+        'name': 'speed',
+        'value': 92
+      }
+    ]
   },
   {
     'name': 'Nacli',
@@ -15420,6 +39636,32 @@ export const allPokemon = [
           'name': 'Garganacl'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 75
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 25
+      }
     ]
   },
   {
@@ -15440,6 +39682,32 @@ export const allPokemon = [
           'name': 'Garganacl'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -15460,6 +39728,32 @@ export const allPokemon = [
           'name': 'Garganacl'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -15480,6 +39774,32 @@ export const allPokemon = [
           'name': 'Ceruledge'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
     ]
   },
   {
@@ -15500,6 +39820,32 @@ export const allPokemon = [
           'name': 'Ceruledge'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -15520,6 +39866,32 @@ export const allPokemon = [
           'name': 'Ceruledge'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 125
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -15534,6 +39906,32 @@ export const allPokemon = [
       },
       {
         'name': 'Bellibolt'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 61
+      },
+      {
+        'name': 'attack',
+        'value': 31
+      },
+      {
+        'name': 'defense',
+        'value': 41
+      },
+      {
+        'name': 'special-attack',
+        'value': 59
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 45
       }
     ]
   },
@@ -15550,6 +39948,32 @@ export const allPokemon = [
       {
         'name': 'Bellibolt'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 109
+      },
+      {
+        'name': 'attack',
+        'value': 64
+      },
+      {
+        'name': 'defense',
+        'value': 91
+      },
+      {
+        'name': 'special-attack',
+        'value': 103
+      },
+      {
+        'name': 'special-defense',
+        'value': 83
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -15564,6 +39988,32 @@ export const allPokemon = [
       },
       {
         'name': 'Kilowattrel'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -15580,6 +40030,32 @@ export const allPokemon = [
       {
         'name': 'Kilowattrel'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 125
+      }
     ]
   },
   {
@@ -15594,6 +40070,32 @@ export const allPokemon = [
       },
       {
         'name': 'Mabosstiff'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 60
+      },
+      {
+        'name': 'attack',
+        'value': 78
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 51
+      },
+      {
+        'name': 'speed',
+        'value': 51
       }
     ]
   },
@@ -15610,6 +40112,32 @@ export const allPokemon = [
       {
         'name': 'Mabosstiff'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 85
+      }
     ]
   },
   {
@@ -15624,6 +40152,32 @@ export const allPokemon = [
       },
       {
         'name': 'Grafaiai'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 40
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 75
       }
     ]
   },
@@ -15640,6 +40194,32 @@ export const allPokemon = [
       {
         'name': 'Grafaiai'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 63
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 72
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
     ]
   },
   {
@@ -15654,6 +40234,32 @@ export const allPokemon = [
       },
       {
         'name': 'Brambleghast'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 35
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -15670,6 +40276,32 @@ export const allPokemon = [
       {
         'name': 'Brambleghast'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -15684,6 +40316,32 @@ export const allPokemon = [
       },
       {
         'name': 'Toedscruel'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 40
+      },
+      {
+        'name': 'defense',
+        'value': 35
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 70
       }
     ]
   },
@@ -15700,6 +40358,32 @@ export const allPokemon = [
       {
         'name': 'Toedscruel'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 80
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -15710,7 +40394,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Klawf'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Capsakid',
@@ -15724,6 +40434,32 @@ export const allPokemon = [
       },
       {
         'name': 'Scovillain'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 62
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 62
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -15740,6 +40476,32 @@ export const allPokemon = [
       {
         'name': 'Scovillain'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 108
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 108
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -15754,6 +40516,32 @@ export const allPokemon = [
       },
       {
         'name': 'Rabsca'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 41
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 31
+      },
+      {
+        'name': 'special-defense',
+        'value': 58
+      },
+      {
+        'name': 'speed',
+        'value': 30
       }
     ]
   },
@@ -15770,6 +40558,32 @@ export const allPokemon = [
       {
         'name': 'Rabsca'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 75
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 115
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
     ]
   },
   {
@@ -15785,6 +40599,32 @@ export const allPokemon = [
       {
         'name': 'Espathra'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 30
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 30
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 30
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
     ]
   },
   {
@@ -15799,6 +40639,32 @@ export const allPokemon = [
       },
       {
         'name': 'Espathra'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 95
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 101
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 105
       }
     ]
   },
@@ -15820,6 +40686,32 @@ export const allPokemon = [
           'name': 'Tinkaton'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 64
+      },
+      {
+        'name': 'speed',
+        'value': 58
+      }
     ]
   },
   {
@@ -15840,6 +40732,32 @@ export const allPokemon = [
           'name': 'Tinkaton'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 82
+      },
+      {
+        'name': 'speed',
+        'value': 78
+      }
     ]
   },
   {
@@ -15860,6 +40778,32 @@ export const allPokemon = [
           'name': 'Tinkaton'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 77
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 94
+      }
     ]
   },
   {
@@ -15874,6 +40818,32 @@ export const allPokemon = [
       },
       {
         'name': 'Wugtrio'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 10
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 25
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 25
+      },
+      {
+        'name': 'speed',
+        'value': 95
       }
     ]
   },
@@ -15890,6 +40860,32 @@ export const allPokemon = [
       {
         'name': 'Wugtrio'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 35
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 50
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 120
+      }
     ]
   },
   {
@@ -15900,7 +40896,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Bombirdier'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 103
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 82
+      }
+    ]
   },
   {
     'name': 'Finizen',
@@ -15914,6 +40936,32 @@ export const allPokemon = [
       },
       {
         'name': 'Palafin'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 40
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 75
       }
     ]
   },
@@ -15930,6 +40978,32 @@ export const allPokemon = [
       {
         'name': 'Palafin'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 72
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 62
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
     ]
   },
   {
@@ -15944,6 +41018,32 @@ export const allPokemon = [
       },
       {
         'name': 'Revavroom'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 63
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 47
       }
     ]
   },
@@ -15960,6 +41060,32 @@ export const allPokemon = [
       {
         'name': 'Revavroom'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 119
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 54
+      },
+      {
+        'name': 'special-defense',
+        'value': 67
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -15970,7 +41096,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Cyclizar'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 121
+      }
+    ]
   },
   {
     'name': 'Orthworm',
@@ -15980,7 +41132,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Orthworm'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 70
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 145
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 65
+      }
+    ]
   },
   {
     'name': 'Glimmet',
@@ -15994,6 +41172,32 @@ export const allPokemon = [
       },
       {
         'name': 'Glimmora'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 48
+      },
+      {
+        'name': 'attack',
+        'value': 35
+      },
+      {
+        'name': 'defense',
+        'value': 42
+      },
+      {
+        'name': 'special-attack',
+        'value': 105
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 60
       }
     ]
   },
@@ -16010,6 +41214,32 @@ export const allPokemon = [
       {
         'name': 'Glimmora'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 83
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 81
+      },
+      {
+        'name': 'speed',
+        'value': 86
+      }
     ]
   },
   {
@@ -16024,6 +41254,32 @@ export const allPokemon = [
       },
       {
         'name': 'Houndstone'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 50
+      },
+      {
+        'name': 'attack',
+        'value': 61
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 34
       }
     ]
   },
@@ -16040,6 +41296,32 @@ export const allPokemon = [
       {
         'name': 'Houndstone'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 72
+      },
+      {
+        'name': 'attack',
+        'value': 101
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 97
+      },
+      {
+        'name': 'speed',
+        'value': 68
+      }
     ]
   },
   {
@@ -16050,7 +41332,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Flamigo'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 82
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 74
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 64
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
+    ]
   },
   {
     'name': 'Cetoddle',
@@ -16064,6 +41372,32 @@ export const allPokemon = [
       },
       {
         'name': 'Cetitan'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 108
+      },
+      {
+        'name': 'attack',
+        'value': 68
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 30
+      },
+      {
+        'name': 'special-defense',
+        'value': 40
+      },
+      {
+        'name': 'speed',
+        'value': 43
       }
     ]
   },
@@ -16080,6 +41414,32 @@ export const allPokemon = [
       {
         'name': 'Cetitan'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 170
+      },
+      {
+        'name': 'attack',
+        'value': 113
+      },
+      {
+        'name': 'defense',
+        'value': 65
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 55
+      },
+      {
+        'name': 'speed',
+        'value': 73
+      }
     ]
   },
   {
@@ -16090,7 +41450,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Veluza'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 102
+      },
+      {
+        'name': 'defense',
+        'value': 73
+      },
+      {
+        'name': 'special-attack',
+        'value': 78
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Dondozo',
@@ -16100,7 +41486,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Dondozo'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 150
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 35
+      }
+    ]
   },
   {
     'name': 'Tatsugiri-curly',
@@ -16110,7 +41522,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Tatsugiri'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 68
+      },
+      {
+        'name': 'attack',
+        'value': 50
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 95
+      },
+      {
+        'name': 'speed',
+        'value': 82
+      }
+    ]
   },
   {
     'name': 'Annihilape',
@@ -16130,6 +41568,32 @@ export const allPokemon = [
           'name': 'Annihilape'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 110
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 90
+      }
     ]
   },
   {
@@ -16150,6 +41614,32 @@ export const allPokemon = [
           'name': 'Clodsire'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 130
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 20
+      }
     ]
   },
   {
@@ -16165,6 +41655,32 @@ export const allPokemon = [
       {
         'name': 'Farigiraf'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 120
+      },
+      {
+        'name': 'attack',
+        'value': 90
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 110
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
     ]
   },
   {
@@ -16179,6 +41695,32 @@ export const allPokemon = [
       },
       {
         'name': 'Dudunsparce'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 125
+      },
+      {
+        'name': 'attack',
+        'value': 100
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 75
+      },
+      {
+        'name': 'speed',
+        'value': 55
       }
     ]
   },
@@ -16200,6 +41742,32 @@ export const allPokemon = [
           'name': 'Kingambit'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
     ]
   },
   {
@@ -16210,7 +41778,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Great-tusk'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 115
+      },
+      {
+        'name': 'attack',
+        'value': 131
+      },
+      {
+        'name': 'defense',
+        'value': 131
+      },
+      {
+        'name': 'special-attack',
+        'value': 53
+      },
+      {
+        'name': 'special-defense',
+        'value': 53
+      },
+      {
+        'name': 'speed',
+        'value': 87
+      }
+    ]
   },
   {
     'name': 'Scream-tail',
@@ -16220,7 +41814,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Scream-tail'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 115
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 99
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 111
+      }
+    ]
   },
   {
     'name': 'Brute-bonnet',
@@ -16230,7 +41850,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Brute-bonnet'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 111
+      },
+      {
+        'name': 'attack',
+        'value': 127
+      },
+      {
+        'name': 'defense',
+        'value': 99
+      },
+      {
+        'name': 'special-attack',
+        'value': 79
+      },
+      {
+        'name': 'special-defense',
+        'value': 99
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
+    ]
   },
   {
     'name': 'Flutter-mane',
@@ -16240,7 +41886,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Flutter-mane'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 55
+      },
+      {
+        'name': 'defense',
+        'value': 55
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 135
+      },
+      {
+        'name': 'speed',
+        'value': 135
+      }
+    ]
   },
   {
     'name': 'Slither-wing',
@@ -16250,7 +41922,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Slither-wing'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 79
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 105
+      },
+      {
+        'name': 'speed',
+        'value': 81
+      }
+    ]
   },
   {
     'name': 'Sandy-shocks',
@@ -16260,7 +41958,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Sandy-shocks'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 81
+      },
+      {
+        'name': 'defense',
+        'value': 97
+      },
+      {
+        'name': 'special-attack',
+        'value': 121
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 101
+      }
+    ]
   },
   {
     'name': 'Iron-treads',
@@ -16270,7 +41994,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-treads'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 112
+      },
+      {
+        'name': 'defense',
+        'value': 120
+      },
+      {
+        'name': 'special-attack',
+        'value': 72
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 106
+      }
+    ]
   },
   {
     'name': 'Iron-bundle',
@@ -16280,7 +42030,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-bundle'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 56
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 114
+      },
+      {
+        'name': 'special-attack',
+        'value': 124
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 136
+      }
+    ]
   },
   {
     'name': 'Iron-hands',
@@ -16290,7 +42066,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-hands'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 154
+      },
+      {
+        'name': 'attack',
+        'value': 140
+      },
+      {
+        'name': 'defense',
+        'value': 108
+      },
+      {
+        'name': 'special-attack',
+        'value': 50
+      },
+      {
+        'name': 'special-defense',
+        'value': 68
+      },
+      {
+        'name': 'speed',
+        'value': 50
+      }
+    ]
   },
   {
     'name': 'Iron-jugulis',
@@ -16300,7 +42102,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-jugulis'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 94
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 86
+      },
+      {
+        'name': 'special-attack',
+        'value': 122
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 108
+      }
+    ]
   },
   {
     'name': 'Iron-moth',
@@ -16310,7 +42138,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-moth'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 70
+      },
+      {
+        'name': 'defense',
+        'value': 60
+      },
+      {
+        'name': 'special-attack',
+        'value': 140
+      },
+      {
+        'name': 'special-defense',
+        'value': 110
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
+    ]
   },
   {
     'name': 'Iron-thorns',
@@ -16320,7 +42174,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-thorns'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 134
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 84
+      },
+      {
+        'name': 'speed',
+        'value': 72
+      }
+    ]
   },
   {
     'name': 'Frigibax',
@@ -16340,6 +42220,32 @@ export const allPokemon = [
           'name': 'Baxcalibur'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 65
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 35
+      },
+      {
+        'name': 'special-defense',
+        'value': 45
+      },
+      {
+        'name': 'speed',
+        'value': 55
+      }
     ]
   },
   {
@@ -16360,6 +42266,32 @@ export const allPokemon = [
           'name': 'Baxcalibur'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 95
+      },
+      {
+        'name': 'defense',
+        'value': 66
+      },
+      {
+        'name': 'special-attack',
+        'value': 45
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 62
+      }
     ]
   },
   {
@@ -16380,6 +42312,32 @@ export const allPokemon = [
           'name': 'Baxcalibur'
         }
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 115
+      },
+      {
+        'name': 'attack',
+        'value': 145
+      },
+      {
+        'name': 'defense',
+        'value': 92
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 87
+      }
     ]
   },
   {
@@ -16394,6 +42352,32 @@ export const allPokemon = [
       },
       {
         'name': 'Gholdengo'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 45
+      },
+      {
+        'name': 'attack',
+        'value': 30
+      },
+      {
+        'name': 'defense',
+        'value': 70
+      },
+      {
+        'name': 'special-attack',
+        'value': 75
+      },
+      {
+        'name': 'special-defense',
+        'value': 70
+      },
+      {
+        'name': 'speed',
+        'value': 10
       }
     ]
   },
@@ -16410,6 +42394,32 @@ export const allPokemon = [
       {
         'name': 'Gholdengo'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 87
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 95
+      },
+      {
+        'name': 'special-attack',
+        'value': 133
+      },
+      {
+        'name': 'special-defense',
+        'value': 91
+      },
+      {
+        'name': 'speed',
+        'value': 84
+      }
     ]
   },
   {
@@ -16420,7 +42430,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Wo-chien'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 85
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 135
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
+    ]
   },
   {
     'name': 'Chien-pao',
@@ -16430,7 +42466,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Chien-pao'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 90
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 135
+      }
+    ]
   },
   {
     'name': 'Ting-lu',
@@ -16440,7 +42502,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Ting-lu'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 155
+      },
+      {
+        'name': 'attack',
+        'value': 110
+      },
+      {
+        'name': 'defense',
+        'value': 125
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 45
+      }
+    ]
   },
   {
     'name': 'Chi-yu',
@@ -16450,7 +42538,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Chi-yu'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 55
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 120
+      },
+      {
+        'name': 'speed',
+        'value': 100
+      }
+    ]
   },
   {
     'name': 'Roaring-moon',
@@ -16460,7 +42574,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Roaring-moon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 139
+      },
+      {
+        'name': 'defense',
+        'value': 71
+      },
+      {
+        'name': 'special-attack',
+        'value': 55
+      },
+      {
+        'name': 'special-defense',
+        'value': 101
+      },
+      {
+        'name': 'speed',
+        'value': 119
+      }
+    ]
   },
   {
     'name': 'Iron-valiant',
@@ -16470,7 +42610,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-valiant'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 74
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 90
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 60
+      },
+      {
+        'name': 'speed',
+        'value': 116
+      }
+    ]
   },
   {
     'name': 'Koraidon',
@@ -16480,7 +42646,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Koraidon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 135
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 85
+      },
+      {
+        'name': 'special-defense',
+        'value': 100
+      },
+      {
+        'name': 'speed',
+        'value': 135
+      }
+    ]
   },
   {
     'name': 'Miraidon',
@@ -16490,7 +42682,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Miraidon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 100
+      },
+      {
+        'name': 'attack',
+        'value': 85
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 135
+      },
+      {
+        'name': 'special-defense',
+        'value': 115
+      },
+      {
+        'name': 'speed',
+        'value': 135
+      }
+    ]
   },
   {
     'name': 'Walking-wake',
@@ -16500,7 +42718,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Walking-wake'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 99
+      },
+      {
+        'name': 'attack',
+        'value': 83
+      },
+      {
+        'name': 'defense',
+        'value': 91
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 83
+      },
+      {
+        'name': 'speed',
+        'value': 109
+      }
+    ]
   },
   {
     'name': 'Iron-leaves',
@@ -16510,7 +42754,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-leaves'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 130
+      },
+      {
+        'name': 'defense',
+        'value': 88
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 108
+      },
+      {
+        'name': 'speed',
+        'value': 104
+      }
+    ]
   },
   {
     'name': 'Dipplin',
@@ -16538,6 +42808,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 95
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 40
+      }
     ]
   },
   {
@@ -16552,6 +42848,32 @@ export const allPokemon = [
       },
       {
         'name': 'Sinistcha'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 40
+      },
+      {
+        'name': 'attack',
+        'value': 45
+      },
+      {
+        'name': 'defense',
+        'value': 45
+      },
+      {
+        'name': 'special-attack',
+        'value': 74
+      },
+      {
+        'name': 'special-defense',
+        'value': 54
+      },
+      {
+        'name': 'speed',
+        'value': 50
       }
     ]
   },
@@ -16568,6 +42890,32 @@ export const allPokemon = [
       {
         'name': 'Sinistcha'
       }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 71
+      },
+      {
+        'name': 'attack',
+        'value': 60
+      },
+      {
+        'name': 'defense',
+        'value': 106
+      },
+      {
+        'name': 'special-attack',
+        'value': 121
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 70
+      }
     ]
   },
   {
@@ -16578,7 +42926,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Okidogi'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 128
+      },
+      {
+        'name': 'defense',
+        'value': 115
+      },
+      {
+        'name': 'special-attack',
+        'value': 58
+      },
+      {
+        'name': 'special-defense',
+        'value': 86
+      },
+      {
+        'name': 'speed',
+        'value': 80
+      }
+    ]
   },
   {
     'name': 'Munkidori',
@@ -16588,7 +42962,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Munkidori'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 75
+      },
+      {
+        'name': 'defense',
+        'value': 66
+      },
+      {
+        'name': 'special-attack',
+        'value': 130
+      },
+      {
+        'name': 'special-defense',
+        'value': 90
+      },
+      {
+        'name': 'speed',
+        'value': 106
+      }
+    ]
   },
   {
     'name': 'Fezandipiti',
@@ -16598,7 +42998,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Fezandipiti'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 91
+      },
+      {
+        'name': 'defense',
+        'value': 82
+      },
+      {
+        'name': 'special-attack',
+        'value': 70
+      },
+      {
+        'name': 'special-defense',
+        'value': 125
+      },
+      {
+        'name': 'speed',
+        'value': 99
+      }
+    ]
   },
   {
     'name': 'Ogerpon',
@@ -16608,7 +43034,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Ogerpon'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 80
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 84
+      },
+      {
+        'name': 'special-attack',
+        'value': 60
+      },
+      {
+        'name': 'special-defense',
+        'value': 96
+      },
+      {
+        'name': 'speed',
+        'value': 110
+      }
+    ]
   },
   {
     'name': 'Archaludon',
@@ -16622,6 +43074,32 @@ export const allPokemon = [
       },
       {
         'name': 'Archaludon'
+      }
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 105
+      },
+      {
+        'name': 'defense',
+        'value': 130
+      },
+      {
+        'name': 'special-attack',
+        'value': 125
+      },
+      {
+        'name': 'special-defense',
+        'value': 65
+      },
+      {
+        'name': 'speed',
+        'value': 85
       }
     ]
   },
@@ -16651,6 +43129,32 @@ export const allPokemon = [
           }
         ]
       ]
+    ],
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 106
+      },
+      {
+        'name': 'attack',
+        'value': 80
+      },
+      {
+        'name': 'defense',
+        'value': 110
+      },
+      {
+        'name': 'special-attack',
+        'value': 120
+      },
+      {
+        'name': 'special-defense',
+        'value': 80
+      },
+      {
+        'name': 'speed',
+        'value': 44
+      }
     ]
   },
   {
@@ -16661,7 +43165,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Gouging-fire'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 105
+      },
+      {
+        'name': 'attack',
+        'value': 115
+      },
+      {
+        'name': 'defense',
+        'value': 121
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 93
+      },
+      {
+        'name': 'speed',
+        'value': 91
+      }
+    ]
   },
   {
     'name': 'Raging-bolt',
@@ -16671,7 +43201,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Raging-bolt'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 125
+      },
+      {
+        'name': 'attack',
+        'value': 73
+      },
+      {
+        'name': 'defense',
+        'value': 91
+      },
+      {
+        'name': 'special-attack',
+        'value': 137
+      },
+      {
+        'name': 'special-defense',
+        'value': 89
+      },
+      {
+        'name': 'speed',
+        'value': 75
+      }
+    ]
   },
   {
     'name': 'Iron-boulder',
@@ -16681,7 +43237,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-boulder'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 120
+      },
+      {
+        'name': 'defense',
+        'value': 80
+      },
+      {
+        'name': 'special-attack',
+        'value': 68
+      },
+      {
+        'name': 'special-defense',
+        'value': 108
+      },
+      {
+        'name': 'speed',
+        'value': 124
+      }
+    ]
   },
   {
     'name': 'Iron-crown',
@@ -16691,7 +43273,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Iron-crown'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 72
+      },
+      {
+        'name': 'defense',
+        'value': 100
+      },
+      {
+        'name': 'special-attack',
+        'value': 122
+      },
+      {
+        'name': 'special-defense',
+        'value': 108
+      },
+      {
+        'name': 'speed',
+        'value': 98
+      }
+    ]
   },
   {
     'name': 'Terapagos',
@@ -16701,7 +43309,33 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Terapagos'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 90
+      },
+      {
+        'name': 'attack',
+        'value': 65
+      },
+      {
+        'name': 'defense',
+        'value': 85
+      },
+      {
+        'name': 'special-attack',
+        'value': 65
+      },
+      {
+        'name': 'special-defense',
+        'value': 85
+      },
+      {
+        'name': 'speed',
+        'value': 60
+      }
+    ]
   },
   {
     'name': 'Pecharunt',
@@ -16711,6 +43345,1060 @@ export const allPokemon = [
     'generation': 9,
     'evolutionLine': {
       'name': 'Pecharunt'
-    }
+    },
+    'stats': [
+      {
+        'name': 'hp',
+        'value': 88
+      },
+      {
+        'name': 'attack',
+        'value': 88
+      },
+      {
+        'name': 'defense',
+        'value': 160
+      },
+      {
+        'name': 'special-attack',
+        'value': 88
+      },
+      {
+        'name': 'special-defense',
+        'value': 88
+      },
+      {
+        'name': 'speed',
+        'value': 88
+      }
+    ]
   }
+]
+
+export const pokemonNames = [
+  'Bulbasaur',
+  'Ivysaur',
+  'Venusaur',
+  'Charmander',
+  'Charmeleon',
+  'Charizard',
+  'Squirtle',
+  'Wartortle',
+  'Blastoise',
+  'Caterpie',
+  'Metapod',
+  'Butterfree',
+  'Weedle',
+  'Kakuna',
+  'Beedrill',
+  'Pidgey',
+  'Pidgeotto',
+  'Pidgeot',
+  'Rattata',
+  'Raticate',
+  'Spearow',
+  'Fearow',
+  'Ekans',
+  'Arbok',
+  'Pikachu',
+  'Raichu',
+  'Sandshrew',
+  'Sandslash',
+  'Nidoran-f',
+  'Nidorina',
+  'Nidoqueen',
+  'Nidoran-m',
+  'Nidorino',
+  'Nidoking',
+  'Clefairy',
+  'Clefable',
+  'Vulpix',
+  'Ninetales',
+  'Jigglypuff',
+  'Wigglytuff',
+  'Zubat',
+  'Golbat',
+  'Oddish',
+  'Gloom',
+  'Vileplume',
+  'Paras',
+  'Parasect',
+  'Venonat',
+  'Venomoth',
+  'Diglett',
+  'Dugtrio',
+  'Meowth',
+  'Persian',
+  'Psyduck',
+  'Golduck',
+  'Mankey',
+  'Primeape',
+  'Growlithe',
+  'Arcanine',
+  'Poliwag',
+  'Poliwhirl',
+  'Poliwrath',
+  'Abra',
+  'Kadabra',
+  'Alakazam',
+  'Machop',
+  'Machoke',
+  'Machamp',
+  'Bellsprout',
+  'Weepinbell',
+  'Victreebel',
+  'Tentacool',
+  'Tentacruel',
+  'Geodude',
+  'Graveler',
+  'Golem',
+  'Ponyta',
+  'Rapidash',
+  'Slowpoke',
+  'Slowbro',
+  'Magnemite',
+  'Magneton',
+  'Farfetchd',
+  'Doduo',
+  'Dodrio',
+  'Seel',
+  'Dewgong',
+  'Grimer',
+  'Muk',
+  'Shellder',
+  'Cloyster',
+  'Gastly',
+  'Haunter',
+  'Gengar',
+  'Onix',
+  'Drowzee',
+  'Hypno',
+  'Krabby',
+  'Kingler',
+  'Voltorb',
+  'Electrode',
+  'Exeggcute',
+  'Exeggutor',
+  'Cubone',
+  'Marowak',
+  'Hitmonlee',
+  'Hitmonchan',
+  'Lickitung',
+  'Koffing',
+  'Weezing',
+  'Rhyhorn',
+  'Rhydon',
+  'Chansey',
+  'Tangela',
+  'Kangaskhan',
+  'Horsea',
+  'Seadra',
+  'Goldeen',
+  'Seaking',
+  'Staryu',
+  'Starmie',
+  'Mr-mime',
+  'Scyther',
+  'Jynx',
+  'Electabuzz',
+  'Magmar',
+  'Pinsir',
+  'Tauros',
+  'Magikarp',
+  'Gyarados',
+  'Lapras',
+  'Ditto',
+  'Eevee',
+  'Vaporeon',
+  'Jolteon',
+  'Flareon',
+  'Porygon',
+  'Omanyte',
+  'Omastar',
+  'Kabuto',
+  'Kabutops',
+  'Aerodactyl',
+  'Snorlax',
+  'Articuno',
+  'Zapdos',
+  'Moltres',
+  'Dratini',
+  'Dragonair',
+  'Dragonite',
+  'Mewtwo',
+  'Mew',
+  'Chikorita',
+  'Bayleef',
+  'Meganium',
+  'Cyndaquil',
+  'Quilava',
+  'Typhlosion',
+  'Totodile',
+  'Croconaw',
+  'Feraligatr',
+  'Sentret',
+  'Furret',
+  'Hoothoot',
+  'Noctowl',
+  'Ledyba',
+  'Ledian',
+  'Spinarak',
+  'Ariados',
+  'Crobat',
+  'Chinchou',
+  'Lanturn',
+  'Pichu',
+  'Cleffa',
+  'Igglybuff',
+  'Togepi',
+  'Togetic',
+  'Natu',
+  'Xatu',
+  'Mareep',
+  'Flaaffy',
+  'Ampharos',
+  'Bellossom',
+  'Marill',
+  'Azumarill',
+  'Sudowoodo',
+  'Politoed',
+  'Hoppip',
+  'Skiploom',
+  'Jumpluff',
+  'Aipom',
+  'Sunkern',
+  'Sunflora',
+  'Yanma',
+  'Wooper',
+  'Quagsire',
+  'Espeon',
+  'Umbreon',
+  'Murkrow',
+  'Slowking',
+  'Misdreavus',
+  'Unown',
+  'Wobbuffet',
+  'Girafarig',
+  'Pineco',
+  'Forretress',
+  'Dunsparce',
+  'Gligar',
+  'Steelix',
+  'Snubbull',
+  'Granbull',
+  'Qwilfish',
+  'Scizor',
+  'Shuckle',
+  'Heracross',
+  'Sneasel',
+  'Teddiursa',
+  'Ursaring',
+  'Slugma',
+  'Magcargo',
+  'Swinub',
+  'Piloswine',
+  'Corsola',
+  'Remoraid',
+  'Octillery',
+  'Delibird',
+  'Mantine',
+  'Skarmory',
+  'Houndour',
+  'Houndoom',
+  'Kingdra',
+  'Phanpy',
+  'Donphan',
+  'Porygon2',
+  'Stantler',
+  'Smeargle',
+  'Tyrogue',
+  'Hitmontop',
+  'Smoochum',
+  'Elekid',
+  'Magby',
+  'Miltank',
+  'Blissey',
+  'Raikou',
+  'Entei',
+  'Suicune',
+  'Larvitar',
+  'Pupitar',
+  'Tyranitar',
+  'Lugia',
+  'Ho-oh',
+  'Celebi',
+  'Treecko',
+  'Grovyle',
+  'Sceptile',
+  'Torchic',
+  'Combusken',
+  'Blaziken',
+  'Mudkip',
+  'Marshtomp',
+  'Swampert',
+  'Poochyena',
+  'Mightyena',
+  'Zigzagoon',
+  'Linoone',
+  'Wurmple',
+  'Silcoon',
+  'Beautifly',
+  'Cascoon',
+  'Dustox',
+  'Lotad',
+  'Lombre',
+  'Ludicolo',
+  'Seedot',
+  'Nuzleaf',
+  'Shiftry',
+  'Taillow',
+  'Swellow',
+  'Wingull',
+  'Pelipper',
+  'Ralts',
+  'Kirlia',
+  'Gardevoir',
+  'Surskit',
+  'Masquerain',
+  'Shroomish',
+  'Breloom',
+  'Slakoth',
+  'Vigoroth',
+  'Slaking',
+  'Nincada',
+  'Ninjask',
+  'Shedinja',
+  'Whismur',
+  'Loudred',
+  'Exploud',
+  'Makuhita',
+  'Hariyama',
+  'Azurill',
+  'Nosepass',
+  'Skitty',
+  'Delcatty',
+  'Sableye',
+  'Mawile',
+  'Aron',
+  'Lairon',
+  'Aggron',
+  'Meditite',
+  'Medicham',
+  'Electrike',
+  'Manectric',
+  'Plusle',
+  'Minun',
+  'Volbeat',
+  'Illumise',
+  'Roselia',
+  'Gulpin',
+  'Swalot',
+  'Carvanha',
+  'Sharpedo',
+  'Wailmer',
+  'Wailord',
+  'Numel',
+  'Camerupt',
+  'Torkoal',
+  'Spoink',
+  'Grumpig',
+  'Spinda',
+  'Trapinch',
+  'Vibrava',
+  'Flygon',
+  'Cacnea',
+  'Cacturne',
+  'Swablu',
+  'Altaria',
+  'Zangoose',
+  'Seviper',
+  'Lunatone',
+  'Solrock',
+  'Barboach',
+  'Whiscash',
+  'Corphish',
+  'Crawdaunt',
+  'Baltoy',
+  'Claydol',
+  'Lileep',
+  'Cradily',
+  'Anorith',
+  'Armaldo',
+  'Feebas',
+  'Milotic',
+  'Castform',
+  'Kecleon',
+  'Shuppet',
+  'Banette',
+  'Duskull',
+  'Dusclops',
+  'Tropius',
+  'Chimecho',
+  'Absol',
+  'Wynaut',
+  'Snorunt',
+  'Glalie',
+  'Spheal',
+  'Sealeo',
+  'Walrein',
+  'Clamperl',
+  'Huntail',
+  'Gorebyss',
+  'Relicanth',
+  'Luvdisc',
+  'Bagon',
+  'Shelgon',
+  'Salamence',
+  'Beldum',
+  'Metang',
+  'Metagross',
+  'Regirock',
+  'Regice',
+  'Registeel',
+  'Latias',
+  'Latios',
+  'Kyogre',
+  'Groudon',
+  'Rayquaza',
+  'Jirachi',
+  'Deoxys-normal',
+  'Turtwig',
+  'Grotle',
+  'Torterra',
+  'Chimchar',
+  'Monferno',
+  'Infernape',
+  'Piplup',
+  'Prinplup',
+  'Empoleon',
+  'Starly',
+  'Staravia',
+  'Staraptor',
+  'Bidoof',
+  'Bibarel',
+  'Kricketot',
+  'Kricketune',
+  'Shinx',
+  'Luxio',
+  'Luxray',
+  'Budew',
+  'Roserade',
+  'Cranidos',
+  'Rampardos',
+  'Shieldon',
+  'Bastiodon',
+  'Burmy',
+  'Wormadam-plant',
+  'Mothim',
+  'Combee',
+  'Vespiquen',
+  'Pachirisu',
+  'Buizel',
+  'Floatzel',
+  'Cherubi',
+  'Cherrim',
+  'Shellos',
+  'Gastrodon',
+  'Ambipom',
+  'Drifloon',
+  'Drifblim',
+  'Buneary',
+  'Lopunny',
+  'Mismagius',
+  'Honchkrow',
+  'Glameow',
+  'Purugly',
+  'Chingling',
+  'Stunky',
+  'Skuntank',
+  'Bronzor',
+  'Bronzong',
+  'Bonsly',
+  'Mime-jr',
+  'Happiny',
+  'Chatot',
+  'Spiritomb',
+  'Gible',
+  'Gabite',
+  'Garchomp',
+  'Munchlax',
+  'Riolu',
+  'Lucario',
+  'Hippopotas',
+  'Hippowdon',
+  'Skorupi',
+  'Drapion',
+  'Croagunk',
+  'Toxicroak',
+  'Carnivine',
+  'Finneon',
+  'Lumineon',
+  'Mantyke',
+  'Snover',
+  'Abomasnow',
+  'Weavile',
+  'Magnezone',
+  'Lickilicky',
+  'Rhyperior',
+  'Tangrowth',
+  'Electivire',
+  'Magmortar',
+  'Togekiss',
+  'Yanmega',
+  'Leafeon',
+  'Glaceon',
+  'Gliscor',
+  'Mamoswine',
+  'Porygon-z',
+  'Gallade',
+  'Probopass',
+  'Dusknoir',
+  'Froslass',
+  'Rotom',
+  'Uxie',
+  'Mesprit',
+  'Azelf',
+  'Dialga',
+  'Palkia',
+  'Heatran',
+  'Regigigas',
+  'Giratina-altered',
+  'Cresselia',
+  'Phione',
+  'Manaphy',
+  'Darkrai',
+  'Shaymin-land',
+  'Arceus',
+  'Victini',
+  'Snivy',
+  'Servine',
+  'Serperior',
+  'Tepig',
+  'Pignite',
+  'Emboar',
+  'Oshawott',
+  'Dewott',
+  'Samurott',
+  'Patrat',
+  'Watchog',
+  'Lillipup',
+  'Herdier',
+  'Stoutland',
+  'Purrloin',
+  'Liepard',
+  'Pansage',
+  'Simisage',
+  'Pansear',
+  'Simisear',
+  'Panpour',
+  'Simipour',
+  'Munna',
+  'Musharna',
+  'Pidove',
+  'Tranquill',
+  'Unfezant',
+  'Blitzle',
+  'Zebstrika',
+  'Roggenrola',
+  'Boldore',
+  'Gigalith',
+  'Woobat',
+  'Swoobat',
+  'Drilbur',
+  'Excadrill',
+  'Audino',
+  'Timburr',
+  'Gurdurr',
+  'Conkeldurr',
+  'Tympole',
+  'Palpitoad',
+  'Seismitoad',
+  'Throh',
+  'Sawk',
+  'Sewaddle',
+  'Swadloon',
+  'Leavanny',
+  'Venipede',
+  'Whirlipede',
+  'Scolipede',
+  'Cottonee',
+  'Whimsicott',
+  'Petilil',
+  'Lilligant',
+  'Basculin-red-striped',
+  'Sandile',
+  'Krokorok',
+  'Krookodile',
+  'Darumaka',
+  'Darmanitan-standard',
+  'Maractus',
+  'Dwebble',
+  'Crustle',
+  'Scraggy',
+  'Scrafty',
+  'Sigilyph',
+  'Yamask',
+  'Cofagrigus',
+  'Tirtouga',
+  'Carracosta',
+  'Archen',
+  'Archeops',
+  'Trubbish',
+  'Garbodor',
+  'Zorua',
+  'Zoroark',
+  'Minccino',
+  'Cinccino',
+  'Gothita',
+  'Gothorita',
+  'Gothitelle',
+  'Solosis',
+  'Duosion',
+  'Reuniclus',
+  'Ducklett',
+  'Swanna',
+  'Vanillite',
+  'Vanillish',
+  'Vanilluxe',
+  'Deerling',
+  'Sawsbuck',
+  'Emolga',
+  'Karrablast',
+  'Escavalier',
+  'Foongus',
+  'Amoonguss',
+  'Frillish',
+  'Jellicent',
+  'Alomomola',
+  'Joltik',
+  'Galvantula',
+  'Ferroseed',
+  'Ferrothorn',
+  'Klink',
+  'Klang',
+  'Klinklang',
+  'Tynamo',
+  'Eelektrik',
+  'Eelektross',
+  'Elgyem',
+  'Beheeyem',
+  'Litwick',
+  'Lampent',
+  'Chandelure',
+  'Axew',
+  'Fraxure',
+  'Haxorus',
+  'Cubchoo',
+  'Beartic',
+  'Cryogonal',
+  'Shelmet',
+  'Accelgor',
+  'Stunfisk',
+  'Mienfoo',
+  'Mienshao',
+  'Druddigon',
+  'Golett',
+  'Golurk',
+  'Pawniard',
+  'Bisharp',
+  'Bouffalant',
+  'Rufflet',
+  'Braviary',
+  'Vullaby',
+  'Mandibuzz',
+  'Heatmor',
+  'Durant',
+  'Deino',
+  'Zweilous',
+  'Hydreigon',
+  'Larvesta',
+  'Volcarona',
+  'Cobalion',
+  'Terrakion',
+  'Virizion',
+  'Tornadus-incarnate',
+  'Thundurus-incarnate',
+  'Reshiram',
+  'Zekrom',
+  'Landorus-incarnate',
+  'Kyurem',
+  'Keldeo-ordinary',
+  'Meloetta-aria',
+  'Genesect',
+  'Chespin',
+  'Quilladin',
+  'Chesnaught',
+  'Fennekin',
+  'Braixen',
+  'Delphox',
+  'Froakie',
+  'Frogadier',
+  'Greninja',
+  'Bunnelby',
+  'Diggersby',
+  'Fletchling',
+  'Fletchinder',
+  'Talonflame',
+  'Scatterbug',
+  'Spewpa',
+  'Vivillon',
+  'Litleo',
+  'Pyroar',
+  'Flabebe',
+  'Floette',
+  'Florges',
+  'Skiddo',
+  'Gogoat',
+  'Pancham',
+  'Pangoro',
+  'Furfrou',
+  'Espurr',
+  'Meowstic-male',
+  'Honedge',
+  'Doublade',
+  'Aegislash-shield',
+  'Spritzee',
+  'Aromatisse',
+  'Swirlix',
+  'Slurpuff',
+  'Inkay',
+  'Malamar',
+  'Binacle',
+  'Barbaracle',
+  'Skrelp',
+  'Dragalge',
+  'Clauncher',
+  'Clawitzer',
+  'Helioptile',
+  'Heliolisk',
+  'Tyrunt',
+  'Tyrantrum',
+  'Amaura',
+  'Aurorus',
+  'Sylveon',
+  'Hawlucha',
+  'Dedenne',
+  'Carbink',
+  'Goomy',
+  'Sliggoo',
+  'Goodra',
+  'Klefki',
+  'Phantump',
+  'Trevenant',
+  'Pumpkaboo-average',
+  'Gourgeist-average',
+  'Bergmite',
+  'Avalugg',
+  'Noibat',
+  'Noivern',
+  'Xerneas',
+  'Yveltal',
+  'Zygarde-50',
+  'Diancie',
+  'Hoopa',
+  'Volcanion',
+  'Rowlet',
+  'Dartrix',
+  'Decidueye',
+  'Litten',
+  'Torracat',
+  'Incineroar',
+  'Popplio',
+  'Brionne',
+  'Primarina',
+  'Pikipek',
+  'Trumbeak',
+  'Toucannon',
+  'Yungoos',
+  'Gumshoos',
+  'Grubbin',
+  'Charjabug',
+  'Vikavolt',
+  'Crabrawler',
+  'Crabominable',
+  'Oricorio-baile',
+  'Cutiefly',
+  'Ribombee',
+  'Rockruff',
+  'Lycanroc-midday',
+  'Wishiwashi-solo',
+  'Mareanie',
+  'Toxapex',
+  'Mudbray',
+  'Mudsdale',
+  'Dewpider',
+  'Araquanid',
+  'Fomantis',
+  'Lurantis',
+  'Morelull',
+  'Shiinotic',
+  'Salandit',
+  'Salazzle',
+  'Stufful',
+  'Bewear',
+  'Bounsweet',
+  'Steenee',
+  'Tsareena',
+  'Comfey',
+  'Oranguru',
+  'Passimian',
+  'Wimpod',
+  'Golisopod',
+  'Sandygast',
+  'Palossand',
+  'Pyukumuku',
+  'Type-null',
+  'Silvally',
+  'Minior-red-meteor',
+  'Komala',
+  'Turtonator',
+  'Togedemaru',
+  'Mimikyu-disguised',
+  'Bruxish',
+  'Drampa',
+  'Dhelmise',
+  'Jangmo-o',
+  'Hakamo-o',
+  'Kommo-o',
+  'Tapu-koko',
+  'Tapu-lele',
+  'Tapu-bulu',
+  'Tapu-fini',
+  'Cosmog',
+  'Cosmoem',
+  'Solgaleo',
+  'Lunala',
+  'Nihilego',
+  'Buzzwole',
+  'Pheromosa',
+  'Xurkitree',
+  'Celesteela',
+  'Kartana',
+  'Guzzlord',
+  'Necrozma',
+  'Magearna',
+  'Marshadow',
+  'Poipole',
+  'Naganadel',
+  'Stakataka',
+  'Blacephalon',
+  'Zeraora',
+  'Meltan',
+  'Melmetal',
+  'Grookey',
+  'Thwackey',
+  'Rillaboom',
+  'Scorbunny',
+  'Raboot',
+  'Cinderace',
+  'Sobble',
+  'Drizzile',
+  'Inteleon',
+  'Skwovet',
+  'Greedent',
+  'Rookidee',
+  'Corvisquire',
+  'Corviknight',
+  'Blipbug',
+  'Dottler',
+  'Orbeetle',
+  'Nickit',
+  'Thievul',
+  'Gossifleur',
+  'Eldegoss',
+  'Wooloo',
+  'Dubwool',
+  'Chewtle',
+  'Drednaw',
+  'Yamper',
+  'Boltund',
+  'Rolycoly',
+  'Carkol',
+  'Coalossal',
+  'Applin',
+  'Flapple',
+  'Appletun',
+  'Silicobra',
+  'Sandaconda',
+  'Cramorant',
+  'Arrokuda',
+  'Barraskewda',
+  'Toxel',
+  'Toxtricity-amped',
+  'Sizzlipede',
+  'Centiskorch',
+  'Clobbopus',
+  'Grapploct',
+  'Sinistea',
+  'Polteageist',
+  'Hatenna',
+  'Hattrem',
+  'Hatterene',
+  'Impidimp',
+  'Morgrem',
+  'Grimmsnarl',
+  'Obstagoon',
+  'Perrserker',
+  'Cursola',
+  'Sirfetchd',
+  'Mr-rime',
+  'Runerigus',
+  'Milcery',
+  'Alcremie',
+  'Falinks',
+  'Pincurchin',
+  'Snom',
+  'Frosmoth',
+  'Stonjourner',
+  'Eiscue-ice',
+  'Indeedee-male',
+  'Morpeko-full-belly',
+  'Cufant',
+  'Copperajah',
+  'Dracozolt',
+  'Arctozolt',
+  'Dracovish',
+  'Arctovish',
+  'Duraludon',
+  'Dreepy',
+  'Drakloak',
+  'Dragapult',
+  'Zacian',
+  'Zamazenta',
+  'Eternatus',
+  'Kubfu',
+  'Urshifu-single-strike',
+  'Zarude',
+  'Regieleki',
+  'Regidrago',
+  'Glastrier',
+  'Spectrier',
+  'Calyrex',
+  'Wyrdeer',
+  'Kleavor',
+  'Ursaluna',
+  'Basculegion-male',
+  'Sneasler',
+  'Overqwil',
+  'Enamorus-incarnate',
+  'Sprigatito',
+  'Floragato',
+  'Meowscarada',
+  'Fuecoco',
+  'Crocalor',
+  'Skeledirge',
+  'Quaxly',
+  'Quaxwell',
+  'Quaquaval',
+  'Lechonk',
+  'Oinkologne-male',
+  'Tarountula',
+  'Spidops',
+  'Nymble',
+  'Lokix',
+  'Pawmi',
+  'Pawmo',
+  'Pawmot',
+  'Tandemaus',
+  'Maushold-family-of-four',
+  'Fidough',
+  'Dachsbun',
+  'Smoliv',
+  'Dolliv',
+  'Arboliva',
+  'Squawkabilly-green-plumage',
+  'Nacli',
+  'Naclstack',
+  'Garganacl',
+  'Charcadet',
+  'Armarouge',
+  'Ceruledge',
+  'Tadbulb',
+  'Bellibolt',
+  'Wattrel',
+  'Kilowattrel',
+  'Maschiff',
+  'Mabosstiff',
+  'Shroodle',
+  'Grafaiai',
+  'Bramblin',
+  'Brambleghast',
+  'Toedscool',
+  'Toedscruel',
+  'Klawf',
+  'Capsakid',
+  'Scovillain',
+  'Rellor',
+  'Rabsca',
+  'Flittle',
+  'Espathra',
+  'Tinkatink',
+  'Tinkatuff',
+  'Tinkaton',
+  'Wiglett',
+  'Wugtrio',
+  'Bombirdier',
+  'Finizen',
+  'Palafin-zero',
+  'Varoom',
+  'Revavroom',
+  'Cyclizar',
+  'Orthworm',
+  'Glimmet',
+  'Glimmora',
+  'Greavard',
+  'Houndstone',
+  'Flamigo',
+  'Cetoddle',
+  'Cetitan',
+  'Veluza',
+  'Dondozo',
+  'Tatsugiri-curly',
+  'Annihilape',
+  'Clodsire',
+  'Farigiraf',
+  'Dudunsparce-two-segment',
+  'Kingambit',
+  'Great-tusk',
+  'Scream-tail',
+  'Brute-bonnet',
+  'Flutter-mane',
+  'Slither-wing',
+  'Sandy-shocks',
+  'Iron-treads',
+  'Iron-bundle',
+  'Iron-hands',
+  'Iron-jugulis',
+  'Iron-moth',
+  'Iron-thorns',
+  'Frigibax',
+  'Arctibax',
+  'Baxcalibur',
+  'Gimmighoul',
+  'Gholdengo',
+  'Wo-chien',
+  'Chien-pao',
+  'Ting-lu',
+  'Chi-yu',
+  'Roaring-moon',
+  'Iron-valiant',
+  'Koraidon',
+  'Miraidon',
+  'Walking-wake',
+  'Iron-leaves',
+  'Dipplin',
+  'Poltchageist',
+  'Sinistcha',
+  'Okidogi',
+  'Munkidori',
+  'Fezandipiti',
+  'Ogerpon',
+  'Archaludon',
+  'Hydrapple',
+  'Gouging-fire',
+  'Raging-bolt',
+  'Iron-boulder',
+  'Iron-crown',
+  'Terapagos',
+  'Pecharunt'
 ]

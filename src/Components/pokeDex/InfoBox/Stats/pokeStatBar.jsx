@@ -9,7 +9,7 @@ export const StatBar = ({ statId, statsMax, statNum, color }) => {
     const ctx = c.getContext('2d')
 
     const length = 180
-    ctx.clearRect(0, 0, 190, 10)
+    ctx.clearRect(0, 0, 190, 20)
 
     // Stat Type Selection
     let maxStat = 0
@@ -40,15 +40,16 @@ export const StatBar = ({ statId, statsMax, statNum, color }) => {
     const finalLen = length * decimal
 
     // Bar and Text
-    ctx.fillStyle = color
+    ctx.fillStyle = finalLen === 0 ? 'transparent' : color
     ctx.fillRect(0, 0, finalLen, 20)
     ctx.fillStyle = 'black'
     ctx.textAlign = 'right'
     ctx.font = '12px Arial'
-    ctx.fillText(statNum, finalLen+20, 10)
+    const xTextLen = finalLen === 0 ? 7 : finalLen + 20
+    ctx.fillText(statNum, xTextLen, 10)
   }, [statId, statsMax, statNum, color])
 
-  return <canvas ref={canvasRef} width={200} height={12}></canvas>
+  return <canvas ref={canvasRef} width={200} height={12}/>
 }
 
 export default StatBar

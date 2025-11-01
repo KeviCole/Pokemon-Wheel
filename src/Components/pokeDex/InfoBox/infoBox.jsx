@@ -53,12 +53,22 @@ export const InfoBox = ({ generation, noiseAnimate, setWheelResult, wheelResult,
     pokePNG,
     pokeType1Image,
     pokeType2Image,
-    evolutionLine
+    evolutionLine,
+    stats
   } = listPokemon[currentPokemon] ?? {}
 
-  // Stats and Responsive Checks
-  const statsMax = [255, 190, 230, 180, 230, 200]
-  const statsBase = [108, 130, 95, 80, 85, 102]
+  // Stats and Responsive Checks (max + 95 of max stat)
+  const statsMax = [350, 285, 325, 275, 325, 295]
+  const arrayCheck = stats?.length > 0
+  const statValues = stats?.map(stat => stat.value)
+  const statsBase = [
+    arrayCheck ? statValues[0] : 0,
+    arrayCheck ? statValues[1] : 0,
+    arrayCheck ? statValues[2] : 0,
+    arrayCheck ? statValues[3] : 0,
+    arrayCheck ? statValues[4] : 0,
+    arrayCheck ? statValues[5] : 0
+  ]
   const betweenMdAnd1100 = useMediaQuery('(min-width:900px) and (max-width:1100px)')
   const below500 = useMediaQuery('(max-width:500px)')
   const below400 = useMediaQuery('(max-width:400px')

@@ -1,6 +1,6 @@
 import { Grid, keyframes, Tab, Tabs, Typography, useMediaQuery } from '@mui/material'
 import { useEffect, useState } from 'react'
-import { Background, WhiteNoise } from '../Images/misc'
+import { WhiteNoise, GameBackground } from '../Images/misc'
 import { GenerationBox, InfoBox } from './pokeDex'
 import Wheel from './wheel'
 
@@ -40,7 +40,7 @@ export const Layout = ({ children }) => {
     p={4}
     textAlign='center'
     sx={{
-      backgroundImage: `url(${Background})`,
+      backgroundImage: `url(${GameBackground})`,
       backgroundSize: '100% 100%',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center'

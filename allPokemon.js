@@ -42,6 +42,11 @@ async function getPokemon(id) {
     }
     const species = await speciesRes.json()
 
+    const stats = data.stats.map(s => ({
+      name: s.stat.name,
+      value: s.base_stat
+    }))
+
     // Evolution chain fetch
     let evolutionLine = []
     if (species.evolution_chain?.url) {
@@ -74,7 +79,8 @@ async function getPokemon(id) {
       type2: data.types[1] ? capitalize(data.types[1].type.name) : null,
       dexNum: id.toString(),
       generation: genMap[species.generation.name],
-      evolutionLine
+      evolutionLine,
+      stats
     }
   } catch (err) {
     console.error(`❌ Error fetching Pokémon #${id}:`, err.message)
