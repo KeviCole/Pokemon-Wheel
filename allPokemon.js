@@ -73,12 +73,25 @@ async function getPokemon(id) {
       }
     }
 
+    const encounterRes = await fetch(data.location_area_encounters)
+    if (!encounterRes.ok) {
+      console.error(`❌ Failed to fetch encounters for Pokémon #${id} (${encounterRes.status})`)
+      return null
+    }
+    const encounters = await encounterRes.json()
+    const games = new Set()
+    encounters.forEach(entry => {
+      entry.version_details.forEach(versionDetail => games.add(versionDetail.version.name))
+    })
+    const finalGames = Array.from(games).sort()
+
     return {
       name: capitalize(data.name),
       type1: capitalize(data.types[0]?.type.name || ''),
       type2: data.types[1] ? capitalize(data.types[1].type.name) : null,
       dexNum: id.toString(),
       generation: genMap[species.generation.name],
+      games: finalGames,
       evolutionLine,
       stats
     }
