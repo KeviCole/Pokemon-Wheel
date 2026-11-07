@@ -24,6 +24,67 @@ const genMap = {
   'generation-ix': 9
 }
 
+// Flattens the nested [base, [evolutions]] structure to a simple name array
+function flattenEvolutionLine(evolutionLine) {
+  return evolutionLine.flatMap(entry =>
+      Array.isArray(entry) ? entry.map(pokemon => pokemon.name) : [entry.name]
+  )
+}
+
+// Fetches all wild encounter games for a pokemon by name, returns a Set of game strings
+async function getEncounterGames(pokemonName) {
+  try {
+    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`)
+    if (!res.ok) {
+      return new Set()
+    }
+    const data = await res.json()
+
+    const encounterRes = await fetch(data.location_area_encounters)
+    if (!encounterRes.ok) {
+      return new Set()
+    }
+    const encounters = await encounterRes.json()
+
+    const games = new Set()
+    encounters.forEach(entry => {
+      entry.version_details.forEach(vd => games.add(vd.version.name))
+    })
+    return games
+  } catch {
+    return new Set()
+  }
+}
+
+// Maps each game version to the HIGHEST generation of pokemon it includes
+const GAME_GEN_MAP = {
+  // Miscellaneous
+  'red-japan': 0, 'green-japan': 0, 'blue-japan': 0, 'xd': 0, 'colosseum': 0,
+  // Gen 1
+  'red': 1, 'blue': 1, 'yellow': 1,
+  // Gen 2
+  'gold': 2, 'silver': 2, 'crystal': 2,
+  // Gen 3
+  'ruby': 3, 'sapphire': 3, 'emerald': 3,
+  'firered': 3, 'leafgreen': 3,
+  // Gen 4
+  'diamond': 4, 'pearl': 4, 'platinum': 4,
+  'heartgold': 4, 'soulsilver': 4,
+  // Gen 5
+  'black': 5, 'white': 5, 'black-2': 5, 'white-2': 5,
+  // Gen 6
+  'x': 6, 'y': 6, 'omega-ruby': 6, 'alpha-sapphire': 6,
+  // Gen 7
+  'sun': 7, 'moon': 7, 'ultra-sun': 7, 'ultra-moon': 7,
+  'lets-go-pikachu': 7, 'lets-go-eevee': 7,
+  // Gen 8
+  'sword': 8, 'shield': 8,
+  'brilliant-diamond': 8, 'shining-pearl': 8,
+  'legends-arceus': 8, // Sinnoh Pokémon + some Gen 8 new ones, capped at 8
+  // Gen 9
+  'scarlet': 9, 'violet': 9,
+}
+
 async function getPokemon(id) {
   try {
     // Requests a HTTP request, and waits for response
@@ -73,17 +134,26 @@ async function getPokemon(id) {
       }
     }
 
-    const encounterRes = await fetch(data.location_area_encounters)
-    if (!encounterRes.ok) {
-      console.error(`❌ Failed to fetch encounters for Pokémon #${id} (${encounterRes.status})`)
-      return null
-    }
-    const encounters = await encounterRes.json()
-    const games = new Set()
-    encounters.forEach(entry => {
-      entry.version_details.forEach(versionDetail => games.add(versionDetail.version.name))
-    })
-    const finalGames = Array.from(games).sort()
+    // Fetch encounters for every member of the evolution line in parallel
+    const evoNames = Array.isArray(evolutionLine) ? flattenEvolutionLine(evolutionLine) : []
+    const allEvoEncounterSets = await Promise.all(evoNames.map(name => getEncounterGames(name)))
+
+    // Union all encounter game sets together
+    const allGames = new Set()
+    allEvoEncounterSets.forEach(gameSet => gameSet.forEach(g => allGames.add(g)))
+
+    // Filter to games where this pokemon's generation had been introduced
+    const pokemonGen = genMap[species.generation.name] // your existing genMap, e.g. 'generation-i' -> 1
+    const finalGames = Array.from(allGames)
+        .filter(game => {
+          const gameMaxGen = GAME_GEN_MAP[game]
+          if (gameMaxGen === undefined) {
+            console.warn(`⚠️ Unknown game version in GAME_GEN_MAP: "${game}"`)
+            return false // drop unknown games rather than silently include them
+          }
+          return pokemonGen <= gameMaxGen
+        })
+        .sort()
 
     return {
       name: capitalize(data.name),

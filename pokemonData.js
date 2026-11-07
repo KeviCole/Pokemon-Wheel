@@ -10,6 +10,8 @@ export const allPokemon = [
       'firered',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'red',
       'soulsilver',
       'ultra-moon',
@@ -64,7 +66,21 @@ export const allPokemon = [
     'type2': 'Poison',
     'dexNum': '2',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Bulbasaur'
@@ -111,7 +127,21 @@ export const allPokemon = [
     'type2': 'Poison',
     'dexNum': '3',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Bulbasaur'
@@ -163,6 +193,8 @@ export const allPokemon = [
       'firered',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'red',
       'soulsilver',
       'ultra-moon',
@@ -217,7 +249,21 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '5',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Charmander'
@@ -264,7 +310,21 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '6',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Charmander'
@@ -316,6 +376,8 @@ export const allPokemon = [
       'firered',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'red',
       'soulsilver',
       'ultra-moon',
@@ -370,7 +432,21 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '8',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Squirtle'
@@ -417,7 +493,21 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '9',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Squirtle'
@@ -472,6 +562,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -479,6 +571,8 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
+      'white-2',
       'x',
       'y',
       'yellow'
@@ -537,6 +631,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -545,6 +641,8 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
+      'white-2',
+      'x',
       'y',
       'yellow'
     ],
@@ -595,14 +693,27 @@ export const allPokemon = [
     'dexNum': '12',
     'generation': 1,
     'games': [
+      'blue',
       'crystal',
+      'diamond',
+      'firered',
       'gold',
       'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
+      'red',
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'white-2',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -651,16 +762,22 @@ export const allPokemon = [
     'dexNum': '13',
     'generation': 1,
     'games': [
+      'black',
+      'black-2',
       'blue',
       'crystal',
       'diamond',
       'firered',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -712,17 +829,23 @@ export const allPokemon = [
     'generation': 1,
     'games': [
       'black',
+      'black-2',
       'blue',
       'crystal',
       'diamond',
       'firered',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
-      'x'
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -772,11 +895,23 @@ export const allPokemon = [
     'generation': 1,
     'games': [
       'black',
+      'black-2',
+      'blue',
       'crystal',
+      'diamond',
+      'firered',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
+      'red',
       'silver',
       'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -832,11 +967,15 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y',
       'yellow'
@@ -890,13 +1029,22 @@ export const allPokemon = [
     'games': [
       'blue',
       'crystal',
+      'diamond',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
       'red',
       'silver',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -946,8 +1094,25 @@ export const allPokemon = [
     'dexNum': '18',
     'generation': 1,
     'games': [
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -996,6 +1161,7 @@ export const allPokemon = [
     'dexNum': '19',
     'generation': 1,
     'games': [
+      'black',
       'black-2',
       'blue',
       'crystal',
@@ -1004,6 +1170,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
@@ -1011,6 +1179,7 @@ export const allPokemon = [
       'soulsilver',
       'ultra-moon',
       'ultra-sun',
+      'white',
       'white-2',
       'yellow'
     ],
@@ -1065,12 +1234,15 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
       'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
       'yellow'
@@ -1117,6 +1289,7 @@ export const allPokemon = [
     'dexNum': '21',
     'generation': 1,
     'games': [
+      'black',
       'blue',
       'crystal',
       'diamond',
@@ -1124,6 +1297,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -1133,6 +1308,9 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -1185,6 +1363,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -1195,6 +1375,8 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -1242,14 +1424,18 @@ export const allPokemon = [
       'crystal',
       'diamond',
       'firered',
+      'gold',
       'heartgold',
+      'lets-go-eevee',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -1296,14 +1482,18 @@ export const allPokemon = [
       'crystal',
       'diamond',
       'firered',
+      'gold',
       'heartgold',
+      'lets-go-eevee',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -1356,6 +1546,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'omega-ruby',
       'pearl',
@@ -1419,8 +1611,32 @@ export const allPokemon = [
     'dexNum': '26',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'blue',
-      'red'
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -1469,6 +1685,8 @@ export const allPokemon = [
     'dexNum': '27',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
       'blue',
       'crystal',
@@ -1477,12 +1695,18 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
+      'silver',
       'soulsilver',
+      'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -1527,16 +1751,23 @@ export const allPokemon = [
     'dexNum': '28',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'blue',
       'crystal',
       'diamond',
+      'emerald',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
       'soulsilver',
       'white',
       'white-2',
@@ -1586,6 +1817,7 @@ export const allPokemon = [
     'dexNum': '29',
     'generation': 1,
     'games': [
+      'black-2',
       'blue',
       'crystal',
       'diamond',
@@ -1593,11 +1825,16 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -1647,6 +1884,7 @@ export const allPokemon = [
     'dexNum': '30',
     'generation': 1,
     'games': [
+      'black-2',
       'blue',
       'crystal',
       'diamond',
@@ -1654,11 +1892,14 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'white-2',
       'x',
       'y',
       'yellow'
@@ -1709,7 +1950,27 @@ export const allPokemon = [
     'type2': 'Ground',
     'dexNum': '31',
     'generation': 1,
-    'games': [],
+    'games': [
+      'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
+      'white-2',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Nidoran-f'
@@ -1757,6 +2018,7 @@ export const allPokemon = [
     'dexNum': '32',
     'generation': 1,
     'games': [
+      'black-2',
       'blue',
       'crystal',
       'diamond',
@@ -1764,11 +2026,16 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -1818,6 +2085,7 @@ export const allPokemon = [
     'dexNum': '33',
     'generation': 1,
     'games': [
+      'black-2',
       'blue',
       'crystal',
       'diamond',
@@ -1825,11 +2093,14 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'white-2',
       'x',
       'y',
       'yellow'
@@ -1880,7 +2151,27 @@ export const allPokemon = [
     'type2': 'Ground',
     'dexNum': '34',
     'generation': 1,
-    'games': [],
+    'games': [
+      'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
+      'white-2',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Nidoran-m'
@@ -1937,6 +2228,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -1948,6 +2241,8 @@ export const allPokemon = [
       'ultra-sun',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -1999,8 +2294,29 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -2049,12 +2365,15 @@ export const allPokemon = [
     'dexNum': '37',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'blue',
       'diamond',
       'emerald',
       'leafgreen',
+      'lets-go-eevee',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -2062,7 +2381,10 @@ export const allPokemon = [
       'silver',
       'soulsilver',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -2106,10 +2428,26 @@ export const allPokemon = [
     'dexNum': '38',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'blue',
+      'diamond',
+      'emerald',
+      'leafgreen',
+      'lets-go-eevee',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -2162,6 +2500,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'red',
       'ruby',
@@ -2227,9 +2567,28 @@ export const allPokemon = [
       'black',
       'black-2',
       'blue',
+      'crystal',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
       'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -2278,6 +2637,8 @@ export const allPokemon = [
     'dexNum': '41',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
       'blue',
       'crystal',
@@ -2287,7 +2648,10 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -2298,6 +2662,7 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
       'white-2',
       'x',
       'y',
@@ -2350,6 +2715,7 @@ export const allPokemon = [
     'dexNum': '42',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'blue',
@@ -2360,7 +2726,10 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -2373,6 +2742,8 @@ export const allPokemon = [
       'ultra-sun',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -2422,12 +2793,15 @@ export const allPokemon = [
     'dexNum': '43',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
       'emerald',
       'firered',
       'gold',
       'heartgold',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -2491,12 +2865,15 @@ export const allPokemon = [
     'dexNum': '44',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
       'emerald',
       'firered',
       'gold',
       'heartgold',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -2504,6 +2881,8 @@ export const allPokemon = [
       'sapphire',
       'silver',
       'soulsilver',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -2557,7 +2936,27 @@ export const allPokemon = [
     'type2': 'Poison',
     'dexNum': '45',
     'generation': 1,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'lets-go-pikachu',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Oddish'
@@ -2616,6 +3015,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'red',
       'silver',
@@ -2623,6 +3024,8 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -2670,12 +3073,20 @@ export const allPokemon = [
       'blue',
       'crystal',
       'firered',
+      'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
       'red',
+      'silver',
       'soulsilver',
+      'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -2720,6 +3131,9 @@ export const allPokemon = [
     'dexNum': '48',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
       'blue',
       'crystal',
       'diamond',
@@ -2727,11 +3141,18 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'white',
+      'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -2776,7 +3197,9 @@ export const allPokemon = [
     'dexNum': '49',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
+      'black-2',
       'blue',
       'crystal',
       'diamond',
@@ -2784,12 +3207,18 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
       'white',
+      'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -2841,11 +3270,17 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -2897,6 +3332,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
@@ -2950,10 +3387,15 @@ export const allPokemon = [
     'dexNum': '52',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'blue',
       'crystal',
+      'emerald',
       'firered',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'silver',
       'soulsilver'
     ],
@@ -3004,9 +3446,15 @@ export const allPokemon = [
     'dexNum': '53',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'blue',
       'crystal',
+      'emerald',
       'firered',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'silver',
       'soulsilver'
     ],
@@ -3057,6 +3505,8 @@ export const allPokemon = [
     'dexNum': '54',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
       'blue',
       'crystal',
@@ -3065,7 +3515,10 @@ export const allPokemon = [
       'firered',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -3076,6 +3529,7 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
       'white-2',
       'x',
       'y',
@@ -3123,6 +3577,7 @@ export const allPokemon = [
     'dexNum': '55',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'blue',
@@ -3132,7 +3587,10 @@ export const allPokemon = [
       'firered',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -3145,6 +3603,8 @@ export const allPokemon = [
       'ultra-sun',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -3194,6 +3654,7 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -3201,6 +3662,8 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -3255,12 +3718,16 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
+      'red',
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -3316,6 +3783,8 @@ export const allPokemon = [
       'firered',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -3324,6 +3793,8 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -3367,7 +3838,27 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '59',
     'generation': 1,
-    'games': [],
+    'games': [
+      'black-2',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Growlithe'
@@ -3419,6 +3910,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -3495,6 +3988,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -3564,14 +4059,29 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
       'white-2',
       'x',
-      'y'
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -3633,6 +4143,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -3698,17 +4210,26 @@ export const allPokemon = [
       'blue',
       'crystal',
       'diamond',
+      'emerald',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
       'red',
+      'ruby',
+      'sapphire',
       'silver',
       'soulsilver',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -3757,7 +4278,32 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '65',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Abra'
@@ -3805,6 +4351,7 @@ export const allPokemon = [
     'dexNum': '66',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'blue',
       'crystal',
       'diamond',
@@ -3813,7 +4360,10 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -3875,22 +4425,31 @@ export const allPokemon = [
     'dexNum': '67',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'blue',
       'crystal',
       'diamond',
+      'emerald',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
+      'ruby',
+      'sapphire',
       'silver',
       'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -3939,7 +4498,34 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '68',
     'generation': 1,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'blue',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Machop'
@@ -3993,12 +4579,15 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
       'moon',
       'pearl',
       'platinum',
       'silver',
       'soulsilver',
       'sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -4054,10 +4643,13 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'moon',
       'pearl',
       'platinum',
       'silver',
       'soulsilver',
+      'sun',
       'x',
       'y',
       'yellow'
@@ -4108,7 +4700,24 @@ export const allPokemon = [
     'type2': 'Poison',
     'dexNum': '71',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'crystal',
+      'diamond',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'moon',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Bellsprout'
@@ -4164,6 +4773,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -4221,6 +4832,7 @@ export const allPokemon = [
     'dexNum': '73',
     'generation': 1,
     'games': [
+      'blue',
       'crystal',
       'diamond',
       'emerald',
@@ -4228,9 +4840,12 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
+      'red',
       'ruby',
       'sapphire',
       'silver',
@@ -4238,6 +4853,8 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -4282,6 +4899,8 @@ export const allPokemon = [
     'dexNum': '74',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black',
       'blue',
       'crystal',
       'diamond',
@@ -4290,6 +4909,10 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -4297,6 +4920,10 @@ export const allPokemon = [
       'sapphire',
       'silver',
       'soulsilver',
+      'sun',
+      'white',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -4346,6 +4973,7 @@ export const allPokemon = [
     'dexNum': '75',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'blue',
       'crystal',
@@ -4355,7 +4983,10 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -4416,8 +5047,32 @@ export const allPokemon = [
     'dexNum': '76',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black',
+      'blue',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
       'heartgold',
-      'soulsilver'
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
+      'white',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -4466,6 +5121,7 @@ export const allPokemon = [
     'dexNum': '77',
     'generation': 1,
     'games': [
+      'black',
       'blue',
       'crystal',
       'diamond',
@@ -4473,11 +5129,16 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
+      'white',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -4523,14 +5184,24 @@ export const allPokemon = [
     'generation': 1,
     'games': [
       'black',
+      'blue',
       'crystal',
+      'diamond',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
+      'red',
       'silver',
       'soulsilver',
-      'white'
+      'white',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -4574,13 +5245,17 @@ export const allPokemon = [
     'dexNum': '79',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'blue',
       'crystal',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -4641,13 +5316,19 @@ export const allPokemon = [
     'dexNum': '80',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'blue',
       'crystal',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'red',
       'silver',
       'soulsilver',
@@ -4655,6 +5336,8 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -4704,6 +5387,7 @@ export const allPokemon = [
     'dexNum': '81',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'blue',
       'crystal',
@@ -4713,7 +5397,10 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -4725,6 +5412,8 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -4774,17 +5463,30 @@ export const allPokemon = [
     'dexNum': '82',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'blue',
+      'crystal',
+      'diamond',
       'emerald',
       'firered',
+      'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
       'platinum',
       'red',
       'ruby',
       'sapphire',
+      'silver',
       'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white-2',
       'x',
       'y',
@@ -4837,12 +5539,16 @@ export const allPokemon = [
     'dexNum': '83',
     'generation': 1,
     'games': [
+      'blue',
       'crystal',
       'diamond',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
+      'red',
       'silver',
       'soulsilver',
       'x',
@@ -4891,6 +5597,7 @@ export const allPokemon = [
     'dexNum': '84',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'blue',
       'crystal',
       'diamond',
@@ -4899,6 +5606,9 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -4952,16 +5662,27 @@ export const allPokemon = [
     'dexNum': '85',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'blue',
       'crystal',
+      'diamond',
       'emerald',
+      'firered',
       'gold',
       'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'red',
       'ruby',
       'sapphire',
       'silver',
       'soulsilver',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5015,6 +5736,9 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'platinum',
       'red',
       'silver',
       'soulsilver',
@@ -5022,6 +5746,8 @@ export const allPokemon = [
       'ultra-sun',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5069,15 +5795,24 @@ export const allPokemon = [
       'black',
       'black-2',
       'blue',
+      'crystal',
       'diamond',
       'firered',
+      'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'platinum',
       'red',
+      'silver',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5122,6 +5857,7 @@ export const allPokemon = [
     'dexNum': '88',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'blue',
       'crystal',
@@ -5131,6 +5867,7 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
@@ -5139,6 +5876,8 @@ export const allPokemon = [
       'silver',
       'soulsilver',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5183,16 +5922,27 @@ export const allPokemon = [
     'dexNum': '89',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'blue',
       'crystal',
+      'diamond',
+      'emerald',
+      'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
       'red',
+      'ruby',
+      'sapphire',
       'silver',
       'soulsilver',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5245,6 +5995,8 @@ export const allPokemon = [
       'firered',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -5256,6 +6008,7 @@ export const allPokemon = [
       'ultra-sun',
       'white',
       'white-2',
+      'x',
       'y',
       'yellow'
     ],
@@ -5303,9 +6056,28 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
-      'y'
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -5356,6 +6128,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -5365,6 +6139,8 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5421,6 +6197,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -5481,13 +6259,27 @@ export const allPokemon = [
     'dexNum': '94',
     'generation': 1,
     'games': [
+      'blue',
+      'crystal',
       'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
+      'red',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -5536,6 +6328,7 @@ export const allPokemon = [
     'dexNum': '95',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'blue',
@@ -5545,6 +6338,9 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -5607,6 +6403,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -5616,6 +6414,8 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5662,17 +6462,25 @@ export const allPokemon = [
     'games': [
       'blue',
       'crystal',
+      'diamond',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
       'red',
       'silver',
       'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -5725,6 +6533,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'red',
@@ -5732,6 +6542,8 @@ export const allPokemon = [
       'soulsilver',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5780,14 +6592,22 @@ export const allPokemon = [
       'black-2',
       'blue',
       'crystal',
+      'diamond',
+      'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
       'red',
       'silver',
       'soulsilver',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5841,6 +6661,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'omega-ruby',
       'pearl',
       'platinum',
@@ -5850,6 +6672,10 @@ export const allPokemon = [
       'silver',
       'soulsilver',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -5897,12 +6723,16 @@ export const allPokemon = [
       'alpha-sapphire',
       'blue',
       'crystal',
+      'diamond',
       'emerald',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'omega-ruby',
+      'pearl',
       'platinum',
       'red',
       'ruby',
@@ -5963,6 +6793,8 @@ export const allPokemon = [
       'firered',
       'gold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'red',
       'silver',
@@ -6014,7 +6846,24 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '103',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'crystal',
+      'firered',
+      'gold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'red',
+      'silver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Exeggcute'
@@ -6057,6 +6906,7 @@ export const allPokemon = [
     'dexNum': '104',
     'generation': 1,
     'games': [
+      'black',
       'blue',
       'crystal',
       'diamond',
@@ -6064,6 +6914,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -6073,6 +6925,7 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
       'x',
       'y',
       'yellow'
@@ -6122,15 +6975,25 @@ export const allPokemon = [
       'black',
       'blue',
       'crystal',
+      'diamond',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
       'red',
       'silver',
       'soulsilver',
+      'sun',
+      'ultra-moon',
       'ultra-sun',
       'white',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -6176,9 +7039,21 @@ export const allPokemon = [
     'generation': 1,
     'games': [
       'blue',
+      'crystal',
+      'diamond',
       'firered',
+      'gold',
+      'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
       'red',
+      'silver',
+      'soulsilver',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -6232,9 +7107,21 @@ export const allPokemon = [
     'generation': 1,
     'games': [
       'blue',
+      'crystal',
+      'diamond',
       'firered',
+      'gold',
+      'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
       'red',
+      'silver',
+      'soulsilver',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -6289,12 +7176,16 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'blue',
       'crystal',
       'diamond',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
+      'red',
       'silver',
       'soulsilver',
       'ultra-moon',
@@ -6350,11 +7241,15 @@ export const allPokemon = [
       'black-2',
       'blue',
       'crystal',
+      'diamond',
       'emerald',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'omega-ruby',
+      'pearl',
       'platinum',
       'red',
       'ruby',
@@ -6409,11 +7304,19 @@ export const allPokemon = [
       'blue',
       'crystal',
       'diamond',
+      'emerald',
       'firered',
+      'gold',
       'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
+      'ruby',
+      'sapphire',
+      'silver',
       'soulsilver',
       'white-2'
     ],
@@ -6467,6 +7370,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -6532,9 +7437,26 @@ export const allPokemon = [
       'blue',
       'crystal',
       'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
       'pearl',
       'platinum',
       'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -6584,6 +7506,8 @@ export const allPokemon = [
     'dexNum': '113',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'blue',
       'crystal',
       'diamond',
@@ -6591,7 +7515,10 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'red',
@@ -6600,6 +7527,9 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -6649,6 +7579,7 @@ export const allPokemon = [
     'dexNum': '114',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'blue',
@@ -6657,12 +7588,17 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'platinum',
       'red',
       'silver',
       'soulsilver',
       'white',
       'white-2',
+      'x',
+      'y',
       'yellow'
     ],
     'evolutionLine': [
@@ -6706,26 +7642,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '115',
     'generation': 1,
-    'games': [
-      'black',
-      'blue',
-      'crystal',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'moon',
-      'red',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Kangaskhan'
     },
@@ -6773,6 +7690,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -6842,14 +7761,24 @@ export const allPokemon = [
       'blue',
       'crystal',
       'diamond',
+      'emerald',
       'firered',
       'gold',
       'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
       'pearl',
       'platinum',
       'red',
+      'ruby',
+      'sapphire',
       'silver',
       'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
       'x',
@@ -6913,6 +7842,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -6982,6 +7913,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -7050,6 +7983,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -7110,13 +8045,30 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'emerald',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
       'white-2',
-      'x'
+      'x',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -7160,17 +8112,22 @@ export const allPokemon = [
     'dexNum': '122',
     'generation': 1,
     'games': [
+      'blue',
       'crystal',
       'diamond',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'platinum',
+      'red',
       'silver',
       'soulsilver',
       'ultra-moon',
       'ultra-sun',
       'x',
-      'y'
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -7221,6 +8178,7 @@ export const allPokemon = [
     'games': [
       'diamond',
       'firered',
+      'lets-go-pikachu',
       'moon',
       'platinum',
       'red',
@@ -7279,10 +8237,16 @@ export const allPokemon = [
     'generation': 1,
     'games': [
       'black',
+      'blue',
       'crystal',
+      'diamond',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
       'platinum',
+      'red',
       'silver',
       'soulsilver',
       'ultra-moon',
@@ -7333,18 +8297,27 @@ export const allPokemon = [
     'dexNum': '125',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
       'crystal',
+      'diamond',
       'firered',
       'gold',
       'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
+      'pearl',
       'platinum',
       'red',
       'silver',
       'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -7393,18 +8366,27 @@ export const allPokemon = [
     'dexNum': '126',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'blue',
       'crystal',
+      'diamond',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
+      'pearl',
       'platinum',
       'silver',
       'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -7452,24 +8434,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '127',
     'generation': 1,
-    'games': [
-      'black',
-      'blue',
-      'emerald',
-      'leafgreen',
-      'moon',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Pinsir'
     },
@@ -7506,27 +8471,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '128',
     'generation': 1,
-    'games': [
-      'blue',
-      'crystal',
-      'diamond',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'moon',
-      'pearl',
-      'platinum',
-      'red',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Tauros'
     },
@@ -7574,6 +8519,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -7633,7 +8580,9 @@ export const allPokemon = [
     'dexNum': '130',
     'generation': 1,
     'games': [
+      'black',
       'black-2',
+      'blue',
       'crystal',
       'diamond',
       'emerald',
@@ -7641,9 +8590,12 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
+      'red',
       'ruby',
       'sapphire',
       'silver',
@@ -7651,6 +8603,7 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
       'white-2',
       'x',
       'y',
@@ -7697,31 +8650,7 @@ export const allPokemon = [
     'type2': 'Ice',
     'dexNum': '131',
     'generation': 1,
-    'games': [
-      'black',
-      'black-2',
-      'blue',
-      'crystal',
-      'diamond',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'moon',
-      'pearl',
-      'platinum',
-      'red',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Lapras'
     },
@@ -7758,31 +8687,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '132',
     'generation': 1,
-    'games': [
-      'black',
-      'black-2',
-      'blue',
-      'crystal',
-      'diamond',
-      'emerald',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'moon',
-      'pearl',
-      'red',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Ditto'
     },
@@ -7828,6 +8733,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -7906,7 +8813,31 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '134',
     'generation': 1,
-    'games': [],
+    'games': [
+      'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Eevee'
@@ -7971,7 +8902,31 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '135',
     'generation': 1,
-    'games': [],
+    'games': [
+      'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Eevee'
@@ -8036,7 +8991,31 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '136',
     'generation': 1,
-    'games': [],
+    'games': [
+      'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Eevee'
@@ -8102,11 +9081,25 @@ export const allPokemon = [
     'dexNum': '137',
     'generation': 1,
     'games': [
+      'alpha-sapphire',
+      'blue',
+      'crystal',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'platinum',
+      'red',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -8158,6 +9151,8 @@ export const allPokemon = [
       'blue',
       'firered',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'red',
       'ultra-moon',
       'ultra-sun',
@@ -8204,7 +9199,17 @@ export const allPokemon = [
     'type2': 'Water',
     'dexNum': '139',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'ultra-moon',
+      'ultra-sun',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Omanyte'
@@ -8250,6 +9255,8 @@ export const allPokemon = [
       'blue',
       'firered',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'red',
       'ultra-moon',
       'ultra-sun',
@@ -8296,7 +9303,17 @@ export const allPokemon = [
     'type2': 'Water',
     'dexNum': '141',
     'generation': 1,
-    'games': [],
+    'games': [
+      'blue',
+      'firered',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'red',
+      'ultra-moon',
+      'ultra-sun',
+      'yellow'
+    ],
     'evolutionLine': [
       {
         'name': 'Kabuto'
@@ -8338,17 +9355,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '142',
     'generation': 1,
-    'games': [
-      'blue',
-      'firered',
-      'leafgreen',
-      'moon',
-      'red',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Aerodactyl'
     },
@@ -8392,11 +9399,15 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'red',
       'silver',
       'soulsilver',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y',
       'yellow'
@@ -8442,20 +9453,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '144',
     'generation': 1,
-    'games': [
-      'blue',
-      'firered',
-      'heartgold',
-      'leafgreen',
-      'platinum',
-      'red',
-      'soulsilver',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Articuno'
     },
@@ -8492,20 +9490,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '145',
     'generation': 1,
-    'games': [
-      'blue',
-      'firered',
-      'heartgold',
-      'leafgreen',
-      'platinum',
-      'red',
-      'soulsilver',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Zapdos'
     },
@@ -8542,20 +9527,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '146',
     'generation': 1,
-    'games': [
-      'blue',
-      'firered',
-      'heartgold',
-      'leafgreen',
-      'platinum',
-      'red',
-      'soulsilver',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Moltres'
     },
@@ -8602,6 +9574,8 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
@@ -8666,15 +9640,19 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'blue',
       'crystal',
       'diamond',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
+      'red',
       'silver',
       'soulsilver',
       'sun',
@@ -8735,12 +9713,29 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'blue',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
+      'red',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y',
+      'yellow'
     ],
     'evolutionLine': [
       {
@@ -8788,19 +9783,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '150',
     'generation': 1,
-    'games': [
-      'blue',
-      'firered',
-      'heartgold',
-      'leafgreen',
-      'red',
-      'soulsilver',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y',
-      'yellow'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Mewtwo'
     },
@@ -8837,9 +9820,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '151',
     'generation': 1,
-    'games': [
-      'emerald'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Mew'
     },
@@ -8934,7 +9915,18 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '153',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'emerald',
+      'gold',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'silver',
+      'soulsilver',
+      'sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Chikorita'
@@ -8981,7 +9973,18 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '154',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'emerald',
+      'gold',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'silver',
+      'soulsilver',
+      'sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Chikorita'
@@ -9086,7 +10089,18 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '156',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'emerald',
+      'gold',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'silver',
+      'soulsilver',
+      'sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Cyndaquil'
@@ -9133,7 +10147,18 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '157',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'emerald',
+      'gold',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'silver',
+      'soulsilver',
+      'sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Cyndaquil'
@@ -9238,7 +10263,18 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '159',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'emerald',
+      'gold',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'silver',
+      'soulsilver',
+      'sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Totodile'
@@ -9285,7 +10321,18 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '160',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'emerald',
+      'gold',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'silver',
+      'soulsilver',
+      'sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Totodile'
@@ -9389,10 +10436,17 @@ export const allPokemon = [
     'generation': 2,
     'games': [
       'crystal',
+      'diamond',
+      'firered',
       'gold',
       'heartgold',
+      'leafgreen',
+      'pearl',
+      'platinum',
       'silver',
-      'soulsilver'
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -9436,6 +10490,8 @@ export const allPokemon = [
     'dexNum': '163',
     'generation': 2,
     'games': [
+      'black',
+      'black-2',
       'crystal',
       'diamond',
       'emerald',
@@ -9446,7 +10502,11 @@ export const allPokemon = [
       'silver',
       'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -9494,6 +10554,7 @@ export const allPokemon = [
       'black-2',
       'crystal',
       'diamond',
+      'emerald',
       'gold',
       'heartgold',
       'pearl',
@@ -9549,16 +10610,21 @@ export const allPokemon = [
     'dexNum': '165',
     'generation': 2,
     'games': [
+      'black',
       'crystal',
+      'diamond',
       'emerald',
       'firered',
       'leafgreen',
       'moon',
+      'pearl',
+      'platinum',
       'silver',
       'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
       'x',
       'y'
     ],
@@ -9607,6 +10673,9 @@ export const allPokemon = [
       'black',
       'crystal',
       'diamond',
+      'emerald',
+      'firered',
+      'leafgreen',
       'moon',
       'pearl',
       'platinum',
@@ -9615,7 +10684,9 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -9659,16 +10730,25 @@ export const allPokemon = [
     'dexNum': '167',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
+      'black',
       'crystal',
+      'diamond',
       'emerald',
       'firered',
       'gold',
       'heartgold',
       'leafgreen',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -9712,18 +10792,25 @@ export const allPokemon = [
     'dexNum': '168',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black',
       'crystal',
       'diamond',
+      'emerald',
+      'firered',
       'gold',
       'heartgold',
+      'leafgreen',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -9767,14 +10854,33 @@ export const allPokemon = [
     'dexNum': '169',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -9891,11 +10997,17 @@ export const allPokemon = [
       'black-2',
       'crystal',
       'diamond',
+      'emerald',
       'gold',
       'heartgold',
+      'moon',
       'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
       'silver',
       'soulsilver',
+      'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
@@ -9945,14 +11057,29 @@ export const allPokemon = [
     'dexNum': '172',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10001,14 +11128,28 @@ export const allPokemon = [
     'dexNum': '173',
     'generation': 2,
     'games': [
+      'black',
+      'black-2',
       'crystal',
       'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
       'pearl',
       'platinum',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10057,11 +11198,28 @@ export const allPokemon = [
     'dexNum': '174',
     'generation': 2,
     'games': [
+      'black',
+      'black-2',
       'crystal',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10117,11 +11275,15 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'moon',
       'omega-ruby',
       'pearl',
       'platinum',
       'silver',
-      'soulsilver'
+      'soulsilver',
+      'sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10169,7 +11331,24 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '176',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Togepi'
@@ -10217,6 +11396,7 @@ export const allPokemon = [
     'dexNum': '177',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
       'emerald',
@@ -10224,6 +11404,7 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -10231,7 +11412,9 @@ export const allPokemon = [
       'silver',
       'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10275,11 +11458,25 @@ export const allPokemon = [
     'dexNum': '178',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
+      'crystal',
+      'diamond',
       'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
+      'silver',
+      'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10336,7 +11533,9 @@ export const allPokemon = [
       'soulsilver',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10385,15 +11584,22 @@ export const allPokemon = [
     'dexNum': '180',
     'generation': 2,
     'games': [
+      'black-2',
       'diamond',
+      'emerald',
+      'firered',
       'gold',
       'heartgold',
+      'leafgreen',
       'pearl',
       'platinum',
       'silver',
       'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10441,7 +11647,24 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '181',
     'generation': 2,
-    'games': [],
+    'games': [
+      'black-2',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Mareep'
@@ -10488,7 +11711,25 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '182',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'lets-go-pikachu',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Oddish'
@@ -10541,6 +11782,7 @@ export const allPokemon = [
     'dexNum': '183',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'crystal',
       'diamond',
@@ -10549,6 +11791,7 @@ export const allPokemon = [
       'heartgold',
       'leafgreen',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -10607,8 +11850,23 @@ export const allPokemon = [
     'dexNum': '184',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black-2',
+      'crystal',
+      'diamond',
+      'emerald',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'moon',
+      'omega-ruby',
+      'pearl',
       'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
       'white-2',
       'x',
       'y'
@@ -10671,7 +11929,9 @@ export const allPokemon = [
       'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10717,7 +11977,19 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
@@ -10787,7 +12059,9 @@ export const allPokemon = [
       'pearl',
       'platinum',
       'silver',
-      'soulsilver'
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10838,11 +12112,16 @@ export const allPokemon = [
     'games': [
       'crystal',
       'diamond',
+      'firered',
       'gold',
       'heartgold',
+      'leafgreen',
       'pearl',
+      'platinum',
       'silver',
-      'soulsilver'
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10890,7 +12169,20 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '189',
     'generation': 2,
-    'games': [],
+    'games': [
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Hoppip'
@@ -10945,7 +12237,9 @@ export const allPokemon = [
       'leafgreen',
       'silver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -10989,6 +12283,7 @@ export const allPokemon = [
     'dexNum': '191',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'crystal',
@@ -10996,12 +12291,15 @@ export const allPokemon = [
       'emerald',
       'gold',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'silver',
       'soulsilver',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11045,8 +12343,23 @@ export const allPokemon = [
     'dexNum': '192',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black',
-      'white'
+      'black-2',
+      'crystal',
+      'diamond',
+      'emerald',
+      'gold',
+      'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11099,7 +12412,11 @@ export const allPokemon = [
       'platinum',
       'silver',
       'soulsilver',
-      'white-2'
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11152,7 +12469,11 @@ export const allPokemon = [
       'pearl',
       'platinum',
       'silver',
-      'soulsilver'
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11204,6 +12525,7 @@ export const allPokemon = [
       'crystal',
       'diamond',
       'emerald',
+      'firered',
       'gold',
       'heartgold',
       'pearl',
@@ -11262,10 +12584,26 @@ export const allPokemon = [
     'dexNum': '196',
     'generation': 2,
     'games': [
+      'black-2',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11332,10 +12670,26 @@ export const allPokemon = [
     'dexNum': '197',
     'generation': 2,
     'games': [
+      'black-2',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11403,6 +12757,7 @@ export const allPokemon = [
     'generation': 2,
     'games': [
       'black',
+      'black-2',
       'crystal',
       'diamond',
       'firered',
@@ -11413,7 +12768,10 @@ export const allPokemon = [
       'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11457,10 +12815,26 @@ export const allPokemon = [
     'dexNum': '199',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black',
+      'crystal',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'sun',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11563,18 +12937,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '201',
     'generation': 2,
-    'games': [
-      'crystal',
-      'diamond',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'pearl',
-      'platinum',
-      'silver',
-      'soulsilver'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Unown'
     },
@@ -11612,6 +12975,7 @@ export const allPokemon = [
     'dexNum': '202',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
       'emerald',
@@ -11619,6 +12983,7 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -11670,18 +13035,22 @@ export const allPokemon = [
     'dexNum': '203',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'diamond',
       'emerald',
       'gold',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'silver',
       'soulsilver',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11725,17 +13094,21 @@ export const allPokemon = [
     'dexNum': '204',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
       'emerald',
       'firered',
       'gold',
       'leafgreen',
+      'omega-ruby',
       'pearl',
       'platinum',
       'silver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11778,7 +13151,23 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '205',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'leafgreen',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'silver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Pineco'
@@ -11892,7 +13281,9 @@ export const allPokemon = [
       'pearl',
       'platinum',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11936,13 +13327,28 @@ export const allPokemon = [
     'dexNum': '208',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
+      'crystal',
       'diamond',
+      'firered',
+      'gold',
       'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
       'pearl',
       'platinum',
+      'silver',
       'soulsilver',
-      'white-2'
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -11986,17 +13392,21 @@ export const allPokemon = [
     'dexNum': '209',
     'generation': 2,
     'games': [
+      'black-2',
       'crystal',
       'diamond',
       'emerald',
       'gold',
       'heartgold',
+      'moon',
       'pearl',
       'platinum',
       'silver',
       'soulsilver',
+      'sun',
       'ultra-moon',
       'ultra-sun',
+      'white-2',
       'x',
       'y'
     ],
@@ -12042,11 +13452,23 @@ export const allPokemon = [
     'dexNum': '210',
     'generation': 2,
     'games': [
+      'black-2',
       'crystal',
+      'diamond',
+      'emerald',
+      'gold',
+      'heartgold',
       'moon',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -12147,7 +13569,18 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '212',
     'generation': 2,
-    'games': [],
+    'games': [
+      'diamond',
+      'firered',
+      'lets-go-pikachu',
+      'moon',
+      'platinum',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Scyther'
@@ -12194,25 +13627,7 @@ export const allPokemon = [
     'type2': 'Rock',
     'dexNum': '213',
     'generation': 2,
-    'games': [
-      'black',
-      'black-2',
-      'crystal',
-      'diamond',
-      'emerald',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'pearl',
-      'platinum',
-      'silver',
-      'soulsilver',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Shuckle'
     },
@@ -12249,22 +13664,7 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '214',
     'generation': 2,
-    'games': [
-      'black',
-      'black-2',
-      'crystal',
-      'emerald',
-      'firered',
-      'gold',
-      'leafgreen',
-      'ruby',
-      'sapphire',
-      'silver',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Heracross'
     },
@@ -12377,7 +13777,9 @@ export const allPokemon = [
       'leafgreen',
       'pearl',
       'platinum',
-      'soulsilver'
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -12428,7 +13830,10 @@ export const allPokemon = [
     'games': [
       'crystal',
       'diamond',
+      'emerald',
+      'firered',
       'gold',
+      'leafgreen',
       'pearl',
       'platinum',
       'soulsilver',
@@ -12482,6 +13887,7 @@ export const allPokemon = [
     'dexNum': '218',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
       'emerald',
@@ -12489,12 +13895,15 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'silver',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -12540,13 +13949,25 @@ export const allPokemon = [
     'dexNum': '219',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
+      'crystal',
       'diamond',
+      'emerald',
       'firered',
+      'gold',
+      'heartgold',
       'leafgreen',
+      'omega-ruby',
       'pearl',
       'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -12590,6 +14011,8 @@ export const allPokemon = [
     'dexNum': '220',
     'generation': 2,
     'games': [
+      'black',
+      'black-2',
       'crystal',
       'diamond',
       'firered',
@@ -12603,7 +14026,11 @@ export const allPokemon = [
       'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -12654,7 +14081,20 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'moon',
+      'pearl',
       'platinum',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
       'x',
@@ -12835,8 +14275,13 @@ export const allPokemon = [
       'black-2',
       'diamond',
       'emerald',
+      'gold',
+      'heartgold',
+      'leafgreen',
       'pearl',
       'platinum',
+      'silver',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun',
       'white',
@@ -12885,25 +14330,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '225',
     'generation': 2,
-    'games': [
-      'black',
-      'black-2',
-      'crystal',
-      'diamond',
-      'firered',
-      'moon',
-      'pearl',
-      'platinum',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Delibird'
     },
@@ -12944,11 +14371,18 @@ export const allPokemon = [
       'black',
       'black-2',
       'crystal',
+      'diamond',
       'gold',
       'heartgold',
       'leafgreen',
+      'pearl',
+      'platinum',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -12991,24 +14425,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '227',
     'generation': 2,
-    'games': [
-      'black-2',
-      'crystal',
-      'diamond',
-      'emerald',
-      'firered',
-      'moon',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Skarmory'
     },
@@ -13052,6 +14469,7 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'pearl',
       'platinum',
       'silver',
       'soulsilver',
@@ -13100,8 +14518,18 @@ export const allPokemon = [
     'dexNum': '229',
     'generation': 2,
     'games': [
+      'crystal',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
       'pearl',
-      'ultra-sun'
+      'platinum',
+      'silver',
+      'soulsilver',
+      'ultra-sun',
+      'x'
     ],
     'evolutionLine': [
       {
@@ -13147,8 +14575,29 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'crystal',
+      'diamond',
+      'emerald',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13197,17 +14646,21 @@ export const allPokemon = [
     'dexNum': '231',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
       'emerald',
       'firered',
       'heartgold',
       'leafgreen',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
-      'silver'
+      'silver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13251,9 +14704,21 @@ export const allPokemon = [
     'dexNum': '232',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
+      'diamond',
+      'emerald',
+      'firered',
       'heartgold',
-      'silver'
+      'leafgreen',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'silver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13296,7 +14761,24 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '233',
     'generation': 2,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'crystal',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Porygon'
@@ -13344,6 +14826,7 @@ export const allPokemon = [
     'dexNum': '234',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black',
       'crystal',
       'emerald',
@@ -13351,6 +14834,7 @@ export const allPokemon = [
       'gold',
       'heartgold',
       'leafgreen',
+      'omega-ruby',
       'pearl',
       'platinum',
       'silver',
@@ -13398,25 +14882,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '235',
     'generation': 2,
-    'games': [
-      'crystal',
-      'diamond',
-      'emerald',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'moon',
-      'pearl',
-      'platinum',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Smeargle'
     },
@@ -13456,12 +14922,18 @@ export const allPokemon = [
     'games': [
       'crystal',
       'diamond',
+      'firered',
       'gold',
       'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
       'silver',
-      'soulsilver'
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13512,7 +14984,22 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '237',
     'generation': 2,
-    'games': [],
+    'games': [
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Tyrogue'
@@ -13563,12 +15050,22 @@ export const allPokemon = [
     'dexNum': '238',
     'generation': 2,
     'games': [
+      'black',
       'crystal',
       'diamond',
+      'gold',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'pearl',
       'platinum',
+      'silver',
+      'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13612,14 +15109,26 @@ export const allPokemon = [
     'dexNum': '239',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'crystal',
       'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13668,14 +15177,26 @@ export const allPokemon = [
     'dexNum': '240',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'crystal',
       'diamond',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13723,23 +15244,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '241',
     'generation': 2,
-    'games': [
-      'crystal',
-      'diamond',
-      'emerald',
-      'gold',
-      'heartgold',
-      'moon',
-      'pearl',
-      'platinum',
-      'silver',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Miltank'
     },
@@ -13777,8 +15282,28 @@ export const allPokemon = [
     'dexNum': '242',
     'generation': 2,
     'games': [
+      'alpha-sapphire',
+      'black-2',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -13826,18 +15351,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '243',
     'generation': 2,
-    'games': [
-      'alpha-sapphire',
-      'crystal',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'omega-ruby',
-      'silver',
-      'soulsilver',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Raikou'
     },
@@ -13874,18 +15388,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '244',
     'generation': 2,
-    'games': [
-      'alpha-sapphire',
-      'crystal',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'omega-ruby',
-      'silver',
-      'soulsilver',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Entei'
     },
@@ -13922,19 +15425,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '245',
     'generation': 2,
-    'games': [
-      'alpha-sapphire',
-      'crystal',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'omega-ruby',
-      'silver',
-      'soulsilver',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Suicune'
     },
@@ -13972,6 +15463,8 @@ export const allPokemon = [
     'dexNum': '246',
     'generation': 2,
     'games': [
+      'black',
+      'black-2',
       'crystal',
       'diamond',
       'firered',
@@ -13982,7 +15475,11 @@ export const allPokemon = [
       'silver',
       'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -14034,10 +15531,19 @@ export const allPokemon = [
       'black',
       'black-2',
       'crystal',
+      'diamond',
+      'firered',
+      'gold',
       'heartgold',
+      'leafgreen',
+      'platinum',
+      'silver',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
+      'x',
       'y'
     ],
     'evolutionLine': [
@@ -14089,8 +15595,21 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'crystal',
+      'diamond',
+      'firered',
+      'gold',
+      'heartgold',
+      'leafgreen',
+      'platinum',
+      'silver',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -14138,18 +15657,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '249',
     'generation': 2,
-    'games': [
-      'alpha-sapphire',
-      'crystal',
-      'emerald',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'silver',
-      'soulsilver',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Lugia'
     },
@@ -14186,18 +15694,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '250',
     'generation': 2,
-    'games': [
-      'crystal',
-      'emerald',
-      'firered',
-      'gold',
-      'heartgold',
-      'leafgreen',
-      'omega-ruby',
-      'silver',
-      'soulsilver',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Ho-oh'
     },
@@ -14234,9 +15731,7 @@ export const allPokemon = [
     'type2': 'Grass',
     'dexNum': '251',
     'generation': 2,
-    'games': [
-      'crystal'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Celebi'
     },
@@ -14280,7 +15775,9 @@ export const allPokemon = [
       'omega-ruby',
       'ruby',
       'sapphire',
-      'soulsilver'
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -14329,6 +15826,13 @@ export const allPokemon = [
     'dexNum': '253',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'ruby',
+      'sapphire',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -14378,7 +15882,17 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '254',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Treecko'
@@ -14432,7 +15946,9 @@ export const allPokemon = [
       'omega-ruby',
       'ruby',
       'sapphire',
-      'soulsilver'
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -14481,6 +15997,13 @@ export const allPokemon = [
     'dexNum': '256',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'ruby',
+      'sapphire',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -14530,7 +16053,17 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '257',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Torchic'
@@ -14584,7 +16117,9 @@ export const allPokemon = [
       'omega-ruby',
       'ruby',
       'sapphire',
-      'soulsilver'
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -14633,6 +16168,13 @@ export const allPokemon = [
     'dexNum': '259',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'ruby',
+      'sapphire',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -14682,7 +16224,17 @@ export const allPokemon = [
     'type2': 'Ground',
     'dexNum': '260',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Mudkip'
@@ -14730,12 +16282,17 @@ export const allPokemon = [
     'dexNum': '261',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
       'platinum',
       'ruby',
       'sapphire',
-      'soulsilver'
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -14779,9 +16336,17 @@ export const allPokemon = [
     'dexNum': '262',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
-      'x'
+      'heartgold',
+      'omega-ruby',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -14825,9 +16390,11 @@ export const allPokemon = [
     'dexNum': '263',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -14883,11 +16450,18 @@ export const allPokemon = [
     'dexNum': '264',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
-      'soulsilver'
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -14936,8 +16510,10 @@ export const allPokemon = [
     'dexNum': '265',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -15000,8 +16576,11 @@ export const allPokemon = [
     'dexNum': '266',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
+      'omega-ruby',
+      'pearl',
       'platinum',
       'ruby',
       'sapphire'
@@ -15063,9 +16642,14 @@ export const allPokemon = [
     'dexNum': '267',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
+      'emerald',
+      'omega-ruby',
       'pearl',
-      'platinum'
+      'platinum',
+      'ruby',
+      'sapphire'
     ],
     'evolutionLine': [
       {
@@ -15124,7 +16708,10 @@ export const allPokemon = [
     'dexNum': '268',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -15187,8 +16774,14 @@ export const allPokemon = [
     'dexNum': '269',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'diamond',
+      'emerald',
+      'omega-ruby',
       'pearl',
-      'platinum'
+      'platinum',
+      'ruby',
+      'sapphire'
     ],
     'evolutionLine': [
       {
@@ -15247,11 +16840,18 @@ export const allPokemon = [
     'dexNum': '270',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'diamond',
       'emerald',
       'pearl',
       'platinum',
-      'sapphire'
+      'sapphire',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15300,6 +16900,8 @@ export const allPokemon = [
     'dexNum': '271',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'diamond',
       'emerald',
       'pearl',
@@ -15307,6 +16909,7 @@ export const allPokemon = [
       'sapphire',
       'ultra-moon',
       'ultra-sun',
+      'white-2',
       'x',
       'y'
     ],
@@ -15356,7 +16959,20 @@ export const allPokemon = [
     'type2': 'Grass',
     'dexNum': '272',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black-2',
+      'diamond',
+      'emerald',
+      'pearl',
+      'platinum',
+      'sapphire',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Lotad'
@@ -15404,11 +17020,18 @@ export const allPokemon = [
     'dexNum': '273',
     'generation': 3,
     'games': [
+      'black-2',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
-      'ruby'
+      'ruby',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15460,12 +17083,15 @@ export const allPokemon = [
       'black-2',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15515,7 +17141,17 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'black-2',
-      'white-2'
+      'diamond',
+      'emerald',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15564,9 +17200,20 @@ export const allPokemon = [
     'dexNum': '276',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black',
+      'diamond',
       'emerald',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
-      'sapphire'
+      'sapphire',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15610,16 +17257,20 @@ export const allPokemon = [
     'dexNum': '277',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15663,11 +17314,14 @@ export const allPokemon = [
     'dexNum': '278',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
+      'black-2',
       'diamond',
       'emerald',
       'heartgold',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -15676,7 +17330,10 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15720,20 +17377,26 @@ export const allPokemon = [
     'dexNum': '279',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'diamond',
       'emerald',
+      'heartgold',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15777,9 +17440,11 @@ export const allPokemon = [
     'dexNum': '280',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -15842,9 +17507,20 @@ export const allPokemon = [
     'dexNum': '281',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
       'pearl',
-      'platinum'
+      'platinum',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -15897,7 +17573,22 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '282',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Ralts'
@@ -15958,7 +17649,9 @@ export const allPokemon = [
       'sapphire',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -16002,8 +17695,12 @@ export const allPokemon = [
     'dexNum': '284',
     'generation': 3,
     'games': [
+      'diamond',
       'moon',
+      'pearl',
       'platinum',
+      'ruby',
+      'sapphire',
       'sun',
       'ultra-moon',
       'ultra-sun',
@@ -16052,9 +17749,15 @@ export const allPokemon = [
     'dexNum': '285',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'emerald',
+      'omega-ruby',
       'ruby',
-      'sapphire'
+      'sapphire',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -16097,7 +17800,17 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '286',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black-2',
+      'emerald',
+      'omega-ruby',
+      'ruby',
+      'sapphire',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Shroomish'
@@ -16140,12 +17853,16 @@ export const allPokemon = [
     'dexNum': '287',
     'generation': 3,
     'games': [
+      'black-2',
       'diamond',
       'emerald',
+      'moon',
       'pearl',
       'platinum',
       'ruby',
-      'sapphire'
+      'sapphire',
+      'sun',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -16195,7 +17912,13 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'black-2',
+      'diamond',
+      'emerald',
       'moon',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
       'sun',
       'white-2'
     ],
@@ -16247,6 +17970,14 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'black-2',
+      'diamond',
+      'emerald',
+      'moon',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'sun',
       'white-2'
     ],
     'evolutionLine': [
@@ -16296,8 +18027,10 @@ export const allPokemon = [
     'dexNum': '290',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -16351,7 +18084,18 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '291',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'emerald',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Nincada'
@@ -16398,7 +18142,18 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '292',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'emerald',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Nincada'
@@ -16446,8 +18201,13 @@ export const allPokemon = [
     'dexNum': '293',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
       'soulsilver',
@@ -16501,12 +18261,18 @@ export const allPokemon = [
     'dexNum': '294',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
+      'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
-      'sapphire'
+      'sapphire',
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -16554,7 +18320,20 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '295',
     'generation': 3,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Whismur'
@@ -16602,10 +18381,13 @@ export const allPokemon = [
     'dexNum': '296',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'diamond',
       'emerald',
       'heartgold',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -16613,7 +18395,10 @@ export const allPokemon = [
       'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -16657,13 +18442,22 @@ export const allPokemon = [
     'dexNum': '297',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
+      'diamond',
       'emerald',
+      'heartgold',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white-2',
       'x',
       'y'
     ],
@@ -16709,9 +18503,20 @@ export const allPokemon = [
     'dexNum': '298',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'diamond',
+      'emerald',
+      'heartgold',
+      'leafgreen',
+      'moon',
+      'omega-ruby',
       'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'sun',
       'white-2',
       'x',
       'y'
@@ -16774,7 +18579,9 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -16818,8 +18625,10 @@ export const allPokemon = [
     'dexNum': '300',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -16870,7 +18679,17 @@ export const allPokemon = [
     'dexNum': '301',
     'generation': 3,
     'games': [
-      'white-2'
+      'alpha-sapphire',
+      'diamond',
+      'emerald',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -16913,22 +18732,7 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '302',
     'generation': 3,
-    'games': [
-      'black',
-      'diamond',
-      'emerald',
-      'heartgold',
-      'moon',
-      'pearl',
-      'platinum',
-      'sapphire',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Sableye'
     },
@@ -16965,20 +18769,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '303',
     'generation': 3,
-    'games': [
-      'black',
-      'diamond',
-      'emerald',
-      'pearl',
-      'platinum',
-      'ruby',
-      'soulsilver',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Mawile'
     },
@@ -17016,13 +18807,18 @@ export const allPokemon = [
     'dexNum': '304',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'diamond',
       'emerald',
+      'omega-ruby',
       'platinum',
       'ruby',
       'sapphire',
-      'white-2'
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x'
     ],
     'evolutionLine': [
       {
@@ -17071,10 +18867,16 @@ export const allPokemon = [
     'dexNum': '305',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black-2',
+      'diamond',
       'emerald',
+      'omega-ruby',
+      'platinum',
       'ruby',
       'sapphire',
+      'ultra-moon',
+      'ultra-sun',
       'white-2',
       'x'
     ],
@@ -17125,8 +18927,18 @@ export const allPokemon = [
     'dexNum': '306',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
+      'diamond',
+      'emerald',
+      'omega-ruby',
+      'platinum',
+      'ruby',
+      'sapphire',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x'
     ],
     'evolutionLine': [
       {
@@ -17175,13 +18987,19 @@ export const allPokemon = [
     'dexNum': '307',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'diamond',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
       'x',
       'y'
     ],
@@ -17227,13 +19045,21 @@ export const allPokemon = [
     'dexNum': '308',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'diamond',
+      'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
+      'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -17277,13 +19103,18 @@ export const allPokemon = [
     'dexNum': '309',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'ultra-moon',
+      'white-2',
+      'x',
       'y'
     ],
     'evolutionLine': [
@@ -17328,10 +19159,19 @@ export const allPokemon = [
     'dexNum': '310',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
+      'diamond',
       'emerald',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
-      'ultra-moon'
+      'ultra-moon',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -17374,14 +19214,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '311',
     'generation': 3,
-    'games': [
-      'emerald',
-      'heartgold',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'x'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Plusle'
     },
@@ -17418,14 +19251,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '312',
     'generation': 3,
-    'games': [
-      'emerald',
-      'heartgold',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Minun'
     },
@@ -17462,16 +19288,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '313',
     'generation': 3,
-    'games': [
-      'diamond',
-      'emerald',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Volbeat'
     },
@@ -17508,16 +19325,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '314',
     'generation': 3,
-    'games': [
-      'diamond',
-      'emerald',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Illumise'
     },
@@ -17555,13 +19363,17 @@ export const allPokemon = [
     'dexNum': '315',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'diamond',
+      'heartgold',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
+      'soulsilver',
       'sun',
       'white-2',
       'x',
@@ -17662,7 +19474,14 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '317',
     'generation': 3,
-    'games': [],
+    'games': [
+      'emerald',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Gulpin'
@@ -17705,14 +19524,18 @@ export const allPokemon = [
     'dexNum': '318',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'diamond',
       'emerald',
+      'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
+      'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
@@ -17770,6 +19593,7 @@ export const allPokemon = [
       'moon',
       'omega-ruby',
       'pearl',
+      'platinum',
       'ruby',
       'sapphire',
       'sun',
@@ -17894,7 +19718,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -17938,15 +19764,19 @@ export const allPokemon = [
     'dexNum': '322',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'soulsilver',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -17992,10 +19822,17 @@ export const allPokemon = [
     'games': [
       'alpha-sapphire',
       'diamond',
+      'emerald',
+      'heartgold',
       'omega-ruby',
       'pearl',
       'platinum',
-      'white-2'
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -18038,20 +19875,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '324',
     'generation': 3,
-    'games': [
-      'diamond',
-      'emerald',
-      'moon',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Torkoal'
     },
@@ -18089,15 +19913,19 @@ export const allPokemon = [
     'dexNum': '325',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -18143,9 +19971,21 @@ export const allPokemon = [
     'dexNum': '326',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black-2',
+      'diamond',
+      'emerald',
+      'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -18188,22 +20028,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '327',
     'generation': 3,
-    'games': [
-      'diamond',
-      'emerald',
-      'heartgold',
-      'moon',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Spinda'
     },
@@ -18304,8 +20129,17 @@ export const allPokemon = [
     'games': [
       'black-2',
       'diamond',
+      'emerald',
+      'moon',
       'pearl',
-      'white-2'
+      'ruby',
+      'sapphire',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -18353,7 +20187,21 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '330',
     'generation': 3,
-    'games': [],
+    'games': [
+      'black-2',
+      'diamond',
+      'emerald',
+      'moon',
+      'pearl',
+      'ruby',
+      'sapphire',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Trapinch'
@@ -18406,7 +20254,9 @@ export const allPokemon = [
       'pearl',
       'platinum',
       'ruby',
-      'sapphire'
+      'sapphire',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -18451,8 +20301,13 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'diamond',
+      'emerald',
       'pearl',
-      'platinum'
+      'platinum',
+      'ruby',
+      'sapphire',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -18496,16 +20351,24 @@ export const allPokemon = [
     'dexNum': '333',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
       'diamond',
       'emerald',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'soulsilver',
-      'white-2'
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -18549,11 +20412,18 @@ export const allPokemon = [
     'dexNum': '334',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'diamond',
       'emerald',
+      'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun',
       'white',
@@ -18602,17 +20472,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '335',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'diamond',
-      'pearl',
-      'platinum',
-      'ruby',
-      'white',
-      'white-2',
-      'x'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Zangoose'
     },
@@ -18649,18 +20509,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '336',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'diamond',
-      'emerald',
-      'pearl',
-      'platinum',
-      'sapphire',
-      'white',
-      'white-2',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Seviper'
     },
@@ -18697,18 +20546,7 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '337',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'diamond',
-      'pearl',
-      'platinum',
-      'sapphire',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Lunatone'
     },
@@ -18745,19 +20583,7 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '338',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'diamond',
-      'emerald',
-      'pearl',
-      'platinum',
-      'ruby',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Solrock'
     },
@@ -18799,11 +20625,13 @@ export const allPokemon = [
       'black-2',
       'diamond',
       'emerald',
+      'heartgold',
       'moon',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
@@ -18972,8 +20800,11 @@ export const allPokemon = [
     'games': [
       'black-2',
       'diamond',
+      'emerald',
       'pearl',
       'platinum',
+      'ruby',
+      'sapphire',
       'ultra-moon',
       'ultra-sun',
       'white-2',
@@ -19022,6 +20853,7 @@ export const allPokemon = [
     'dexNum': '343',
     'generation': 3,
     'games': [
+      'black',
       'black-2',
       'diamond',
       'emerald',
@@ -19031,6 +20863,7 @@ export const allPokemon = [
       'ruby',
       'sapphire',
       'ultra-moon',
+      'white',
       'white-2'
     ],
     'evolutionLine': [
@@ -19076,10 +20909,17 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'black',
+      'black-2',
+      'diamond',
       'emerald',
+      'heartgold',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
-      'white'
+      'ultra-moon',
+      'white',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -19170,7 +21010,13 @@ export const allPokemon = [
     'type2': 'Grass',
     'dexNum': '346',
     'generation': 3,
-    'games': [],
+    'games': [
+      'emerald',
+      'ruby',
+      'sapphire',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Lileep'
@@ -19260,7 +21106,13 @@ export const allPokemon = [
     'type2': 'Bug',
     'dexNum': '348',
     'generation': 3,
-    'games': [],
+    'games': [
+      'emerald',
+      'ruby',
+      'sapphire',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Anorith'
@@ -19305,8 +21157,11 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'diamond',
       'emerald',
       'moon',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
       'sun',
@@ -19359,6 +21214,16 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'diamond',
+      'emerald',
+      'moon',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2'
     ],
@@ -19403,19 +21268,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '351',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'emerald',
-      'moon',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Castform'
     },
@@ -19452,20 +21305,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '352',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'diamond',
-      'emerald',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Kecleon'
     },
@@ -19503,11 +21343,20 @@ export const allPokemon = [
     'dexNum': '353',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
+      'diamond',
       'emerald',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
       'sapphire',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -19551,15 +21400,20 @@ export const allPokemon = [
     'dexNum': '354',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'diamond',
       'emerald',
+      'omega-ruby',
       'pearl',
       'platinum',
+      'ruby',
       'sapphire',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -19608,7 +21462,9 @@ export const allPokemon = [
       'pearl',
       'platinum',
       'ruby',
-      'sapphire'
+      'sapphire',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -19658,9 +21514,13 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'diamond',
+      'emerald',
       'pearl',
       'platinum',
-      'ruby'
+      'ruby',
+      'sapphire',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -19708,18 +21568,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '357',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'emerald',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Tropius'
     },
@@ -19760,11 +21609,15 @@ export const allPokemon = [
       'black',
       'diamond',
       'emerald',
+      'heartgold',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
-      'white'
+      'soulsilver',
+      'white',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -19807,26 +21660,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '359',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'diamond',
-      'emerald',
-      'heartgold',
-      'moon',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Absol'
     },
@@ -19865,10 +21699,19 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'alpha-sapphire',
+      'diamond',
       'emerald',
+      'firered',
+      'heartgold',
+      'leafgreen',
       'omega-ruby',
+      'pearl',
+      'platinum',
       'ruby',
-      'sapphire'
+      'sapphire',
+      'soulsilver',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -19912,16 +21755,20 @@ export const allPokemon = [
     'dexNum': '361',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'diamond',
       'emerald',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
       'sapphire',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -19970,10 +21817,20 @@ export const allPokemon = [
     'dexNum': '362',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'diamond',
+      'emerald',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20022,18 +21879,25 @@ export const allPokemon = [
     'dexNum': '363',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'emerald',
+      'heartgold',
       'moon',
+      'omega-ruby',
       'pearl',
+      'platinum',
       'ruby',
       'sapphire',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20082,14 +21946,25 @@ export const allPokemon = [
     'dexNum': '364',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'emerald',
       'heartgold',
+      'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
+      'ruby',
+      'sapphire',
       'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20138,10 +22013,25 @@ export const allPokemon = [
     'dexNum': '365',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'emerald',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20255,9 +22145,19 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'diamond',
+      'emerald',
+      'heartgold',
+      'pearl',
+      'ruby',
+      'sapphire',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun',
-      'x'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20306,10 +22206,20 @@ export const allPokemon = [
     'dexNum': '368',
     'generation': 3,
     'games': [
+      'black',
+      'black-2',
+      'diamond',
+      'emerald',
+      'heartgold',
+      'pearl',
+      'ruby',
+      'sapphire',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun',
       'white',
       'white-2',
+      'x',
       'y'
     ],
     'evolutionLine': [
@@ -20358,26 +22268,7 @@ export const allPokemon = [
     'type2': 'Rock',
     'dexNum': '369',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'diamond',
-      'emerald',
-      'heartgold',
-      'moon',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Relicanth'
     },
@@ -20414,26 +22305,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '370',
     'generation': 3,
-    'games': [
-      'black',
-      'black-2',
-      'diamond',
-      'emerald',
-      'heartgold',
-      'moon',
-      'pearl',
-      'platinum',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Luvdisc'
     },
@@ -20471,8 +22343,11 @@ export const allPokemon = [
     'dexNum': '371',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'emerald',
       'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'ruby',
@@ -20480,6 +22355,7 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white-2',
       'x',
       'y'
     ],
@@ -20530,10 +22406,21 @@ export const allPokemon = [
     'dexNum': '372',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
+      'emerald',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20582,10 +22469,21 @@ export const allPokemon = [
     'dexNum': '373',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
+      'black-2',
+      'emerald',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20635,6 +22533,8 @@ export const allPokemon = [
     'generation': 3,
     'games': [
       'alpha-sapphire',
+      'black',
+      'black-2',
       'diamond',
       'emerald',
       'moon',
@@ -20645,7 +22545,11 @@ export const allPokemon = [
       'sapphire',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20694,12 +22598,24 @@ export const allPokemon = [
     'dexNum': '375',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'diamond',
+      'emerald',
       'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20748,10 +22664,24 @@ export const allPokemon = [
     'dexNum': '376',
     'generation': 3,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'diamond',
+      'emerald',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ruby',
+      'sapphire',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -20799,17 +22729,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '377',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'emerald',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Regirock'
     },
@@ -20846,17 +22766,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '378',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'emerald',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Regice'
     },
@@ -20893,17 +22803,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '379',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'emerald',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Registeel'
     },
@@ -20940,16 +22840,7 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '380',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'emerald',
-      'heartgold',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'ultra-moon',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Latias'
     },
@@ -20986,16 +22877,7 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '381',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'emerald',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Latios'
     },
@@ -21032,13 +22914,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '382',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'emerald',
-      'heartgold',
-      'sapphire',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Kyogre'
     },
@@ -21075,13 +22951,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '383',
     'generation': 3,
-    'games': [
-      'emerald',
-      'omega-ruby',
-      'ruby',
-      'soulsilver',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Groudon'
     },
@@ -21118,17 +22988,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '384',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'emerald',
-      'heartgold',
-      'omega-ruby',
-      'ruby',
-      'sapphire',
-      'soulsilver',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Rayquaza'
     },
@@ -21202,13 +23062,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '386',
     'generation': 3,
-    'games': [
-      'alpha-sapphire',
-      'emerald',
-      'firered',
-      'leafgreen',
-      'omega-ruby'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Deoxys'
     },
@@ -21250,7 +23104,9 @@ export const allPokemon = [
       'diamond',
       'omega-ruby',
       'pearl',
-      'platinum'
+      'platinum',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -21299,6 +23155,11 @@ export const allPokemon = [
     'dexNum': '388',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'diamond',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -21348,7 +23209,15 @@ export const allPokemon = [
     'type2': 'Ground',
     'dexNum': '389',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Turtwig'
@@ -21400,7 +23269,9 @@ export const allPokemon = [
       'diamond',
       'omega-ruby',
       'pearl',
-      'platinum'
+      'platinum',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -21449,6 +23320,11 @@ export const allPokemon = [
     'dexNum': '391',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'diamond',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -21498,7 +23374,15 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '392',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Chimchar'
@@ -21550,7 +23434,9 @@ export const allPokemon = [
       'diamond',
       'omega-ruby',
       'pearl',
-      'platinum'
+      'platinum',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -21599,6 +23485,11 @@ export const allPokemon = [
     'dexNum': '394',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'diamond',
+      'omega-ruby',
+      'pearl',
+      'platinum',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -21648,7 +23539,15 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '395',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Piplup'
@@ -21697,8 +23596,12 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'diamond',
+      'moon',
       'pearl',
-      'platinum'
+      'platinum',
+      'sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -21801,7 +23704,15 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '398',
     'generation': 4,
-    'games': [],
+    'games': [
+      'diamond',
+      'moon',
+      'pearl',
+      'platinum',
+      'sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Starly'
@@ -21849,11 +23760,15 @@ export const allPokemon = [
     'dexNum': '399',
     'generation': 4,
     'games': [
+      'black',
+      'black-2',
       'diamond',
       'heartgold',
       'pearl',
       'platinum',
       'soulsilver',
+      'white',
+      'white-2',
       'x',
       'y'
     ],
@@ -21900,10 +23815,14 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'black',
+      'black-2',
       'diamond',
+      'heartgold',
       'pearl',
       'platinum',
+      'soulsilver',
       'white',
+      'white-2',
       'x',
       'y'
     ],
@@ -21949,11 +23868,15 @@ export const allPokemon = [
     'dexNum': '401',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'black',
       'diamond',
       'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
-      'soulsilver'
+      'soulsilver',
+      'white'
     ],
     'evolutionLine': [
       {
@@ -21997,10 +23920,14 @@ export const allPokemon = [
     'dexNum': '402',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
       'black',
       'diamond',
+      'heartgold',
+      'omega-ruby',
       'pearl',
       'platinum',
+      'soulsilver',
       'white'
     ],
     'evolutionLine': [
@@ -22047,9 +23974,13 @@ export const allPokemon = [
     'games': [
       'diamond',
       'heartgold',
+      'moon',
       'pearl',
       'platinum',
-      'soulsilver'
+      'soulsilver',
+      'sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -22099,10 +24030,14 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'diamond',
+      'heartgold',
       'moon',
       'pearl',
       'platinum',
-      'sun'
+      'soulsilver',
+      'sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -22150,7 +24085,17 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '405',
     'generation': 4,
-    'games': [],
+    'games': [
+      'diamond',
+      'heartgold',
+      'moon',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Shinx'
@@ -22198,11 +24143,17 @@ export const allPokemon = [
     'dexNum': '406',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'black-2',
       'diamond',
       'heartgold',
+      'moon',
+      'omega-ruby',
       'pearl',
       'platinum',
       'soulsilver',
+      'sun',
+      'white-2',
       'x',
       'y'
     ],
@@ -22253,8 +24204,19 @@ export const allPokemon = [
     'dexNum': '407',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
       'black-2',
-      'white-2'
+      'diamond',
+      'heartgold',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -22349,7 +24311,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '409',
     'generation': 4,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Cranidos'
@@ -22438,7 +24405,12 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '411',
     'generation': 4,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Shieldon'
@@ -22530,7 +24502,10 @@ export const allPokemon = [
     'type2': 'Grass',
     'dexNum': '413',
     'generation': 4,
-    'games': [],
+    'games': [
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Burmy'
@@ -22577,7 +24552,10 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '414',
     'generation': 4,
-    'games': [],
+    'games': [
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Burmy'
@@ -22677,7 +24655,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -22720,13 +24700,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '417',
     'generation': 4,
-    'games': [
-      'diamond',
-      'pearl',
-      'platinum',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Pachirisu'
     },
@@ -22771,8 +24745,12 @@ export const allPokemon = [
       'pearl',
       'platinum',
       'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -22819,8 +24797,10 @@ export const allPokemon = [
       'black',
       'black-2',
       'diamond',
+      'heartgold',
       'pearl',
       'platinum',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun',
       'white',
@@ -22869,7 +24849,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '420',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black',
+      'omega-ruby',
+      'white'
+    ],
     'evolutionLine': [
       {
         'name': 'Cherubi'
@@ -22912,7 +24897,9 @@ export const allPokemon = [
     'dexNum': '421',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
       'black',
+      'omega-ruby',
       'white'
     ],
     'evolutionLine': [
@@ -22958,10 +24945,14 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'diamond',
+      'moon',
       'pearl',
       'platinum',
+      'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23011,7 +25002,9 @@ export const allPokemon = [
       'platinum',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23056,7 +25049,9 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23100,6 +25095,8 @@ export const allPokemon = [
     'dexNum': '425',
     'generation': 4,
     'games': [
+      'black',
+      'black-2',
       'diamond',
       'moon',
       'pearl',
@@ -23107,6 +25104,8 @@ export const allPokemon = [
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
+      'white-2',
       'x',
       'y'
     ],
@@ -23154,10 +25153,17 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'diamond',
       'moon',
+      'pearl',
+      'platinum',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23253,6 +25259,11 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'black-2',
+      'diamond',
+      'heartgold',
+      'pearl',
+      'platinum',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -23298,8 +25309,13 @@ export const allPokemon = [
     'dexNum': '429',
     'generation': 4,
     'games': [
+      'heartgold',
       'moon',
+      'pearl',
+      'soulsilver',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white'
     ],
     'evolutionLine': [
@@ -23345,8 +25361,17 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'black',
+      'black-2',
+      'diamond',
+      'heartgold',
+      'moon',
+      'soulsilver',
+      'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23390,6 +25415,8 @@ export const allPokemon = [
     'dexNum': '431',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'omega-ruby',
       'pearl'
     ],
     'evolutionLine': [
@@ -23434,6 +25461,8 @@ export const allPokemon = [
     'dexNum': '432',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'omega-ruby',
       'pearl'
     ],
     'evolutionLine': [
@@ -23478,11 +25507,13 @@ export const allPokemon = [
     'dexNum': '433',
     'generation': 4,
     'games': [
+      'black',
       'diamond',
       'heartgold',
       'pearl',
       'platinum',
       'soulsilver',
+      'white',
       'x',
       'y'
     ],
@@ -23574,7 +25605,9 @@ export const allPokemon = [
     'dexNum': '435',
     'generation': 4,
     'games': [
-      'diamond'
+      'diamond',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23618,13 +25651,17 @@ export const allPokemon = [
     'dexNum': '436',
     'generation': 4,
     'games': [
+      'black',
       'black-2',
       'diamond',
       'heartgold',
       'pearl',
       'platinum',
       'soulsilver',
-      'white-2'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23671,10 +25708,14 @@ export const allPokemon = [
       'black',
       'black-2',
       'diamond',
+      'heartgold',
       'pearl',
       'platinum',
+      'soulsilver',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23718,11 +25759,16 @@ export const allPokemon = [
     'dexNum': '438',
     'generation': 4,
     'games': [
+      'heartgold',
       'moon',
       'pearl',
+      'platinum',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23767,8 +25813,15 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'platinum',
+      'soulsilver',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23817,14 +25870,23 @@ export const allPokemon = [
     'dexNum': '440',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
       'black-2',
       'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'omega-ruby',
       'pearl',
+      'platinum',
+      'soulsilver',
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -23872,15 +25934,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '441',
     'generation': 4,
-    'games': [
-      'diamond',
-      'heartgold',
-      'pearl',
-      'platinum',
-      'soulsilver',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Chatot'
     },
@@ -23917,13 +25971,7 @@ export const allPokemon = [
     'type2': 'Dark',
     'dexNum': '442',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'diamond',
-      'omega-ruby',
-      'pearl',
-      'platinum'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Spiritomb'
     },
@@ -23963,8 +26011,12 @@ export const allPokemon = [
     'games': [
       'black-2',
       'diamond',
+      'moon',
       'pearl',
       'platinum',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -24015,11 +26067,16 @@ export const allPokemon = [
     'dexNum': '444',
     'generation': 4,
     'games': [
+      'black-2',
+      'diamond',
       'moon',
+      'pearl',
       'platinum',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -24067,7 +26124,18 @@ export const allPokemon = [
     'type2': 'Ground',
     'dexNum': '445',
     'generation': 4,
-    'games': [],
+    'games': [
+      'black-2',
+      'diamond',
+      'moon',
+      'pearl',
+      'platinum',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Gible'
@@ -24115,10 +26183,16 @@ export const allPokemon = [
     'dexNum': '446',
     'generation': 4,
     'games': [
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
       'moon',
+      'soulsilver',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -24218,10 +26292,17 @@ export const allPokemon = [
     'dexNum': '448',
     'generation': 4,
     'games': [
+      'black',
+      'black-2',
+      'diamond',
       'moon',
+      'pearl',
+      'platinum',
       'sun',
       'ultra-moon',
       'ultra-sun',
+      'white',
+      'white-2',
       'x',
       'y'
     ],
@@ -24270,6 +26351,8 @@ export const allPokemon = [
       'diamond',
       'pearl',
       'platinum',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -24319,7 +26402,9 @@ export const allPokemon = [
       'pearl',
       'platinum',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -24364,6 +26449,8 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'black-2',
+      'ultra-moon',
+      'ultra-sun',
       'white-2',
       'x',
       'y'
@@ -24410,8 +26497,10 @@ export const allPokemon = [
     'dexNum': '452',
     'generation': 4,
     'games': [
+      'black-2',
       'ultra-moon',
       'ultra-sun',
+      'white-2',
       'x',
       'y'
     ],
@@ -24506,7 +26595,10 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'black-2',
-      'white-2'
+      'platinum',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -24549,14 +26641,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '455',
     'generation': 4,
-    'games': [
-      'black-2',
-      'heartgold',
-      'soulsilver',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Carnivine'
     },
@@ -24705,6 +26790,7 @@ export const allPokemon = [
       'black',
       'black-2',
       'diamond',
+      'heartgold',
       'pearl',
       'platinum',
       'ultra-moon',
@@ -24759,6 +26845,8 @@ export const allPokemon = [
       'diamond',
       'pearl',
       'platinum',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -24853,7 +26941,23 @@ export const allPokemon = [
     'type2': 'Ice',
     'dexNum': '461',
     'generation': 4,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'diamond',
+      'heartgold',
+      'moon',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Sneasel'
@@ -24901,8 +27005,23 @@ export const allPokemon = [
     'dexNum': '462',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
       'black-2',
-      'white-2'
+      'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -24951,8 +27070,21 @@ export const allPokemon = [
     'dexNum': '463',
     'generation': 4,
     'games': [
+      'black',
       'black-2',
-      'white-2'
+      'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -24995,7 +27127,21 @@ export const allPokemon = [
     'type2': 'Rock',
     'dexNum': '464',
     'generation': 4,
-    'games': [],
+    'games': [
+      'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Rhyhorn'
@@ -25043,10 +27189,19 @@ export const allPokemon = [
     'dexNum': '465',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'omega-ruby',
+      'platinum',
+      'soulsilver',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -25089,7 +27244,24 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '466',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Elekid'
@@ -25136,7 +27308,24 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '467',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black-2',
+      'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Magby'
@@ -25184,8 +27373,17 @@ export const allPokemon = [
     'dexNum': '468',
     'generation': 4,
     'games': [
+      'alpha-sapphire',
+      'diamond',
+      'heartgold',
       'moon',
-      'sun'
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -25235,9 +27433,14 @@ export const allPokemon = [
     'generation': 4,
     'games': [
       'black-2',
+      'heartgold',
+      'platinum',
+      'soulsilver',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -25280,7 +27483,23 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '470',
     'generation': 4,
-    'games': [],
+    'games': [
+      'black-2',
+      'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Eevee'
@@ -25345,7 +27564,23 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '471',
     'generation': 4,
-    'games': [],
+    'games': [
+      'black-2',
+      'diamond',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Eevee'
@@ -25413,8 +27648,14 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'diamond',
+      'heartgold',
+      'pearl',
+      'platinum',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -25460,8 +27701,19 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'diamond',
+      'heartgold',
+      'moon',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -25509,7 +27761,19 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '474',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'heartgold',
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'omega-ruby',
+      'platinum',
+      'soulsilver',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Porygon'
@@ -25556,7 +27820,19 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '475',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'heartgold',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'soulsilver',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Ralts'
@@ -25608,7 +27884,19 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '476',
     'generation': 4,
-    'games': [],
+    'games': [
+      'black-2',
+      'diamond',
+      'moon',
+      'pearl',
+      'platinum',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Nosepass'
@@ -25650,7 +27938,13 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '477',
     'generation': 4,
-    'games': [],
+    'games': [
+      'diamond',
+      'pearl',
+      'platinum',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Duskull'
@@ -25697,7 +27991,19 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '478',
     'generation': 4,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'diamond',
+      'moon',
+      'omega-ruby',
+      'pearl',
+      'platinum',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Snorunt'
@@ -25744,13 +28050,7 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '479',
     'generation': 4,
-    'games': [
-      'diamond',
-      'pearl',
-      'platinum',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Rotom'
     },
@@ -25787,17 +28087,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '480',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'diamond',
-      'omega-ruby',
-      'pearl',
-      'platinum',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Uxie'
     },
@@ -25834,17 +28124,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '481',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'diamond',
-      'omega-ruby',
-      'pearl',
-      'platinum',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Mesprit'
     },
@@ -25881,18 +28161,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '482',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'diamond',
-      'heartgold',
-      'omega-ruby',
-      'pearl',
-      'platinum',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Azelf'
     },
@@ -25929,13 +28198,7 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '483',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'diamond',
-      'heartgold',
-      'platinum',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Dialga'
     },
@@ -25972,12 +28235,7 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '484',
     'generation': 4,
-    'games': [
-      'omega-ruby',
-      'pearl',
-      'platinum',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Palkia'
     },
@@ -26014,16 +28272,7 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '485',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'diamond',
-      'omega-ruby',
-      'pearl',
-      'platinum',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Heatran'
     },
@@ -26060,16 +28309,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '486',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'diamond',
-      'omega-ruby',
-      'pearl',
-      'platinum',
-      'ultra-moon',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Regigigas'
     },
@@ -26106,14 +28346,7 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '487',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'heartgold',
-      'omega-ruby',
-      'platinum',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Giratina'
     },
@@ -26150,17 +28383,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '488',
     'generation': 4,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'diamond',
-      'omega-ruby',
-      'pearl',
-      'platinum',
-      'ultra-moon',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Cresselia'
     },
@@ -26197,7 +28420,13 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '489',
     'generation': 4,
-    'games': [],
+    'games': [
+      'diamond',
+      'heartgold',
+      'pearl',
+      'platinum',
+      'soulsilver'
+    ],
     'evolutionLine': [
       {
         'name': 'Phione'
@@ -26239,7 +28468,13 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '490',
     'generation': 4,
-    'games': [],
+    'games': [
+      'diamond',
+      'heartgold',
+      'pearl',
+      'platinum',
+      'soulsilver'
+    ],
     'evolutionLine': [
       {
         'name': 'Phione'
@@ -26281,11 +28516,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '491',
     'generation': 4,
-    'games': [
-      'diamond',
-      'pearl',
-      'platinum'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Darkrai'
     },
@@ -26322,11 +28553,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '492',
     'generation': 4,
-    'games': [
-      'diamond',
-      'pearl',
-      'platinum'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Shaymin'
     },
@@ -26363,11 +28590,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '493',
     'generation': 4,
-    'games': [
-      'diamond',
-      'pearl',
-      'platinum'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Arceus'
     },
@@ -26404,10 +28627,7 @@ export const allPokemon = [
     'type2': 'Fire',
     'dexNum': '494',
     'generation': 5,
-    'games': [
-      'black',
-      'white'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Victini'
     },
@@ -26448,7 +28668,9 @@ export const allPokemon = [
       'alpha-sapphire',
       'black',
       'black-2',
+      'moon',
       'omega-ruby',
+      'sun',
       'white',
       'white-2'
     ],
@@ -26498,7 +28720,16 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '496',
     'generation': 5,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
+      'moon',
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2'
+    ],
     'evolutionLine': [
       {
         'name': 'Snivy'
@@ -26546,8 +28777,14 @@ export const allPokemon = [
     'dexNum': '497',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
       'moon',
-      'sun'
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -26599,7 +28836,9 @@ export const allPokemon = [
       'alpha-sapphire',
       'black',
       'black-2',
+      'moon',
       'omega-ruby',
+      'sun',
       'white',
       'white-2'
     ],
@@ -26649,7 +28888,16 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '499',
     'generation': 5,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
+      'moon',
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2'
+    ],
     'evolutionLine': [
       {
         'name': 'Tepig'
@@ -26697,8 +28945,14 @@ export const allPokemon = [
     'dexNum': '500',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
       'moon',
-      'sun'
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -26750,7 +29004,9 @@ export const allPokemon = [
       'alpha-sapphire',
       'black',
       'black-2',
+      'moon',
       'omega-ruby',
+      'sun',
       'white',
       'white-2'
     ],
@@ -26800,7 +29056,16 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '502',
     'generation': 5,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
+      'moon',
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2'
+    ],
     'evolutionLine': [
       {
         'name': 'Oshawott'
@@ -26848,8 +29113,14 @@ export const allPokemon = [
     'dexNum': '503',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
       'moon',
-      'sun'
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -26901,7 +29172,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27001,7 +29274,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27052,8 +29327,14 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27104,8 +29385,14 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27157,7 +29444,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27205,6 +29494,7 @@ export const allPokemon = [
       'black-2',
       'white',
       'white-2',
+      'x',
       'y'
     ],
     'evolutionLine': [
@@ -27297,7 +29587,14 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '512',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Pansage'
@@ -27388,7 +29685,14 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '514',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Pansear'
@@ -27479,7 +29783,14 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '516',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Panpour'
@@ -27522,10 +29833,14 @@ export const allPokemon = [
     'dexNum': '517',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27569,10 +29884,14 @@ export const allPokemon = [
     'dexNum': '518',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27619,7 +29938,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27671,7 +29992,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27723,7 +30046,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27772,8 +30097,14 @@ export const allPokemon = [
     'dexNum': '522',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
-      'white'
+      'black-2',
+      'omega-ruby',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27817,10 +30148,14 @@ export const allPokemon = [
     'dexNum': '523',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27864,9 +30199,11 @@ export const allPokemon = [
     'dexNum': '524',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'moon',
+      'omega-ruby',
       'sun',
       'ultra-moon',
       'ultra-sun',
@@ -27922,14 +30259,18 @@ export const allPokemon = [
     'dexNum': '525',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'moon',
+      'omega-ruby',
       'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -27977,7 +30318,20 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '526',
     'generation': 5,
-    'games': [],
+    'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
+      'moon',
+      'omega-ruby',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Roggenrola'
@@ -28028,7 +30382,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28071,7 +30427,14 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '528',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Woobat'
@@ -28114,10 +30477,14 @@ export const allPokemon = [
     'dexNum': '529',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28161,10 +30528,14 @@ export const allPokemon = [
     'dexNum': '530',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28207,14 +30578,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '531',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Audino'
     },
@@ -28254,8 +30618,12 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28306,6 +30674,8 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
       'white',
       'white-2',
       'x',
@@ -28358,8 +30728,14 @@ export const allPokemon = [
     'dexNum': '534',
     'generation': 5,
     'games': [
+      'black',
+      'black-2',
       'moon',
-      'sun'
+      'sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28409,7 +30785,11 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
-      'white'
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28461,7 +30841,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28513,7 +30895,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28561,13 +30945,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '538',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Throh'
     },
@@ -28604,13 +30982,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '539',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2',
-      'x'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Sawk'
     },
@@ -28650,8 +31022,14 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28702,8 +31080,14 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28759,7 +31143,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28813,7 +31199,9 @@ export const allPokemon = [
       'moon',
       'sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28864,8 +31252,12 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -28914,8 +31306,14 @@ export const allPokemon = [
     'dexNum': '545',
     'generation': 5,
     'games': [
+      'black',
       'black-2',
-      'white-2'
+      'moon',
+      'sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -29012,7 +31410,9 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
-      'black-2'
+      'black-2',
+      'sun',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -29056,10 +31456,14 @@ export const allPokemon = [
     'dexNum': '548',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'moon',
+      'omega-ruby',
       'ultra-moon',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -29103,8 +31507,14 @@ export const allPokemon = [
     'dexNum': '549',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'moon',
+      'omega-ruby',
+      'ultra-moon',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -29147,16 +31557,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '550',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': [
       {
         'name': 'Basculin'
@@ -29203,6 +31604,8 @@ export const allPokemon = [
       'black-2',
       'moon',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
       'x',
@@ -29257,10 +31660,14 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -29308,7 +31715,18 @@ export const allPokemon = [
     'type2': 'Dark',
     'dexNum': '553',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Sandile'
@@ -29402,7 +31820,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '555',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2'
+    ],
     'evolutionLine': [
       {
         'name': 'Darumaka'
@@ -29444,12 +31867,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '556',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Maractus'
     },
@@ -29487,8 +31905,12 @@ export const allPokemon = [
     'dexNum': '557',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
       'x',
@@ -29536,12 +31958,16 @@ export const allPokemon = [
     'dexNum': '558',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -29590,7 +32016,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -29634,8 +32062,14 @@ export const allPokemon = [
     'dexNum': '560',
     'generation': 5,
     'games': [
+      'black',
       'black-2',
-      'white-2'
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -29678,16 +32112,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '561',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Sigilyph'
     },
@@ -29725,8 +32150,10 @@ export const allPokemon = [
     'dexNum': '562',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'white',
       'white-2'
     ],
@@ -29777,8 +32204,12 @@ export const allPokemon = [
     'dexNum': '563',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
-      'white'
+      'black-2',
+      'omega-ruby',
+      'white',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -29873,7 +32304,12 @@ export const allPokemon = [
     'type2': 'Rock',
     'dexNum': '565',
     'generation': 5,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Tirtouga'
@@ -29962,7 +32398,12 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '567',
     'generation': 5,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Archen'
@@ -30012,7 +32453,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30060,8 +32503,12 @@ export const allPokemon = [
       'black-2',
       'moon',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30110,7 +32557,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30155,9 +32604,11 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
+      'black-2',
       'ultra-moon',
       'ultra-sun',
       'white',
+      'white-2',
       'x',
       'y'
     ],
@@ -30203,12 +32654,16 @@ export const allPokemon = [
     'dexNum': '572',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30252,10 +32707,16 @@ export const allPokemon = [
     'dexNum': '573',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30302,7 +32763,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'moon',
-      'sun'
+      'sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30353,6 +32816,8 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
       'x',
       'y'
     ],
@@ -30404,7 +32869,11 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
-      'black-2'
+      'black-2',
+      'moon',
+      'sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30453,6 +32922,8 @@ export const allPokemon = [
     'dexNum': '577',
     'generation': 5,
     'games': [
+      'moon',
+      'sun',
       'white',
       'white-2',
       'x',
@@ -30508,7 +32979,9 @@ export const allPokemon = [
       'moon',
       'sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30557,8 +33030,12 @@ export const allPokemon = [
     'dexNum': '579',
     'generation': 5,
     'games': [
+      'moon',
+      'sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30609,6 +33086,8 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2',
       'x',
@@ -30661,7 +33140,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30706,11 +33187,15 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
+      'black-2',
       'moon',
       'sun',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30766,7 +33251,9 @@ export const allPokemon = [
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30815,10 +33302,16 @@ export const allPokemon = [
     'dexNum': '584',
     'generation': 5,
     'games': [
+      'black',
       'black-2',
+      'moon',
+      'sun',
       'ultra-moon',
       'ultra-sun',
-      'white-2'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30870,7 +33363,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30917,7 +33412,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -30960,18 +33457,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '587',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Emolga'
     },
@@ -31057,7 +33543,14 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '589',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Karrablast'
@@ -31192,19 +33685,12 @@ export const allPokemon = [
     ]
   },
   {
-    'name': 'Frillish',
+    'name': 'Frillish-male',
     'type1': 'Water',
     'type2': 'Ghost',
     'dexNum': '592',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': [
       {
         'name': 'Frillish'
@@ -31241,17 +33727,12 @@ export const allPokemon = [
     ]
   },
   {
-    'name': 'Jellicent',
+    'name': 'Jellicent-male',
     'type1': 'Water',
     'type2': 'Ghost',
     'dexNum': '593',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': [
       {
         'name': 'Frillish'
@@ -31293,18 +33774,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '594',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Alomomola'
     },
@@ -31345,7 +33815,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -31388,7 +33860,14 @@ export const allPokemon = [
     'type2': 'Electric',
     'dexNum': '596',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Joltik'
@@ -31434,7 +33913,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -31477,7 +33958,14 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '598',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Ferroseed'
@@ -31520,12 +34008,16 @@ export const allPokemon = [
     'dexNum': '599',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'moon',
+      'omega-ruby',
       'sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -31574,8 +34066,16 @@ export const allPokemon = [
     'dexNum': '600',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
-      'white-2'
+      'moon',
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -31624,8 +34124,16 @@ export const allPokemon = [
     'dexNum': '601',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
-      'white-2'
+      'moon',
+      'omega-ruby',
+      'sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -31674,8 +34182,14 @@ export const allPokemon = [
     'dexNum': '602',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'moon',
+      'omega-ruby',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
       'white-2'
     ],
@@ -31726,7 +34240,15 @@ export const allPokemon = [
     'dexNum': '603',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'black',
       'black-2',
+      'moon',
+      'omega-ruby',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
       'white-2'
     ],
     'evolutionLine': [
@@ -31776,10 +34298,16 @@ export const allPokemon = [
     'dexNum': '604',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'black',
+      'black-2',
       'moon',
+      'omega-ruby',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'white',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -31878,7 +34406,11 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
-      'white'
+      'black-2',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2'
     ],
     'evolutionLine': [
       {
@@ -31979,7 +34511,18 @@ export const allPokemon = [
     'type2': 'Fire',
     'dexNum': '608',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Litwick'
@@ -32026,7 +34569,18 @@ export const allPokemon = [
     'type2': 'Fire',
     'dexNum': '609',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Litwick'
@@ -32134,8 +34688,14 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32184,8 +34744,16 @@ export const allPokemon = [
     'dexNum': '612',
     'generation': 5,
     'games': [
+      'black',
       'black-2',
-      'white-2'
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32237,7 +34805,9 @@ export const allPokemon = [
       'black',
       'black-2',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32329,14 +34899,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '615',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Cryogonal'
     },
@@ -32422,7 +34985,14 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '617',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Shelmet'
@@ -32464,16 +35034,7 @@ export const allPokemon = [
     'type2': 'Electric',
     'dexNum': '618',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Stunfisk'
     },
@@ -32564,8 +35125,12 @@ export const allPokemon = [
     'games': [
       'black',
       'black-2',
+      'ultra-moon',
+      'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32608,16 +35173,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '621',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Druddigon'
     },
@@ -32656,8 +35212,10 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
+      'black-2',
       'ultra-sun',
       'white',
+      'white-2',
       'x',
       'y'
     ],
@@ -32703,8 +35261,13 @@ export const allPokemon = [
     'dexNum': '623',
     'generation': 5,
     'games': [
+      'black',
       'black-2',
-      'white-2'
+      'ultra-sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32805,9 +35368,13 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
+      'black-2',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32855,12 +35422,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '626',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Bouffalant'
     },
@@ -32898,10 +35460,14 @@ export const allPokemon = [
     'dexNum': '627',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'omega-ruby',
       'sun',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32945,10 +35511,14 @@ export const allPokemon = [
     'dexNum': '628',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
+      'omega-ruby',
       'sun',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -32992,10 +35562,14 @@ export const allPokemon = [
     'dexNum': '629',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'moon',
-      'ultra-moon'
+      'omega-ruby',
+      'ultra-moon',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -33039,10 +35613,14 @@ export const allPokemon = [
     'dexNum': '630',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
       'moon',
-      'ultra-moon'
+      'omega-ruby',
+      'ultra-moon',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -33085,14 +35663,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '631',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Heatmor'
     },
@@ -33129,14 +35700,7 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '632',
     'generation': 5,
-    'games': [
-      'black',
-      'black-2',
-      'white',
-      'white-2',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Durant'
     },
@@ -33175,9 +35739,13 @@ export const allPokemon = [
     'generation': 5,
     'games': [
       'black',
+      'black-2',
       'moon',
       'sun',
-      'white'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -33226,7 +35794,11 @@ export const allPokemon = [
     'dexNum': '634',
     'generation': 5,
     'games': [
+      'black',
       'black-2',
+      'moon',
+      'sun',
+      'white',
       'white-2',
       'x',
       'y'
@@ -33277,7 +35849,16 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '635',
     'generation': 5,
-    'games': [],
+    'games': [
+      'black',
+      'black-2',
+      'moon',
+      'sun',
+      'white',
+      'white-2',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Deino'
@@ -33325,10 +35906,16 @@ export const allPokemon = [
     'dexNum': '636',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
+      'black-2',
+      'omega-ruby',
       'ultra-moon',
       'ultra-sun',
-      'white'
+      'white',
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -33372,12 +35959,16 @@ export const allPokemon = [
     'dexNum': '637',
     'generation': 5,
     'games': [
+      'alpha-sapphire',
       'black',
       'black-2',
+      'omega-ruby',
       'ultra-moon',
       'ultra-sun',
       'white',
-      'white-2'
+      'white-2',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -33420,16 +36011,7 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '638',
     'generation': 5,
-    'games': [
-      'alpha-sapphire',
-      'black',
-      'black-2',
-      'omega-ruby',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Cobalion'
     },
@@ -33466,16 +36048,7 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '639',
     'generation': 5,
-    'games': [
-      'alpha-sapphire',
-      'black',
-      'black-2',
-      'omega-ruby',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Terrakion'
     },
@@ -33512,16 +36085,7 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '640',
     'generation': 5,
-    'games': [
-      'alpha-sapphire',
-      'black',
-      'black-2',
-      'omega-ruby',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Virizion'
     },
@@ -33558,11 +36122,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '641',
     'generation': 5,
-    'games': [
-      'black',
-      'omega-ruby',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Tornadus'
     },
@@ -33599,11 +36159,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '642',
     'generation': 5,
-    'games': [
-      'alpha-sapphire',
-      'ultra-moon',
-      'white'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Thundurus'
     },
@@ -33640,12 +36196,7 @@ export const allPokemon = [
     'type2': 'Fire',
     'dexNum': '643',
     'generation': 5,
-    'games': [
-      'black',
-      'omega-ruby',
-      'ultra-sun',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Reshiram'
     },
@@ -33682,12 +36233,7 @@ export const allPokemon = [
     'type2': 'Electric',
     'dexNum': '644',
     'generation': 5,
-    'games': [
-      'alpha-sapphire',
-      'black-2',
-      'ultra-moon',
-      'white'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Zekrom'
     },
@@ -33724,14 +36270,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '645',
     'generation': 5,
-    'games': [
-      'alpha-sapphire',
-      'black',
-      'omega-ruby',
-      'ultra-moon',
-      'ultra-sun',
-      'white'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Landorus'
     },
@@ -33768,16 +36307,7 @@ export const allPokemon = [
     'type2': 'Ice',
     'dexNum': '646',
     'generation': 5,
-    'games': [
-      'alpha-sapphire',
-      'black',
-      'black-2',
-      'omega-ruby',
-      'ultra-moon',
-      'ultra-sun',
-      'white',
-      'white-2'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Kyurem'
     },
@@ -33926,6 +36456,8 @@ export const allPokemon = [
     'dexNum': '650',
     'generation': 6,
     'games': [
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -33975,7 +36507,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '651',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Chespin'
@@ -34024,7 +36561,9 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -34073,6 +36612,8 @@ export const allPokemon = [
     'dexNum': '653',
     'generation': 6,
     'games': [
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -34122,7 +36663,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '654',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Fennekin'
@@ -34171,7 +36717,9 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -34220,6 +36768,8 @@ export const allPokemon = [
     'dexNum': '656',
     'generation': 6,
     'games': [
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -34269,7 +36819,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '657',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Froakie'
@@ -34318,7 +36873,9 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -34514,7 +37071,9 @@ export const allPokemon = [
       'moon',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -34564,7 +37123,11 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'moon',
-      'sun'
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -34664,7 +37227,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '665',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Scatterbug'
@@ -34711,7 +37279,12 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '666',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Scatterbug'
@@ -34800,14 +37373,16 @@ export const allPokemon = [
     ]
   },
   {
-    'name': 'Pyroar',
+    'name': 'Pyroar-male',
     'type1': 'Fire',
     'type2': 'Normal',
     'dexNum': '668',
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -34904,7 +37479,9 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -34952,7 +37529,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '671',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Flabebe'
@@ -35044,7 +37626,10 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '673',
     'generation': 6,
-    'games': [],
+    'games': [
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Skiddo'
@@ -35139,7 +37724,9 @@ export const allPokemon = [
       'moon',
       'sun',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -35182,12 +37769,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '676',
     'generation': 6,
-    'games': [
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Furfrou'
     },
@@ -35269,7 +37851,10 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '678',
     'generation': 6,
-    'games': [],
+    'games': [
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Espurr'
@@ -35365,7 +37950,14 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '680',
     'generation': 6,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Honedge'
@@ -35412,7 +38004,14 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '681',
     'generation': 6,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Honedge'
@@ -35460,6 +38059,7 @@ export const allPokemon = [
     'dexNum': '682',
     'generation': 6,
     'games': [
+      'x',
       'y'
     ],
     'evolutionLine': [
@@ -35503,7 +38103,10 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '683',
     'generation': 6,
-    'games': [],
+    'games': [
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Spritzee'
@@ -35546,7 +38149,8 @@ export const allPokemon = [
     'dexNum': '684',
     'generation': 6,
     'games': [
-      'x'
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -35589,7 +38193,10 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '685',
     'generation': 6,
-    'games': [],
+    'games': [
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Swirlix'
@@ -35678,7 +38285,12 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '687',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Inkay'
@@ -35721,6 +38333,10 @@ export const allPokemon = [
     'dexNum': '688',
     'generation': 6,
     'games': [
+      'alpha-sapphire',
+      'omega-ruby',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -35766,8 +38382,12 @@ export const allPokemon = [
     'dexNum': '689',
     'generation': 6,
     'games': [
+      'alpha-sapphire',
+      'omega-ruby',
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -35811,6 +38431,7 @@ export const allPokemon = [
     'dexNum': '690',
     'generation': 6,
     'games': [
+      'ultra-moon',
       'y'
     ],
     'evolutionLine': [
@@ -35900,6 +38521,7 @@ export const allPokemon = [
     'dexNum': '692',
     'generation': 6,
     'games': [
+      'ultra-sun',
       'x'
     ],
     'evolutionLine': [
@@ -35989,6 +38611,8 @@ export const allPokemon = [
     'dexNum': '694',
     'generation': 6,
     'games': [
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -36035,7 +38659,9 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -36125,7 +38751,12 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '697',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Tyrunt'
@@ -36214,7 +38845,12 @@ export const allPokemon = [
     'type2': 'Ice',
     'dexNum': '699',
     'generation': 6,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Amaura'
@@ -36256,7 +38892,16 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '700',
     'generation': 6,
-    'games': [],
+    'games': [
+      'lets-go-eevee',
+      'lets-go-pikachu',
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Eevee'
@@ -36321,12 +38966,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '701',
     'generation': 6,
-    'games': [
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Hawlucha'
     },
@@ -36363,12 +39003,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '702',
     'generation': 6,
-    'games': [
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Dedenne'
     },
@@ -36405,14 +39040,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '703',
     'generation': 6,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Carbink'
     },
@@ -36557,7 +39185,14 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '706',
     'generation': 6,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun',
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Goomy'
@@ -36604,14 +39239,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '707',
     'generation': 6,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Klefki'
     },
@@ -36700,6 +39328,8 @@ export const allPokemon = [
     'games': [
       'moon',
       'sun',
+      'ultra-moon',
+      'ultra-sun',
       'x',
       'y'
     ],
@@ -36744,10 +39374,7 @@ export const allPokemon = [
     'type2': 'Grass',
     'dexNum': '710',
     'generation': 6,
-    'games': [
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': [
       {
         'name': 'Pumpkaboo'
@@ -36876,7 +39503,10 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '713',
     'generation': 6,
-    'games': [],
+    'games': [
+      'x',
+      'y'
+    ],
     'evolutionLine': [
       {
         'name': 'Bergmite'
@@ -36920,7 +39550,9 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -36965,7 +39597,9 @@ export const allPokemon = [
     'generation': 6,
     'games': [
       'ultra-moon',
-      'ultra-sun'
+      'ultra-sun',
+      'x',
+      'y'
     ],
     'evolutionLine': [
       {
@@ -37008,11 +39642,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '716',
     'generation': 6,
-    'games': [
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Xerneas'
     },
@@ -37049,11 +39679,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '717',
     'generation': 6,
-    'games': [
-      'ultra-moon',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Yveltal'
     },
@@ -37090,14 +39716,7 @@ export const allPokemon = [
     'type2': 'Ground',
     'dexNum': '718',
     'generation': 6,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun',
-      'x',
-      'y'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Zygarde'
     },
@@ -37297,7 +39916,12 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '723',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Rowlet'
@@ -37344,7 +39968,12 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '724',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Rowlet'
@@ -37443,7 +40072,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '726',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Litten'
@@ -37490,7 +40124,12 @@ export const allPokemon = [
     'type2': 'Dark',
     'dexNum': '727',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Litten'
@@ -37589,7 +40228,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '729',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Popplio'
@@ -37636,7 +40280,12 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '730',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Popplio'
@@ -37788,6 +40437,8 @@ export const allPokemon = [
     'dexNum': '733',
     'generation': 7,
     'games': [
+      'moon',
+      'sun',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -38036,6 +40687,8 @@ export const allPokemon = [
     'dexNum': '738',
     'generation': 7,
     'games': [
+      'moon',
+      'sun',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -38132,7 +40785,12 @@ export const allPokemon = [
     'type2': 'Ice',
     'dexNum': '740',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Crabrawler'
@@ -38174,12 +40832,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '741',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Oricorio'
     },
@@ -38404,12 +41057,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '746',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Wishiwashi'
     },
@@ -38493,7 +41141,12 @@ export const allPokemon = [
     'type2': 'Water',
     'dexNum': '748',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Mareanie'
@@ -38771,6 +41424,9 @@ export const allPokemon = [
     'dexNum': '754',
     'generation': 7,
     'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
       'ultra-sun'
     ],
     'evolutionLine': [
@@ -38862,6 +41518,8 @@ export const allPokemon = [
     'dexNum': '756',
     'generation': 7,
     'games': [
+      'moon',
+      'sun',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -38954,6 +41612,8 @@ export const allPokemon = [
     'dexNum': '758',
     'generation': 7,
     'games': [
+      'moon',
+      'sun',
       'ultra-moon',
       'ultra-sun'
     ],
@@ -39094,7 +41754,9 @@ export const allPokemon = [
     'generation': 7,
     'games': [
       'moon',
-      'sun'
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -39194,7 +41856,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '763',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Bounsweet'
@@ -39241,12 +41908,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '764',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Comfey'
     },
@@ -39283,10 +41945,7 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '765',
     'generation': 7,
-    'games': [
-      'moon',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Oranguru'
     },
@@ -39323,10 +41982,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '766',
     'generation': 7,
-    'games': [
-      'sun',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Passimian'
     },
@@ -39410,7 +42066,12 @@ export const allPokemon = [
     'type2': 'Water',
     'dexNum': '768',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Wimpod'
@@ -39499,7 +42160,12 @@ export const allPokemon = [
     'type2': 'Ground',
     'dexNum': '770',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Sandygast'
@@ -39541,12 +42207,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '771',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Pyukumuku'
     },
@@ -39630,7 +42291,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '773',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Type-null'
@@ -39672,12 +42338,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '774',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Minior'
     },
@@ -39714,12 +42375,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '775',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Komala'
     },
@@ -39756,10 +42412,7 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '776',
     'generation': 7,
-    'games': [
-      'sun',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Turtonator'
     },
@@ -39796,12 +42449,7 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '777',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Togedemaru'
     },
@@ -39838,12 +42486,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '778',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Mimikyu'
     },
@@ -39880,12 +42523,7 @@ export const allPokemon = [
     'type2': 'Psychic',
     'dexNum': '779',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Bruxish'
     },
@@ -39922,10 +42560,7 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '780',
     'generation': 7,
-    'games': [
-      'moon',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Drampa'
     },
@@ -39962,12 +42597,7 @@ export const allPokemon = [
     'type2': 'Grass',
     'dexNum': '781',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Dhelmise'
     },
@@ -40160,12 +42790,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '785',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Tapu-koko'
     },
@@ -40202,12 +42827,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '786',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Tapu-lele'
     },
@@ -40244,12 +42864,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '787',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Tapu-bulu'
     },
@@ -40286,12 +42901,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '788',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Tapu-fini'
     },
@@ -40385,7 +42995,12 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '790',
     'generation': 7,
-    'games': [],
+    'games': [
+      'moon',
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Cosmog'
@@ -40438,7 +43053,9 @@ export const allPokemon = [
     'dexNum': '791',
     'generation': 7,
     'games': [
+      'moon',
       'sun',
+      'ultra-moon',
       'ultra-sun'
     ],
     'evolutionLine': [
@@ -40494,7 +43111,9 @@ export const allPokemon = [
     'generation': 7,
     'games': [
       'moon',
-      'ultra-moon'
+      'sun',
+      'ultra-moon',
+      'ultra-sun'
     ],
     'evolutionLine': [
       {
@@ -40547,12 +43166,7 @@ export const allPokemon = [
     'type2': 'Poison',
     'dexNum': '793',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Nihilego'
     },
@@ -40589,10 +43203,7 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '794',
     'generation': 7,
-    'games': [
-      'sun',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Buzzwole'
     },
@@ -40629,10 +43240,7 @@ export const allPokemon = [
     'type2': 'Fighting',
     'dexNum': '795',
     'generation': 7,
-    'games': [
-      'moon',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Pheromosa'
     },
@@ -40669,12 +43277,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '796',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Xurkitree'
     },
@@ -40711,10 +43314,7 @@ export const allPokemon = [
     'type2': 'Flying',
     'dexNum': '797',
     'generation': 7,
-    'games': [
-      'moon',
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Celesteela'
     },
@@ -40751,10 +43351,7 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '798',
     'generation': 7,
-    'games': [
-      'sun',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Kartana'
     },
@@ -40791,12 +43388,7 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '799',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Guzzlord'
     },
@@ -40833,12 +43425,7 @@ export const allPokemon = [
     'type2': null,
     'dexNum': '800',
     'generation': 7,
-    'games': [
-      'moon',
-      'sun',
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Necrozma'
     },
@@ -40875,10 +43462,7 @@ export const allPokemon = [
     'type2': 'Fairy',
     'dexNum': '801',
     'generation': 7,
-    'games': [
-      'ultra-moon',
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Magearna'
     },
@@ -40997,7 +43581,10 @@ export const allPokemon = [
     'type2': 'Dragon',
     'dexNum': '804',
     'generation': 7,
-    'games': [],
+    'games': [
+      'ultra-moon',
+      'ultra-sun'
+    ],
     'evolutionLine': [
       {
         'name': 'Poipole'
@@ -41039,9 +43626,7 @@ export const allPokemon = [
     'type2': 'Steel',
     'dexNum': '805',
     'generation': 7,
-    'games': [
-      'ultra-moon'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Stakataka'
     },
@@ -41078,9 +43663,7 @@ export const allPokemon = [
     'type2': 'Ghost',
     'dexNum': '806',
     'generation': 7,
-    'games': [
-      'ultra-sun'
-    ],
+    'games': [],
     'evolutionLine': {
       'name': 'Blacephalon'
     },
@@ -50370,7 +52953,6 @@ export const allPokemon = [
     ]
   }
 ]
-
 export const pokemonNames = [
   'Bulbasaur',
   'Ivysaur',
@@ -50963,8 +53545,8 @@ export const pokemonNames = [
   'Escavalier',
   'Foongus',
   'Amoonguss',
-  'Frillish',
-  'Jellicent',
+  'Frillish-male',
+  'Jellicent-male',
   'Alomomola',
   'Joltik',
   'Galvantula',
@@ -51039,7 +53621,7 @@ export const pokemonNames = [
   'Spewpa',
   'Vivillon',
   'Litleo',
-  'Pyroar',
+  'Pyroar-male',
   'Flabebe',
   'Floette',
   'Florges',

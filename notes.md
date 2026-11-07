@@ -9,5 +9,6 @@ To Do List
 9. Come up with reason why can't switch to pokemon thats not of game or gen (either let them switch and give warning or don't let them switch)
 10. Fix Pokemon Selection Resetting on Tab Switch
 
+Fix Mimikyu name
 Encounters api does not work because it does not include evolutions that are involved, but also it only goes to ultra moon and ultra sun, so its a tad outdated (sigh)
 Gonna need to scrape the information and add it to all the objects.
