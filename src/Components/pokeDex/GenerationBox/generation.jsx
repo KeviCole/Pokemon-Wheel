@@ -64,6 +64,7 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
           checkGold={checkGold}
           logo={logo}
           noiseAnimate={noiseAnimate}
+          game={game}
           setGame={setGame}
           setIsHovered={setIsHovered}
           whiteNoise={whiteNoise}
