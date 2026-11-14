@@ -8,3 +8,4 @@ To Do List
 8. Add Mega Evo and G-MAX forms via icons that when clicked
 9. Come up with reason why can't switch to pokemon thats not of game or gen (either let them switch and give warning or don't let them switch)
 10. Fix Pokemon Selection Resetting on Tab Switch
+11. Clicking Pikachu reverses the wheel spin (could later add animations like running around the wheel and jumping??)

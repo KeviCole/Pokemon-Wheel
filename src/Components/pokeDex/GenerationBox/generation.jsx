@@ -1,8 +1,9 @@
 import { ArrowBack, ArrowForward } from '@mui/icons-material'
-import { Divider, Grid, MenuItem, Pagination, PaginationItem, Select } from '@mui/material'
+import { Divider, Grid, MenuItem, Pagination, PaginationItem } from '@mui/material'
 import { useState } from 'react'
 import { GameLayout } from '..'
 import { gameLogos, generationArray } from '../../../Constants/pokemonGenLogos'
+import { MultiSelect } from './MultiSelect'
 
 export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseAnimate, whiteNoise }) => {
   const firstGameLogos = gameLogos.slice(0, 10)
@@ -17,43 +18,75 @@ export const GenerationBox = ({ game, setGame, generation, setGeneration, noiseA
     3: thirdGameLogos
   }
 
+  const noiseLayer = {
+    content: '""',
+    position: 'absolute',
+    inset: 0,
+    backgroundImage: `url(${whiteNoise})`,
+    backgroundRepeat: 'repeat',
+    opacity: '10%',
+    pointerEvents: 'none',
+    animation: `${noiseAnimate} 0.25s infinite steps(4)`,
+    zIndex: 2
+  }
+
+  const retroSurface = {
+    backgroundColor: 'whiteSmoke',
+    border: '2px solid',
+    borderColor: 'black',
+    borderRadius: 2,
+    overflow: 'hidden',
+    '&::before': noiseLayer
+  }
+
   return <Grid container size={12} spacing={2} justifyContent='flex-start' sx={{ minHeight: '500px' }}>
-    <Select
-      label='Generation'
+    <MultiSelect
       value={generation}
       fullWidth
-      onChange={({ target: { value } }) => setGeneration(value)}
-      height='fit-content'
+      onChange={({ target: { value } }) => {
+        const includesAll = value.includes('all')
+        if ((includesAll && !generation.includes('all')) || !value.length) {
+          setGeneration(['all'])
+          return
+        }
+        if (includesAll) {
+          setGeneration(value.filter(gen => gen !== 'all'))
+          return
+        }
+        if (value.length === generationArray.length) {
+          setGeneration(['all'])
+          return
+        }
+        setGeneration(value)
+      }}
       sx={{
-        backgroundColor: 'whiteSmoke',
-        border: '2px solid',
-        borderColor: 'black',
-        borderRadius: 2,
+        ...retroSurface,
         position: 'relative',
-        overflow: 'hidden',
-        '&::before': {
-          content: '""',
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundImage: `url(${whiteNoise})`,
-          backgroundRepeat: 'repeat',
-          opacity: '10%',
-          pointerEvents: 'none',
-          animation: `${noiseAnimate} 0.25s infinite steps(4)`,
-          zIndex: 2
-        },
-        '& .MuiOutlinedInput-notchedOutline': {
-          border: 'none'
+        '& .MuiOutlinedInput-notchedOutline': { border: 'none' }
+      }}
+      MenuProps={{
+        anchorOrigin: { vertical: 'bottom', horizontal: 'left' },
+        transformOrigin: { vertical: 'top', horizontal: 'left' },
+        marginThreshold: 8,
+        slotProps: {
+          paper: {
+            sx: {
+              ...retroSurface,
+              width: 0,
+              mt: 4.5
+            }
+          },
+          list: {
+            sx: { py: 0, maxHeight: 375, overflowY: 'auto' }
+          }
         }
       }}
     >
+      <MenuItem value='all'>All Generations</MenuItem>
       {generationArray.map((gen, index) =>
-        <MenuItem value={index+1} disabled={generation === index+1}>{gen}</MenuItem>)
+        <MenuItem value={index+1}>{gen}</MenuItem>)
       }
-    </Select>
+    </MultiSelect>
     <Grid size={12}>
       <Divider sx={{ border: '1px solid', borderColor: 'black', borderRadius: 1 }}/>
     </Grid>

@@ -6,7 +6,7 @@ import Wheel from './wheel'
 
 export const Layout = ({ children }) => {
   const [wheelResult, setWheelResult] = useState(null)
-  const [generation, setGeneration] = useState(1)
+  const [generation, setGeneration] = useState(['all'])
   const [game, setGame] = useState(null)
   const [tabIndex, setTabIndex] = useState(0)
   const below1105 = useMediaQuery('(max-width:1103px)')
