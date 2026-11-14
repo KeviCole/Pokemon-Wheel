@@ -6,6 +6,7 @@ export const GameLayout = ({
   whiteNoise,
   noiseAnimate,
   setIsHovered,
+  game,
   setGame
 }) => <Tooltip
   title={`${names[0]} ${names.length > 1 ? `& ${names[1].split('Pokemon ')[1]}` : ''}`}
@@ -49,7 +50,7 @@ export const GameLayout = ({
     }}
     onMouseEnter={() => setIsHovered(id)}
     onMouseLeave={() => setIsHovered(null)}
-    onClick={() => setGame(id)}
+    onClick={() => game === null || id !== game ? setGame(id) : setGame(null)}
   >
     <img src={images[0]} alt={names[0]} style={{ height: 40 }}/>
     {images.length > 1 &&

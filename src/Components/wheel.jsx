@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Grid } from '@mui/material'
 import { allPokemon } from '../Constants/pokemonData'
 import { PikaChubby } from '../Images/misc'
+import { gameLogos } from '../Constants/pokemonGenLogos'
 
 const colors = ['crimson', 'cyan', 'white']
 
@@ -9,17 +10,26 @@ const canvasText = 'This is a random wheel built using canvas in order to random
 'play-through. In order to change values within the slice, see ' +
 'the tab of delimiting choices to the right in order to remove pokemon.'
 
-const Wheel = ({ generation, setWheelResult }) => {
+const Wheel = ({ game, generation, setWheelResult }) => {
   const canvasRef = useRef(null)
   const angleRef = useRef(0)
   const requestRef = useRef(null)
   const spinningRef = useRef(false)
   const isHoveringRef = useRef(false)
-  const [gen, setGen] = useState(allPokemon.filter(pokemon => pokemon.generation === generation))
+  const selectedLogo = useMemo(
+    () => gameLogos.find(logo => logo.id === game)?.names?.[0],
+    [game]
+  )
 
-  useEffect(() => {
-    setGen(allPokemon.filter(pokemon => pokemon.generation === generation))
-  }, [generation])
+  const gen = useMemo(
+    () =>
+      allPokemon.filter(
+        (pokemon) =>
+          pokemon.generation === generation &&
+          (game === null || pokemon.games?.includes(selectedLogo))
+      ),
+    [generation, game, selectedLogo]
+  )
 
   const sliceCount = gen.length
   const innerR = 50 // Inner Radius
@@ -54,8 +64,8 @@ const Wheel = ({ generation, setWheelResult }) => {
     while (curr < twoPI) {
       const midAngle = (curr + next) / 2
 
-      const name = gen[index % gen.length].name
-      const label = `#${gen[index % gen.length].dexNum} ${name}`
+      const name = gen[index % gen.length]?.name ?? ''
+      const label = `#${gen[index % gen.length]?.dexNum ?? ''} ${name}`
 
       ctx.font = `${fontSize}px Arial`
       // Measures how wide the font will be
