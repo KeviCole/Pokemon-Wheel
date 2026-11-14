@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef } from 'react'
 import { Grid } from '@mui/material'
 import { allPokemon } from '../Constants/pokemonData'
 import { PikaChubby } from '../Images/misc'
@@ -25,7 +25,7 @@ const Wheel = ({ game, generation, setWheelResult }) => {
     () =>
       allPokemon.filter(
         (pokemon) =>
-          pokemon.generation === generation &&
+          (generation.includes(pokemon.generation) || generation.includes('all')) &&
           (game === null || pokemon.games?.includes(selectedLogo))
       ),
     [generation, game, selectedLogo]
